@@ -1,0 +1,39 @@
+{
+	"PRICE_LISTS": {
+		"PAGE_TITLE": "Прайс-листы",
+		"NEW.PAGE_TITLE": "Новый прайс-лист",
+		"EDIT.PAGE_TITLE": "Редактирование прайс-листа",
+
+		"LIST.HEADER": "Прайс-листы",
+		"LIST.PRICE_LIST": "Прайс-лист",
+		"LIST.EMPTY": "Нет прайс-листов",
+		"LIST.BTN_CLONE": "Клонировать",
+		"LIST.PRINT": "Печать",
+		"LIST.BTN_PRINT": "Печатать прайс-листы",
+
+		"NAME": "Название",
+		"LAST_UPDATE": "Обновлен",
+		"VISIBLE_FOR_VISITORS": "Видим для посетителей",
+		"VISIBLE_FOR_VISITORS_DURING_RESERVATION": "Видим для посетителей при резервировании",
+		"ARCHIVED": "Archived",
+		"ARCHIVED.HINT": "Archived price-lists are not available for reservations or registration.",
+		"USE_FOR": "Использовать этот прайс-лист для",
+		"USE_FOR.MEMBERS": "Членов",
+		"USE_FOR.NON_MEMBERS": "Не-членов",
+		"USE_FOR.NONE": "Никого",
+
+		"CLONE.HEADER": "Клонирование {{priceList}}",
+		"CLONE.CENTER": "Центр назначения",
+		"CLONE.EDIT": "Редактировать после клонирования",
+
+		"CONFIRM_DELETE": "Вы точно хотите удалить прайс-лист?",
+		"NO_PRODUCTS_ERROR": "Нет продуктов этого типа.",
+
+		"PRODUCTS.BTN_ADD": "Добавить продукт",
+		"PRODUCTS.PRODUCT": "Продукт",
+		"PRODUCTS.PRICE": "Цена",
+		"PRODUCTS.PASSES": "Талоны",
+		"PRODUCTS.CREDIT": "Кредит",
+		"PRODUCTS.CONFIRM_DELETE": "Are you sure to remove the product?"
+	}
+}

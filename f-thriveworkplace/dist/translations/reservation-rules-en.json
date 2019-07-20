@@ -1,0 +1,36 @@
+{
+	"RESERVATION_RULES": {
+		"ACTIVE.HEADER": "Active Reservation Calendar Rules",
+		"ACTIVE.HINT": "These rules define availability of<br><b>reservation unit</b>.",
+		"ACTIVE.BTN_RESET": "Use Default Facility Rules",
+		"ACTIVE.BTN_RESET.CONFIRM": "Are you sure to reset current rules to default facility rules?",
+		"DEFAULT.HEADER": "Reservation Calendar Rules Defaults",
+		"DEFAULT.HINT": "This is default rules template for new<br><b>reservation units</b>.",
+		"ANNUAL.HEADER": "Annual Holiday Calendar",
+		"ANNUAL.HINT": "Applies globally to <b>all reservation units</b> in <b>center</b>.",
+
+		"WHO_CAN_RESERVE": "Who Can Reserve?",
+		"WHO_CAN_RESERVE.ANYONE": "Anyone",
+		"WHO_CAN_RESERVE.NON_MEMBER": "Non-Member",
+		"WHO_CAN_RESERVE.MEMBER": "Member",
+		"WHO_CAN_RESERVE.STAFF_ONLY": "Staff Only",
+		"WHO_CAN_RESERVE.NOT_AVAILABLE": "Not Available",
+		"FULL_TIME_PRODUCT": "Full-time Product/Price",
+		"ATTACHED_USER": "Member Attached to Space",
+		"MIN_LIMIT": "Minimum<br>Reservable Time",
+		"MAX_LIMIT": "Maximum<br>Hours/Day/Person",
+		"DAYS_IN_ADVANCE": "Days in Advance Reservations Permitted",
+		"NON_MEMBER": "Non-Member",
+		"MEMBER": "Member",
+		"UNLIMITED": "Unlimited",
+		"AVAILABLE": "Available",
+		"NOT_AVAILABLE": "Not Available",
+		"COPY_FROM": "Copy from {{weekday}}",
+		"BTN_ADD_INTERVAL.HINT": "Add Interval",
+		"BTN_DELETE_INTERVAL.HINT": "Delete Interval",
+		"TIME_FROM": "Time From",
+		"TIME_TO": "Time To",
+		"BTN_ADD_DATE": "Add Date",
+		"BTN_DELETE_DATE": "Delete Date"
+	}
+}

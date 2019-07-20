@@ -1,0 +1,15 @@
+{
+	"MEMBER_USAGE_REPORT": {
+		"REPORT_NAME": "Отчет по использованию",
+
+		"COLUMNS.DATE": "Дата",
+		"COLUMNS.USER_NAME": "Пользователь",
+		"COLUMNS.USER_EMAIL": "Email пользователя",
+		"COLUMNS.CHECK_IN": "Время прихода",
+		"COLUMNS.CHECK_OUT": "Время ухода",
+		"COLUMNS.HOURS": "Использовано часов",
+		"COLUMNS.PASSES": "Использовано талонов",
+
+		"TOTALS.SUBTOTAL": "Подитог"
+	}
+}

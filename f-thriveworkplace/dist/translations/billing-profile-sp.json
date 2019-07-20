@@ -1,0 +1,39 @@
+{
+	"BILLING_PROFILE": {
+		"PAGE_TITLE": "Billing Profile for {{userName}}",
+
+		"CREDIT_CARDS.HEADER": "Credit Cards",
+		"CREDIT_CARDS.EMPTY": "No credit cards.",
+		"CREDIT_CARDS.TYPE": "Card Type",
+		"CREDIT_CARDS.NUMBER": "Number",
+		"CREDIT_CARDS.EXPIRY": "Expires",
+		"CREDIT_CARDS.EXPIRY.MONTH": "Expiry Month",
+		"CREDIT_CARDS.EXPIRY.YEAR": "Expiry Year",
+		"CREDIT_CARDS.CVV": "CVV",
+		"CREDIT_CARDS.NAME_ON_CARD": "Name on Card",
+		"CREDIT_CARDS.ADDRESS": "Address on Card",
+		"CREDIT_CARDS.CONFIRM_DELETE": "Are you sure to delete the credit card?",
+
+		"E_CHECKS.HEADER": "e-Check",
+		"E_CHECKS.EMPTY": "No eChecks.",
+		"E_CHECKS.ACCOUNT_HOLDER_TYPE": "Account Holder Type",
+		"E_CHECKS.ACCOUNT_HOLDER_TYPE.PERSONAL": "Personal",
+		"E_CHECKS.ACCOUNT_HOLDER_TYPE.BUSINESS": "Business",
+		"E_CHECKS.ACCOUNT_TYPE": "Account Type",
+		"E_CHECKS.ACCOUNT_TYPE.CHECKING": "Checking",
+		"E_CHECKS.ACCOUNT_TYPE.SAVINGS": "Savings",
+		"E_CHECKS.BANK_NAME": "Bank Name",
+		"E_CHECKS.ROUTING_NUMBER": "Routing Number",
+		"E_CHECKS.ACCOUNT_NUMBER": "Account Number",
+		"E_CHECKS.ACCOUNT_NAME": "Account Name",
+		"E_CHECKS.CONFIRM_DELETE": "Are you sure to delete the eCheck?",
+
+		"REGISTRATION.SKIP_BILLING": "Continue without entering credit card information",
+		"REGISTRATION.COMPLETE": "You have successfully registered {{userName}}.",
+
+		"BTN_DEFAULT_PAYMENT_METHOD": "Default Payment Method",
+		"BTN_DEFAULT_PAYMENT_METHOD.HINT": "This is default payment method",
+		"BTN_SET_DEFAULT_PAYMENT_METHOD": "Set Default",
+		"BTN_SET_DEFAULT_PAYMENT_METHOD.HINT": "Set as default payment method"
+	}
+}

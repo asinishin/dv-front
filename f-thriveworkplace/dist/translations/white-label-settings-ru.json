@@ -1,0 +1,42 @@
+{
+	"WHITE_LABEL_SETTINGS": {
+		"PAGE_TITLE": "White Label Settings",
+
+		"COLORS.HEADER": "Colors",
+		"BRAND_COLOR": "Brand color",
+		"HEADER_BG_COLOR": "Header background color",
+    "LOGO_BG_COLOR": "Logo background color",
+		"SIDEBAR_BG_COLOR": "Sidebar background color",
+		"SIDEBAR_COLOR": "Sidebar text color",
+
+		"OTHER.HEADER": "Other",
+		"PANEL_BORDER_RADIUS": "Panel border radius (px)",
+		"BTN_BORDER_RADIUS": "Button border radius (px)",
+
+		"LOGO": "Screen Logo",
+		"LOGO.HINT": "Logo displayed on screen at left-top corner.<br><b>Optimal Settings:</b><br>Format: <b>PNG</b><br>Size: <b>600+ px</b><br>Aspect Ratio: <b>variable</b><br>Background: <b>transparent</b>",
+		"LOGO_PRINT": "Printable Logo",
+		"LOGO_PRINT.HINT": "Printable logo for invoice and other documents. Should look good on white background.<br><b>Optimal Settings:</b><br>Format: <b>PNG</b><br>Size: <b>600+ px</b><br>Aspect Ratio: <b>variable</b><br>Background: <b>transparent</b>",
+		"ICON": "Application Icon",
+		"ICON.HINT": "Square icon used as browser favicon, app shortcut icon, mobile app icon, etc. Recommended minimalistic design without small text.<br><b>Optimal Settings:</b><br>Format: <b>PNG</b><br>Size: <b>512x512+ px</b><br>Aspect Ratio: <b>1:1</b><br>Background: <b>transparent</b>",
+		"BANNER": "Top Banner Image",
+		"BANNER.HINT": "Wide horizontal image for top banner.<br><b>Optimal Settings:</b><br>Format: <b>JPEG</b><br>Size: <b>1200x200+ px</b><br>Aspect Ratio: <b>6:1</b>",
+
+		"LINKS": "Links",
+		"COMPANY_NAME": "Company Name",
+		"HOMEPAGE_URL": "Homepage URL",
+		"MEMBER_DIRECTORY_URL": "Member Directory URL",
+		"MEMBER_DIRECTORY_URL.HINT": "This link is displayed in <b class=\"text-nowrap\">User Profile / Login Information</b>. If empty, it's hidden.",
+		"CONTACT_URL": "Contact Link URL",
+		"CONTACT_URL.HINT": "This link is displayed in sidebar for <b>members</b> and <b>non-members</b> instead of <b>SUPPORT</b> link for <b>coordinators</b>.",
+		"TERMS_OF_SERVICE_URL": "Terms of Service link URL",
+		"TERMS_OF_SERVICE_URL.HINT": "This link is displayed in the <b>1st step</b> of <b>member self-registration</b>. User has to <b>agree</b> via <b>checkbox</b>.",
+		"BTN_UPLOAD_TERMS_OF_SERVICE.HINT": "Upload Terms Of Service PDF",
+		"TERMS_OF_SERVICE_TEXT": "Terms of Service link text",
+		"RESERVATION_AGREEMENT_URL": "Reservation Agreement link URL",
+		"RESERVATION_AGREEMENT_URL.HINT": "This link is displayed each time non-member reserves via <b>Book It Now</b> wizard. User has to <b>agree</b> via <b>checkbox</b>.",
+		"BTN_UPLOAD_RESERVATION_AGREEMENT.HINT": "Upload Reservation Agreement PDF",
+		"RESERVATION_AGREEMENT_TEXT": "Reservation Agreement link text",
+		"INVALID_FORMAT_PDF": "Please use .pdf document format."
+  }
+}
