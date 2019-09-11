@@ -12,6 +12,7 @@
 		"WELCOME_LETTER.PAGE_TITLE": "Welcome Letter Settings",
 		"CALENDAR_SYNC_ERROR.PAGE_TITLE": "Calendar Sync Error Email Settings",
 		"PASSES_USED_UP.PAGE_TITLE": "Passes Used Up Email Settings",
+		"BUCKET_USED_UP.PAGE_TITLE": "Bucket Used Up Email Settings",
 		"RECEIPT.PAGE_TITLE": "Receipt Email Settings",
 		"RECEIPT.GENERAL": "General Receipt",
 		"RECEIPT.RESERVATION": "Reservation Receipt",

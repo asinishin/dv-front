@@ -57,6 +57,9 @@
     "TITLE": "Title",
     "TIME": "Time",
 
+    "PHOTO": "Photo",
+    "PHOTO.INVALID_FORMAT": "Please use <b>JPEG</b> or <b>PNG</b> image format.",
+
     "ADDRESS": "Adresse",
     "ADDRESS.STREET": "Rue",
     "ADDRESS.CITY": "Ville",

@@ -12,6 +12,7 @@
 		"WELCOME_LETTER.PAGE_TITLE": "Шаблон приветственного письма",
 		"CALENDAR_SYNC_ERROR.PAGE_TITLE": "Шаблон ошибки синхронизации с календарем",
 		"PASSES_USED_UP.PAGE_TITLE": "Шаблон закончившихся талонов",
+		"BUCKET_USED_UP.PAGE_TITLE": "Шаблон закончившихся талонов",
 		"RECEIPT.PAGE_TITLE": "Шаблон письма с чеком",
 		"RECEIPT.GENERAL": "Обычный чек",
 		"RECEIPT.RESERVATION": "Чек для резервирования",

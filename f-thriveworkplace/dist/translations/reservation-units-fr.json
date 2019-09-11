@@ -5,6 +5,7 @@
 		"EDIT.PAGE_TITLE": "Modifier l'unité de réservation",
 
 		"LIST.EMPTY": "Aucune unité de réservation",
+		"GENERAL.HEADER": "General",
 
 		"UNIT": "Unité de réservation",
 		"CATEGORY": "Catégorie de réservation",
@@ -14,6 +15,9 @@
 		"CALENDAR_ID.HINT": "Pour changer l'identification (ID), permettre la <b>Synchronisation avec la calendrier</b> ci-dessus et indiquer l'ID du <b>calendrier existant</b>. Si vide, un <b>nouveau calendrier</b> sera créé pour cette unité",
 		"NAME": "Nom",
 		"DESCRIPTION": "Description",
-		"CONFIRM_DELETE": "Êtes-vous sûr de vouloir supprimer cette unité de réservation?"
+		"AREA": "Area (m²)",
+		"CONFIRM_DELETE": "Êtes-vous sûr de vouloir supprimer cette unité de réservation?",
+
+		"PHOTO.HINT": "Recommended minimum size is <strong>1280x640 px</strong>"
 	}
 }

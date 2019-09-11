@@ -1,4 +1,4 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[64],{S2gh:function(t,e,i){
+(window.webpackJsonp=window.webpackJsonp||[]).push([[65],{S2gh:function(t,e,i){
 /*!
  * Chart.js v2.8.0
  * https://www.chartjs.org

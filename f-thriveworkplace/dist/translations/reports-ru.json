@@ -11,6 +11,7 @@
 		"OPTIONS.LAYOUT": "Ориентация",
 		"OPTIONS.LAYOUT.PORTRAIT": "Портрет",
 		"OPTIONS.LAYOUT.LANDSCAPE": "Ландшафт",
+		"OPTIONS.SELECT_BY": "Выбрать по",
 
 		"OWNER_REGION.HEADER": "Владельцы и Регионы",
 		"OWNER_REGION.OWNER": "Владелец",
@@ -23,6 +24,8 @@
 		"COLUMNS.COLUMN": "Столбец",
 		"COLUMNS.TOTALS": "Totals",
 		"COLUMNS.CENTER": "Center",
+		"COLUMNS.USER_NAME": "Имя",
+		"COLUMNS.USER_COMPANY": "Компания",
 
 		"BTN_PDF": "Скачать отчет PDF",
 		"BTN_CSV": "Скачать отчет CSV",

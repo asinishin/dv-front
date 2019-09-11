@@ -74,6 +74,9 @@
 		"CALENDAR.STAFF_ONLY.HINT": "Contact Staff to Reserve",
 
 		"CALENDAR.PRICES": "Prices",
-		"CALENDAR.HINT": "Hover over left menu name for info. Click in a time slot to reserve."
+		"CALENDAR.HINT": "Hover over left menu name for info. Click in a time slot to reserve.",
+
+		"RESERVATION_AGREEMENT.LABEL": "By checking this box you agree to",
+		"RESERVATION_AGREEMENT.REQUIRED": "Check this box to agree"
 	}
 }

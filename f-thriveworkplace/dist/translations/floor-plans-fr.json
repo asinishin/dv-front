@@ -1,0 +1,45 @@
+{
+  "FLOOR_PLANS": {
+    "PAGE_TITLE": "Floor Plans",
+
+    "SELECT_A_PLAN": "Select a Floor Plan",
+    "VIEW.PUBLIC": "Public view",
+    "VIEW.COMMUNITY": "Member Community view",
+
+    "SETTINGS.HEADER": "Floor Plan Settings",
+    "NAME": "Name",
+    "ENABLED": "Enabled",
+    "PRICING_VISIBLE": "Pricing Visible",
+    "AREA_VISIBLE": "Area Visible",
+
+    "BTN_DELETE": "Delete Plan",
+    "CONFIRM_DELETE": "Are you sure to delete the floor plan?",
+
+    "IMAGE.BTN_UPLOAD": "Upload Image",
+    "IMAGE.INVALID_FORMAT": "Please use .jpg or .png image format.",
+
+    "POINT.HEADER": "Point Settings",
+    "POINT.BTN_DELETE": "Delete Point",
+    "POINT.HINT.SELECT": "Select point on floor plan for details.",
+    "POINT.HINT.CREATE": "Click on floor plan to create a new point.",
+    "POINT.HINT.DRAG": "Drag-n-drop points.",
+
+    "POINT.STATUS": "Status",
+    "POINT.STATUS.AVAILABLE": "Available",
+    "POINT.STATUS.NOT_AVAILABLE": "Not Available",
+    "POINT.PRICE": "Price",
+    "POINT.AREA": "Area",
+
+    "POINT.MEMBER": "Member",
+    "POINT.BTN_MORE": "More",
+    "POINT.PRODUCT": "Product",
+    "POINT.NET": "Net",
+    "POINT.DISCOUNT": "Discount",
+
+    "CATEGORY": "Reservation Category",
+    "CATEGORY.HINT": "Please select Reservation Category.",
+
+    "UNIT": "Reservation Unit",
+    "UNIT.HINT": "Please select Reservation Unit."
+  }
+}

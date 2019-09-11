@@ -57,6 +57,9 @@
     "TITLE": "Название",
     "TIME": "Время",
 
+    "PHOTO": "Photo",
+    "PHOTO.INVALID_FORMAT": "Please use <b>JPEG</b> or <b>PNG</b> image format.",
+
     "ADDRESS": "Адрес",
     "ADDRESS.STREET": "Улица",
     "ADDRESS.CITY": "Город",

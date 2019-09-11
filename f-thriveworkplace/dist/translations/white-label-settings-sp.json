@@ -34,7 +34,7 @@
 		"BTN_UPLOAD_TERMS_OF_SERVICE.HINT": "Upload Terms Of Service PDF",
 		"TERMS_OF_SERVICE_TEXT": "Terms of Service link text",
 		"RESERVATION_AGREEMENT_URL": "Reservation Agreement link URL",
-		"RESERVATION_AGREEMENT_URL.HINT": "This link is displayed each time non-member reserves via <b>Book It Now</b> wizard. User has to <b>agree</b> via <b>checkbox</b>.",
+		"RESERVATION_AGREEMENT_URL.HINT": "This link is displayed each time non-member reserves via <b>Book It Now</b> or <b>Simple Reservation</b> wizard. User has to <b>agree</b> via <b>checkbox</b>.",
 		"BTN_UPLOAD_RESERVATION_AGREEMENT.HINT": "Upload Reservation Agreement PDF",
 		"RESERVATION_AGREEMENT_TEXT": "Reservation Agreement link text",
 		"INVALID_FORMAT_PDF": "Please use .pdf document format."

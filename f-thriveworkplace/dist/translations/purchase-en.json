@@ -29,12 +29,12 @@
 		"PAYMENT.NOTES": "Notes",
 		"PAYMENT.BTN_SUBMIT": "Submit Payment",
 		"PAYMENT.USING": "using",
-		"PAYMENT.METHOD.CC": "Credit Card / E-check",
+		"PAYMENT.METHOD.CC": "Credit/Debit Card",
 		"PAYMENT.METHOD.CASH": "Cash",
 		"PAYMENT.METHOD.CHECK": "Check",
 		"PAYMENT.METHOD.WRITE_OFF": "Write Off/Comp",
 		"PAYMENT.METHOD.WIRE_TRANSFER": "Wire Transfer",
-		"PAYMENT.METHOD.E_CHECK": "Customer-initiated ACH",
+		"PAYMENT.METHOD.ACH": "ACH/EFT/Direct Debit",
 		"PAYMENT.METHOD.OTHER": "Other",
 
 		"DEPOSIT.BTN_ADD": "Add a Security Deposit",
@@ -50,11 +50,11 @@
 		"REFUND.HEADER": "Refund",
 		"REFUND.BTN_SUBMIT": "Submit Refund",
 		"REFUND.AMOUNT.NEGATIVE": "Refund should be greater than zero",
-		"REFUND.METHOD.CC": "Credit Card",
+		"REFUND.METHOD.CC": "Credit/Debit Card",
 		"REFUND.METHOD.CASH": "Cash",
 		"REFUND.METHOD.CHECK": "Check",
 		"REFUND.METHOD.WRITE_OFF": "Write Off/Comp",
-		"REFUND.METHOD.E_CHECK": "Reverse failed ACH/Check",
+		"REFUND.METHOD.ACH": "Reverse failed ACH/EFT/Direct Debit",
 		"REFUND.METHOD.OTHER": "Other",
 
 		"CHARGES.HEADER": "Add Charges",
@@ -79,6 +79,8 @@
 		"LIST.TAX_TOTAL": "Tax Total",
 		"LIST.PAYMENT_TOTAL": "Payment Total",
 		"LIST.BALANCE_DUE": "Balance Due",
-		"LIST.BTN_VIEW": "PDF"
+		"LIST.BTN_VIEW": "PDF",
+
+		"PAYMENT_PROCESSING_FEE": "payment processing fee"
 	}
 }

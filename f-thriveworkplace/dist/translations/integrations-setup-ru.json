@@ -45,6 +45,7 @@
 		"EZEEP.HEADER": "Интеграция Ezeep",
 		"EZEEP.USERNAME": "Имя пользователя",
 		"EZEEP.PASSWORD": "Пароль",
+        "EZEEP.DEFAULT_GROUP": "Default Group",
 
 		"GREETLY.HEADER": "Интеграция Greetly",
 		"GREETLY.CENTER": "Центр",

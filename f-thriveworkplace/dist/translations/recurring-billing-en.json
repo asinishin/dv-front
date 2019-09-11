@@ -45,6 +45,12 @@
 		"DATES.TERMINATE.NEVER": "Never",
 		"DATES.TERMINATE.WHEN_USED_UP": "When Used Up",
 
+		"RENEWAL_DATE": "Renewal Date",
+		"RENEWAL_TERM": "Renewal Term",
+		"RENEWAL_NOTICE_PERIOD": "Renewal Reminder",
+		"RENEWAL_NOTICE_PERIOD.HINT": "Send renewal reminder <b>X days</b> before renewal.",
+		"RENEWAL_NOTICE_PERIOD.NO_NOTICE": "No reminder",
+
 		"DISCOUNT.HEADER": "Discounts",
 		"DISCOUNT.TYPE": "Discount Type",
 		"DISCOUNT.TYPE.NO": "No Discount",
@@ -62,6 +68,14 @@
 		"STATUS_NOTES.STATUS.DELETED": "Deleted",
 		"STATUS_NOTES.STATUS.HINT": "Recurring Charges are auto-deactivated according to Termination Date.",
 		"STATUS_NOTES.STATUS.WARNING": "Warning: the sweep for this plan is stopped. No reservations or usage will be swept or billed.",
-		"STATUS_NOTES.NOTES": "Notes"
+		"STATUS_NOTES.INACTIVATE_MEMBER": "Make Member Inactive?",
+		"STATUS_NOTES.INACTIVATE_CO_MEMBERS": "Make Co-Members Inactive?",
+		"STATUS_NOTES.NOTES": "Notes",
+
+		"AUDIT.HEADER": "Recurring Billing Audit",
+		"AUDIT.BTN_COLLAPSE": "Audit",
+		"AUDIT.PROPERTY": "Property",
+		"AUDIT.OLD_VALUE": "Old Value",
+		"AUDIT.NEW_VALUE": "New Value"
 	}
 }

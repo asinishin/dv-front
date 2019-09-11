@@ -29,12 +29,12 @@
 		"PAYMENT.NOTES": "Заметки",
 		"PAYMENT.BTN_SUBMIT": "Сделать платеж",
 		"PAYMENT.USING": "используя",
-		"PAYMENT.METHOD.CC": "Кредитная карта / Е-чек",
+		"PAYMENT.METHOD.CC": "Кредитная / Дебетовая карта",
 		"PAYMENT.METHOD.CASH": "Наличные",
 		"PAYMENT.METHOD.CHECK": "Чек",
 		"PAYMENT.METHOD.WRITE_OFF": "Списание",
 		"PAYMENT.METHOD.WIRE_TRANSFER": "Wire Transfer",
-		"PAYMENT.METHOD.E_CHECK": "Customer-initiated ACH",
+		"PAYMENT.METHOD.ACH": "ACH/EFT/Прямое дебетование",
 		"PAYMENT.METHOD.OTHER": "Другое",
 
 		"DEPOSIT.BTN_ADD": "Добавить залог",
@@ -50,11 +50,11 @@
 		"REFUND.HEADER": "Возврат",
 		"REFUND.BTN_SUBMIT": "Сделать возврат",
 		"REFUND.AMOUNT.NEGATIVE": "Возврат должен быть больше нуля",
-		"REFUND.METHOD.CC": "Кредитная карта",
+		"REFUND.METHOD.CC": "Кредитная / Дебетовая карта",
 		"REFUND.METHOD.CASH": "Наличные",
 		"REFUND.METHOD.CHECK": "Чек",
 		"REFUND.METHOD.WRITE_OFF": "Списание",
-		"REFUND.METHOD.E_CHECK": "Вернуть неуспешный ACH/чек",
+		"REFUND.METHOD.ACH": "Вернуть неуспешную транзакцию: ACH/EFT/Прямое дебетование",
 		"REFUND.METHOD.OTHER": "Другое",
 
 		"CHARGES.HEADER": "Добавить издержки",
@@ -79,6 +79,8 @@
 		"LIST.TAX_TOTAL": "Итого налогов",
 		"LIST.PAYMENT_TOTAL": "Итого оплачено",
 		"LIST.BALANCE_DUE": "Недостача",
-		"LIST.BTN_VIEW": "PDF"
+		"LIST.BTN_VIEW": "PDF",
+
+		"PAYMENT_PROCESSING_FEE": "payment processing fee"
 	}
 }

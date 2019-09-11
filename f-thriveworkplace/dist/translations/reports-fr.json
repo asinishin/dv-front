@@ -11,6 +11,7 @@
 		"OPTIONS.LAYOUT": "Layout",
 		"OPTIONS.LAYOUT.PORTRAIT": "Portrait",
 		"OPTIONS.LAYOUT.LANDSCAPE": "Landscape",
+		"OPTIONS.SELECT_BY": "Select By",
 
 		"OWNER_REGION.HEADER": "Owners & Regions",
 		"OWNER_REGION.OWNER": "Owner",
@@ -23,6 +24,8 @@
 		"COLUMNS.COLUMN": "Report Column",
 		"COLUMNS.TOTALS": "Totals",
 		"COLUMNS.CENTER": "Center",
+		"COLUMNS.USER_NAME": "Name",
+		"COLUMNS.USER_COMPANY": "Company",
 
 		"BTN_PDF": "Download Report PDF",
 		"BTN_CSV": "Download Report CSV",

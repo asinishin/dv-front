@@ -12,6 +12,7 @@
 		"WELCOME_LETTER.PAGE_TITLE": "Configuration de la lettre de bienvenue",
 		"CALENDAR_SYNC_ERROR.PAGE_TITLE": "Configuration du courriel d'erreur de synchronisation du calendrier",
 		"PASSES_USED_UP.PAGE_TITLE": "Configuration du courriel pour les passes consumées",
+		"BUCKET_USED_UP.PAGE_TITLE": "Configuration du courriel pour les passes consumées",
 		"RECEIPT.PAGE_TITLE": "Receipt Email Settings",
 		"RECEIPT.GENERAL": "General Receipt",
 		"RECEIPT.RESERVATION": "Reservation Receipt",
