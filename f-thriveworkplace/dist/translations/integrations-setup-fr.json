@@ -27,6 +27,7 @@
 		"QBO.SECURITY_DEPOSIT": "Map Security Deposit to QuickBooks Account",
 		"QBO.SECURITY_LIABILITY": "Map Security Liability to QuickBooks Account",
 		"QBO.ACCOUNTS_RECEIVABLE": "Map Accounts Receivable to QuickBooks Account",
+		"QBO.INVOICE_PAYMENT": "Map Invoice Payment to QuickBooks Account",
 		"QBO.CUSTOM_PRODUCT": "Map Custom Product to QuickBooks Product",
 		"QBO.DISCOUNT_PRODUCT": "Map Discount Product to QuickBooks Product",
 		"QBO.NON_MEMBER": "Map Non-Member to QuickBooks Customer",
@@ -49,6 +50,10 @@
 
 		"GREETLY.HEADER": "Greetly Integration",
 		"GREETLY.CENTER": "Center",
-		"GREETLY.LOCATION": "Location"
+		"GREETLY.LOCATION": "Location",
+		"GREETLY.NOTIFICATION.BY_EMAIL": "Notification by Email",
+		"GREETLY.NOTIFICATION.BY_SLACK": "Notification by Slack",
+		"GREETLY.NOTIFICATION.BY_SMS": "Notification by Sms",
+		"GREETLY.NOTIFICATION.BY_VOICE": "Notification by Voice"
 	}
 }

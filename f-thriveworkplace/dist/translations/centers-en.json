@@ -25,7 +25,7 @@
 		"TAX.BTN_ADD": "Add Tax",
 		"QBO_CLASS": "QuickBooks Class",
 		"INTERNAL_USE": "Center for Internal Use",
-		"INTERNAL_USE.HINT": "Makes center available to coordinators and admins only.<br><i class=\"fa fa-exclamation-triangle text-warning\"></i> <b>Prohibits all members from accessing the center!</b>",
+		"INTERNAL_USE.HINT": "Makes center available to coordinators and admins only.<br><i class=\"fa fa-exclamation-triangle text-danger\"></i> <b>Prohibits all members from accessing the center!</b>",
 		"DESCRIPTION": "Description",
 		"MAP": "Map",
 		"DIRECTIONS": "Directions",

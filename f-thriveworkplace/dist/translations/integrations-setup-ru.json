@@ -27,6 +27,7 @@
 		"QBO.SECURITY_DEPOSIT": "Сопоставить залоги безопасности с аккаунтом QuickBooks",
 		"QBO.SECURITY_LIABILITY": "Сопоставить задолженности безопасности с аккаунтом QuickBooks",
 		"QBO.ACCOUNTS_RECEIVABLE": "Сопоставить задолженности по счетам с аккаунтом QuickBooks",
+		"QBO.INVOICE_PAYMENT": "Сопоставить платежный инвойс с аккаунтом QuickBooks",
 		"QBO.CUSTOM_PRODUCT": "Сопоставить кастом-продукт с продуктом QuickBooks",
 		"QBO.DISCOUNT_PRODUCT": "Сопоставить скидочный продукт с продуктом QuickBooks",
 		"QBO.NON_MEMBER": "Сопоставить не-члена с пользователем QuickBooks",
@@ -49,6 +50,10 @@
 
 		"GREETLY.HEADER": "Интеграция Greetly",
 		"GREETLY.CENTER": "Центр",
-		"GREETLY.LOCATION": "Локация"
+		"GREETLY.LOCATION": "Локация",
+		"GREETLY.NOTIFICATION.BY_EMAIL": "Уведомление по электронной почте",
+		"GREETLY.NOTIFICATION.BY_SLACK": "Уведомление по Slack",
+		"GREETLY.NOTIFICATION.BY_SMS": "Уведомление отправкой sms",
+		"GREETLY.NOTIFICATION.BY_VOICE": "Уведомление голосом"
 	}
 }

@@ -24,6 +24,8 @@
     "USE_E_CHECKS": "Использовать е-чеки?",
     "IS_FRANCHISE": "Это франшиза?",
     "ENABLE_ACCESS_CODES": "Отображать коды доступа WiFi",
+    "ACTIVATE_MEMBERS_FOR_ALL_CENTERS": "Активировать членов для всех центров",
+    "ACTIVATE_MEMBERS_FOR_ALL_CENTERS.HINT": "Автоматически активирует новых членов во всех центрах и позволяет им использовать их.",
 
     "SWEEP.HEADER": "Проводчик",
     "SWEEP_CHARGES": "Проводить резервирования, кредиты и списания в инвойс регулярных платежей",
@@ -49,6 +51,8 @@
     "RESERVATION_INFO_VISIBILITY": "Видимость деталей резервир.",
     "RESERVATION_INFO_VISIBILITY.SHARED": "Позволить со-членам видеть детали совместных резервирований",
     "RESERVATION_INFO_VISIBILITY.ALL": "Позволить всем пользователям видеть детали всех резервирований",
+    "HIDE_RECURRING_RESERVATIONS": "Не показывать регулярные резервирования",
+    "HIDE_RECURRING_RESERVATIONS.HINT": "Члены и не-члены не смогут делать регулярные резервирования.",
 
     "PRO_RATION.HEADER": "Пропорциональное распределение",
     "PRO_RATION.HINT": "Если Вы выставляете счета по первым числам месяца, установите <strong>автоматическую пропорцию</strong> при <strong>регистрации</strong> и <strong>завершении</strong> планов.",

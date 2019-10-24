@@ -2,6 +2,14 @@
 	"BILLING_PROFILE": {
 		"PAGE_TITLE": "Profil de facturation pour {{userName}}",
 
+		"BILLING_METHOD": "Default Payment Method",
+		"BILLING_METHOD.CC": "Credit/Debit Card",
+		"BILLING_METHOD.ACH": "ACH/EFT/Direct Debit",
+		"BILLING_METHOD.EMAIL_INVOICE": "Email Invoice",
+		"BILLING_METHOD.PAPER_INVOICE": "Paper Invoice",
+		"PAYMENT_METHOD": "Payment Method",
+		"PAYMENT_METHOD.EMPTY": "No payment method.",
+
 		"CREDIT_CARDS.HEADER": "Cartes de crédit",
 		"CREDIT_CARDS.EMPTY": "Aucune carte de crédit.",
 		"CREDIT_CARDS.TYPE": "Type de carte",
@@ -29,11 +37,6 @@
 		"E_CHECKS.CONFIRM_DELETE": "Êtes-vous sûrs de vouloir supprimer le e-chèque?",
 
 		"REGISTRATION.SKIP_BILLING": "Continuer sans entrer les informations de carte de crédit",
-		"REGISTRATION.COMPLETE": "Vous avez enregistré {{userName}} avec succès.",
-
-		"BTN_DEFAULT_PAYMENT_METHOD": "Mode de paiement par défaut",
-		"BTN_DEFAULT_PAYMENT_METHOD.HINT": "Ceci est votre mode de paiement par défaut.",
-		"BTN_SET_DEFAULT_PAYMENT_METHOD": "Mettre par défaut",
-		"BTN_SET_DEFAULT_PAYMENT_METHOD.HINT": "Mettre cette méthode de paiement par défaut"
+		"REGISTRATION.COMPLETE": "Vous avez enregistré {{userName}} avec succès."
 	}
 }

@@ -17,6 +17,7 @@
 
     "IMAGE.BTN_UPLOAD": "Upload Image",
     "IMAGE.INVALID_FORMAT": "Please use .jpg or .png image format.",
+    "IMAGE.HINT": "You can upload floor plan image in <b>PNG</b> or <b>JPEG</b> format.<br><b>Optimal Settings:</b><br>Format: <b>PNG</b><br>Size: <b>1200+ px</b><br>Aspect Ratio: <b>variable</b><br>Background: <b>transparent</b> or <b>white</b>",
 
     "POINT.HEADER": "Point Settings",
     "POINT.BTN_DELETE": "Delete Point",
@@ -40,6 +41,9 @@
     "CATEGORY.HINT": "Please select Reservation Category.",
 
     "UNIT": "Reservation Unit",
-    "UNIT.HINT": "Please select Reservation Unit."
+    "UNIT.HINT": "Please select Reservation Unit.",
+
+    "EMBEDDING.HEADER": "Floor Plan Embedding",
+    "EMBEDDING.HINT": "Use the following code to embed the floor plan to your website. Copy/paste the code to your HTML page."
   }
 }

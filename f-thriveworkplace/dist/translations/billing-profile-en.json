@@ -2,6 +2,14 @@
 	"BILLING_PROFILE": {
 		"PAGE_TITLE": "Billing Profile for {{userName}}",
 
+		"BILLING_METHOD": "Default Payment Method",
+		"BILLING_METHOD.CC": "Credit/Debit Card",
+		"BILLING_METHOD.ACH": "ACH/EFT/Direct Debit",
+		"BILLING_METHOD.EMAIL_INVOICE": "Email Invoice",
+		"BILLING_METHOD.PAPER_INVOICE": "Paper Invoice",
+		"PAYMENT_METHOD": "Payment Method",
+		"PAYMENT_METHOD.EMPTY": "No payment method.",
+
 		"CREDIT_CARDS.HEADER": "Credit Card",
 		"CREDIT_CARDS.EMPTY": "No credit cards.",
 		"CREDIT_CARDS.TYPE": "Card Type",
@@ -31,11 +39,6 @@
 		"E_CHECKS.BTN_ADD": "Add E-Check",
 
 		"REGISTRATION.SKIP_BILLING": "Continue without entering credit card information",
-		"REGISTRATION.COMPLETE": "You have successfully registered {{userName}}.",
-
-		"BTN_DEFAULT_PAYMENT_METHOD": "Default Payment Method",
-		"BTN_DEFAULT_PAYMENT_METHOD.HINT": "This is default payment method",
-		"BTN_SET_DEFAULT_PAYMENT_METHOD": "Set Default",
-		"BTN_SET_DEFAULT_PAYMENT_METHOD.HINT": "Set as default payment method"
+		"REGISTRATION.COMPLETE": "You have successfully registered {{userName}}."
 	}
 }

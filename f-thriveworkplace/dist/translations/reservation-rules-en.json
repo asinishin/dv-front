@@ -20,6 +20,7 @@
 		"MIN_LIMIT": "Minimum<br>Reservable Time",
 		"MAX_LIMIT": "Maximum<br>Hours/Day/Person",
 		"DAYS_IN_ADVANCE": "Days in Advance Reservations Permitted",
+		"TIME_IN_ADVANCE": "Time in Advance Reservations Required",
 		"NON_MEMBER": "Non-Member",
 		"MEMBER": "Member",
 		"UNLIMITED": "Unlimited",

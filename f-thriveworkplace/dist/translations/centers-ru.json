@@ -25,7 +25,7 @@
 		"TAX.BTN_ADD": "Добавить налог",
 		"QBO_CLASS": "Класс QuickBooks",
 		"INTERNAL_USE": "Центр для внутреннего использования",
-		"INTERNAL_USE.HINT": "Делает центр доступным только для координаторов и админов.<br><i class=\"fa fa-exclamation-triangle text-warning\"></i> <b>Запрещает всем пользователям доступ к центру!</b>",
+		"INTERNAL_USE.HINT": "Делает центр доступным только для координаторов и админов.<br><i class=\"fa fa-exclamation-triangle text-danger\"></i> <b>Запрещает всем пользователям доступ к центру!</b>",
 		"DESCRIPTION": "Описание",
 		"MAP": "Карта",
 		"DIRECTIONS": "Указания",
