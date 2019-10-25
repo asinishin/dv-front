@@ -28,7 +28,6 @@
 		"QBO.SECURITY_LIABILITY": "Map <b>Security Liability</b> to QuickBooks Account",
 		"QBO.ACCOUNTS_RECEIVABLE": "Map <b>Accounts Receivable</b> to QuickBooks Account",
 		"QBO.PAYMENT_ACCOUNT": "Map <b>Invoice Payment</b> to QuickBooks Account",
-		"QBO.PAYMENT_PROCESSING_FEE_ACCOUNT": "Map <b>Payment Processing Fee</b> to QuickBooks Account",
 		"QBO.PAYMENT_PROCESSING_FEE_PRODUCT": "Map <b>Payment Processing Fee</b> to QuickBooks Product",
 		"QBO.CUSTOM_PRODUCT": "Map <b>Custom Product</b> to QuickBooks Product",
 		"QBO.DISCOUNT_PRODUCT": "Map <b>Discount Product</b> to QuickBooks Product",
