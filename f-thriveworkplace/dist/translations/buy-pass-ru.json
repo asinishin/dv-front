@@ -6,6 +6,11 @@
     "SELECT_PASS.PRICE": "Цена",
     "SELECT_PASS.NOTE": "Удостоверьтесь, что центр открыт в течение всего срока действия пропуска. Если пропуск действует дольше, чем время закрытия центра, остаток времени пропуска не возвращается.",
 
-    "PURCHASE.PAGE_TITLE": "Подтвердите покупку пропуска"
+    "PURCHASE.PAGE_TITLE": "Подтвердите покупку пропуска",
+
+    "COMPLETE.PAGE_TITLE": "Complete",
+    "COMPLETE.TEXT": "Thanks for your order. WiFi will be open for you for the period of your purchase. Your WiFi Access Code: <b>{{accessCode}}</b>",
+    "COMPLETE.BACK_ERROR": "Back is not allowed. Payment complete.",
+    "COMPLETE.BTN_START": "Start WiFi Access"
   }
 }

@@ -2,6 +2,16 @@
 	"PURCHASE": {
 		"PAGE_TITLE": "Ajouter des charges aux achats pour {{userName}} dans {{centerName}}",
 
+		"SD_TRANSACTIONS.HEADER": "Security Deposit Transactions",
+		"SD_TRANSACTIONS.ORDER_NO": "Order #",
+		"SD_TRANSACTIONS.DATE": "Date",
+		"SD_TRANSACTIONS.CHARGED": "Charged",
+		"SD_TRANSACTIONS.PAID": "Paid",
+		"SD_TRANSACTIONS.USED": "Used",
+		"SD_TRANSACTIONS.REFUND": "Refund",
+		"SD_TRANSACTIONS.BALANCE": "Balance",
+		"SD_TRANSACTIONS.DESCRIPTION": "Description",
+
 		"INVOICE.HEADER": "Commande #{{orderId}}",
 		"INVOICE.DATE": "Date",
 		"INVOICE.DATE_CREATED": "Date Créé",
@@ -39,6 +49,7 @@
 		"PAYMENT.METHOD.WIRE_TRANSFER": "Wire Transfer",
 		"PAYMENT.METHOD.ACH": "ACH/EFT/Direct Debit",
 		"PAYMENT.METHOD.OTHER": "Autre",
+		"PAYMENT.METHOD.SECURITY_DEPOSIT": "Security Deposit",
 
 		"DEPOSIT.BTN_ADD": "Ajouter un dépôt de sécurité",
 		"DEPOSIT.HEADER": "Dépôt de sécurité",
@@ -77,7 +88,6 @@
 		"CHARGES.CUSTOM": "Spécial",
 
 		"LIST.PAGE_TITLE": "Achats de {{userName}} chez {{centerName}}",
-		"LIST.DEPOSIT.HEADER": "Commandes de dépôts de sécurité",
 		"LIST.CREDIT.HEADER": "Commandes de crédits",
 		"LIST.OPEN.HEADER": "Commandes ouvertes",
 		"LIST.PAID.HEADER": "Commandes payées",

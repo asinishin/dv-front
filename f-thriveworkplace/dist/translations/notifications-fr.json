@@ -12,6 +12,8 @@
 		"WELCOME_LETTER.PAGE_TITLE": "Configuration de la lettre de bienvenue",
 		"CALENDAR_SYNC_ERROR.PAGE_TITLE": "Configuration du courriel d'erreur de synchronisation du calendrier",
 		"PASSES_USED_UP.PAGE_TITLE": "Configuration du courriel pour les passes consumées",
+		"PLAN_PASSES_USED_UP.PAGE_TITLE": "Plan Passes Used Up Notice",
+		"PLAN_PASSES_USED_UP.HINT": "Sends notification to user when passes included with their monthly, quarterly, annual plans are at zero.",
 		"BUCKET_USED_UP.PAGE_TITLE": "Configuration du courriel pour les passes consumées",
 		"RECEIPT.PAGE_TITLE": "Receipt Email Settings",
 		"RECEIPT.GENERAL": "General Receipt",
@@ -28,6 +30,7 @@
 		"INVOICES.WITHOUT_CREDIT_CARD": "Message de paiement si l'utilisateur n'a pas de carte de crédit",
 
 		"SUBJECT": "Sujet",
+		"ENABLED": "Enabled",
 		"ATTACHMENTS": "Pièces jointes",
 		"ATTACHMENTS.BTN_DELETE.HINT": "Supprimer les pièces jointes",
 		"ATTACHMENTS.BTN_ADD": "Ajouter",
@@ -78,6 +81,6 @@
 		"SH_CODES.LOGIN": "Nom d'utilisateur de l'utilisateur enregistré",
 		"SH_CODES.PASSWORD": "Mot de passe de l'utilisateur enregistré",
 		"SH_CODES.ERROR": "Message d'erreur de synchronisation du calendrier",
-		"SH_CODES.RECURRING_BILLING": "Passes de facturation récurrente utilisées pour"
+		"SH_CODES.RECURRING_BILLING": "Facturation récurrente"
 	}
 }

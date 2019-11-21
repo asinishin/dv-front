@@ -26,6 +26,8 @@
 		"QBO_CLASS": "QuickBooks Class",
 		"INTERNAL_USE": "Center for Internal Use",
 		"INTERNAL_USE.HINT": "Makes center available to coordinators and admins only.<br><i class=\"fa fa-exclamation-triangle text-danger\"></i> <b>Prohibits all members from accessing the center!</b>",
+		"HIDE_IN_MEMBER_SIGN_UP": "Hide center for self-registration",
+		"HIDE_IN_MEMBER_SIGN_UP.HINT": "Makes center not available for member self-registration.",
 		"DESCRIPTION": "Description",
 		"MAP": "Map",
 		"DIRECTIONS": "Directions",

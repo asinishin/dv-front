@@ -12,6 +12,8 @@
 		"WELCOME_LETTER.PAGE_TITLE": "Welcome Letter Settings",
 		"CALENDAR_SYNC_ERROR.PAGE_TITLE": "Calendar Sync Error Email Settings",
 		"PASSES_USED_UP.PAGE_TITLE": "Passes Used Up Email Settings",
+		"PLAN_PASSES_USED_UP.PAGE_TITLE": "Plan Passes Used Up Notice",
+		"PLAN_PASSES_USED_UP.HINT": "Sends notification to user when passes included with their monthly, quarterly, annual plans are at zero.",
 		"BUCKET_USED_UP.PAGE_TITLE": "Bucket Used Up Email Settings",
 		"RECEIPT.PAGE_TITLE": "Receipt Email Settings",
 		"RECEIPT.GENERAL": "General Receipt",
@@ -28,6 +30,7 @@
 		"INVOICES.WITHOUT_CREDIT_CARD": "Payment Message If User Does Not Have Credit Card",
 
 		"SUBJECT": "Subject",
+		"ENABLED": "Enabled",
 		"ATTACHMENTS": "Attachments",
 		"ATTACHMENTS.BTN_DELETE.HINT": "Delete attachment",
 		"ATTACHMENTS.BTN_ADD": "Add",
@@ -78,6 +81,6 @@
 		"SH_CODES.LOGIN": "Login of registered user",
 		"SH_CODES.PASSWORD": "Password of registered user",
 		"SH_CODES.ERROR": "Calendar sync error message",
-		"SH_CODES.RECURRING_BILLING": "Recurring billing passes used up for"
+		"SH_CODES.RECURRING_BILLING": "Recurring billing"
 	}
 }

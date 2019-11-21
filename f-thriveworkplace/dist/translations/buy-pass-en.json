@@ -6,6 +6,11 @@
     "SELECT_PASS.PRICE": "Price",
     "SELECT_PASS.NOTE": "Be sure the center is open for you during this pass. If you purchase a pass that lasts past Center Open Hours, you will lose the remainder of your pass.",
 
-    "PURCHASE.PAGE_TITLE": "Confirm and Purchase Pass"
+    "PURCHASE.PAGE_TITLE": "Confirm and Purchase Pass",
+
+    "COMPLETE.PAGE_TITLE": "Complete",
+    "COMPLETE.TEXT": "Thanks for your order. WiFi will be open for you for the period of your purchase. Your WiFi Access Code: <b>{{accessCode}}</b>",
+    "COMPLETE.BACK_ERROR": "Back is not allowed. Payment complete.",
+    "COMPLETE.BTN_START": "Start WiFi Access"
   }
 }

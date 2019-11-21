@@ -12,6 +12,8 @@
 		"OTHER.HEADER": "Other",
 		"PANEL_BORDER_RADIUS": "Panel border radius (px)",
 		"BTN_BORDER_RADIUS": "Button border radius (px)",
+		"ELASTIC_BANNER": "Elastic banner",
+		"ELASTIC_BANNER.HINT": "<b>Elastic banner</b> is re-sized and cropped to fill entire header area, suitable for abstract banners. <b>Inelastic banner</b> is re-sized, but not cropped, suitable for banners with text.",
 
 		"LOGO": "Screen Logo",
 		"LOGO.HINT": "Logo displayed on screen at left-top corner.<br><b>Optimal Settings:</b><br>Format: <b>PNG</b><br>Size: <b>600+ px</b><br>Aspect Ratio: <b>variable</b><br>Background: <b>transparent</b>",

@@ -4,7 +4,7 @@
 		"RECURRING_INVOICES.PAGE_TITLE": "Шаблон периодических инвойсов",
 		"EXPIRED_CARD.PAGE_TITLE": "Шаблон истекшей кредитной карты",
 		"DECLINED_CARD.PAGE_TITLE": "Шаблон отклоненной кредитной карты",
-		"RESERVATION_CONFIRMATION.PAGE_TITLE": "Шаблон подтвержения резервирования",
+		"RESERVATION_CONFIRMATION.PAGE_TITLE": "Шаблон подтверждения резервирования",
 		"RESERVATION_CONFIRMATION.RESERVATION": "Подтверждение резервирования",
 		"RESERVATION_CONFIRMATION.CANCELLATION": "Отмена резервирования",
 		"RESERVATION_CONFIRMATION.REPEATING": "Подтверждение повторяющегося резервирования",
@@ -12,6 +12,8 @@
 		"WELCOME_LETTER.PAGE_TITLE": "Шаблон приветственного письма",
 		"CALENDAR_SYNC_ERROR.PAGE_TITLE": "Шаблон ошибки синхронизации с календарем",
 		"PASSES_USED_UP.PAGE_TITLE": "Шаблон закончившихся талонов",
+		"PLAN_PASSES_USED_UP.PAGE_TITLE": "Шаблон закончившихся талонов плана подписки",
+		"PLAN_PASSES_USED_UP.HINT": "Шлет пользователю уведомление, когда закончились талоны в рамках его месячного, квартального или годового плана.",
 		"BUCKET_USED_UP.PAGE_TITLE": "Шаблон закончившихся талонов",
 		"RECEIPT.PAGE_TITLE": "Шаблон письма с чеком",
 		"RECEIPT.GENERAL": "Обычный чек",
@@ -28,6 +30,7 @@
 		"INVOICES.WITHOUT_CREDIT_CARD": "Сообщение если пользователь не имеет кредитной карты",
 
 		"SUBJECT": "Тема",
+		"ENABLED": "Включено",
 		"ATTACHMENTS": "Вложения",
 		"ATTACHMENTS.BTN_DELETE.HINT": "Удалить вложение",
 		"ATTACHMENTS.BTN_ADD": "Добавить",
@@ -43,7 +46,7 @@
 		"SH_CODES.CENTER_ZIP": "Индекс центра",
 		"SH_CODES.WEBSITE_URL": "Веб-сайт центра",
 		"SH_CODES.MEMBER_NAME": "Имя пользователя",
-		"SH_CODES.MEMBER_COMPANY": "Имя и компания пользовтеля, который сделал резервирование (пример: John Doe, JDOE Software)",
+		"SH_CODES.MEMBER_COMPANY": "Имя и компания пользователя, который сделал резервирование (пример: John Doe, JDOE Software)",
 		"SH_CODES.MEMBER_PHONE": "Телефон пользователя",
 		"SH_CODES.MEMBER_EMAIL": "Email пользователя",
 		"SH_CODES.MEMBER_STREET": "Адрес пользователя",
@@ -70,14 +73,14 @@
 		"SH_CODES.ACCESS_CODE": "Код доступа резервирования",
 		"SH_CODES.RESERVATION_START_TIME": "Время начала резервирования",
 		"SH_CODES.RESERVATION_END_TIME": "Время конца резервирования",
-		"SH_CODES.RESERVATION_DATE": "Дата резервирвания",
-		"SH_CODES.RESERVATION_START_DATE": "Дата начала повторяемго резервирования",
+		"SH_CODES.RESERVATION_DATE": "Дата резервирования",
+		"SH_CODES.RESERVATION_START_DATE": "Дата начала повторяемого резервирования",
 		"SH_CODES.RESERVATION_END_DATE": "Дата конца повторяемого резервирования",
 		"SH_CODES.RESERVATION_NOTE": "Заметки о резервировании",
 		"SH_CODES.COMPANY_NAME": "Название компании (владельца центра)",
 		"SH_CODES.LOGIN": "Логин зарегистрированного пользователя",
 		"SH_CODES.PASSWORD": "Пароль зарегистрированного пользователя",
 		"SH_CODES.ERROR": "Ошибка синхронизации с календарем",
-		"SH_CODES.RECURRING_BILLING": "Регулярный платеж для которого закончились талоны"
+		"SH_CODES.RECURRING_BILLING": "Регулярный платеж"
 	}
 }

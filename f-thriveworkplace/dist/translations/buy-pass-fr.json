@@ -6,6 +6,11 @@
     "SELECT_PASS.PRICE": "Prix",
     "SELECT_PASS.NOTE": "Assurez-vous que le centre est ouvert pour vous durant cette passe. Si vous achetez une passe qui dépasse les heures d'ouvertures du centre, vous risquez de perdre le reste de votre passe.",
 
-    "PURCHASE.PAGE_TITLE": "Confirmer et acheter la passe."
+    "PURCHASE.PAGE_TITLE": "Confirmer et acheter la passe.",
+
+    "COMPLETE.PAGE_TITLE": "Complete",
+    "COMPLETE.TEXT": "Thanks for your order. WiFi will be open for you for the period of your purchase. Your WiFi Access Code: <b>{{accessCode}}</b>",
+    "COMPLETE.BACK_ERROR": "Back is not allowed. Payment complete.",
+    "COMPLETE.BTN_START": "Start WiFi Access"
   }
 }
