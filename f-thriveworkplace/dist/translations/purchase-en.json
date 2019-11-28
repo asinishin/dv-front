@@ -2,16 +2,6 @@
 	"PURCHASE": {
 		"PAGE_TITLE": "Add Charges to Purchase for {{userName}} in {{centerName}}",
 
-		"SD_TRANSACTIONS.HEADER": "Security Deposit Transactions",
-		"SD_TRANSACTIONS.ORDER_NO": "Order #",
-		"SD_TRANSACTIONS.DATE": "Date",
-		"SD_TRANSACTIONS.CHARGED": "Charged",
-		"SD_TRANSACTIONS.PAID": "Paid",
-		"SD_TRANSACTIONS.USED": "Used",
-		"SD_TRANSACTIONS.REFUND": "Refund",
-		"SD_TRANSACTIONS.BALANCE": "Balance",
-		"SD_TRANSACTIONS.DESCRIPTION": "Description",
-
 		"INVOICE.HEADER": "Order #{{orderId}}",
 		"INVOICE.DATE": "Date",
 		"INVOICE.DATE_CREATED": "Date Created",
@@ -49,7 +39,6 @@
 		"PAYMENT.METHOD.WIRE_TRANSFER": "Wire Transfer",
 		"PAYMENT.METHOD.ACH": "ACH/EFT/Direct Debit",
 		"PAYMENT.METHOD.OTHER": "Other",
-		"PAYMENT.METHOD.SECURITY_DEPOSIT": "Security Deposit",
 
 		"DEPOSIT.BTN_ADD": "Add a Security Deposit",
 		"DEPOSIT.HEADER": "Security Deposit",
@@ -88,6 +77,7 @@
 		"CHARGES.CUSTOM": "Custom",
 
 		"LIST.PAGE_TITLE": "Purchases for {{userName}} in {{centerName}}",
+		"LIST.DEPOSIT.HEADER": "Security Deposit Orders",
 		"LIST.CREDIT.HEADER": "Credit Orders",
 		"LIST.OPEN.HEADER": "Open Orders",
 		"LIST.PAID.HEADER": "Paid Orders",
