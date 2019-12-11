@@ -26,6 +26,10 @@
     "ENABLE_ACCESS_CODES": "Отображать коды доступа WiFi",
     "ACTIVATE_MEMBERS_FOR_ALL_CENTERS": "Активировать членов для всех центров",
     "ACTIVATE_MEMBERS_FOR_ALL_CENTERS.HINT": "Автоматически активирует новых членов во всех центрах и позволяет им использовать их.",
+    "AUTO_RETRY_DECLINED_PAYMENTS": "Auto-retry declined payments after",
+    "AUTO_RETRY_DAYS": "days",
+    "AUTO_RETRY_FOR": "for",
+    "AUTO_RETRY_ATTEMPTS": "attempts",
 
     "SWEEP.HEADER": "Проводчик",
     "SWEEP_CHARGES": "Проводить резервирования, кредиты и списания в инвойс регулярных платежей",
