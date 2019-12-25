@@ -8,6 +8,9 @@
 		"SORT": "Сортировка",
 		"SORT.NAME": "Имя",
 		"SORT.OCCUPATION": "Должность",
-		"SEARCH": "Поиск"
+		"SEARCH": "Поиск",
+
+		"EMBEDDING.HEADER": "Our Members Embedding",
+		"EMBEDDING.HINT": "Use the following code to embed the widget to your website. Copy/paste the code to your HTML page."
 	}
 }

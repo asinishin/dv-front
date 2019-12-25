@@ -30,6 +30,7 @@
     "AUTO_RETRY_DAYS": "days",
     "AUTO_RETRY_FOR": "for",
     "AUTO_RETRY_ATTEMPTS": "attempts",
+    "LIMIT_REFUND_PROCESSING_TO": "Limit refund processing to",
 
     "SWEEP.HEADER": "Проводчик",
     "SWEEP_CHARGES": "Проводить резервирования, кредиты и списания в инвойс регулярных платежей",
