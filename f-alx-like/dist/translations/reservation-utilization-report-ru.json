@@ -1,0 +1,8 @@
+{
+  "RESERVATION_UTILIZATION_REPORT": {
+    "REPORT_NAME": "Отчет об использовании резервирования",
+
+    "CHART.HEADER": "Суммарное использование резервационных юнитов",
+    "CHART.TOTAL_TIME": "Всего времени"
+  }
+}

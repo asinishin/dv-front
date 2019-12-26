@@ -1,0 +1,18 @@
+{
+	"AVAILABILITY_REPORT": {
+		"REPORT_NAME": "Отчет по доступности",
+
+		"AVAILABLE": "Доступно",
+		"UNAVAILABLE": "Недоступно",
+
+		"COLUMNS.UNIT": "Юнит",
+		"COLUMNS.PRICE": "Цена",
+		"COLUMNS.DESCRIPTION": "Описание",
+		"COLUMNS.DISCOUNT": "Скидка",
+		"COLUMNS.NET_PRICE": "Цена нетто",
+		"COLUMNS.CLIENT": "Клиент",
+
+		"TOTALS.VACANCY": "Всего свободно",
+		"TOTALS.OCCUPIED": "Всего занято"
+	}
+}

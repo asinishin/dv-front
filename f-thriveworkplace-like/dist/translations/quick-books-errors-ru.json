@@ -1,0 +1,15 @@
+{
+  "QUICK_BOOKS_ERRORS": {
+    "PAGE_TITLE": "Ошибки QuickBooks",
+    "TIME": "Время",
+    "QB_TYPE": "Тип объекта",
+    "DW_ID": "ID объекта",
+    "DW_NAME": "Имя объекта",
+    "ERROR_TEXT": "Ошибка",
+
+    "OBJ_TYPE.ITEM": "Item",
+    "OBJ_TYPE.CUSTOMER": "Customer",
+    "OBJ_TYPE.INVOICE": "Invoice",
+    "OBJ_TYPE.DEPOSIT": "Deposit"
+  }
+}

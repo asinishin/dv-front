@@ -1,0 +1,8 @@
+{
+  "RESERVATION_UTILIZATION_REPORT": {
+    "REPORT_NAME": "Reservation Utilization Report",
+
+    "CHART.HEADER": "Total Utilization of Reservation Units",
+    "CHART.TOTAL_TIME": "Total Time"
+  }
+}

@@ -1,0 +1,20 @@
+{
+	"MEMBER_STATEMENT": {
+		"PAGE_TITLE": "Relevé de membre pour {{userName}}",
+		"REPORT_NAME": "Relevé de membre",
+		"PREVIEW.HEADER": "Aperçu du relevé",
+		"BTN_PDF": "Télécharger le relevé PDF",
+
+		"COLUMNS.DATE": "Date",
+		"COLUMNS.ITEM": "Item",
+		"COLUMNS.UNIT_PRICE": "Prix unitaire",
+		"COLUMNS.QUANTITY": "Qté",
+		"COLUMNS.AMOUNT_BILLED": "Montant facturé",
+		"COLUMNS.AMOUNT_PAID": "Montant payé",
+		"COLUMNS.BALANCE": "Solde",
+
+		"BALANCE_FORWARD": "Solde futur",
+		"TOTALS": "Totals",
+		"SECURITY_DEPOSITS": "Transactions de dépôts de sécurité"
+	}
+}

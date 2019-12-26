@@ -1,0 +1,20 @@
+{
+	"SIGN_IN": {
+		"PAGE_TITLE": "Вход",
+		"REMEMBER_ME": "Запомнить меня",
+		"FORGOT_PASSWORD": "Забыли пароль?",
+		"BTN_SIGN_IN": "Войти",
+		"HINT": "Введите логин и пароль",
+		"INVALID_LOGIN_PASSWORD": "Неправильный логин и/или пароль.",
+		"SIGNING_IN": "Вход...",
+		"SUCCESS": "Успех!",
+		"NO_ACCOUNT_YET": "Еще нет аккаунта?&nbsp;&nbsp;",
+		"BTN_SIGN_UP": "Регистрация",
+
+		"RESTORE_PASSWORD.PAGE_TITLE": "Восстановление Пароля",
+		"RESTORE_PASSWORD.HINT": "Введите Ваш email адрес",
+		"RESTORE_PASSWORD.BTN_SEND": "Послать пароль",
+		"RESTORE_PASSWORD.SENDING": "Отсылка...",
+		"RESTORE_PASSWORD.SUCCESS": "Пароль послан на Ваш email адрес."
+	}
+}

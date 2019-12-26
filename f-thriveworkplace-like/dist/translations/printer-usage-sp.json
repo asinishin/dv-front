@@ -1,0 +1,31 @@
+{
+	"PRINTER_USAGE": {
+		"PAGE_TITLE": "Edit Printer Usage",
+		"LIST.PAGE_TITLE": "Printer Usage",
+
+		"NUMBER": "Number",
+		"POST_DATE": "Post Date",
+		"POSTED": "Posted",
+
+		"BTN_IMPORT": "Import from CSV",
+		"USING": "using",
+		"IMPORT_PROFILE": "Import Profile",
+		"INVALID_FORMAT": "Please use CSV files only.",
+		"CONFIRM_DELETE": "Are you sure to delete the printer usage?",
+		"BTN_POST_CHARGES": "Post Charges",
+
+		"JOBS.HEADER": "Printer Jobs",
+		"JOBS.#": "#",
+		"JOBS.#.HINT": "Row index that matches row index in CSV file",
+		"JOBS.ID": "ID",
+		"JOBS.PRINTER_CODE": "Printer Code",
+		"JOBS.USER_NAME": "Member Name",
+		"JOBS.JOB_MODE": "Job Mode",
+		"JOBS.BLACK_WHITE": "B&W",
+		"JOBS.FULL_COLOR": "Color",
+		"JOBS.SCAN": "Scan",
+		"JOBS.FAX": "Fax",
+		"JOBS.UNKNOWN.HINT": "Unknown printer code.",
+		"JOBS.EMPTY": "No Jobs."
+	}
+}

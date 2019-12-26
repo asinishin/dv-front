@@ -1,0 +1,24 @@
+{
+	"MEMBER_USAGE": {
+		"PAGE_TITLE": "Использования для {{userName}}",
+
+		"SHOW_INACTIVE": "Показывать неактивные платежи",
+		"EMPTY": "Отчет пуст",
+		"PASS_BALANCE": "Баланс талонов: {{passBalance}}",
+
+		"DATE": "Дата",
+		"RESERVATION_DURATION": "Длительность резервирования <small>(часов / талонов)</small>",
+		"USAGE_DURATION": "Длительность использования <small>(часов / талонов)</small>",
+		"BILLING": "Сумма <small>(денег / талонов)</small>",
+		"IS_BILLED": "Оплачено",
+		"FROM": "С",
+		"TO": "По",
+		"DURATION_HOURS": "Длительность (часов)",
+		"DURATION_PASSES": "Длительность (талонов)",
+		"DURATION_AMOUNT": "Сумма",
+		"BTN_COLLAPSE.HINT": "Просмотр журнала",
+		"RESERVATION_LOG": "Журнал резервирований",
+		"USAGE_LOG": "Журнал использований",
+		"AMOUNT": "Сумма"
+	}
+}
