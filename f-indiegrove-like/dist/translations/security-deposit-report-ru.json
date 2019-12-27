@@ -6,7 +6,7 @@
 		"COLUMNS.COMPANY": "Компания",
 		"COLUMNS.NOTES": "Замечания",
 		"COLUMNS.DATE": "Дата",
-		"COLUMNS.INITIAL_AMOUNT": "Начальная сумма",
+		"COLUMNS.AMOUNT": "Amount",
 		"COLUMNS.BALANCE": "Баланс",
 		"COLUMNS.ORDER_ID": "Номер счета",
 
