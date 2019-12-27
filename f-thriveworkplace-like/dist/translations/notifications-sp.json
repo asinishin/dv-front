@@ -45,7 +45,9 @@
 		"SH_CODES.CENTER_STATE": "Center state",
 		"SH_CODES.CENTER_ZIP": "Center zip",
 		"SH_CODES.WEBSITE_URL": "Center website",
-		"SH_CODES.MEMBER_NAME": "Member name",
+		"SH_CODES.MEMBER_NAME": "Member full name",
+		"SH_CODES.FIRST_NAME": "Member first name",
+		"SH_CODES.LAST_NAME": "Member last name",
 		"SH_CODES.MEMBER_COMPANY": "Member and company name who made reservation (e.g. John Doe, JDOE Software)",
 		"SH_CODES.MEMBER_PHONE": "Member phone number",
 		"SH_CODES.MEMBER_EMAIL": "Member email",
@@ -81,6 +83,9 @@
 		"SH_CODES.LOGIN": "Login of registered user",
 		"SH_CODES.PASSWORD": "Password of registered user",
 		"SH_CODES.ERROR": "Calendar sync error message",
-		"SH_CODES.RECURRING_BILLING": "Recurring billing"
+		"SH_CODES.RECURRING_BILLING": "Recurring billing",
+		"SH_CODES.RENEWAL_NOTICE_DATE": "Renewal notice date",
+		"SH_CODES.PASS_NAME": "Pass Name",
+		"SH_CODES.PASS_PRICE": "Pass Price"
 	}
 }

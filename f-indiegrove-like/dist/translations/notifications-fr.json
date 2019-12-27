@@ -46,6 +46,8 @@
 		"SH_CODES.CENTER_ZIP": "Center zip",
 		"SH_CODES.WEBSITE_URL": "Site web du centre",
 		"SH_CODES.MEMBER_NAME": "Nom du membre",
+		"SH_CODES.FIRST_NAME": "Member first name",
+		"SH_CODES.LAST_NAME": "Member last name",
 		"SH_CODES.MEMBER_COMPANY": "Membre et nom de compagnie de la personne qui a réservé (i.e. John Doe, JDOE Software)",
 		"SH_CODES.MEMBER_PHONE": "Member phone number",
 		"SH_CODES.MEMBER_EMAIL": "Member email",
@@ -81,6 +83,9 @@
 		"SH_CODES.LOGIN": "Nom d'utilisateur de l'utilisateur enregistré",
 		"SH_CODES.PASSWORD": "Mot de passe de l'utilisateur enregistré",
 		"SH_CODES.ERROR": "Message d'erreur de synchronisation du calendrier",
-		"SH_CODES.RECURRING_BILLING": "Facturation récurrente"
+		"SH_CODES.RECURRING_BILLING": "Facturation récurrente",
+		"SH_CODES.RENEWAL_NOTICE_DATE": "Renewal notice date",
+		"SH_CODES.PASS_NAME": "Pass Name",
+		"SH_CODES.PASS_PRICE": "Pass Price"
 	}
 }

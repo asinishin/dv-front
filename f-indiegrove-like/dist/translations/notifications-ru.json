@@ -46,6 +46,8 @@
 		"SH_CODES.CENTER_ZIP": "Индекс центра",
 		"SH_CODES.WEBSITE_URL": "Веб-сайт центра",
 		"SH_CODES.MEMBER_NAME": "Имя пользователя",
+		"SH_CODES.FIRST_NAME": "Member first name",
+		"SH_CODES.LAST_NAME": "Member last name",
 		"SH_CODES.MEMBER_COMPANY": "Имя и компания пользователя, который сделал резервирование (пример: John Doe, JDOE Software)",
 		"SH_CODES.MEMBER_PHONE": "Телефон пользователя",
 		"SH_CODES.MEMBER_EMAIL": "Email пользователя",
@@ -81,6 +83,9 @@
 		"SH_CODES.LOGIN": "Логин зарегистрированного пользователя",
 		"SH_CODES.PASSWORD": "Пароль зарегистрированного пользователя",
 		"SH_CODES.ERROR": "Ошибка синхронизации с календарем",
-		"SH_CODES.RECURRING_BILLING": "Регулярный платеж"
+		"SH_CODES.RECURRING_BILLING": "Регулярный платеж",
+		"SH_CODES.RENEWAL_NOTICE_DATE": "Renewal notice date",
+		"SH_CODES.PASS_NAME": "Pass Name",
+		"SH_CODES.PASS_PRICE": "Pass Price"
 	}
 }
