@@ -1,0 +1,20 @@
+{
+	"SIGN_IN": {
+		"PAGE_TITLE": "Sign In",
+		"REMEMBER_ME": "Remember Me",
+		"FORGOT_PASSWORD": "Forgot Password?",
+		"BTN_SIGN_IN": "Sign In",
+		"HINT": "Please enter your login details",
+		"INVALID_LOGIN_PASSWORD": "Invalid login and/or password.",
+		"SIGNING_IN": "Signing in...",
+		"SUCCESS": "Success!",
+		"NO_ACCOUNT_YET": "Don't have account yet?&nbsp;&nbsp;",
+		"BTN_SIGN_UP": "Sign Up",
+
+		"RESTORE_PASSWORD.PAGE_TITLE": "Restore Password",
+		"RESTORE_PASSWORD.HINT": "Please enter your email address",
+		"RESTORE_PASSWORD.BTN_SEND": "Send Password",
+		"RESTORE_PASSWORD.SENDING": "Sending...",
+		"RESTORE_PASSWORD.SUCCESS": "Password has been sent to your email."
+	}
+}

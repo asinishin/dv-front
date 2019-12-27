@@ -8,6 +8,9 @@
 		"SORT": "Order by",
 		"SORT.NAME": "Name",
 		"SORT.OCCUPATION": "Occupation",
-		"SEARCH": "Search"
+		"SEARCH": "Search",
+
+		"EMBEDDING.HEADER": "Our Members Embedding",
+		"EMBEDDING.HINT": "Use the following code to embed the widget to your website. Copy/paste the code to your HTML page."
 	}
 }

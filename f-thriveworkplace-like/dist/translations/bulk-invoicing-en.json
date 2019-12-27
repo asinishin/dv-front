@@ -1,0 +1,18 @@
+{
+  "BULK_INVOICING": {
+    "PAGE_TITLE": "Bulk Invoicing",
+    "HEADER": "Select the Invoices You Would Like to Send",
+
+    "COMPANY": "Company",
+    "USER": "User",
+    "ORDER_ID": "Order ID",
+    "DATE": "Date",
+    "COMMENTS": "Comments",
+    "BALANCE": "Balance",
+
+    "BTN_SEND": "Send Emails",
+
+    "NOTHING_SELECTED": "Please select at least one invoice.",
+    "SUCCESS": "Emails sent successfully."
+  }
+}

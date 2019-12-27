@@ -44,6 +44,8 @@
     "UNIT.HINT": "Please select Reservation Unit.",
 
     "EMBEDDING.HEADER": "Floor Plan Embedding",
-    "EMBEDDING.HINT": "Use the following code to embed the floor plan to your website. Copy/paste the code to your HTML page."
+    "EMBEDDING.HINT": "Use the following code to embed the floor plan to your website. Copy/paste the code to your HTML page.",
+    "EMBEDDING.ALL": "All floor plans with plan selection",
+    "EMBEDDING.ALL.HINT": "Embed all floor plans for current center with plan selection dropdown. Or embed current floor plan only."
   }
 }
