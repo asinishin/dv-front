@@ -6,7 +6,7 @@
 		"COLUMNS.COMPANY": "Company",
 		"COLUMNS.NOTES": "Notes",
 		"COLUMNS.DATE": "Date",
-		"COLUMNS.INITIAL_AMOUNT": "Initial Amount",
+		"COLUMNS.AMOUNT": "Amount",
 		"COLUMNS.BALANCE": "Balance",
 		"COLUMNS.ORDER_ID": "Order #",
 
