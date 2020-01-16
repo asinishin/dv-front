@@ -1,0 +1,11 @@
+{
+  "WRITE_OFF_REPORT": {
+    "REPORT_NAME": "Write Off Report",
+
+    "COLUMNS.COMPANY": "Company",
+    "COLUMNS.NAME": "Name",
+    "COLUMNS.ORDER_ID": "Order No.",
+    "COLUMNS.DATE": "Date",
+    "COLUMNS.AMOUNT": "Amount"
+  }
+}
