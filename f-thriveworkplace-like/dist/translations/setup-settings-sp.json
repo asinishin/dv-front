@@ -55,6 +55,7 @@
     "MIN_PASS_UNIT.HINT": "Unit for <b>Rental Hours Product -> Min time/pass billed after 1st pass</b> setting.",
     "MIN_PASS_UNIT.PASSES": "Passes",
     "MIN_PASS_UNIT.HOURS": "Hours",
+    "PASS_GRACE_PERIOD": "Grace period for Passes",
     "RESERVATION_INFO_VISIBILITY": "Reservation Info Visibility",
     "RESERVATION_INFO_VISIBILITY.SHARED": "Allow co-members to see shared reservation details",
     "RESERVATION_INFO_VISIBILITY.ALL": "Allow all members to see ALL reservation details",

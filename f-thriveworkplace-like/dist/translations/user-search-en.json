@@ -22,6 +22,8 @@
 		"COLUMNS.MAILBOX_NAME": "Mailbox Name",
 		"COLUMNS.OCCUPATION": "Occupation",
 		"COLUMNS.JOIN_DATE": "Join Date",
+		"COLUMNS.PAYOR": "Payor",
+		"COLUMNS.PAYOR.HINT": "The last 4 digits of credit cards or the last 4 digits of bank accounts.",
 		"COLUMNS.MAC_ADDRESS": "MAC Address",
 
 		"ACTIVATED_AT": "Activated At",

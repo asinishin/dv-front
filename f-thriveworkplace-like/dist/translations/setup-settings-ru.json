@@ -55,6 +55,7 @@
     "MIN_PASS_UNIT.HINT": "Единица для настройки <b>Rental Hours Product -> Мин. время/талоны оплачиваемые после перого талона</b>.",
     "MIN_PASS_UNIT.PASSES": "Талоны",
     "MIN_PASS_UNIT.HOURS": "Часы",
+    "PASS_GRACE_PERIOD": "Grace period for Passes",
     "RESERVATION_INFO_VISIBILITY": "Видимость деталей резервир.",
     "RESERVATION_INFO_VISIBILITY.SHARED": "Позволить со-членам видеть детали совместных резервирований",
     "RESERVATION_INFO_VISIBILITY.ALL": "Позволить всем пользователям видеть детали всех резервирований",

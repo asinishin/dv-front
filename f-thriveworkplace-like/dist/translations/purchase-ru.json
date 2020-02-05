@@ -13,6 +13,8 @@
 		"SECURITY_DEPOSIT_RECORDS.DESCRIPTION": "Description",
 
 		"INVOICE.HEADER": "Счет #{{orderId}}",
+		"INVOICE.BILL_DATE": "Bill Date",
+		"INVOICE.DUE_DATE": "Due Date",
 		"INVOICE.DATE": "Дата",
 		"INVOICE.DATE_CREATED": "Дата создания",
 		"INVOICE.ADDED_BY": "Кем добавлен",

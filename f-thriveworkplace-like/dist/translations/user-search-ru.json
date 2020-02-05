@@ -22,6 +22,8 @@
 		"COLUMNS.MAILBOX_NAME": "Имя почт. ящ.",
 		"COLUMNS.OCCUPATION": "Должность",
 		"COLUMNS.JOIN_DATE": "Дата регист.",
+		"COLUMNS.PAYOR": "Payor",
+		"COLUMNS.PAYOR.HINT": "The last 4 digits of credit cards or the last 4 digits of bank accounts.",
 		"COLUMNS.MAC_ADDRESS": "MAC адрес",
 
 		"ACTIVATED_AT": "Активирован в",
