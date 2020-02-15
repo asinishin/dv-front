@@ -20,6 +20,8 @@
 		"RECEIPT.RESERVATION": "Чек для резервирования",
 		"RECEIPT.PASS": "Чек для пропуска",
 		"RENEWAL_NOTICE.PAGE_TITLE": "Шаблон уведомления об обновлении",
+		"STARTUP_INFO.PAGE_TITLE": "Startup Info",
+		"STARTUP_INFO.HINT": "Send Startup Info Email with receipt from self registration.",
 
 		"MESSAGE_BOARD.PAGE_TITLE": "Шаблон уведомлений доски сообщений",
 		"MESSAGE_BOARD.IMMEDIATELY": "When Posted Notice",
@@ -40,6 +42,7 @@
 		"SH_CODES.CENTER_NAME": "Название центра",
 		"SH_CODES.CENTER_PHONE": "Телефон центра",
 		"SH_CODES.CENTER_EMAIL": "Email центра",
+		"SH_CODES.CENTER_ADDRESS": "Center address",
 		"SH_CODES.CENTER_STREET": "Адрес центра",
 		"SH_CODES.CENTER_CITY": "Город центра",
 		"SH_CODES.CENTER_STATE": "Штат центра",

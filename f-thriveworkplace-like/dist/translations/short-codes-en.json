@@ -10,6 +10,9 @@
     "FIRST_NAME": "Member first name",
     "LAST_NAME": "Member last name",
     "MEMBER_LOGIN": "Member login",
+    "USER_NAME": "User full name",
+    "USER_FIRST_NAME": "User first name",
+    "USER_LAST_NAME": "User last name",
 
     "MESSAGES": "New messages from Message Board"
   }

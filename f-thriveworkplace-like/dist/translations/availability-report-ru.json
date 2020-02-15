@@ -11,6 +11,7 @@
 		"COLUMNS.DISCOUNT": "Скидка",
 		"COLUMNS.NET_PRICE": "Цена нетто",
 		"COLUMNS.CLIENT": "Клиент",
+		"COLUMNS.TERMINATION_DATE": "Termination Date",
 
 		"TOTALS.VACANCY": "Всего свободно",
 		"TOTALS.OCCUPIED": "Всего занято"

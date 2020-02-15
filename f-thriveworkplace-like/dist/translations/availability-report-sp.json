@@ -11,6 +11,7 @@
 		"COLUMNS.DISCOUNT": "Discount",
 		"COLUMNS.NET_PRICE": "Net",
 		"COLUMNS.CLIENT": "Client",
+		"COLUMNS.TERMINATION_DATE": "Termination Date",
 
 		"TOTALS.VACANCY": "Total Vacancy",
 		"TOTALS.OCCUPIED": "Total Full Time Occupied"

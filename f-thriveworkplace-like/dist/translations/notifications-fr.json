@@ -20,6 +20,8 @@
 		"RECEIPT.RESERVATION": "Reservation Receipt",
 		"RECEIPT.PASS": "Day Pass Receipt",
 		"RENEWAL_NOTICE.PAGE_TITLE": "Renewal Notice Email Settings",
+		"STARTUP_INFO.PAGE_TITLE": "Startup Info",
+		"STARTUP_INFO.HINT": "Send Startup Info Email with receipt from self registration.",
 
 		"MESSAGE_BOARD.PAGE_TITLE": "Message Board Notices Email Settings",
 		"MESSAGE_BOARD.IMMEDIATELY": "When Posted Notice",
@@ -40,6 +42,7 @@
 		"SH_CODES.CENTER_NAME": "Nom du centre",
 		"SH_CODES.CENTER_PHONE": "Numéro de téléphone du centre",
 		"SH_CODES.CENTER_EMAIL": "Center email",
+		"SH_CODES.CENTER_ADDRESS": "Center address",
 		"SH_CODES.CENTER_STREET": "Center street",
 		"SH_CODES.CENTER_CITY": "Center city",
 		"SH_CODES.CENTER_STATE": "Center state",

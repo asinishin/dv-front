@@ -10,6 +10,9 @@
     "FIRST_NAME": "Имя пользователя",
     "LAST_NAME": "Фамилия пользователя",
     "MEMBER_LOGIN": "Логин пользователя",
+    "USER_NAME": "User full name",
+    "USER_FIRST_NAME": "User first name",
+    "USER_LAST_NAME": "User last name",
 
     "MESSAGES": "New messages from Message Board"
   }
