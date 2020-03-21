@@ -2,8 +2,10 @@
 	"AVAILABILITY_REPORT": {
 		"REPORT_NAME": "Отчет по доступности",
 
-		"AVAILABLE": "Доступно",
-		"UNAVAILABLE": "Недоступно",
+		"MERGED": "Свободно + занято",
+
+		"VACANT": "Свободно",
+		"OCCUPIED": "Занято",
 
 		"COLUMNS.UNIT": "Юнит",
 		"COLUMNS.PRICE": "Цена",
@@ -11,9 +13,10 @@
 		"COLUMNS.DISCOUNT": "Скидка",
 		"COLUMNS.NET_PRICE": "Цена нетто",
 		"COLUMNS.CLIENT": "Клиент",
-		"COLUMNS.TERMINATION_DATE": "Termination Date",
+		"COLUMNS.START_DATE": "Начальная дата",
+		"COLUMNS.TERMINATION_DATE": "Конечная дата",
 
-		"TOTALS.VACANCY": "Всего свободно",
+		"TOTALS.VACANT": "Всего свободно",
 		"TOTALS.OCCUPIED": "Всего занято"
 	}
 }

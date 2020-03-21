@@ -12,7 +12,7 @@
 		"COLUMNS.COMMENT": "Коментарий",
 		"COLUMNS.ORDER_ID": "Номер счета",
 
-		"PAST_DUE_ONLY": "Display only past due invoices",
+		"DISPLAY_CREDITS": "Display credits",
 
 		"TOTALS.AVG_DAYS_LATE": "Дней опоздания в среднем",
 		"TOTALS.TOTAL_DUE": "Итого задолженности"

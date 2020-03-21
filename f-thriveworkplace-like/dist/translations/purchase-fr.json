@@ -104,6 +104,8 @@
 		"LIST.BALANCE_DUE": "Solde dû",
 		"LIST.BTN_VIEW": "PDF",
 
-		"PAYMENT_PROCESSING_FEE": "payment processing fee"
+		"PAYMENT_PROCESSING_FEE": "payment processing fee",
+
+		"AUDIT.HEADER": "Order Audit"
 	}
 }

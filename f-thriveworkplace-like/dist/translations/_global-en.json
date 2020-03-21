@@ -14,6 +14,7 @@
     "INCLUDE": "Include",
     "INCLUDE_ALL": "Include All",
     "NONE": "None",
+    "SEARCH": "Search",
 
     "BTN_NEXT": "Next",
     "BTN_BACK": "Back",
@@ -32,6 +33,7 @@
     "BTN_RESET": "Reset",
     "BTN_UPLOAD": "Upload",
     "BTN_CROP": "Crop",
+    "BTN_AUDIT": "Audit",
 
     "FULL_NAME": "Full Name",
     "FIRST_NAME": "First Name",

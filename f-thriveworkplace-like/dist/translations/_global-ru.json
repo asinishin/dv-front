@@ -14,6 +14,7 @@
     "INCLUDE": "Включить",
     "INCLUDE_ALL": "Включить все",
     "NONE": "Ничего",
+    "SEARCH": "Поиск",
 
     "BTN_NEXT": "Дальше",
     "BTN_BACK": "Назад",
@@ -32,6 +33,7 @@
     "BTN_RESET": "Сброс",
     "BTN_UPLOAD": "Загрузить",
     "BTN_CROP": "Обрезать",
+    "BTN_AUDIT": "Audit",
 
     "FULL_NAME": "Имя Фамилия",
     "FIRST_NAME": "Имя",

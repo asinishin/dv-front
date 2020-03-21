@@ -73,7 +73,6 @@
 		"STATUS_NOTES.NOTES": "Заметки",
 
 		"AUDIT.HEADER": "Recurring Billing Audit",
-		"AUDIT.BTN_COLLAPSE": "Audit",
 		"AUDIT.PROPERTY": "Property",
 		"AUDIT.OLD_VALUE": "Old Value",
 		"AUDIT.NEW_VALUE": "New Value"
