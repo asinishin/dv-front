@@ -32,7 +32,9 @@
     "AUTO_RETRY_ATTEMPTS": "attempts",
     "LIMIT_REFUND_PROCESSING_TO": "Limit refund processing to",
     "ENABLE_SECURITY_DEPOSIT_IN_MEMBERSHIP_PRODUCTS": "Enable Security Deposit In Membership Products",
-    "ENABLE_SECURITY_DEPOSIT_IN_MEMBERSHIP_PRODUCTS.HINT": "Automatically add <b>Security Deposit</b> to order through registration or self-registration, or when adding a new Recurring Billing",
+    "ENABLE_SECURITY_DEPOSIT_IN_MEMBERSHIP_PRODUCTS.HINT": "Automatically add <b>Security Deposit</b> to order through registration or self-registration, or when adding a new Recurring Billing.",
+    "ENABLE_RENEWAL_NOTICES": "Enable Renewal Dates/Notices",
+    "ENABLE_RENEWAL_NOTICES.HINT": "Show/hide <b>Renewal Dates</b> and <b>Notice Required By</b> on Recurring Billing page.",
 
     "SWEEP.HEADER": "Проводчик",
     "SWEEP_CHARGES": "Проводить резервирования, кредиты и списания в инвойс регулярных платежей",

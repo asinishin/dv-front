@@ -16,6 +16,8 @@
 		"NAME": "Название",
 		"DESCRIPTION": "Описание",
 		"AREA": "Площадь (m²)",
+		"EXPECTED_USE_PER_MONTH": "Предполагаемое использование за месяц",
+		"EXPECTED_USE_PER_MONTH.HINT": "Ожидаемое количество часов использования юнита в течение одного месяца",
 		"CONFIRM_DELETE": "Вы точно хотите удалить юнит резервирования?",
 
 		"PHOTO.HINT": "Recommended minimum size is <strong>1280x640 px</strong>"

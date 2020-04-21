@@ -1,24 +1,24 @@
 {
-	"MEMBER_USAGE": {
-		"PAGE_TITLE": "Member Usage for {{userName}}",
+  "MEMBER_USAGE": {
+    "PAGE_TITLE": "Member Usage for {{userName}}",
 
-		"SHOW_INACTIVE": "Show Inactive Billings",
-		"EMPTY": "Report is empty",
-		"PASS_BALANCE": "Pass Balance: {{passBalance}}",
+    "SHOW_INACTIVE": "Show Inactive Billings",
+    "EMPTY": "Report is empty",
+    "PASS_BALANCE": "Pass Balance: {{passBalance}}",
 
-		"DATE": "Date",
-		"RESERVATION_DURATION": "Duration of reservation <small>(hours / passes)</small>",
-		"USAGE_DURATION": "Duration of usage <small>(hours / passes)</small>",
-		"BILLING": "Billing <small>(amount / passes)</small>",
-		"IS_BILLED": "Is Billed",
-		"FROM": "From",
-		"TO": "To",
-		"DURATION_HOURS": "Duration (hours)",
-		"DURATION_PASSES": "Duration (passes)",
-		"DURATION_AMOUNT": "Amount",
-		"BTN_COLLAPSE.HINT": "View Usage Log",
-		"RESERVATION_LOG": "Reservation Log",
-		"USAGE_LOG": "Usage Log",
-		"AMOUNT": "Amount"
-	}
+    "DATE": "Date",
+    "RESERVATION_DURATION": "Duration of reservation <small>(hours / passes)</small>",
+    "USAGE_DURATION": "Duration of usage <small>(hours / passes)</small>",
+    "BILLING": "Billing <small>(amount / passes)</small>",
+    "IS_BILLED": "Is Billed",
+    "FROM": "From",
+    "TO": "To",
+    "DURATION_HOURS": "Duration (hours)",
+    "DURATION_PASSES": "Duration (passes)",
+    "DURATION_AMOUNT": "Amount",
+    "BTN_COLLAPSE.HINT": "View Usage Log",
+    "RESERVATION_LOG": "Reservation Log",
+    "USAGE_LOG": "Usage Log",
+    "AMOUNT": "Amount"
+  }
 }

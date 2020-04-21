@@ -1,104 +1,12 @@
-<!-- commit: 8e5382224 -->
-<!DOCTYPE html>
-<html ng-app="deskworks" ng-controller="AppCtrl as $app"
-      ng-class="{ 'sidebar-hidden': hideSidebar, 'sidebar-visible': !hideSidebar, 'hide-banner': $app.hideBanner, [$app.routeClass]: true }">
-
-<head>
-  <title ng-bind="state.getPageTitle() + ' | ' + wlLinks.companyName">Satellite Deskworks</title>
-
-  <base href="/">
-
-  <!-- social media tags -->
-  <meta name="twitter:card" content="summary">
-  <meta name="twitter:site" content="@deskworks">
-  <meta name="twitter:title" content="Satellite Deskworks">
-  <meta name="twitter:description" content="Web application for co-working centers.">
-  <meta name="twitter:creator" content="@deskworks">
-  <meta name="twitter:image:src" content="https://satellitedeskworks.com/wp-content/uploads/2016/03/NewDW_splash-01.png">
-  <meta property="og:title" content="Satellite Deskworks">
-  <meta property="og:type" content="website">
-  <meta property="og:url" content="https://satellitedeskworks.com/">
-  <meta property="og:image" content="https://satellitedeskworks.com/wp-content/uploads/2016/03/NewDW_splash-01.png">
-  <meta property="og:description" content="Web application for co-working centers.">
-
-  <meta charset="utf-8">
-  <meta name="viewport" content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, width=device-width">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-
-  <meta name="mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-title" content="Deskworks">
-  <meta name="apple-touch-fullscreen" content="yes">
-  <meta name="apple-itunes-app" content="app-id=1438030835">
-  <meta name="theme-color" content="#fff">
-
-  <link rel="icon" type="image/png" sizes="96x96" href="/api/v1/white-label/images/icon-96x96.png" class="white-label-prefix">
-  <link rel="icon" type="image/png" sizes="192x192" href="/api/v1/white-label/images/icon-192x192.png" class="white-label-prefix">
-  <link rel="icon" type="image/png" sizes="512x512" href="/api/v1/white-label/images/icon-512x512.png" class="white-label-prefix">
-  <link rel="apple-touch-icon" type="image/png" sizes="180x180" href="/api/v1/white-label/images/icon-180x180-white.png" class="white-label-prefix">
-
-  <script src="/assets/config.js" defer></script>
-
-  <script>window.dwLocales = [{"id":"en-au","name":"English (AU)"},{"id":"en-ca","name":"English (CA)"},{"id":"en-gb","name":"English (GB)"},{"id":"en-nl","name":"English (NL)"},{"id":"en-sg","name":"English (SG)"},{"id":"en-us","name":"English (US)"},{"id":"fr-fr","name":"French (FR)"},{"id":"fr-ca","name":"French (CA)"},{"id":"ru-ru","name":"Russian (RU)"},{"id":"ru-ua","name":"Russian (UA)"}];</script>
-
-  <link href="//fonts.googleapis.com/css?family=Lato:300,400" rel="stylesheet" type="text/css">
-
-  <link href="/api/v1/white-label/vars.css" rel="stylesheet" id="vars-css">
-
-  <!-- inject:manifest:json -->
-  <!-- endinject -->
-<link href="vendors~98c0d023.css?_rev=5b93c58402967020abb8" rel="stylesheet"><link href="vendors~1d14d743.css?_rev=d75345a19fd097e7eaa0" rel="stylesheet"><link href="main~493df0b3.css?_rev=4743657710a16ed4b396" rel="stylesheet"><link href="main~f075b844.css?_rev=82510b4819df9adb8f3e" rel="stylesheet"><link href="main~1d875263.css?_rev=7cae908d3cc26928898a" rel="stylesheet"><link href="main~dfa8dfae.css?_rev=dbae27a021dfbacc320d" rel="stylesheet"><link href="main~2a3f8e31.css?_rev=1d9a4d99cb6979dde84d" rel="stylesheet"><link href="main~89db6124.css?_rev=8ddcfc11d0f718ac290a" rel="stylesheet"></head>
-
-<body class="ff-spin">
-<noscript>Please enable JavaScript in browser settings to access this application.</noscript>
-
-<!--[if lte IE 9]>
+<!doctype html><html ng-app="deskworks" ng-controller="AppCtrl as $app" ng-class="{ 'sidebar-hidden': hideSidebar, 'sidebar-visible': !hideSidebar, 'hide-banner': $app.hideBanner, [$app.routeClass]: true }"><head><title ng-bind="state.getPageTitle() + ' | ' + wlLinks.companyName">Satellite Deskworks</title><base href="/"><meta name="twitter:card" content="summary"><meta name="twitter:site" content="@deskworks"><meta name="twitter:title" content="Satellite Deskworks"><meta name="twitter:description" content="Web application for co-working centers."><meta name="twitter:creator" content="@deskworks"><meta name="twitter:image:src" content="https://satellitedeskworks.com/wp-content/uploads/2016/03/NewDW_splash-01.png"><meta property="og:title" content="Satellite Deskworks"><meta property="og:type" content="website"><meta property="og:url" content="https://satellitedeskworks.com/"><meta property="og:image" content="https://satellitedeskworks.com/wp-content/uploads/2016/03/NewDW_splash-01.png"><meta property="og:description" content="Web application for co-working centers."><meta charset="utf-8"><meta name="viewport" content="user-scalable=no,initial-scale=1,maximum-scale=1,minimum-scale=1,width=device-width"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-title" content="Deskworks"><meta name="apple-touch-fullscreen" content="yes"><meta name="apple-itunes-app" content="app-id=1438030835"><meta name="theme-color" content="#fff"><link rel="icon" type="image/png" sizes="96x96" href="/api/v1/white-label/images/icon-96x96.png" class="white-label-prefix"><link rel="icon" type="image/png" sizes="192x192" href="/api/v1/white-label/images/icon-192x192.png" class="white-label-prefix"><link rel="icon" type="image/png" sizes="512x512" href="/api/v1/white-label/images/icon-512x512.png" class="white-label-prefix"><link rel="apple-touch-icon" type="image/png" sizes="180x180" href="/api/v1/white-label/images/icon-180x180-white.png" class="white-label-prefix"><script src="/assets/config.js" defer="defer"></script><script>window.dwLocales = [{"id":"en-au","name":"English (AU)"},{"id":"en-ca","name":"English (CA)"},{"id":"en-gb","name":"English (GB)"},{"id":"en-nl","name":"English (NL)"},{"id":"en-sg","name":"English (SG)"},{"id":"en-us","name":"English (US)"},{"id":"fr-fr","name":"French (FR)"},{"id":"fr-ca","name":"French (CA)"},{"id":"ru-ru","name":"Russian (RU)"},{"id":"ru-ua","name":"Russian (UA)"}];</script><link href="//fonts.googleapis.com/css?family=Lato:300,400" rel="stylesheet"><link href="/api/v1/white-label/vars.css" rel="stylesheet" id="vars-css"><link href="vendors~98c0d023.css?_rev=5b93c58402967020abb8" rel="stylesheet"><link href="vendors~1d14d743.css?_rev=d75345a19fd097e7eaa0" rel="stylesheet"><link href="main~493df0b3.css?_rev=59fde79446a7c793cb8b" rel="stylesheet"><link href="main~f075b844.css?_rev=82510b4819df9adb8f3e" rel="stylesheet"><link href="main~1d875263.css?_rev=a73d73ceed3dc2d7a6f8" rel="stylesheet"><link href="main~81cc718f.css?_rev=c673a67c345b61af1ce1" rel="stylesheet"><link href="main~dfa8dfae.css?_rev=80ccda09aeb685fe17c8" rel="stylesheet"><link href="main~df96138e.css?_rev=d4a8bc1ef17c5b99b581" rel="stylesheet"><link href="main~89db6124.css?_rev=b4522cd70830c4043f51" rel="stylesheet"></head><body class="ff-spin"><noscript>Please enable JavaScript in browser settings to access this application.</noscript><!--[if lte IE 9]>
 <div class="error-list" style="z-index: 999">
   <div class="alert alert-danger" role="alert">
     Sorry, IE9 not supported. Please use Edge / Chrome / Firefox / Safari browsers.
   </div>
 </div>
-<![endif]-->
-
-<snap-content class="ff-dim-app" ff-dim="appDim">
-  <div class="snap-content-scroller" scroll-pointer-events-none>
-    <div class="snap-content-wrapper" ng-class="{landing: landing}">
-      <div class="menu-button fa fa-bars ng-cloak" snap-toggle="left" ng-hide="hideSidebar"></div>
-
-      <header role="banner" class="header" ng-if="!$app.hideHeader"
-              ng-class="{ 'inelastic-banner': wl.getProperty('--elastic-banner') === 'false' }">
-        <div class="header-logo">
-          <a href="{{wlLinks.homepageUrl}}" title="{{wlLinks.companyName}}" target="_blank" rel="noopener">
-            <img src="/api/v1/white-label/images/logo.png" class="white-label-prefix">
-          </a>
-        </div>
-
-        <div class="header-banner">
-          <div class="sidebar-logo logo-fake" style="width: 220px;">
-            <img src="/api/v1/white-label/images/logo.png" class="white-label-prefix">
-          </div>
-          <img src="/api/v1/white-label/images/banner.jpg" class="white-label-prefix">
-        </div>
-      </header>
-
-      <main role="main" class="main" ng-view></main>
-
-      <div class="snap-dragger ng-cloak" snap-dragger ng-hide="hideSidebar"></div>
-    </div>
-  </div>
-</snap-content>
-
-<sidebar snap-drawer scroll-pointer-events-none></sidebar>
-
-<dw-alerts></dw-alerts>
-
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+<![endif]--><snap-content class="ff-dim-app" ff-dim="appDim"><div class="snap-content-scroller" scroll-pointer-events-none><div class="snap-content-wrapper" ng-class="{landing: landing}"><div class="menu-button fa fa-bars ng-cloak" snap-toggle="left" ng-hide="hideSidebar"></div><header role="banner" class="header" ng-if="!$app.hideHeader" ng-class="{ 'inelastic-banner': wl.getProperty('--elastic-banner') === 'false' }"><div class="header-logo"><a href="{{wlLinks.homepageUrl}}" title="{{wlLinks.companyName}}" target="_blank" rel="noopener"><img src="/api/v1/white-label/images/logo.png" class="white-label-prefix"></a></div><div class="header-banner"><div class="sidebar-logo logo-fake" style="width: 220px;"><img src="/api/v1/white-label/images/logo.png" class="white-label-prefix"></div><img src="/api/v1/white-label/images/banner.jpg" class="white-label-prefix"></div></header><main role="main" class="main" ng-view></main><div class="snap-dragger ng-cloak" snap-dragger ng-hide="hideSidebar"></div></div></div></snap-content><sidebar snap-drawer scroll-pointer-events-none></sidebar><dw-alerts></dw-alerts><script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
     (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
     m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
   })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-  ga('create', 'UA-61562577-1', 'auto');
-</script>
-<script type="text/javascript" src="runtime.js?_rev=4a97e976f7fe87eac918"></script><script type="text/javascript" src="vendors~9b1fde68.js?_rev=74d4497e1bda017e6bea"></script><script type="text/javascript" src="vendors~74226ea0.js?_rev=437d163ee7a75ae0a227"></script><script type="text/javascript" src="vendors~c796a8a1.js?_rev=3729d8a5ae8b012950a9"></script><script type="text/javascript" src="vendors~98c0d023.js?_rev=e194c1236c94b84cc623"></script><script type="text/javascript" src="vendors~3c1e547b.js?_rev=f28ffb5b2deded7c8f1b"></script><script type="text/javascript" src="vendors~6ed7f4ec.js?_rev=b41bdb74170471b85bb6"></script><script type="text/javascript" src="vendors~7e966a1e.js?_rev=80d8ca5e5de697d54c65"></script><script type="text/javascript" src="vendors~710ae2cc.js?_rev=cca813f53c258b48195d"></script><script type="text/javascript" src="vendors~c7b8ce09.js?_rev=4999dcc8da4a80d66682"></script><script type="text/javascript" src="vendors~1d14d743.js?_rev=712349b30c60d3538458"></script><script type="text/javascript" src="vendors~c88c8c89.js?_rev=ebb3ab2f8ef4a2cf0424"></script><script type="text/javascript" src="vendors~ce726c1a.js?_rev=f5d6d00b584917f6d1c5"></script><script type="text/javascript" src="vendors~319fb7d7.js?_rev=bd19904922a04595732b"></script><script type="text/javascript" src="vendors~ce893d0f.js?_rev=a598f550dc69c2b09a6b"></script><script type="text/javascript" src="vendors~57d0b60b.js?_rev=c7122a18f4d650462109"></script><script type="text/javascript" src="vendors~cc905d91.js?_rev=4c8b2a4ebaaaf60d59f1"></script><script type="text/javascript" src="vendors~e4dfd1bd.js?_rev=814cadf56ea3ec73bc87"></script><script type="text/javascript" src="vendors~49492de1.js?_rev=258e514f2d38a2ec5c46"></script><script type="text/javascript" src="main~493df0b3.js?_rev=ef36002a1a518570ccb3"></script><script type="text/javascript" src="main~f075b844.js?_rev=f0948c0721f5a34db42f"></script><script type="text/javascript" src="main~1d875263.js?_rev=870978d51185655e0f5c"></script><script type="text/javascript" src="main~dfa8dfae.js?_rev=aac40418ec4416843b2a"></script><script type="text/javascript" src="main~2a3f8e31.js?_rev=6ced855c453ac1c8bb58"></script><script type="text/javascript" src="main~3d4431b1.js?_rev=8a69eb1f3c87ee0cae6c"></script><script type="text/javascript" src="main~89db6124.js?_rev=35c54e9ec363a4951a13"></script></body>
-</html>
+  ga('create', 'UA-61562577-1', 'auto');</script><script src="runtime.js?_rev=76a0c7bbdf9dc0f1eaf2"></script><script src="vendors~9b1fde68.js?_rev=0bb3210451e8d53da50a"></script><script src="vendors~74226ea0.js?_rev=634d9b8b45440cb0279f"></script><script src="vendors~c796a8a1.js?_rev=0269f8eec346cf49bef5"></script><script src="vendors~98c0d023.js?_rev=160f98d32ccb03940a75"></script><script src="vendors~3c1e547b.js?_rev=6361fec47b086855c45d"></script><script src="vendors~6ed7f4ec.js?_rev=86de861866ab71fea655"></script><script src="vendors~7e966a1e.js?_rev=c1f5013f73cd2e04c8e4"></script><script src="vendors~710ae2cc.js?_rev=8d7c31993bed0fac6497"></script><script src="vendors~c7b8ce09.js?_rev=74a83b13089ad9a013ea"></script><script src="vendors~1d14d743.js?_rev=b12e48a7efcf96a0e65e"></script><script src="vendors~c88c8c89.js?_rev=eb67be4fe3205c06d7d9"></script><script src="vendors~ce726c1a.js?_rev=b38e17b7dfbc11b406a9"></script><script src="vendors~319fb7d7.js?_rev=38a6111827ee9529e949"></script><script src="vendors~ce893d0f.js?_rev=4ed88328929f39b35ef8"></script><script src="vendors~57d0b60b.js?_rev=cf03489a0852bd8e61f1"></script><script src="vendors~cc905d91.js?_rev=34d0b8150ac7e1aa461f"></script><script src="vendors~e4dfd1bd.js?_rev=0c526e529e8edb1abd4b"></script><script src="vendors~49492de1.js?_rev=f1db1bc53a068ec08ae4"></script><script src="main~493df0b3.js?_rev=0dcdc345a54ed7dfe515"></script><script src="main~f075b844.js?_rev=06ea152e551fde8560a7"></script><script src="main~1d875263.js?_rev=2eb72dd0dfb1f60fb32b"></script><script src="main~81cc718f.js?_rev=3af84b5f4bec0ddb2d7b"></script><script src="main~dfa8dfae.js?_rev=1516618747df9a284d9f"></script><script src="main~df96138e.js?_rev=cd097e978d2a3c808bf1"></script><script src="main~3d4431b1.js?_rev=3ce1bae78717e789155f"></script><script src="main~89db6124.js?_rev=4caa70246db6d92e2d46"></script></body></html>

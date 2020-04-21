@@ -1,8 +1,16 @@
 {
   "RESERVATION_UTILIZATION_REPORT": {
-    "REPORT_NAME": "Отчет об использовании резервирования",
+    "REPORT_NAME": "Reservation Utilization Report",
 
-    "CHART.HEADER": "Суммарное использование резервационных юнитов",
-    "CHART.TOTAL_TIME": "Всего времени"
+    "MODE": "Mode",
+    "MODE.DETAILED_ACTUAL": "Detailed Actual",
+    "MODE.ACTUAL_EXPECTED": "Actual / Expected",
+
+    "COLUMNS.EXPECTED_USAGE": "Expected Usage",
+    "COLUMNS.ACTUAL_USAGE": "Actual Usage",
+    "COLUMNS.UTILIZATION": "Utilization",
+
+    "CHART.HEADER": "Utilization of Reservation Units",
+    "CHART.TOTAL_TIME": "Total Time"
   }
 }
