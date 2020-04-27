@@ -64,8 +64,8 @@
 		"OUTSTANDING_CHARGES.TOTAL": "Total",
 
 		"GENERAL_INFO.HEADER": "<b>Informations générales</b>",
-		"GENERAL_INFO.RESERVATION_CREDIT_BALANCE": "Vous avez <b>{{reservationCreditBalance}}</b> restants en <b>crédits de réservation</b> ce mois-ci, excluant vos réservations à venir.",
-		"GENERAL_INFO.PASS_BALANCE": "Vous avez <b>{{passBalance}} {{passProductName}}</b> passes restantes cette période-ci, excluant vos réservations à venir.",
+		"GENERAL_INFO.CREDIT_BALANCE": "You have <b>{{amount}}</b> left in <b>{{productName}}</b> reservation credits for this month, not including your upcoming reservations.",
+		"GENERAL_INFO.PASS_BALANCE": "You have <b>{{passes}} {{productName}}</b> passes left for this period, not including your upcoming reservations.",
 
 		"GENERAL_INFO.CC_DUE_TO_EXPIRE": "Votre carte de crédit expirera en {{date}}.",
 		"GENERAL_INFO.CC_HAS_EXPIRED": "Votre carte de crédit est expirée depuis {{date}}. SVP ajoutez une autre carte de crédit ou changez or changez le mode de paiement par défaut sur votre profil de facturation.",

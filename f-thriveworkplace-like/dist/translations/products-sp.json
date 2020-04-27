@@ -35,6 +35,7 @@
 		"HIDE_FOR_SIGN_UP": "Hide for Self-Registration?",
 		"HAS_REGISTRATION_FEE": "Has Registration Fee?",
 		"SECURITY_DEPOSIT_AMOUNT": "Security Deposit Amount",
+		"TRACK_ACROSS_ALL_CENTERS": "Track across all centers?",
 		"PASS_SIZE": "Pass Size (hours)",
 		"MIN_PASS": "Min {{minPassUnit}} billed after 1st pass",
 		"MAX_PASS": "Max passes billed per usage",

@@ -1,6 +1,7 @@
 {
 	"CHECK_IN_LOG": {
 		"PAGE_TITLE": "Check-In Log for {{userName}}",
+		"MANUAL.PAGE_TITLE": "Manual Check-In Log for {{userName}}",
 		"NEW.PAGE_TITLE": "New Check In Log Record",
 
 		"EMPTY": "Log is empty",
@@ -9,6 +10,7 @@
 
 		"TIME": "Time",
 		"ACTION": "Action",
+		"NAME": "Name",
 		"LOGIN": "Login",
 		"MAC": "MAC Address",
 		"CHECK_IN": "Check-In",

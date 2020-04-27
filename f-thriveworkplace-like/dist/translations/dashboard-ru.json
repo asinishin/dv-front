@@ -64,8 +64,8 @@
 		"OUTSTANDING_CHARGES.TOTAL": "Сумма",
 
 		"GENERAL_INFO.HEADER": "Общая информация",
-		"GENERAL_INFO.RESERVATION_CREDIT_BALANCE": "У Вас осталось <b>{{reservationCreditBalance}} резервационного кредита</b> на этот месяц, не включая предстоящие резервирования.",
-		"GENERAL_INFO.PASS_BALANCE": "У Вас осталось <b>{{passBalance}}</b> для <b>{{passProductName}}</b> на этот месяц, не включая предстоящие резервирования.",
+		"GENERAL_INFO.CREDIT_BALANCE": "You have <b>{{amount}}</b> left in <b>{{productName}}</b> reservation credits for this month, not including your upcoming reservations.",
+		"GENERAL_INFO.PASS_BALANCE": "You have <b>{{passes}} {{productName}}</b> passes left for this period, not including your upcoming reservations.",
 
 		"GENERAL_INFO.CC_DUE_TO_EXPIRE": "Ваша кредитная карта истекает {{date}}.",
 		"GENERAL_INFO.CC_HAS_EXPIRED": "Ваша кредитная карта истекла {{date}}. Пожалуйста добавьте новую кредитную карту или измените текущий платежный метод в Вашем платежном профиле.",

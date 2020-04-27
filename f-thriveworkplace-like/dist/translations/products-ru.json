@@ -35,6 +35,7 @@
 		"HIDE_FOR_SIGN_UP": "Прятать при само-регистрации?",
 		"HAS_REGISTRATION_FEE": "Имеет взнос при регистрации?",
 		"SECURITY_DEPOSIT_AMOUNT": "Сумма гарантийного депозита",
+		"TRACK_ACROSS_ALL_CENTERS": "Отслеживать по всем центрам?",
 		"PASS_SIZE": "Размер талона (часов)",
 		"MIN_PASS": "Мин. {{minPassUnit}} опл. после 1го талона",
 		"MAX_PASS": "Max passes billed per usage",
