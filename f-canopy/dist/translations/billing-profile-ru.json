@@ -1,0 +1,42 @@
+{
+	"BILLING_PROFILE": {
+		"PAGE_TITLE": "Платежный профиль для {{userName}}",
+
+		"BILLING_METHOD": "Default Payment Method",
+		"BILLING_METHOD.CC": "Credit/Debit Card",
+		"BILLING_METHOD.ACH": "ACH/EFT/Direct Debit",
+		"BILLING_METHOD.EMAIL_INVOICE": "Email Invoice",
+		"BILLING_METHOD.PAPER_INVOICE": "Paper Invoice",
+		"PAYMENT_METHOD": "Payment Method",
+		"PAYMENT_METHOD.EMPTY": "No payment method.",
+
+		"CREDIT_CARDS.HEADER": "Кредитные карты",
+		"CREDIT_CARDS.EMPTY": "Нет кредитных карт.",
+		"CREDIT_CARDS.TYPE": "Тип карты",
+		"CREDIT_CARDS.NUMBER": "Номер",
+		"CREDIT_CARDS.EXPIRY": "Дата истечения",
+		"CREDIT_CARDS.EXPIRY.MONTH": "Месяц истечения",
+		"CREDIT_CARDS.EXPIRY.YEAR": "Год истечения",
+		"CREDIT_CARDS.CVV": "CVV",
+		"CREDIT_CARDS.NAME_ON_CARD": "Имя на карте",
+		"CREDIT_CARDS.ADDRESS": "Адрес на карте",
+		"CREDIT_CARDS.CONFIRM_DELETE": "Вы точно хотите удалить кредитную карту?",
+
+		"E_CHECKS.HEADER": "Е-чек",
+		"E_CHECKS.EMPTY": "Нет е-чеков.",
+		"E_CHECKS.ACCOUNT_HOLDER_TYPE": "Тип владельца аккаунта",
+		"E_CHECKS.ACCOUNT_HOLDER_TYPE.PERSONAL": "Персональный",
+		"E_CHECKS.ACCOUNT_HOLDER_TYPE.BUSINESS": "Бизнес",
+		"E_CHECKS.ACCOUNT_TYPE": "Тип аккаунта",
+		"E_CHECKS.ACCOUNT_TYPE.CHECKING": "Текущий чековый счет",
+		"E_CHECKS.ACCOUNT_TYPE.SAVINGS": "Сберегательный счет",
+		"E_CHECKS.BANK_NAME": "Название банка",
+		"E_CHECKS.ROUTING_NUMBER": "Маршрутный номер",
+		"E_CHECKS.ACCOUNT_NUMBER": "Номер счета",
+		"E_CHECKS.ACCOUNT_NAME": "Имя владельца",
+		"E_CHECKS.CONFIRM_DELETE": "Вы точно хотите удалить е-чек?",
+
+		"REGISTRATION.SKIP_BILLING": "Продолжить без платежных данных",
+		"REGISTRATION.COMPLETE": "Вы успешно зарегистрировали {{userName}}."
+	}
+}

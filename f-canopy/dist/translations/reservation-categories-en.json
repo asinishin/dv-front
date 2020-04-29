@@ -1,0 +1,26 @@
+{
+  "RESERVATION_CATEGORIES": {
+    "PAGE_TITLE": "Reservation Categories",
+    "NEW.PAGE_TITLE": "New Reservation Category",
+    "EDIT.PAGE_TITLE": "Edit Reservation Category",
+
+    "LIST.HINT": "Drag'n'Drop to reorder",
+    "LIST.EMPTY": "No Reservation Categories",
+    "LIST.CATEGORY": "Reservation Category",
+    "LIST.NOTICE": "<div>Cancellation Notice for</div><div>Non-Member / Member (hours)</div>",
+
+    "NAME": "Name",
+    "DESCRIPTION": "Description",
+    "NOTICE_NON_MEMBER": "Cancellation Notice Required for Non-Member",
+    "NOTICE_NON_MEMBER.HINT": "Cancellation Notice email is sent to both non-member and admin. <b class=\"text-nowrap\">0 - no notice required</b>",
+    "NOTICE_MEMBER": "Cancellation Notice Required for Member",
+    "NOTICE_MEMBER.HINT": "Cancellation Notice email is sent to both member and admin. <b class=\"text-nowrap\">0 - no notice required</b>",
+    "HOURS": "hours",
+    "CONFIRM_DELETE": "Are you sure to remove the reservation category?",
+
+    "PHOTOS.HEADER": "Photos",
+    "PHOTOS.HINT": "Recommended minimum size is <strong>1280x640 px</strong>",
+    "PHOTOS.INVALID_FORMAT": "Please use .jpg or .png image format.",
+    "PHOTOS.CONFIRM_DELETE": "Are you sure to remove the photo?"
+  }
+}

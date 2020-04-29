@@ -1,0 +1,20 @@
+{
+	"USER_RESERVATIONS": {
+		"PAGE_TITLE": "Reservations for {{userName}}",
+
+		"FILTER.ALL": "All",
+		"FILTER.UPCOMING": "Upcoming",
+		"FILTER.PAST": "Past",
+
+		"DATE": "Date",
+		"SPACE": "Space",
+		"TIME": "Time",
+		"NOTES": "Notes",
+		"ACCESS_CODE": "Access Code",
+		"ADDED_BY": "Added By",
+		"UPDATED_ON": "Updated On",
+
+		"BTN_NEW": "New Reservation",
+		"CONFIRM_DELETE": "Are you sure to cancel the reservation?"
+	}
+}

@@ -1,1 +1,0 @@
-{"API_SETTINGS":{"PAGE_TITLE":"Настройки API","ALLOWED_HOSTS.HEADER":"Разрешенные хосты","ALLOWED_HOSTS.HINT":"Хосты для <a href=\"https://en.wikipedia.org/wiki/Cross-origin_resource_sharing\" target=\"_blank\">CORS</a> заголовка <b>Access-Control-Allow-Origin</b>","ALLOWED_HOSTS.URL":"URL","ALLOWED_HOSTS.ACTIVE":"Актив.","ALLOWED_HOSTS.EMPTY":"Нет разрешенных хостов."}}

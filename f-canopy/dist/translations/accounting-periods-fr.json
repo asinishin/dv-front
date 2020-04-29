@@ -1,0 +1,18 @@
+{
+	"ACCOUNTING_PERIODS": {
+		"PAGE_TITLE": "Accounting Periods",
+
+		"CLOSE_PERIODS.HEADER": "Close Periods",
+		"PERIOD": "Period",
+		"CLOSED": "Closed",
+		"CLOSED_AT": "Closed On",
+		"CLOSED_BY": "Closed By",
+
+		"AUDIT.HEADER": "Periods Audit",
+		"AUDIT.DATE": "Date",
+		"AUDIT.BY": "By",
+		"AUDIT.DESCRIPTION": "Description",
+		"AUDIT.REOPENED": "{{period}} reopened",
+		"AUDIT.CLOSED": "{{period}} closed"
+	}
+}
