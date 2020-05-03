@@ -35,6 +35,8 @@
     "ENABLE_SECURITY_DEPOSIT_IN_MEMBERSHIP_PRODUCTS.HINT": "Automatically add <b>Security Deposit</b> to order through registration or self-registration, or when adding a new Recurring Billing.",
     "ENABLE_RENEWAL_NOTICES": "Enable Renewal Dates/Notices",
     "ENABLE_RENEWAL_NOTICES.HINT": "Show/hide <b>Renewal Dates</b> and <b>Notice Required By</b> on Recurring Billing page.",
+    "MULTI_LEVEL_PRODUCT_CATEGORY": "Multi-level product categories",
+    "MULTI_LEVEL_PRODUCT_CATEGORY.HINT": "Enables multi-level product categories in <b>Income By Item</b> report.",
 
     "SWEEP.HEADER": "Проводчик",
     "SWEEP_CHARGES": "Проводить резервирования, кредиты и списания в инвойс регулярных платежей",
