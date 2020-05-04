@@ -19,13 +19,19 @@ angular.module('deskworks').config(function(deskworksConfigProvider) {
  * Footer contents customization
  */
 angular.module('deskworks.whitelabel').config(function(whitelabelProvider) {
-	whitelabelProvider.setHeaderTemplateMobile('<a href="https://satellitedeskworks.com/" title="Satellite DeskWorks" target="_blank">Satellite DeskWorks</a>');
-	whitelabelProvider.setHeaderTemplateDesktop('<a href="https://satellitedeskworks.com/" title="Satellite DeskWorks" target="_blank">Satellite DeskWorks</a>');
+	//whitelabelProvider.setHeaderTemplateMobile('<a href="https://canopy.space/" title="CANOPY" target="_blank">CANOPY</a>');
+	whitelabelProvider.setHeaderTemplateDesktop('<a href="https://canopy.space/" title="CANOPY" target="_blank">CANOPY</a>');
 
-	whitelabelProvider.setFooterTemplateMobile('<a href="https://satellitedeskworks.com/" title="Satellite DeskWorks" target="_blank">Satellite DeskWorks</a>');
-	whitelabelProvider.setFooterTemplateDesktop('<div class="inner-footer"><a href="https://satellitedeskworks.com/" title="Satellite DeskWorks" target="_blank">Satellite DeskWorks</a><span>&nbsp;&copy; {{currentYear}} All Rights Reserved</span></div>');
+	// whitelabelProvider.setFooterTemplateDesktop('<a href="https://canopy.space/" title="CANOPY" target="_blank">CANOPY / 2193 Fillmore Street San Francisco, CA 94115 / +1.415.604.3330 / info@canopy.space</a>');
+	whitelabelProvider.setFooterTemplateDesktop('<span><a href="https://canopy.space/" target="_blank">CANOPY</a> / 2193 Fillmore Street San Francisco, CA 94115 / <a href="tel:415.604.3330" target="_blank">+1.415.604.3330</a> / <a href="mailto:info@canopy.space" target="_blank">info@canopy.space</a></span>');
+	whitelabelProvider.setFooterTemplateMobile('<a href="https://canopy.space/" title="CANOPY" target="_blank">&copy; {{currentYear}} CANOPY</a>');
 
-	whitelabelProvider.setSidebarTemplate('<a href="https://satellitedeskworks.com/" title="Satellite DeskWorks" target="_blank">Satellite DeskWorks</a>');
+	whitelabelProvider.setSidebarTemplate('<a href="https://canopy.space/" title="CANOPY" target="_blank">CANOPY</a>');
+	whitelabelProvider.setPageTitlePostfix('CANOPY');
 
-	whitelabelProvider.setPageTitlePostfix('Satellite DeskWorks');
+	whitelabelProvider.setTermsAndConditionsTemplate('CANOPY’s <a href="https://canopy.space/" target="_blank">Terms and Conditions</a>');
+
+	whitelabelProvider.setContactTemplate('<a href="https://canopy.space/contact/" title="Contact Us" target="_blank">Contact</a>');
+
+	document.querySelector('head').innerHTML += '<link href="//fonts.googleapis.com/css?family=Ubuntu:300,400,700" rel="stylesheet" type="text/css">';
 });

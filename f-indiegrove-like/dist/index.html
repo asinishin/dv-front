@@ -1,104 +1,122 @@
-<!-- commit: 5a0eb10d7 -->
 <!DOCTYPE html>
-<html ng-app="deskworks" ng-controller="AppCtrl as $app" class="new-design"
-      ng-class="{ 'sidebar-hidden': hideSidebar, 'sidebar-visible': !hideSidebar, 'hide-banner': $app.hideBanner, [$app.routeClass]: true }">
-
+<html ng-app="deskworks" ng-controller="AppCtrl as $app" ng-class="{ 'sidebar-hidden': hideSidebar, 'sidebar-visible': !hideSidebar, 'hide-footer': hideFooter }">
 <head>
-  <title ng-bind="state.getPageTitle() + ' | ' + wlLinks.companyName">Satellite Deskworks</title>
+	<title ng-bind="state.getPageTitle() + ' | ' + pageTitlePostfix">DeskWorks</title>
 
-  <base href="/">
+	<base href="/">
 
-  <!-- social media tags -->
-  <meta name="twitter:card" content="summary">
-  <meta name="twitter:site" content="@deskworks">
-  <meta name="twitter:title" content="Satellite Deskworks">
-  <meta name="twitter:description" content="Web application for co-working centers.">
-  <meta name="twitter:creator" content="@deskworks">
-  <meta name="twitter:image:src" content="https://satellitedeskworks.com/wp-content/uploads/2016/03/NewDW_splash-01.png">
-  <meta property="og:title" content="Satellite Deskworks">
-  <meta property="og:type" content="website">
-  <meta property="og:url" content="https://satellitedeskworks.com/">
-  <meta property="og:image" content="https://satellitedeskworks.com/wp-content/uploads/2016/03/NewDW_splash-01.png">
-  <meta property="og:description" content="Web application for co-working centers.">
+	<!-- social media tags -->
+	<meta name="twitter:card" content="summary">
+	<meta name="twitter:site" content="@deskworks">
+	<meta name="twitter:title" content="Satellite DeskWorks">
+	<meta name="twitter:description" content="Web application for co-working centers.">
+	<meta name="twitter:creator" content="@deskworks">
+	<meta name="twitter:image:src" content="https://satellitedeskworks.com/wp-content/uploads/2016/03/NewDW_splash-01.png">
+	<meta property="og:title" content="Satellite DeskWorks" />
+	<meta property="og:type" content="website" />
+	<meta property="og:url" content="https://satellitedeskworks.com/" />
+	<meta property="og:image" content="https://satellitedeskworks.com/wp-content/uploads/2016/03/NewDW_splash-01.png" />
+	<meta property="og:description" content="Web application for co-working centers.">
 
-  <meta charset="utf-8">
-  <meta name="viewport" content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, width=device-width">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta charset="utf-8">
+	<meta name="viewport" content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, width=device-width">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-  <meta name="mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-title" content="Deskworks">
-  <meta name="apple-touch-fullscreen" content="yes">
-  <meta name="apple-itunes-app" content="app-id=1438030835">
-  <meta name="theme-color" content="#fff">
+	<meta name="mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-title" content="DeskWorks">
+	<meta name="apple-touch-fullscreen" content="yes">
+	<meta name="theme-color" content="#fff">
 
-  <link rel="icon" type="image/png" sizes="96x96" href="/api/v1/white-label/images/icon-96x96.png" class="white-label-prefix">
-  <link rel="icon" type="image/png" sizes="192x192" href="/api/v1/white-label/images/icon-192x192.png" class="white-label-prefix">
-  <link rel="icon" type="image/png" sizes="512x512" href="/api/v1/white-label/images/icon-512x512.png" class="white-label-prefix">
-  <link rel="apple-touch-icon" type="image/png" sizes="180x180" href="/api/v1/white-label/images/icon-180x180-white.png" class="white-label-prefix">
+	<link rel="icon" type="image/png" href="assets/favicon.png">
+	<link rel="apple-touch-icon" type="image/png" sizes="180x180" href="assets/apple-touch-icon-180x180.png">
 
-  <script src="/assets/config.js" defer></script>
+	<script type="text/javascript">
+     window.dwVersion = '2.3.17';
+     window.dwBundles = '[{"name":"import","serie":true,"files":["assets/xlsx.core.min.js?_rev=33db6fc3a9","assets/handsontable.min.js?_rev=8c2c1ed7f2","assets/es6-promise-pool.js?_rev=4dee178bda","assets/import.tpls.js?_rev=64a287c7dd","assets/import.js?_rev=57b8592b2c"]},{"name":"reports","serie":true,"files":["assets/jspdf.min.js?_rev=cd5f38c26f","assets/jspdf.plugin.autotable.min.js?_rev=02d3b1d9f8","assets/Chart.min.js?_rev=b5c2301eb1","assets/reports.tpls.js?_rev=2b31025e3c","assets/reports.js?_rev=5202fbbd03"]},{"name":"notifications","serie":true,"files":["assets/notifications.tpls.js?_rev=a97cbc8ffa","assets/notifications.js?_rev=358b3e56fc"]},{"name":"communications","serie":true,"files":["assets/communications.tpls.js?_rev=55109dc6d4","assets/communications.js?_rev=946f03f5fe"]},{"name":"accounting","serie":true,"files":["assets/accounting.tpls.js?_rev=fa6d781282","assets/accounting.js?_rev=0a53511a52"]},{"name":"inventory","serie":true,"files":["assets/inventory.tpls.js?_rev=487a763aad","assets/inventory.js?_rev=e6f72e4e11"]},{"name":"system","serie":true,"files":["assets/system.tpls.js?_rev=d12257645d","assets/system.js?_rev=98fc1cfe85"]},{"name":"setup","serie":true,"files":["assets/setup.tpls.js?_rev=452299d770","assets/setup.js?_rev=84791bfb4f"]}]';
+	</script>
 
-  <script>window.dwLocales = [{"id":"en-au","name":"English (AU)"},{"id":"en-ca","name":"English (CA)"},{"id":"en-gb","name":"English (GB)"},{"id":"en-nl","name":"English (NL)"},{"id":"en-sg","name":"English (SG)"},{"id":"en-us","name":"English (US)"},{"id":"fr-fr","name":"French (FR)"},{"id":"fr-ca","name":"French (CA)"},{"id":"ru-ru","name":"Russian (RU)"},{"id":"ru-ua","name":"Russian (UA)"}];</script>
-
-  <link href="//fonts.googleapis.com/css?family=Lato:300,400" rel="stylesheet" type="text/css">
-
-  <link href="/api/v1/white-label/vars.css" rel="stylesheet" id="vars-css">
-
-  <!-- inject:manifest:json -->
-  <!-- endinject -->
-<link href="vendors~98c0d023.css?_rev=5b93c58402967020abb8" rel="stylesheet"><link href="vendors~1d14d743.css?_rev=d75345a19fd097e7eaa0" rel="stylesheet"><link href="main~493df0b3.css?_rev=53658b6c4db15ab6862c" rel="stylesheet"><link href="main~44c6d202.css?_rev=4743657710a16ed4b396" rel="stylesheet"><link href="main~f075b844.css?_rev=5fcdd6bc9cd3695dbecb" rel="stylesheet"><link href="main~1d875263.css?_rev=b369f82e9e452e2e4ac8" rel="stylesheet"><link href="main~dfa8dfae.css?_rev=dbae27a021dfbacc320d" rel="stylesheet"><link href="main~2a3f8e31.css?_rev=691841288edd23ad2f48" rel="stylesheet"><link href="main~89db6124.css?_rev=2e05dfad87e3c178e446" rel="stylesheet"></head>
-
-<body class="ff-spin">
-<noscript>Please enable JavaScript in browser settings to access this application.</noscript>
+	<!-- inject:manifest:json -->
+	<link rel="manifest" href="assets/manifest.json?_rev=f281136a11">
+	<!-- endinject -->
+	<!-- inject:css -->
+	<link rel="stylesheet" href="assets/deskworks.css?_rev=18b69fdd41">
+	<!-- endinject -->
+</head>
+<body  class="ff-spin ff-big-spin">
+	<noscript>Please enable JavaScript in browser settings to access this application.</noscript>
 
 <!--[if lte IE 9]>
-<div class="error-list" style="z-index: 999">
-  <div class="alert alert-danger" role="alert">
-    Sorry, IE9 not supported. Please use Edge / Chrome / Firefox / Safari browsers.
-  </div>
-</div>
+	<div class="error-list" style="z-index: 999">
+		<div class="alert alert-danger" role="alert">
+			Sorry, IE9 not supported. Please use Edge / Chrome / Firefox / Safari browsers.
+		</div>
+	</div>
 <![endif]-->
 
-<snap-content class="ff-dim-app" ff-dim="appDim">
-  <div class="snap-content-scroller" scroll-pointer-events-none>
-    <div class="snap-content-wrapper" ng-class="{landing: landing}">
-      <div class="menu-button fa fa-bars ng-cloak" snap-toggle="left" ng-hide="hideSidebar"></div>
+	<snap-content class="ff-dim-big ff-dim-top" ff-dim="$app.dim">
+		<div class="snap-content-scroller">
+			<div class="snap-content-wrapper" ng-class="{landing: landing}">
+				<div class="menu-button ng-cloak" snap-toggle="left" ng-hide="hideSidebar"></div>
 
-      <header role="banner" class="header" ng-if="!$app.hideHeader"
-              ng-class="{ 'inelastic-banner': wl.getProperty('--elastic-banner') === 'false' }">
-        <div class="header-logo">
-          <a href="{{wlLinks.homepageUrl}}" title="{{wlLinks.companyName}}" target="_blank" rel="noopener">
-            <img src="/api/v1/white-label/images/logo.png" class="white-label-prefix">
-          </a>
-        </div>
+				<header role="banner" class="header" ng-bind-html="getHeaderTemplate()" ng-if="getHeaderTemplate()"></header>
 
-        <div class="header-banner">
-          <div class="sidebar-logo logo-fake" style="width: 220px;">
-            <img src="/api/v1/white-label/images/logo.png" class="white-label-prefix">
-          </div>
-          <img src="/api/v1/white-label/images/banner.jpg" class="white-label-prefix">
-        </div>
-      </header>
+				<main role="main" class="main" ng-view></main>
 
-      <main role="main" class="main" ng-view></main>
+				<footer role="contentinfo" class="footer" ng-bind-html="getFooterTemplate()"></footer>
 
-      <div class="snap-dragger ng-cloak" snap-dragger ng-hide="hideSidebar"></div>
-    </div>
-  </div>
-</snap-content>
+				<div class="snap-dragger ng-cloak" snap-dragger ng-hide="hideSidebar"></div>
+			</div>
+		</div>
+		<!--<div class="menu-button ng-cloak" snap-toggle="left" ng-hide="hideSidebar"></div>-->
+	</snap-content>
 
-<sidebar snap-drawer scroll-pointer-events-none></sidebar>
+	<sidebar snap-drawer></sidebar>
 
-<dw-alerts></dw-alerts>
+	<dw-alerts></dw-alerts>
 
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+	<!-- inject:vendor:js -->
+	<script src="assets/angular.min.js?_rev=ca6464a8e2"></script>
+	<script src="assets/angular-resource.min.js?_rev=280cab2bed"></script>
+	<script src="assets/angular-route.min.js?_rev=85105b9d3c"></script>
+	<script src="assets/textAngular-sanitize.min.js?_rev=aaf57e71ef"></script>
+	<script src="assets/angular-animate.min.js?_rev=87b4f8591c"></script>
+	<script src="assets/ng-file-upload.min.js?_rev=b465220e10"></script>
+	<script src="assets/ngStorage.min.js?_rev=ee45fc1dc9"></script>
+	<script src="assets/textAngular-rangy.min.js?_rev=d3711d9280"></script>
+	<script src="assets/textAngular.min.js?_rev=d5c38503b9"></script>
+	<script src="assets/ocLazyLoad.min.js?_rev=f2d4908265"></script>
+	<script src="assets/angular-drag-and-drop-lists.min.js?_rev=8cb81f5580"></script>
+	<script src="assets/angular-translate.min.js?_rev=043ca33cd1"></script>
+	<script src="assets/angular-translate-loader-partial.min.js?_rev=5f5a1c1b26"></script>
+	<script src="assets/messageformat.min.js?_rev=6c8cc0ffbb"></script>
+	<script src="assets/angular-translate-interpolation-messageformat.min.js?_rev=2e078ea19e"></script>
+	<script src="assets/tmhDynamicLocale.min.js?_rev=df069c5307"></script>
+	<script src="assets/moment.min.js?_rev=8999b8b5d0"></script>
+	<script src="assets/moment-timezone.min.js?_rev=2e73e1d922"></script>
+	<script src="assets/angular-touch.min.js?_rev=4c5030e9d4"></script>
+	<script src="assets/snap.min.js?_rev=672075f9d6"></script>
+	<script src="assets/angular-snap.min.js?_rev=77b3416d74"></script>
+	<script src="assets/angular-modal-service.min.js?_rev=0d05d804af"></script>
+	<script src="assets/websocket-nats.min.js?_rev=6f243ada52"></script>
+	<script src="assets/ng-infinite-scroll.min.js?_rev=189bfa860d"></script>
+	<!-- endinject -->
+	<!-- inject:js -->
+	<script src="assets/locales/locales.js?_rev=ba782fee69"></script>
+	<script src="assets/deskworks.tpls.js?_rev=50ff369f5e"></script>
+	<script src="assets/deskworks.js?_rev=6292a4aa7e"></script>
+	<!-- endinject -->
+	<!-- inject:config:js -->
+	<script src="assets/config.js?_rev=ac9e11e42e"></script>
+	<!-- endinject -->
 
-  ga('create', 'UA-61562577-1', 'auto');
-</script>
-<script type="text/javascript" src="runtime.js?_rev=0625d781a466db0a0532"></script><script type="text/javascript" src="vendors~9b1fde68.js?_rev=8ca98be6950132415136"></script><script type="text/javascript" src="vendors~74226ea0.js?_rev=41fde45bec9797919ac2"></script><script type="text/javascript" src="vendors~c796a8a1.js?_rev=6692d17308d5d5403935"></script><script type="text/javascript" src="vendors~98c0d023.js?_rev=55a7c9ab69137b693301"></script><script type="text/javascript" src="vendors~3c1e547b.js?_rev=d004097cecc5fbbae285"></script><script type="text/javascript" src="vendors~6ed7f4ec.js?_rev=d0c8d552dad18011a123"></script><script type="text/javascript" src="vendors~7e966a1e.js?_rev=1a77758b4e5d6ce07e2f"></script><script type="text/javascript" src="vendors~710ae2cc.js?_rev=cd659ef6c9967c908ae9"></script><script type="text/javascript" src="vendors~c7b8ce09.js?_rev=4b51fc954a4bb7dd0af8"></script><script type="text/javascript" src="vendors~1d14d743.js?_rev=63943d41c85d9a873eaf"></script><script type="text/javascript" src="vendors~c88c8c89.js?_rev=b94a3c8553586025a2c9"></script><script type="text/javascript" src="vendors~ce726c1a.js?_rev=8b4e5cff0eb5bea1defb"></script><script type="text/javascript" src="vendors~319fb7d7.js?_rev=1ce1035836cd131bdb49"></script><script type="text/javascript" src="vendors~ce893d0f.js?_rev=8eef3faa9f28cf7aa29b"></script><script type="text/javascript" src="vendors~57d0b60b.js?_rev=f2e70d2dce01130112f6"></script><script type="text/javascript" src="vendors~cc905d91.js?_rev=65f7811650837a93da5d"></script><script type="text/javascript" src="vendors~e4dfd1bd.js?_rev=96c38fb578f0ecedb3b4"></script><script type="text/javascript" src="vendors~49492de1.js?_rev=8c4cbf0a88f826a4e154"></script><script type="text/javascript" src="main~493df0b3.js?_rev=a033378a474df9febee1"></script><script type="text/javascript" src="main~44c6d202.js?_rev=873369c54066e8301277"></script><script type="text/javascript" src="main~f075b844.js?_rev=b819189d457e4f832cc0"></script><script type="text/javascript" src="main~1d875263.js?_rev=2677ccd79380ede83acf"></script><script type="text/javascript" src="main~dfa8dfae.js?_rev=4a17f47f960145af169f"></script><script type="text/javascript" src="main~2a3f8e31.js?_rev=6ced855c453ac1c8bb58"></script><script type="text/javascript" src="main~3d4431b1.js?_rev=831e061710029b129e0a"></script><script type="text/javascript" src="main~89db6124.js?_rev=1934d61b3046966c79f5"></script></body>
+	<script>
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+				(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+		ga('create', 'UA-61562577-1', 'auto');
+	</script>
+</body>
 </html>
