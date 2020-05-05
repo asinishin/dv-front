@@ -21,6 +21,6 @@
 		"ORDER_BY.MEMBER": "Member",
 		"ORDER_BY.ORDER": "Order",
 
-		"PRODUCT_CATEGORIES_PIE_CHART.HEADER": "Top 10 Product Categories"
+		"PRODUCT_CATEGORIES_PIE_CHART.HEADER": "Totals by Product Categories"
 	}
 }

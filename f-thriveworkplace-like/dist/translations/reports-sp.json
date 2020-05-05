@@ -21,6 +21,7 @@
 
 		"COLUMNS.HEADER": "Check Columns to Include",
 		"COLUMNS.ORDER_BY": "Order By",
+		"COLUMNS.THEN_ORDER_BY": "Then Order By",
 		"COLUMNS.COLUMN": "Report Column",
 		"COLUMNS.TOTALS": "Totals",
 		"COLUMNS.CENTER": "Center",

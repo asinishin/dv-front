@@ -22,6 +22,7 @@
 		"LOGIN_INFO.ADD_ACCESS_CODE": "Add access code",
 		"LOGIN_INFO.MEMBER_DIRECTORY": "Member Directory",
 		"LOGIN_INFO.MEMBER_DIRECTORY_LINK": "Let other members know about you - and connect!",
+		"LOGIN_INFO.DISABLE_GROUP_MAILING": "Do not send group emails",
 
 		"MESSAGE_BOARD_NOTICES": "Email me Message Board posts",
 		"MESSAGE_BOARD_NOTICES.IMMEDIATELY": "When Posted",
@@ -91,6 +92,7 @@
 
 		"DOCUMENTS.HEADER": "Contracts / Documents",
 		"DOCUMENTS.INVALID_FORMAT": "Please use .pdf or .doc or .docx document format.",
+		"DOCUMENTS.VISIBLE_TO_USER": "Visible to user",
 		"DOCUMENTS.BTN_DELETE.HINT": "Delete document",
 
 		"LEAD_SOURCE.HEADER": "How Did You Hear About Us?",

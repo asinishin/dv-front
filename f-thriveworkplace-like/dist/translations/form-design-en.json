@@ -1,0 +1,42 @@
+{
+	"FORM_DESIGN": {
+		"TOOLBAR.HEADER": "Toolbar",
+		"HINT": "Drag'n'Drop to reorder, drag from toolbar to create, drop to trash to delete.",
+		"EMPTY": "Please drag'n'drop from toolbar.",
+
+		"TYPE": "Type",
+		"NAME": "Name",
+		"REQUIRED": "Required",
+		"ACCESS": "Access",
+		"OPTIONS": "Options",
+		"OPTION": "Option",
+
+		"TRASH.HINT": "Drop Items to Remove",
+		"TRASH.CONFIRM": "Are you sure to delete the field?",
+
+		"TYPE.TEXT": "Text",
+		"TYPE.TEXTAREA": "Text Area",
+		"TYPE.DATE": "Date",
+		"TYPE.URL": "URL",
+		"TYPE.EMAIL": "Email",
+		"TYPE.PHONE": "Phone",
+		"TYPE.NUMBER": "Number",
+		"TYPE.CUSTOM_PRICE": "Custom Price",
+		"TYPE.EXTRA_PRICE": "Extra Price",
+		"TYPE.DROPDOWN": "Dropdown",
+		"TYPE.CHECKBOX": "Checkbox"
+	},
+
+	"USER_FIELDS": {
+		"PAGE_TITLE": "User Profile Fields",
+		"CUSTOM.HEADER": "Custom Fields",
+		"SHAREABLE.HEADER": "Shareable Fields"
+	},
+
+	"RESERVATION_FIELDS": {
+		"PAGE_TITLE": "Reservation Fields",
+		"HINT": "Custom reservation fields are displayed in <b>Make a New Reservation</b> form, <b>User Reservations</b>, <b>Reservation Report</b>, <b>Book It Now</b> wizard, and <b>Simple Reservation</b> wizard.",
+		"SHARED.HEADER": "Shared Fields",
+		"SHARED.HINT": "These fields are shared among all reservation categories."
+	}
+}

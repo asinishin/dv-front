@@ -22,6 +22,7 @@
 		"LOGIN_INFO.ADD_ACCESS_CODE": "Добавить код доступа",
 		"LOGIN_INFO.MEMBER_DIRECTORY": "Member Directory",
 		"LOGIN_INFO.MEMBER_DIRECTORY_LINK": "Let other members know about you - and connect!",
+		"LOGIN_INFO.DISABLE_GROUP_MAILING": "Do not send group emails",
 
 		"MESSAGE_BOARD_NOTICES": "Уведомления с доски сообщений",
 		"MESSAGE_BOARD_NOTICES.IMMEDIATELY": "Сразу",
@@ -91,6 +92,7 @@
 
 		"DOCUMENTS.HEADER": "Контракты / Документы",
 		"DOCUMENTS.INVALID_FORMAT": "Используйте документы формата .pdf или .doc или .docx",
+		"DOCUMENTS.VISIBLE_TO_USER": "Visible to user",
 		"DOCUMENTS.BTN_DELETE.HINT": "Удалить документ",
 
 		"LEAD_SOURCE.HEADER": "Откуда Вы узнали о нас?",
