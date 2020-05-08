@@ -1,0 +1,81 @@
+{
+	"DASHBOARD.ADMIN": {
+		"PAGE_TITLE": "Welcome {{userName}}!",
+
+		"NO_PERMISSION": "No permission for center dashboard.",
+
+		"RESERVATIONS.TODAY.HEADER": "You have the following <b>Reservations Today</b>",
+		"RESERVATIONS.TOMORROW.HEADER": "You have the following <b>Reservations Tomorrow</b>",
+		"RESERVATIONS.EMPTY": "No reservations.",
+		"RESERVATIONS.NAVIGATE_TITLE": "View in Reservation Calendar",
+
+		"USERS_CHECKED_IN.HEADER": "<b>People</b> currently <b>checked in</b> at your center",
+		"USERS_CHECKED_IN.EMPTY": "Nobody.",
+		"USERS_CHECKED_IN.NAVIGATE_TITLE": "View User Profile",
+		"USERS_CHECKED_IN.DEVICES": "Devices",
+
+		"ACCESS_CODE.HEADER": "<b>Access Code</b> of the day",
+
+		"BILLING_INFO.HEADER": "<b>Billing</b> Info",
+		"BILLING_INFO.INCOME": "Income this month",
+		"BILLING_INFO.INCOME.NAV_TITLE": "Go to Income Report",
+		"BILLING_INFO.ACCOUNTS_RECEIVABLE": "Current Accounts Receivable",
+		"BILLING_INFO.ACCOUNTS_RECEIVABLE.NAV_TITLE": "Go to Accounts Receivable Report",
+		"BILLING_INFO.CC_EXPIRE": "Credit cards expiring this month",
+		"BILLING_INFO.CC_EXPIRE.NAV_TITLE": "View Billing Profile",
+		"BILLING_INFO.CC_EXPIRE.DEFAULT_PAYMENT_METHOD": "This is <b>default payment method</b>.",
+
+		"SIGN_UPS.HEADER": "People currently <b>self-registering</b> as members",
+		"SIGN_UPS.EMPTY": "Nobody.",
+		"SIGN_UPS.NAV_TITLE": "View User Profile",
+		"SIGN_UPS.STAFF_HELP": "Member requested staff help during self-registration.",
+		"SIGN_UPS.ABANDONED": "Member abandoned self-registration and not requested staff help.",
+
+		"RESERVATION_CONFLICTS.HEADER": "You have the following <b>Reservation Conflicts</b>",
+		"RESERVATION_CONFLICTS.EMPTY": "No conflicts.",
+		"RESERVATION_CONFLICTS.NAV_TITLE": "View in Reservation Calendar",
+		"RESERVATION_CONFLICTS.RESET_BTN_TITLE": "Reset conflict",
+
+		"USER_DASHBOARD_TITLE": "Dashboard for {{userName}}!"
+	},
+
+	"DASHBOARD.USER": {
+		"PAGE_TITLE": "Welcome {{userName}}!",
+
+		"UPCOMING_RESERVATIONS.HEADER": "<b>Upcoming Reservations</b>",
+		"UPCOMING_RESERVATIONS.DATE": "Date",
+		"UPCOMING_RESERVATIONS.TIME": "Time",
+		"UPCOMING_RESERVATIONS.SPACE": "Space",
+		"UPCOMING_RESERVATIONS.ACCESS_CODE": "Access Code",
+
+		"RECURRING_CHARGES.HEADER": "<b>Recurring Charges</b> scheduled on your account",
+		"RECURRING_CHARGES.EMPTY": "No recurring charges.",
+		"RECURRING_CHARGES.QUANTITY": "Qty",
+		"RECURRING_CHARGES.NAME": "Name",
+		"RECURRING_CHARGES.DESCRIPTION": "Description",
+		"RECURRING_CHARGES.CHARGE_DATE": "Charge Date",
+		"RECURRING_CHARGES.TOTAL": "Total",
+
+		"OUTSTANDING_CHARGES.HEADER": "<b>Outstanding Charges</b> pending on your account",
+		"OUTSTANDING_CHARGES.QUANTITY": "Qty",
+		"OUTSTANDING_CHARGES.NAME": "Name",
+		"OUTSTANDING_CHARGES.DESCRIPTION": "Description",
+		"OUTSTANDING_CHARGES.PRICE": "Price",
+		"OUTSTANDING_CHARGES.TOTAL": "Total",
+
+		"GENERAL_INFO.HEADER": "<b>General</b> Info",
+		"GENERAL_INFO.CREDIT_BALANCE": "You have <b>{{amount}}</b> left in <b>{{productName}}</b> reservation credits for this month, not including your upcoming reservations.",
+		"GENERAL_INFO.PASS_BALANCE": "You have <b>{{passes}} {{productName}}</b> passes left for this period, not including your upcoming reservations.",
+
+		"GENERAL_INFO.CC_DUE_TO_EXPIRE": "Your credit card is due to expire on {{date}}.",
+		"GENERAL_INFO.CC_HAS_EXPIRED": "Your credit card has expired on {{date}}. Please add new credit card or change default payment method in your billing profile.",
+
+		"WEB_APP.HEADER": "Hint: <b>Mobile Application</b>",
+		"WEB_APP.BODY": "To add this web app to the home screen: tap {{icon}} and then <b>Add to Home Screen</b>.",
+		"WEB_APP.BODY.IOS": "To add this web app to the home screen: tap {{icon}} below and then <b>Add to Home Screen</b>.",
+
+		"MESSAGE_BOARD.HEADER": "Last messages from <b>Message Board</b>",
+		"MESSAGE_BOARD.MORE": "...MORE",
+		"MESSAGE_BOARD.BTN_POST": "Post to Message Board"
+	}
+}

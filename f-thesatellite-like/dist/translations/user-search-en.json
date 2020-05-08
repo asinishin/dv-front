@@ -1,0 +1,39 @@
+{
+	"USER_SEARCH": {
+		"PAGE_TITLE": "User Search",
+
+		"FILTERS.ALL": "All",
+		"FILTERS.ACTIVE_MEMBERS": "Active Members",
+		"FILTERS.INACTIVE_MEMBERS": "Inactive Members",
+		"FILTERS.ACTIVE_CO_MEMBERS": "Active Co-Members",
+		"FILTERS.INACTIVE_CO_MEMBERS": "Inactive Co-Members",
+		"FILTERS.NON_MEMBERS": "Non-Members",
+		"FILTERS.CHECKED_IN": "Only Checked In",
+
+		"COLUMNS.FIRST_NAME": "First Name",
+		"COLUMNS.LAST_NAME": "Last Name",
+		"COLUMNS.COMPANY": "Company",
+		"COLUMNS.EMAIL": "E-mail",
+		"COLUMNS.LOGIN": "Login",
+		"COLUMNS.PHONE": "Phone",
+		"COLUMNS.ACCESS_CODE": "Access Code",
+		"COLUMNS.PRINTER_CODE": "Printer Code",
+		"COLUMNS.MAILBOX_NUMBER": "Mailbox #",
+		"COLUMNS.MAILBOX_NAME": "Mailbox Name",
+		"COLUMNS.OCCUPATION": "Occupation",
+		"COLUMNS.JOIN_DATE": "Join Date",
+		"COLUMNS.PAYOR": "Payor",
+		"COLUMNS.PAYOR.HINT": "The last 4 digits of credit cards or the last 4 digits of bank accounts.",
+		"COLUMNS.MAC_ADDRESS": "MAC Address",
+
+		"ACTIVATED_AT": "Activated At",
+		"ADVANCED_SEARCH": "Advanced Search",
+		"SHOW": "Show",
+		"SHOW.HINT": "Show column in results",
+		"BTN_SEARCH": "Search",
+		"BTN_SELECT.HINT": "Select User",
+		"RESULTS.HEADER": "Search Results: {{count}}",
+		"PREV_RESULTS.HEADER": "Previous Search Results: {{count}}",
+		"MASTER_USER.HINT": "This member is <b>{{company}}</b> company administrator."
+	}
+}
