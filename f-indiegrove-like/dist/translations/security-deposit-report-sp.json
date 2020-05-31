@@ -1,0 +1,17 @@
+{
+	"SECURITY_DEPOSIT_REPORT": {
+		"REPORT_NAME": "Security Deposit Report",
+
+		"COLUMNS.USER_NAME": "Name",
+		"COLUMNS.COMPANY": "Company",
+		"COLUMNS.NOTES": "Notes",
+		"COLUMNS.DATE": "Date",
+		"COLUMNS.AMOUNT": "Amount",
+		"COLUMNS.BALANCE": "Balance",
+		"COLUMNS.ORDER_ID": "Order #",
+
+		"TOTALS.TOTAL": "Total",
+
+		"SHOW_DETAILS": "Show Details"
+	}
+}

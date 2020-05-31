@@ -1,0 +1,37 @@
+{
+	"USAGE_TRACKING": {
+		"PAGE_TITLE": "Usage for {{userName}}",
+
+		"DATE": "Date",
+		"USAGE_AMOUNT": "Usage Amount",
+		"CREDITS_APPLIED": "Credits Applied",
+		"REFILL": "Refill",
+		"IS_BILLED": "Is Billed",
+
+		"FACILITY": "Center",
+		"FACILITY.ALL": "For All",
+		"PRODUCT": "Product",
+		"SOURCE": "Source",
+		"SOURCE.RESERVATION": "Reservation",
+		"SOURCE.NETWORK": "Network",
+		"SOURCE.MANUAL": "Manual",
+		"FROM": "From",
+		"TO": "To",
+		"HOURS": "Hours",
+		"PASSES": "Passes",
+		"PRICE": "Price",
+		"AMOUNT": "Amount",
+		"BTN_COLLAPSE.HINT": "View Usage Log",
+
+		"OPENING_BALANCE": "Opening Credit Balance",
+		"REFILLS": "Buckets Refilled",
+		"USAGE_LOG": "Usage Log",
+		"USAGE_TOTALS": "Usage Totals",
+		"USAGE_TO_CHARGE": "Usage To Charge",
+		"CLOSING_BALANCE": "Closing Credit Balance",
+
+		"CREDIT_TYPE.RESERVATION": "Reservation Credit",
+		"CREDIT_TYPE.PASS": "Pass Credit",
+		"CREDIT_TYPE.BUCKET": "Bucket Credit"
+	}
+}

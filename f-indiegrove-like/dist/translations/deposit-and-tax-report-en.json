@@ -1,0 +1,31 @@
+{
+  "DEPOSIT_AND_TAX_REPORT": {
+    "REPORT_NAME": "Deposit And Tax Report",
+
+    "COLUMNS": {
+      "NAME": "Name",
+      "COMPANY": "Company",
+      "ORDER_ID": "Order #",
+      "ITEM": "Item",
+      "ITEM_CODE": "P/N",
+      "TAXABLE_AMOUNT": "Taxable Amount",
+      "NON_TAXABLE_AMOUNT": "Non-taxable Amount",
+      "SUBTOTAL": "Subtotal",
+      "TAX": "Tax",
+      "TOTAL": "Total"
+    },
+
+    "TOTAL_DAILY": "Daily Total",
+    "TOTAL_PAYMENT_METHOD": "Payment Method Total",
+    "TOTAL_TAXABLE_AMOUNT": "Total Taxable Amount",
+    "TOTAL_NON_TAXABLE_AMOUNT": "Total Non-taxable Amount",
+    "TOTAL_CHARGES": "Charges",
+    "TOTAL_TAX": "Tax",
+    "GRAND_TOTAL": "Grand Total",
+    "TOTAL_MEMBERSHIP": "Total Memberships",
+    "TOTAL_REGISTRATION": "Total Registration",
+    "TOTAL_RENTAL": "Total Rental Hours",
+    "TOTAL_PRINT": "Total Print",
+    "TOTAL_SERVICES": "Total Services"
+  }
+}

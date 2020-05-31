@@ -1,0 +1,12 @@
+{
+	"API_SETTINGS": {
+		"PAGE_TITLE": "API Settings",
+
+		"ALLOWED_HOSTS.HEADER": "Allowed Hosts",
+		"ALLOWED_HOSTS.HINT": "Hosts for <a href=\"https://en.wikipedia.org/wiki/Cross-origin_resource_sharing\" target=\"_blank\" rel=\"noopener\">CORS</a> header <b>Access-Control-Allow-Origin</b>",
+		"ALLOWED_HOSTS.URL": "URL",
+		"ALLOWED_HOSTS.ACTIVE": "Active",
+		"ALLOWED_HOSTS.EMPTY": "No allowed hosts.",
+		"ALLOWED_HOSTS.CONFIRM_DELETE": "Are you sure to delete the host?"
+	}
+}

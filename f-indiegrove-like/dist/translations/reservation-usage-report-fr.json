@@ -1,0 +1,9 @@
+{
+  "RESERVATION_USAGE_REPORT": {
+    "REPORT_NAME": "Reservation Usage Report",
+
+    "COLUMNS.RESERVATION_COST": "Reservation Charges",
+    "COLUMNS.RES_CREDITS_APPLIED": "Reservation Credits Used",
+    "COLUMNS.RES_COST_BALANCE": "Balance Charged"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "SH_CODES": {
+    "HEADER": "Short Codes",
+    "HINT": "Use these short codes in the email template above",
+
+    "CENTER_NAME": "Center name",
+    "COMPANY_NAME": "Company name (center owner company)",
+
+    "MEMBER_NAME": "Member full name",
+    "FIRST_NAME": "Member first name",
+    "LAST_NAME": "Member last name",
+    "MEMBER_LOGIN": "Member login",
+    "USER_NAME": "User full name",
+    "USER_FIRST_NAME": "User first name",
+    "USER_LAST_NAME": "User last name",
+
+    "MESSAGES": "New messages from Message Board"
+  }
+}
