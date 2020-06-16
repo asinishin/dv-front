@@ -13,10 +13,13 @@
 		"HEADER.DUE_DATE": "Date d'échéance",
 
 		"COLUMNS.DATE": "Date",
+		"COLUMNS.DATE_ADDED": "Date Added",
 		"COLUMNS.ITEM": "Item",
 		"COLUMNS.DESCRIPTION": "Description",
 		"COLUMNS.RATE": "Taux",
-		"COLUMNS.QUANTITY": "Qté",
+		"COLUMNS.PRICE": "Price",
+		"COLUMNS.QTY": "Qté",
+		"COLUMNS.QUANTITY": "Quantity",
 		"COLUMNS.AMOUNT": "Montant",
 
 		"RECURRING": "Items récurrents",
@@ -28,6 +31,7 @@
 		"SUBTOTAL": "Sous-total",
 		"CHARGES": "Charges",
 		"BALANCE": "Solde",
+		"TOTAL": "Total",
 
 		"ADDRESS.HEADER": "Adresse de facturation",
 		"ADDRESS.BTN_SELECT": "Sélectionner",
@@ -47,6 +51,8 @@
 
 		"PAYMENTS.HEADER": "Paiements",
 		"PAYMENTS.DATE": "Date",
-		"PAYMENTS.AMOUNT": "Montant"
+		"PAYMENTS.AMOUNT": "Montant",
+
+		"ALTERNATE.FOOTER": "Thank you for being a member at {{company}}"
 	}
 }

@@ -30,6 +30,7 @@
 		"REPEAT_FREQUENCY.MONTHLY": "Каждый месяц в тот же день",
 		"REPEAT_FREQUENCY.MONTHLY_WEEKLY": "Каждый месяц в тот же день недели",
 		"REPEAT_DURATION": "Длительность",
+		"REPEAT_DURATION.LABEL": "Repeat Duration",
 
 		"BTN_CREATE": "Зарезервировать",
 		"BTN_UPDATE": "Обновить",
@@ -42,6 +43,10 @@
 		"TIME_SELECTOR.FROM": "Начало",
 		"TIME_SELECTOR.TO": "Конец",
 		"TIME_SELECTOR.BTN_CLEAR": "Сбросить выбор времени",
+		"TIME_SELECTOR.SLOT.AVAILABLE": "Available time slot: {{from}} - {{to}}",
+		"TIME_SELECTOR.SLOT.UNAVAILABLE": "Unavailable time slot: {{from}} - {{to}}",
+		"TIME_SELECTOR.SLOT.RESERVED": "Reserved time slot: {{from}} - {{to}}",
+		"TIME_SELECTOR.SLOT.SELECTED": "Selected time slot: {{from}} - {{to}}",
 
 		"DATE_SELECTOR.DAY.PREV.HINT": "Предыдущий день",
 		"DATE_SELECTOR.DAY.NEXT.HINT": "Следующий день",

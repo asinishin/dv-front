@@ -67,6 +67,9 @@
 		"DISCOUNT.BTN_RECORD": "Record Discount",
 		"DISCOUNT.AMOUNT.NEGATIVE": "Discount should be greater than zero",
 
+		"DISCOUNT_CODE": "Discount Code",
+		"DISCOUNT_CODE.BTN_APPLY": "Apply",
+
 		"REFUND.BTN_ADD": "Add a Refund",
 		"REFUND.HEADER": "Refund",
 		"REFUND.BTN_SUBMIT": "Submit Refund",
@@ -89,6 +92,7 @@
 		"CHARGES.NOTES": "Notes",
 		"CHARGES.BTN_ADD": "Add Charge",
 		"CHARGES.CUSTOM": "Custom",
+		"CHARGES.ADD_CHARGES": "Add {{chargeType}}",
 
 		"LIST.PAGE_TITLE": "Purchases for {{userName}} in {{centerName}}",
 		"LIST.CREDIT.HEADER": "Credit Orders",

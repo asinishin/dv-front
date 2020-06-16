@@ -30,6 +30,7 @@
 		"REPEAT_FREQUENCY.MONTHLY": "Every month on same date",
 		"REPEAT_FREQUENCY.MONTHLY_WEEKLY": "Monthly on same day of week",
 		"REPEAT_DURATION": "for the next",
+		"REPEAT_DURATION.LABEL": "Repeat Duration",
 
 		"BTN_CREATE": "Make Reservation",
 		"BTN_UPDATE": "Update Reservation",
@@ -43,6 +44,10 @@
 		"TIME_SELECTOR.FROM": "From",
 		"TIME_SELECTOR.TO": "To",
 		"TIME_SELECTOR.BTN_CLEAR": "Clear time selection",
+		"TIME_SELECTOR.SLOT.AVAILABLE": "Available time slot: {{from}} - {{to}}",
+		"TIME_SELECTOR.SLOT.UNAVAILABLE": "Unavailable time slot: {{from}} - {{to}}",
+		"TIME_SELECTOR.SLOT.RESERVED": "Reserved time slot: {{from}} - {{to}}",
+		"TIME_SELECTOR.SLOT.SELECTED": "Selected time slot: {{from}} - {{to}}",
 
 		"DATE_SELECTOR.DAY.PREV.HINT": "Prev Day",
 		"DATE_SELECTOR.DAY.NEXT.HINT": "Next Day",

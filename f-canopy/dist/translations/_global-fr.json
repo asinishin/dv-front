@@ -95,6 +95,7 @@
     "VALIDATION.DATE_BEFORE": "{{field}} devrait être avant {{value}}",
     "VALIDATION.DATE_AFTER": "{{field}} devrait être après {{value}}",
     "VALIDATION.DATE_DIFF": "La différence entre {{field}} et {{refField}} devrait être moins que {{value}} heures",
+    "VALIDATION.FONT": "Invalid name of Google Font",
 
     "FORBID_STAFF.HEADER": "Forbidden",
     "FORBID_STAFF.TEXT": "Staff must sign out before this action.",
@@ -103,10 +104,15 @@
     "POSITION": "#",
     "POSITION.HINT": "Position",
 
-    "INVALID_IMAGE_FORMAT": "Please use PNG or JPEG image format."
+    "INVALID_IMAGE_FORMAT": "Please use PNG or JPEG image format.",
+
+    "DATEPICKER": "Date Picker",
+    "PREV_MONTH": "Previous Month",
+    "NEXT_MONTH": "Next Month"
   },
 
   "SIDEBAR": {
+    "SIDEBAR": "Sidebar",
     "CURRENT_CENTER": "Centrale actuelle",
     "CURRENT_USER": "Compagnie / Membre activé",
     "CURRENT_USER.LABEL": "Cliquez pour sélectionner...",

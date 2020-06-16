@@ -10,6 +10,7 @@
 		"BTN_SEND": "Послать письма",
 		"BTN_SEND.HINT": "Послать письма членам",
 		"BTN_VIEW_RECIPIENTS": "Список получателей",
+		"BTN_SAVE_TEMPLATE": "Save Template",
 
 		"OPTIONS.HEADER": "Опции",
 		"OPTIONS.MEMBERSHIP": "Членство",
