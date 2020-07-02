@@ -32,7 +32,7 @@
 		"ALLOW_RESERVATION_CREDITS": "Peut-être utilisé avec les crédits de réservation",
 		"BUY_ON_SPLASH_PAGE": "Peut être acheté sur la Splash Page?",
 		"TAXABLE": "Taxable?",
-		"HIDE_FOR_SIGN_UP": "Cacher lors de l'auto-enregistrement?",
+		"SHOW_FOR_SIGN_UP": "Show for Self-Registration?",
 		"HAS_REGISTRATION_FEE": "A des coûts d'inscription?",
 		"SECURITY_DEPOSIT_AMOUNT": "Security Deposit Amount",
 		"TRACK_ACROSS_ALL_CENTERS": "Track across all centers?",

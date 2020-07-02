@@ -19,6 +19,8 @@
 		"GENERAL.BILLING_FREQUENCY.ANNUAL": "Annual",
 		"GENERAL.BILLING_FREQUENCY.AS_NEEDED": "As Needed",
 		"GENERAL.PRODUCT": "Product",
+		"GENERAL.CUSTOM_PRICE": "Custom Price",
+		"GENERAL.CUSTOM_PRICE.HINT": "If specified, overrides standard product price displayed in product name above. Maintained until Renewal Date.",
 		"GENERAL.PRICE_LIST": "Price List",
 		"GENERAL.DESCRIPTION": "Description",
 		"GENERAL.QUANTITY": "Quantity",

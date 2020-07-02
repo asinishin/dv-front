@@ -16,7 +16,9 @@
     "CC_ADDRESS_OPTIONAL": "Do not require address for credit cards",
     "CC_ADDRESS_OPTIONAL.HINT": "Credit card processor may charge higher rate without address.",
     "GTM_CONTAINER_ID": "Google Tag Manager container ID",
-    "GTM_CONTAINER_ID.HINT": "Specify your GTM container ID to enable tracking or leave it empty to disable tracking.",
+    "GTM_CONTAINER_ID.HINT": "Specify your <a href=\"https://tagmanager.google.com/\" target=\"_blank\" rel=\"noopener\">GTM</a> container ID to enable tracking or leave it empty to disable tracking.",
+    "AFFILIATLY_ID": "Affiliatly ID",
+    "AFFILIATLY_ID.HINT": "Enables <a href=\"https://www.affiliatly.com/\" target=\"_blank\" rel=\"noopener\">Affiliatly</a> to track purchases in Member Sign Up wizard.",
 
     "FEATURES.HEADER": "Features",
     "ENABLE_EMAILING": "Turn On Emailing",

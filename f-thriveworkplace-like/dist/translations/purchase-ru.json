@@ -67,6 +67,9 @@
 		"DISCOUNT.BTN_RECORD": "Record Discount",
 		"DISCOUNT.AMOUNT.NEGATIVE": "Скидка должна быть больше нуля",
 
+		"DISCOUNT_CODE": "Discount Code",
+		"DISCOUNT_CODE.BTN_APPLY": "Apply",
+
 		"REFUND.BTN_ADD": "Добавить возврат",
 		"REFUND.HEADER": "Возврат",
 		"REFUND.BTN_SUBMIT": "Сделать возврат",
@@ -89,6 +92,7 @@
 		"CHARGES.NOTES": "Заметки",
 		"CHARGES.BTN_ADD": "Добавить",
 		"CHARGES.CUSTOM": "Кастом",
+		"CHARGES.ADD_CHARGES": "Добавить {{chargeType}}",
 
 		"LIST.PAGE_TITLE": "Счета для {{userName}} в {{centerName}}",
 		"LIST.CREDIT.HEADER": "Кредитные счета",

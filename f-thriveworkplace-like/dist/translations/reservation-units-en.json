@@ -15,7 +15,7 @@
 		"CALENDAR_ID.HINT": "To change this ID, re-enable <b>Sync With Calendar</b> above and specify ID of <b>existing calendar</b>. If you leave it empty, a <b>new calendar</b> will be created for this unit.",
 		"NAME": "Name",
 		"DESCRIPTION": "Description",
-		"AREA": "Area (m²)",
+		"AREA": "Area ({{areaUnit}})",
 		"EXPECTED_USE_PER_MONTH": "Expected Use Per Month",
 		"EXPECTED_USE_PER_MONTH.HINT": "Amount of hours the unit is supposed to be used within one month",
 		"CONFIRM_DELETE": "Are you sure to remove the reservation unit?",

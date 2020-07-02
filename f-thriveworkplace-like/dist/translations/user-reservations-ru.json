@@ -2,10 +2,12 @@
 	"USER_RESERVATIONS": {
 		"PAGE_TITLE": "Резервирования для {{userName}}",
 
+		"FILTER": "Filter",
 		"FILTER.ALL": "Все",
 		"FILTER.UPCOMING": "Будущие",
 		"FILTER.PAST": "Прошлые",
 
+		"RESERVATIONS": "Reservations",
 		"DATE": "Дата",
 		"SPACE": "Место",
 		"TIME": "Время",

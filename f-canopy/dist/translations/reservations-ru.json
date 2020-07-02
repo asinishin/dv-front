@@ -81,6 +81,8 @@
 		"CALENDAR.HINT": "Наведите на левое меню для инфо. Нажмите на временной слот для резервирования.",
 
 		"RESERVATION_AGREEMENT.LABEL": "Ставя галочку вы соглашаетесь с ",
-		"RESERVATION_AGREEMENT.REQUIRED": "Поставьте галочку, чтобы согласиться с "
+		"RESERVATION_AGREEMENT.REQUIRED": "Поставьте галочку, чтобы согласиться с ",
+
+		"RESERVATION_BUFFER": "Reservation Buffer"
 	}
 }
