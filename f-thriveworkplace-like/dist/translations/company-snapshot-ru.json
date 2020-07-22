@@ -1,0 +1,9 @@
+{
+  "COMPANY_SNAPSHOT": {
+    "PAGE_TITLE": "Company Snapshot Dashboard",
+
+    "WIDGET.SALES": "Sales",
+    "WIDGET.SALES_BY_CATEGORY": "Sales by Category",
+    "WIDGET.RECURRING_BILLINGS": "Recurring Billings"
+  }
+}

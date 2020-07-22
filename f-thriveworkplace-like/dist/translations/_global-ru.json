@@ -58,6 +58,8 @@
     "COMPANY": "Компания",
     "TITLE": "Название",
     "TIME": "Время",
+    "TOTAL": "Total",
+    "PERIOD": "Period",
 
     "PHOTO": "Photo",
     "PHOTO.INVALID_FORMAT": "Please use <b>JPEG</b> or <b>PNG</b> image format.",
