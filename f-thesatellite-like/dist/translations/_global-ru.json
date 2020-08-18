@@ -58,6 +58,8 @@
     "COMPANY": "Компания",
     "TITLE": "Название",
     "TIME": "Время",
+    "TOTAL": "Total",
+    "PERIOD": "Period",
 
     "PHOTO": "Photo",
     "PHOTO.INVALID_FORMAT": "Please use <b>JPEG</b> or <b>PNG</b> image format.",
@@ -95,6 +97,7 @@
     "VALIDATION.DATE_BEFORE": "{{field}} должна быть перед {{value}}",
     "VALIDATION.DATE_AFTER": "{{field}} должна быть после {{value}}",
     "VALIDATION.DATE_DIFF": "Разница между {{field}} и {{refField}} должна быть меньше чем {{value}}",
+    "VALIDATION.FONT": "Invalid name of Google Font",
 
     "FORBID_STAFF.HEADER": "Запрещено",
     "FORBID_STAFF.TEXT": "Сотрудники сначала должены выйти из системы.",
@@ -103,10 +106,15 @@
     "POSITION": "#",
     "POSITION.HINT": "Позиция",
 
-    "INVALID_IMAGE_FORMAT": "Please use PNG or JPEG image format."
+    "INVALID_IMAGE_FORMAT": "Please use PNG or JPEG image format.",
+
+    "DATEPICKER": "Date Picker",
+    "PREV_MONTH": "Previous Month",
+    "NEXT_MONTH": "Next Month"
   },
 
   "SIDEBAR": {
+    "SIDEBAR": "Sidebar",
     "CURRENT_CENTER": "Текущий центр",
     "CURRENT_USER": "Активные Компания / Член",
     "CURRENT_USER.LABEL": "нажмите для выбора...",

@@ -12,8 +12,17 @@
 		"OTHER.HEADER": "Other",
 		"PANEL_BORDER_RADIUS": "Panel border radius (px)",
 		"BTN_BORDER_RADIUS": "Button border radius (px)",
+		"PANEL_SHADOW_RADIUS": "Panel shadow radius (px)",
+		"PANEL_SHADOW_OPACITY": "Panel shadow opacity (%)",
 		"ELASTIC_BANNER": "Elastic banner",
 		"ELASTIC_BANNER.HINT": "<b>Elastic banner</b> is re-sized and cropped to fill entire header area, suitable for abstract banners. <b>Inelastic banner</b> is re-sized, but not cropped, suitable for banners with text.",
+
+		"FONTS.HEADER": "Fonts",
+		"FONTS.HINT": "You can use any font from <a href=\"https://fonts.google.com/\" target=\"_blank\" rel=\"noopener\">Google Fonts</a>. Type a font name in the fields below. It is case sensitive.",
+		"FONTS.MAJOR": "Major font",
+		"FONTS.MAJOR.HINT": "Text, controls, labels, panel headers.",
+		"FONTS.MINOR": "Minor font",
+		"FONTS.MINOR.HINT": "Sidebar, page title, buttons, tooltips.",
 
 		"LOGO": "Screen Logo",
 		"LOGO.HINT": "Logo displayed on screen at left-top corner.<br><b>Optimal Settings:</b><br>Format: <b>PNG</b><br>Size: <b>600+ px</b><br>Aspect Ratio: <b>variable</b><br>Background: <b>transparent</b>",

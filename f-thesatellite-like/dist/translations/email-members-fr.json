@@ -10,6 +10,7 @@
 		"BTN_SEND": "Envoyer les courriels",
 		"BTN_SEND.HINT": "Envoyer des courriels aux membres",
 		"BTN_VIEW_RECIPIENTS": "View Email List",
+		"BTN_SAVE_TEMPLATE": "Save Template",
 
 		"OPTIONS.HEADER": "Options",
 		"OPTIONS.MEMBERSHIP": "Abonnements",

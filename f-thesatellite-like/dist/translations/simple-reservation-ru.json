@@ -12,6 +12,8 @@
 		"CATEGORY.PRICES.EMPTY": "Цены отсутствуют.",
 		"CATEGORY.DESCRIPTION": "Описание",
 		"CATEGORY.DESCRIPTION.EMPTY": "Описание отсутствует.",
+		"CATEGORY.NEXT_SLIDE": "Next Slide",
+		"CATEGORY.PREV_SLIDE": "Previous Slide",
 
 		"DATE.PAGE_TITLE": "Выберите дату",
 

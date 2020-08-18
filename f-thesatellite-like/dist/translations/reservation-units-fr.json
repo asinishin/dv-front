@@ -15,7 +15,7 @@
 		"CALENDAR_ID.HINT": "Pour changer l'identification (ID), permettre la <b>Synchronisation avec la calendrier</b> ci-dessus et indiquer l'ID du <b>calendrier existant</b>. Si vide, un <b>nouveau calendrier</b> sera créé pour cette unité",
 		"NAME": "Nom",
 		"DESCRIPTION": "Description",
-		"AREA": "Area (m²)",
+		"AREA": "Area ({{areaUnit}})",
 		"EXPECTED_USE_PER_MONTH": "Expected Use Per Month",
 		"EXPECTED_USE_PER_MONTH.HINT": "Amount of hours the unit is supposed to be used within one month",
 		"CONFIRM_DELETE": "Êtes-vous sûr de vouloir supprimer cette unité de réservation?",

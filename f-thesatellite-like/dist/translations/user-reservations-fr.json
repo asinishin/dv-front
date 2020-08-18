@@ -2,10 +2,12 @@
 	"USER_RESERVATIONS": {
 		"PAGE_TITLE": "Réservations pour {{userName}}",
 
+		"FILTER": "Filter",
 		"FILTER.ALL": "Tous",
 		"FILTER.UPCOMING": "À venir",
 		"FILTER.PAST": "Réservations antérieures",
 
+		"RESERVATIONS": "Reservations",
 		"DATE": "Date",
 		"SPACE": "Espace",
 		"TIME": "Heure",
