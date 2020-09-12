@@ -71,7 +71,6 @@
 		"MEMBERSHIP.PLAN": "План",
 		"MEMBERSHIP.PRICE_LIST": "Прайс-лист",
 		"MEMBERSHIP.PRICE_LIST.CHANGE_WARNING": "Изменение этой настройки деактивирует все регулярные платежи. Вы можете создать новые используя новый прайс-лист.",
-		"MEMBERSHIP.DISCOUNT_CODE": "Discount Code",
 		"MEMBERSHIP.START_DATE": "Дата начала",
 		"MEMBERSHIP.ATTACHED_RESERVATION_UNIT": "Сделать резервационный юнит недоступным",
 		"MEMBERSHIP.ATTACHED_RESERVATION_UNIT.HINT": "Выбранный <b>резервационный юнит</b> больше не будет доступен в календаре для резервирования.",

@@ -71,7 +71,6 @@
 		"MEMBERSHIP.PLAN": "Plan",
 		"MEMBERSHIP.PRICE_LIST": "Price List",
 		"MEMBERSHIP.PRICE_LIST.CHANGE_WARNING": "Changing this setting will make all recurring billings inactive. You can create new ones using the new price list.",
-		"MEMBERSHIP.DISCOUNT_CODE": "Discount Code",
 		"MEMBERSHIP.START_DATE": "Start Date",
 		"MEMBERSHIP.ATTACHED_RESERVATION_UNIT": "Make a matching Reservation Unit unavailable",
 		"MEMBERSHIP.ATTACHED_RESERVATION_UNIT.HINT": "The selected Reservation Unit will no longer show on your calendar as available for booking.",

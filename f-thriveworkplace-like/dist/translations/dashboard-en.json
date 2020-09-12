@@ -42,7 +42,6 @@
 
 	"DASHBOARD.USER": {
 		"PAGE_TITLE": "Welcome {{userName}}!",
-		"NO_PERMISSION": "No permission for user dashboard.",
 
 		"UPCOMING_RESERVATIONS.HEADER": "<b>Upcoming Reservations</b>",
 		"UPCOMING_RESERVATIONS.DATE": "Date",
