@@ -34,6 +34,7 @@
     "BTN_UPLOAD": "Upload",
     "BTN_CROP": "Crop",
     "BTN_AUDIT": "Audit",
+    "BTN_DOWNLOAD_CSV": "Download CSV",
 
     "FULL_NAME": "Full Name",
     "FIRST_NAME": "First Name",
@@ -125,6 +126,7 @@
     "CURRENT_USER": "Active Company / Member",
     "CURRENT_USER.LABEL": "click to select...",
     "CURRENT_USER.HINT": "Click to search user",
+    "CURRENT_USER.UNSELECT.HINT": "Clear active user",
 
     "DASHBOARD": "Dashboard",
     "SIGN_IN": "Sign In",

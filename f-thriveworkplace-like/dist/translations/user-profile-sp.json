@@ -131,6 +131,7 @@
 		"MAILBOXES.HANDLING.MAILBOX": "Mailbox",
 		"MAILBOXES.HANDLING.FORWARD": "Forward",
 		"MAILBOXES.HANDLING.EMAIL": "Email",
+		"MAILBOXES.HANDLING.SPHEREMAIL": "Spheremail",
 		"MAILBOXES.NAMES": "Mailbox Names",
 		"MAILBOXES.NAMES.HINT": "Comma delimited list of names",
 

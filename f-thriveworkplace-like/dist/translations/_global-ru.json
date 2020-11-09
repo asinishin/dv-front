@@ -34,6 +34,7 @@
     "BTN_UPLOAD": "Загрузить",
     "BTN_CROP": "Обрезать",
     "BTN_AUDIT": "Audit",
+    "BTN_DOWNLOAD_CSV": "Download CSV",
 
     "FULL_NAME": "Имя Фамилия",
     "FIRST_NAME": "Имя",
@@ -125,6 +126,7 @@
     "CURRENT_USER": "Активные Компания / Член",
     "CURRENT_USER.LABEL": "нажмите для выбора...",
     "CURRENT_USER.HINT": "Нажмите для поиска пользователя",
+    "CURRENT_USER.UNSELECT.HINT": "Clear active user",
 
     "DASHBOARD": "Дэшборд",
     "SIGN_IN": "Вход",

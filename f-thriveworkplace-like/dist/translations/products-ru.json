@@ -50,6 +50,8 @@
 		"PRICE_LISTS.PRICE_LIST": "Прайс-лист",
 		"PRICE_LISTS.PASSES": "Талоны",
 		"PRICE_LISTS.CREDIT": "Кредит",
-		"PRICE_LISTS.PRICE": "Цена"
+		"PRICE_LISTS.PRICE": "Цена",
+
+		"COUNT_MEMBERS": "Count Members / Co-members"
 	}
 }

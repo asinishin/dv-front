@@ -131,6 +131,7 @@
 		"MAILBOXES.HANDLING.MAILBOX": "Почтовый ящик",
 		"MAILBOXES.HANDLING.FORWARD": "Перенаправлять",
 		"MAILBOXES.HANDLING.EMAIL": "Email",
+		"MAILBOXES.HANDLING.SPHEREMAIL": "Spheremail",
 		"MAILBOXES.NAMES": "Имена",
 		"MAILBOXES.NAMES.HINT": "Список имен через запятую",
 
