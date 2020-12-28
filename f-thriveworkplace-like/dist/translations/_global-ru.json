@@ -62,11 +62,12 @@
     "DATE": "Дата",
     "AMOUNT": "Сумма",
     "REFUND": "Возврат",
-    "TOTAL": "Всего",
     "BALANCE": "Баланс",
     "DISCOUNT": "Скидка",
     "TAX": "Налог",
     "PRODUCT": "Продукт",
+    "TOTAL": "Total",
+    "PERIOD": "Period",
 
     "PHOTO": "Фото",
     "PHOTO.INVALID_FORMAT": "Please use <b>JPEG</b> or <b>PNG</b> image format.",
@@ -84,7 +85,7 @@
     "ADDRESS.TYPE.BILLING": "Платежный",
 
     "VALIDATION.REQUIRED": "Поле {{field}} обязательно для заполнения",
-    "VALIDATION.DATE": "{{field}} имеет формат 22&nbsp;Jun&nbsp;2015 или 22/06/2015",
+    "VALIDATION.DATE": "{{field}} имеет формат 22&nbsp;Jun&nbsp;2015 или Jun&nbsp;22,&nbsp;2015 или 22/06/2015",
     "VALIDATION.TIME": "{{field}} имеет формат 22:00 или 10:00&nbsp;PM",
     "VALIDATION.EMAIL": "{{field}} должен быть валидным",
     "VALIDATION.URL": "Формат {{field}} должен быть <u>http://domain.com</u> или <u>https://domain.com</u>",

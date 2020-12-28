@@ -25,6 +25,7 @@
 		"RESERVATION_FOLLOW_UP_SURVEY.PAGE_TITLE": "Reservation Follow Up Survey",
 		"RESERVATION_FOLLOW_UP_SURVEY.HINT": "Customize your survey. Only sent to non-members 2 hours after reservation.",
 		"DESK_TABLET_TEMPLATE.PAGE_TITLE": "Desk Tablet Template",
+		"REFUND_NOTICE.PAGE_TITLE": "Refund Notice",
 
 		"MESSAGE_BOARD.PAGE_TITLE": "Message Board Notices Email Settings",
 		"MESSAGE_BOARD.IMMEDIATELY": "When Posted Notice",

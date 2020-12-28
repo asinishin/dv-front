@@ -62,11 +62,12 @@
     "DATE": "Date",
     "AMOUNT": "Amount",
     "REFUND": "Refund",
-    "TOTAL": "Total",
     "BALANCE": "Balance",
     "DISCOUNT": "Discount",
     "TAX": "Tax",
     "PRODUCT": "Product",
+    "TOTAL": "Total",
+    "PERIOD": "Period",
 
     "PHOTO": "Photo",
     "PHOTO.INVALID_FORMAT": "Please use <b>JPEG</b> or <b>PNG</b> image format.",
@@ -84,7 +85,7 @@
     "ADDRESS.TYPE.BILLING": "Billing",
 
     "VALIDATION.REQUIRED": "{{field}} is required",
-    "VALIDATION.DATE": "{{field}} format is 06/22/2015 or 22&nbsp;Jun&nbsp;2015",
+    "VALIDATION.DATE": "{{field}} format is 06/22/2015 or Jun&nbsp;22,&nbsp;2015 or 22&nbsp;Jun&nbsp;2015",
     "VALIDATION.TIME": "{{field}} format is 10:00&nbsp;PM or 22:00",
     "VALIDATION.EMAIL": "{{field}} should be valid",
     "VALIDATION.URL": "{{field}} format is <u>http://domain.com</u> or <u>https://domain.com</u>",

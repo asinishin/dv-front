@@ -6,6 +6,7 @@
     "PERIOD.12_MONTHS": "Last 12 Months",
     "PERIOD.LAST_YEAR": "Last Year",
     "PERIOD.THIS_YEAR": "This Year",
+    "PERIOD.ALL_TIME": "All Time",
     "PERIOD.CUSTOM": "Custom",
     "FROM": "From:",
     "TO": "To:",
