@@ -71,6 +71,8 @@
 
     "PHOTO": "Photo",
     "PHOTO.INVALID_FORMAT": "Please use <b>JPEG</b> or <b>PNG</b> image format.",
+    "NO_PHOTO": "No Photo",
+    "CONFIRM_DELETE_PHOTO": "Are you sure to delete the photo?",
 
     "ADDRESS": "Address",
     "ADDRESS.STREET": "Street",

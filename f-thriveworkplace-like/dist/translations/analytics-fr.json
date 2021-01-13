@@ -11,6 +11,7 @@
     "WIDGET.OVERALL_SPACE_UTILIZATION": "Overall Space Utilization",
     "WIDGET.RESERVATION_SPACE_UTILIZATION": "Reservation Space Utilization",
     "WIDGET.OCCUPANCY_VACANCY": "Occupancy / Vacancy",
+    "WIDGET.OCCUPANCY_VACANCY.HINT": "Click a category bar for units details.",
 
     "COMMITTED_REVENUE": "Committed Revenue",
     "AT_RISK_REVENUE": "At Risk Revenue",

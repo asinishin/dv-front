@@ -24,6 +24,7 @@
 		"LOGIN_INFO.MEMBER_DIRECTORY": "Member Directory",
 		"LOGIN_INFO.MEMBER_DIRECTORY_LINK": "Let other members know about you - and connect!",
 		"LOGIN_INFO.DISABLE_GROUP_MAILING": "Do not send group emails",
+		"LOGIN_INFO.DISABLE_GROUP_MAILING.HINT": "If checked, member will not receive emails sent through <b>Communications &gt; Email Site Members.</b>",
 
 		"MESSAGE_BOARD_NOTICES": "Уведомления с доски сообщений",
 		"MESSAGE_BOARD_NOTICES.IMMEDIATELY": "Сразу",
