@@ -1,0 +1,21 @@
+{
+  "PAYMENT_RECONCILIATION_REPORT": {
+    "REPORT_NAME": "Payment Reconciliation Report",
+
+    "TOTAL_DAILY": "Daily Total",
+    "TOTAL_PAYMENT_METHOD": "Payment Method Total",
+    "TOTAL_MEMBERSHIP": "Total Memberships",
+    "TOTAL_REGISTRATION": "Total Registration",
+    "TOTAL_RENTAL": "Total Rental Hours",
+    "TOTAL_PRINT": "Total Print",
+    "TOTAL_SERVICES": "Total Services",
+    "TOTAL_CUSTOM": "Total Custom",
+    "TOTAL_DISCOUNT": "Total Discounts",
+    "TOTAL_PAYMENT_FEES": "Total Payment Fees",
+    "TOTAL_TAXES": "Total Taxes",
+    "TOTAL_DEPOSITS": "Total Deposits",
+
+    "PRODUCT_TYPE_BREAKDOWN": "Product Type Breakdown",
+    "PRODUCT_CATEGORY_BREAKDOWN": "Product Category Breakdown"
+  }
+}

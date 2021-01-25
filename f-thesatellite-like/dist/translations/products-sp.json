@@ -50,6 +50,8 @@
 		"PRICE_LISTS.PRICE_LIST": "PriceList",
 		"PRICE_LISTS.PASSES": "Passes",
 		"PRICE_LISTS.CREDIT": "Credit",
-		"PRICE_LISTS.PRICE": "Price"
+		"PRICE_LISTS.PRICE": "Price",
+
+		"COUNT_MEMBERS": "Count Members / Co-members"
 	}
 }
