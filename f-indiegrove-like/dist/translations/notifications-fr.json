@@ -22,6 +22,9 @@
 		"RENEWAL_NOTICE.PAGE_TITLE": "Renewal Notice Email Settings",
 		"STARTUP_INFO.PAGE_TITLE": "Startup Info",
 		"STARTUP_INFO.HINT": "Send Startup Info Email with receipt from self registration.",
+		"RESERVATION_FOLLOW_UP_SURVEY.PAGE_TITLE": "Reservation Follow Up Survey",
+		"RESERVATION_FOLLOW_UP_SURVEY.HINT": "Customize your survey. Only sent to non-members 2 hours after reservation.",
+		"DESK_TABLET_TEMPLATE.PAGE_TITLE": "Desk Tablet Template",
 
 		"MESSAGE_BOARD.PAGE_TITLE": "Message Board Notices Email Settings",
 		"MESSAGE_BOARD.IMMEDIATELY": "When Posted Notice",
@@ -76,6 +79,7 @@
 		"SH_CODES.RESERVATION_UNIT": "Unités de réservation",
 		"SH_CODES.REPEAT_FREQUENCY": "Fréquence de répétition de la réservation",
 		"SH_CODES.ACCESS_CODE": "Code d'accès de la réservation",
+		"SH_CODES.ACCESS_CODE_OF_THE_DAY": "Access code of the day",
 		"SH_CODES.RESERVATION_START_TIME": "Début de la réservation",
 		"SH_CODES.RESERVATION_END_TIME": "Fin de la réservation",
 		"SH_CODES.RESERVATION_DATE": "Date de la réservation",

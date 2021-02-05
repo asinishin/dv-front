@@ -19,6 +19,8 @@
 		"GENERAL.BILLING_FREQUENCY.ANNUAL": "Годично",
 		"GENERAL.BILLING_FREQUENCY.AS_NEEDED": "По необходимости",
 		"GENERAL.PRODUCT": "Продукт",
+		"GENERAL.CUSTOM_PRICE": "Custom Price",
+		"GENERAL.CUSTOM_PRICE.HINT": "If specified, overrides standard product price displayed in product name above. Maintained until Renewal Date.",
 		"GENERAL.PRICE_LIST": "Прайс-лист",
 		"GENERAL.DESCRIPTION": "Описание",
 		"GENERAL.QUANTITY": "Количество",

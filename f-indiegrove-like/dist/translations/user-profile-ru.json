@@ -4,6 +4,7 @@
 		"NEW_MEMBER.PAGE_TITLE": "Регистрация нового члена",
 		"NEW_NON_MEMBER.PAGE_TITLE": "Регистрация нового не-члена",
 		"NEW_USER.PAGE_TITLE": "Регистрация нового пользователя",
+		"USER_PROFILE": "User Profile",
 
 		"PERSONAL_INFO.HEADER": "Персональная Информация",
 		"PERSONAL_INFO.FIRST_NAME": "Имя",
@@ -22,6 +23,7 @@
 		"LOGIN_INFO.ADD_ACCESS_CODE": "Добавить код доступа",
 		"LOGIN_INFO.MEMBER_DIRECTORY": "Member Directory",
 		"LOGIN_INFO.MEMBER_DIRECTORY_LINK": "Let other members know about you - and connect!",
+		"LOGIN_INFO.DISABLE_GROUP_MAILING": "Do not send group emails",
 
 		"MESSAGE_BOARD_NOTICES": "Уведомления с доски сообщений",
 		"MESSAGE_BOARD_NOTICES.IMMEDIATELY": "Сразу",
@@ -69,6 +71,7 @@
 		"MEMBERSHIP.PLAN": "План",
 		"MEMBERSHIP.PRICE_LIST": "Прайс-лист",
 		"MEMBERSHIP.PRICE_LIST.CHANGE_WARNING": "Изменение этой настройки деактивирует все регулярные платежи. Вы можете создать новые используя новый прайс-лист.",
+		"MEMBERSHIP.DISCOUNT_CODE": "Discount Code",
 		"MEMBERSHIP.START_DATE": "Дата начала",
 		"MEMBERSHIP.ATTACHED_RESERVATION_UNIT": "Сделать резервационный юнит недоступным",
 		"MEMBERSHIP.ATTACHED_RESERVATION_UNIT.HINT": "Выбранный <b>резервационный юнит</b> больше не будет доступен в календаре для резервирования.",
@@ -91,6 +94,7 @@
 
 		"DOCUMENTS.HEADER": "Контракты / Документы",
 		"DOCUMENTS.INVALID_FORMAT": "Используйте документы формата .pdf или .doc или .docx",
+		"DOCUMENTS.VISIBLE_TO_USER": "Visible to user",
 		"DOCUMENTS.BTN_DELETE.HINT": "Удалить документ",
 
 		"LEAD_SOURCE.HEADER": "Откуда Вы узнали о нас?",
@@ -127,6 +131,7 @@
 		"MAILBOXES.HANDLING.MAILBOX": "Почтовый ящик",
 		"MAILBOXES.HANDLING.FORWARD": "Перенаправлять",
 		"MAILBOXES.HANDLING.EMAIL": "Email",
+		"MAILBOXES.HANDLING.SPHEREMAIL": "Spheremail",
 		"MAILBOXES.NAMES": "Имена",
 		"MAILBOXES.NAMES.HINT": "Список имен через запятую",
 

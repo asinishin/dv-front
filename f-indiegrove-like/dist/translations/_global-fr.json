@@ -34,6 +34,7 @@
     "BTN_UPLOAD": "Upload",
     "BTN_CROP": "Crop",
     "BTN_AUDIT": "Audit",
+    "BTN_DOWNLOAD_CSV": "Download CSV",
 
     "FULL_NAME": "Nom Complet",
     "FIRST_NAME": "Prénom",
@@ -58,6 +59,14 @@
     "COMPANY": "Company",
     "TITLE": "Title",
     "TIME": "Time",
+    "DATE": "Date",
+    "AMOUNT": "Amount",
+    "REFUND": "Refund",
+    "TOTAL": "Total",
+    "BALANCE": "Balance",
+    "DISCOUNT": "Discount",
+    "TAX": "Tax",
+    "PRODUCT": "Product",
 
     "PHOTO": "Photo",
     "PHOTO.INVALID_FORMAT": "Please use <b>JPEG</b> or <b>PNG</b> image format.",
@@ -95,6 +104,7 @@
     "VALIDATION.DATE_BEFORE": "{{field}} devrait être avant {{value}}",
     "VALIDATION.DATE_AFTER": "{{field}} devrait être après {{value}}",
     "VALIDATION.DATE_DIFF": "La différence entre {{field}} et {{refField}} devrait être moins que {{value}} heures",
+    "VALIDATION.FONT": "Invalid name of Google Font",
 
     "FORBID_STAFF.HEADER": "Forbidden",
     "FORBID_STAFF.TEXT": "Staff must sign out before this action.",
@@ -103,14 +113,20 @@
     "POSITION": "#",
     "POSITION.HINT": "Position",
 
-    "INVALID_IMAGE_FORMAT": "Please use PNG or JPEG image format."
+    "INVALID_IMAGE_FORMAT": "Please use PNG or JPEG image format.",
+
+    "DATEPICKER": "Date Picker",
+    "PREV_MONTH": "Previous Month",
+    "NEXT_MONTH": "Next Month"
   },
 
   "SIDEBAR": {
+    "SIDEBAR": "Sidebar",
     "CURRENT_CENTER": "Centrale actuelle",
     "CURRENT_USER": "Compagnie / Membre activé",
     "CURRENT_USER.LABEL": "Cliquez pour sélectionner...",
     "CURRENT_USER.HINT": "Cliquez pour chercher un membre",
+    "CURRENT_USER.UNSELECT.HINT": "Clear active user",
 
     "DASHBOARD": "Tableau de bord",
     "SIGN_IN": "Se connecter",

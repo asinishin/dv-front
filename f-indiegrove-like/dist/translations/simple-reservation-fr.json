@@ -12,6 +12,8 @@
 		"CATEGORY.PRICES.EMPTY": "Pas de prix encore.",
 		"CATEGORY.DESCRIPTION": "Description",
 		"CATEGORY.DESCRIPTION.EMPTY": "Aucune description.",
+		"CATEGORY.NEXT_SLIDE": "Next Slide",
+		"CATEGORY.PREV_SLIDE": "Previous Slide",
 
 		"DATE.PAGE_TITLE": "Sélectionner une date",
 
