@@ -3,8 +3,8 @@
     "PAGE_TITLE": "Analytics Dashboard",
 
     "WIDGET.SALES": "Sales",
-    "WIDGET.SALES_BY_CATEGORY": "Sales by Category",
-    "WIDGET.SALES_BY_CATEGORY.HINT": "Click a wedge for monthly chart.",
+    "WIDGET.SALES_BY_PRODUCT_CATEGORY": "Sales by Product Category",
+    "WIDGET.SALES_BY_PRODUCT_CATEGORY.HINT": "Click a wedge for monthly chart.",
     "WIDGET.INCOME": "Income (Cash)",
     "WIDGET.RECURRING_BILLINGS": "Recurring Billings",
     "WIDGET.REVENUE_FORECAST": "Revenue Forecast",
