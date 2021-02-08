@@ -13,10 +13,13 @@
 		"HEADER.DUE_DATE": "Due Date",
 
 		"COLUMNS.DATE": "Date",
+		"COLUMNS.DATE_ADDED": "Date Added",
 		"COLUMNS.ITEM": "Item",
 		"COLUMNS.DESCRIPTION": "Description",
 		"COLUMNS.RATE": "Rate",
-		"COLUMNS.QUANTITY": "Qty",
+		"COLUMNS.PRICE": "Price",
+		"COLUMNS.QTY": "Qty",
+		"COLUMNS.QUANTITY": "Quantity",
 		"COLUMNS.AMOUNT": "Amount",
 
 		"RECURRING": "Recurring Items",
@@ -28,6 +31,7 @@
 		"SUBTOTAL": "Subtotal",
 		"CHARGES": "Charges",
 		"BALANCE": "Balance",
+		"TOTAL": "Total",
 
 		"ADDRESS.HEADER": "Billing Address",
 		"ADDRESS.BTN_SELECT": "Select",
@@ -47,6 +51,8 @@
 
 		"PAYMENTS.HEADER": "Payments",
 		"PAYMENTS.DATE": "Date",
-		"PAYMENTS.AMOUNT": "Amount"
+		"PAYMENTS.AMOUNT": "Amount",
+
+		"ALTERNATE.FOOTER": "Thank you for being a member at {{company}}"
 	}
 }

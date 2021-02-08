@@ -30,6 +30,7 @@
 		"REPEAT_FREQUENCY.MONTHLY": "Tous les mois à la même date",
 		"REPEAT_FREQUENCY.MONTHLY_WEEKLY": "Tous les mois au même jour de la semaine",
 		"REPEAT_DURATION": "pour les prochains",
+		"REPEAT_DURATION.LABEL": "Repeat Duration",
 
 		"BTN_CREATE": "Faire une réservation",
 		"BTN_UPDATE": "Mettre à jour une réservation",
@@ -43,6 +44,10 @@
 		"TIME_SELECTOR.FROM": "De",
 		"TIME_SELECTOR.TO": "À",
 		"TIME_SELECTOR.BTN_CLEAR": "Effacer la sélection d'horaire",
+		"TIME_SELECTOR.SLOT.AVAILABLE": "Available time slot: {{from}} - {{to}}",
+		"TIME_SELECTOR.SLOT.UNAVAILABLE": "Unavailable time slot: {{from}} - {{to}}",
+		"TIME_SELECTOR.SLOT.RESERVED": "Reserved time slot: {{from}} - {{to}}",
+		"TIME_SELECTOR.SLOT.SELECTED": "Selected time slot: {{from}} - {{to}}",
 
 		"DATE_SELECTOR.DAY.PREV.HINT": "Jour précédent",
 		"DATE_SELECTOR.DAY.NEXT.HINT": "Jour suivant",
@@ -77,6 +82,8 @@
 		"CALENDAR.HINT": "Hover over left menu name for info. Click in a time slot to reserve.",
 
 		"RESERVATION_AGREEMENT.LABEL": "By checking this box you agree to",
-		"RESERVATION_AGREEMENT.REQUIRED": "Check this box to agree"
+		"RESERVATION_AGREEMENT.REQUIRED": "Check this box to agree",
+
+		"RESERVATION_BUFFER": "Reservation Buffer"
 	}
 }

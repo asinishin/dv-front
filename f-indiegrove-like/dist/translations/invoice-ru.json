@@ -13,10 +13,13 @@
 		"HEADER.DUE_DATE": "Оплатить до",
 
 		"COLUMNS.DATE": "Дата",
+		"COLUMNS.DATE_ADDED": "Date Added",
 		"COLUMNS.ITEM": "Статья",
 		"COLUMNS.DESCRIPTION": "Описание",
 		"COLUMNS.RATE": "Тариф",
-		"COLUMNS.QUANTITY": "Кол-во",
+		"COLUMNS.PRICE": "Price",
+		"COLUMNS.QTY": "Кол-во",
+		"COLUMNS.QUANTITY": "Quantity",
 		"COLUMNS.AMOUNT": "Сумма",
 
 		"RECURRING": "Периодические статьи",
@@ -28,6 +31,7 @@
 		"SUBTOTAL": "Подсумма",
 		"CHARGES": "Списания",
 		"BALANCE": "Баланс",
+		"TOTAL": "Total",
 
 		"ADDRESS.HEADER": "Платежный адрес",
 		"ADDRESS.BTN_SELECT": "Выбрать",
@@ -47,6 +51,8 @@
 
 		"PAYMENTS.HEADER": "Платежи",
 		"PAYMENTS.DATE": "Дата",
-		"PAYMENTS.AMOUNT": "Сумма"
+		"PAYMENTS.AMOUNT": "Сумма",
+
+		"ALTERNATE.FOOTER": "Thank you for being a member at {{company}}"
 	}
 }

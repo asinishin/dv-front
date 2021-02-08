@@ -19,7 +19,8 @@
 		"BILLING_INFO.HEADER": "<b>Billing</b> Info",
 		"BILLING_INFO.INCOME": "Income this month",
 		"BILLING_INFO.INCOME.NAV_TITLE": "Go to Income Report",
-		"BILLING_INFO.ACCOUNTS_RECEIVABLE": "Current Accounts Receivable",
+		"BILLING_INFO.ACCOUNTS_RECEIVABLE.CURRENT": "Current Accounts Receivable",
+		"BILLING_INFO.ACCOUNTS_RECEIVABLE.TOTAL": "Total Accounts Receivable",
 		"BILLING_INFO.ACCOUNTS_RECEIVABLE.NAV_TITLE": "Go to Accounts Receivable Report",
 		"BILLING_INFO.CC_EXPIRE": "Credit cards expiring this month",
 		"BILLING_INFO.CC_EXPIRE.NAV_TITLE": "View Billing Profile",
@@ -41,6 +42,7 @@
 
 	"DASHBOARD.USER": {
 		"PAGE_TITLE": "Welcome {{userName}}!",
+		"NO_PERMISSION": "No permission for user dashboard.",
 
 		"UPCOMING_RESERVATIONS.HEADER": "<b>Upcoming Reservations</b>",
 		"UPCOMING_RESERVATIONS.DATE": "Date",

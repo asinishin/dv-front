@@ -32,7 +32,7 @@
 		"ALLOW_RESERVATION_CREDITS": "Использование с резерв. кредитами",
 		"BUY_ON_SPLASH_PAGE": "Может быть куплен на Splash Page?",
 		"TAXABLE": "Облагаемый налогом?",
-		"HIDE_FOR_SIGN_UP": "Прятать при само-регистрации?",
+		"SHOW_FOR_SIGN_UP": "Show for Self-Registration?",
 		"HAS_REGISTRATION_FEE": "Имеет взнос при регистрации?",
 		"SECURITY_DEPOSIT_AMOUNT": "Сумма гарантийного депозита",
 		"TRACK_ACROSS_ALL_CENTERS": "Отслеживать по всем центрам?",
@@ -50,6 +50,8 @@
 		"PRICE_LISTS.PRICE_LIST": "Прайс-лист",
 		"PRICE_LISTS.PASSES": "Талоны",
 		"PRICE_LISTS.CREDIT": "Кредит",
-		"PRICE_LISTS.PRICE": "Цена"
+		"PRICE_LISTS.PRICE": "Цена",
+
+		"COUNT_MEMBERS": "Count Members / Co-members"
 	}
 }

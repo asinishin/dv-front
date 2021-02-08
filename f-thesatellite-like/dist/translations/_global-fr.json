@@ -34,6 +34,7 @@
     "BTN_UPLOAD": "Upload",
     "BTN_CROP": "Crop",
     "BTN_AUDIT": "Audit",
+    "BTN_DOWNLOAD_CSV": "Download CSV",
 
     "FULL_NAME": "Nom Complet",
     "FIRST_NAME": "Prénom",
@@ -58,8 +59,14 @@
     "COMPANY": "Company",
     "TITLE": "Title",
     "TIME": "Time",
+    "DATE": "Date",
+    "AMOUNT": "Amount",
+    "REFUND": "Refund",
     "TOTAL": "Total",
-    "PERIOD": "Period",
+    "BALANCE": "Balance",
+    "DISCOUNT": "Discount",
+    "TAX": "Tax",
+    "PRODUCT": "Product",
 
     "PHOTO": "Photo",
     "PHOTO.INVALID_FORMAT": "Please use <b>JPEG</b> or <b>PNG</b> image format.",
@@ -119,6 +126,7 @@
     "CURRENT_USER": "Compagnie / Membre activé",
     "CURRENT_USER.LABEL": "Cliquez pour sélectionner...",
     "CURRENT_USER.HINT": "Cliquez pour chercher un membre",
+    "CURRENT_USER.UNSELECT.HINT": "Clear active user",
 
     "DASHBOARD": "Tableau de bord",
     "SIGN_IN": "Se connecter",

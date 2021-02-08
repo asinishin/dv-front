@@ -4,6 +4,7 @@
 		"NEW_MEMBER.PAGE_TITLE": "New Member Registration",
 		"NEW_NON_MEMBER.PAGE_TITLE": "New Non-Member Registration",
 		"NEW_USER.PAGE_TITLE": "New User Registration",
+		"USER_PROFILE": "User Profile",
 
 		"PERSONAL_INFO.HEADER": "Personal Information",
 		"PERSONAL_INFO.FIRST_NAME": "First Name",
@@ -22,6 +23,7 @@
 		"LOGIN_INFO.ADD_ACCESS_CODE": "Add access code",
 		"LOGIN_INFO.MEMBER_DIRECTORY": "Member Directory",
 		"LOGIN_INFO.MEMBER_DIRECTORY_LINK": "Let other members know about you - and connect!",
+		"LOGIN_INFO.DISABLE_GROUP_MAILING": "Do not send group emails",
 
 		"MESSAGE_BOARD_NOTICES": "Email me Message Board posts",
 		"MESSAGE_BOARD_NOTICES.IMMEDIATELY": "When Posted",
@@ -69,6 +71,7 @@
 		"MEMBERSHIP.PLAN": "Plan",
 		"MEMBERSHIP.PRICE_LIST": "Price List",
 		"MEMBERSHIP.PRICE_LIST.CHANGE_WARNING": "Changing this setting will make all recurring billings inactive. You can create new ones using the new price list.",
+		"MEMBERSHIP.DISCOUNT_CODE": "Discount Code",
 		"MEMBERSHIP.START_DATE": "Start Date",
 		"MEMBERSHIP.ATTACHED_RESERVATION_UNIT": "Make a matching Reservation Unit unavailable",
 		"MEMBERSHIP.ATTACHED_RESERVATION_UNIT.HINT": "The selected Reservation Unit will no longer show on your calendar as available for booking.",
@@ -91,6 +94,7 @@
 
 		"DOCUMENTS.HEADER": "Contracts / Documents",
 		"DOCUMENTS.INVALID_FORMAT": "Please use .pdf or .doc or .docx document format.",
+		"DOCUMENTS.VISIBLE_TO_USER": "Visible to user",
 		"DOCUMENTS.BTN_DELETE.HINT": "Delete document",
 
 		"LEAD_SOURCE.HEADER": "How Did You Hear About Us?",
@@ -127,6 +131,7 @@
 		"MAILBOXES.HANDLING.MAILBOX": "Mailbox",
 		"MAILBOXES.HANDLING.FORWARD": "Forward",
 		"MAILBOXES.HANDLING.EMAIL": "Email",
+		"MAILBOXES.HANDLING.SPHEREMAIL": "Spheremail",
 		"MAILBOXES.NAMES": "Mailbox Names",
 		"MAILBOXES.NAMES.HINT": "Comma delimited list of names",
 

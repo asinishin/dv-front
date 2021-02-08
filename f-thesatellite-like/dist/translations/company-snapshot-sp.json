@@ -4,6 +4,20 @@
 
     "WIDGET.SALES": "Sales",
     "WIDGET.SALES_BY_CATEGORY": "Sales by Category",
-    "WIDGET.RECURRING_BILLINGS": "Recurring Billings"
+    "WIDGET.SALES_BY_CATEGORY.HINT": "Click a wedge for monthly chart.",
+    "WIDGET.INCOME": "Income (Cash)",
+    "WIDGET.RECURRING_BILLINGS": "Recurring Billings",
+    "WIDGET.REVENUE_FORECAST": "Revenue Forecast",
+    "WIDGET.OVERALL_SPACE_UTILIZATION": "Overall Space Utilization",
+    "WIDGET.RESERVATION_SPACE_UTILIZATION": "Reservation Space Utilization",
+    "WIDGET.OCCUPANCY_VACANCY": "Occupancy / Vacancy",
+
+    "COMMITTED_REVENUE": "Committed Revenue",
+    "AT_RISK_REVENUE": "At Risk Revenue",
+    "INCOME": "Income",
+    "UTILIZATION": "Utilization",
+
+    "BTN_SAVE_DEFAULTS": "Save Defaults",
+    "BTN_TRASH": "Trash"
   }
 }
