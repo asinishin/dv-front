@@ -24,6 +24,7 @@
 		"LOGIN_INFO.MEMBER_DIRECTORY": "Member Directory",
 		"LOGIN_INFO.MEMBER_DIRECTORY_LINK": "Let other members know about you - and connect!",
 		"LOGIN_INFO.DISABLE_GROUP_MAILING": "Do not send group emails",
+		"LOGIN_INFO.DISABLE_GROUP_MAILING.HINT": "If checked, member will not receive emails sent through <b>Communications &gt; Email Site Members.</b>",
 
 		"MESSAGE_BOARD_NOTICES": "Email me Message Board posts",
 		"MESSAGE_BOARD_NOTICES.IMMEDIATELY": "When Posted",
@@ -85,6 +86,8 @@
 		"MEMBERSHIP.BTN_RESET_STAFF_HELP": "Reset Staff Help Status",
 		"MEMBERSHIP.BTN_DELETE_USER": "Delete User",
 		"MEMBERSHIP.CONFIRM_DELETE_USER": "Are you sure to permanently delete the user?",
+		"MEMBERSHIP.BTN_DELETE_GDPR": "GDPR Delete",
+		"MEMBERSHIP.CONFIRM_DELETE_GDPR": "ARE YOU SURE? Removes phone, address, shared information and credit card/bank info. This information CANNOT be recovered.",
 		"MEMBERSHIP.KISI_ACCESS_GROUP": "Kisi Access Group",
 		"MEMBERSHIP.EZEEP_GROUP": "Ezeep Group",
 
