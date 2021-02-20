@@ -3,6 +3,8 @@
     "PERIOD": "Period:",
     "PERIOD.LAST_MONTH": "Last Month",
     "PERIOD.THIS_MONTH": "This Month",
+    "PERIOD.LAST_QUARTER": "Last Quarter",
+    "PERIOD.THIS_QUARTER": "This Quarter",
     "PERIOD.12_MONTHS": "Last 12 Months",
     "PERIOD.LAST_YEAR": "Last Year",
     "PERIOD.THIS_YEAR": "This Year",
