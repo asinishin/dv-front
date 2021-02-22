@@ -24,6 +24,7 @@
 		"LOGIN_INFO.MEMBER_DIRECTORY": "Member Directory",
 		"LOGIN_INFO.MEMBER_DIRECTORY_LINK": "Let other members know about you - and connect!",
 		"LOGIN_INFO.DISABLE_GROUP_MAILING": "Do not send group emails",
+		"LOGIN_INFO.DISABLE_GROUP_MAILING.HINT": "If checked, member will not receive emails sent through <b>Communications &gt; Email Site Members.</b>",
 
 		"MESSAGE_BOARD_NOTICES": "Уведомления с доски сообщений",
 		"MESSAGE_BOARD_NOTICES.IMMEDIATELY": "Сразу",
@@ -80,11 +81,15 @@
 		"MEMBERSHIP.INACTIVATE_CO_MEMBERS": "Деактивировать всех со-членов?",
 		"MEMBERSHIP.SIGN_UP.IN_PROGRESS": "Пользователь в процессе само-регистрации.",
 		"MEMBERSHIP.SIGN_UP.ABANDONED": "Пользователь бросил само-регистрацию и не запросил помощь персонала. Чтобы сбросить этот статус, активируйте членство или нажмите кнопку ниже.",
+		"MEMBERSHIP.SIGN_UP.BANNED": "Member was banned in self-registration. Too many declined payments. To reset this status activate membership or click the button below.",
 		"MEMBERSHIP.SIGN_UP.STAFF_HELP": "Пользователь запросил помощь персонала в процессе само-регистрации. Чтобы сбросить этот статус, активируйте членство или нажмите кнопку ниже.",
 		"MEMBERSHIP.BTN_RESET_ABANDONED": "Сбросить статус брошенной регистрации",
+		"MEMBERSHIP.BTN_RESET_BANNED": "Reset Banned Registration Status",
 		"MEMBERSHIP.BTN_RESET_STAFF_HELP": "Сбросить статус помощи персонала",
 		"MEMBERSHIP.BTN_DELETE_USER": "Удалить пользователя",
 		"MEMBERSHIP.CONFIRM_DELETE_USER": "Вы точно хотите удалить пользователя?",
+		"MEMBERSHIP.BTN_DELETE_GDPR": "GDPR Delete",
+		"MEMBERSHIP.CONFIRM_DELETE_GDPR": "ARE YOU SURE? Removes phone, address, shared information and credit card/bank info. This information CANNOT be recovered.",
 		"MEMBERSHIP.KISI_ACCESS_GROUP": "Kisi Access Group",
 		"MEMBERSHIP.EZEEP_GROUP": "Ezeep Group",
 

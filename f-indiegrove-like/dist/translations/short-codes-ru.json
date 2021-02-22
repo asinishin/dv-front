@@ -1,18 +1,35 @@
 {
   "SH_CODES": {
-    "HEADER": "Вставки",
-    "HINT": "Используйте эти вставки в шаблоне письма выше",
+    "HEADER": "Short Codes",
+    "HINT": "Use these short codes in the email template above",
 
-    "CENTER_NAME": "Название центра",
-    "COMPANY_NAME": "Название компании (владелец центра)",
+    "CENTER_NAME": "Center name",
+    "COMPANY_NAME": "Company name (center owner company)",
 
-    "MEMBER_NAME": "Полное имя пользователя",
-    "FIRST_NAME": "Имя пользователя",
-    "LAST_NAME": "Фамилия пользователя",
-    "MEMBER_LOGIN": "Логин пользователя",
     "USER_NAME": "User full name",
     "USER_FIRST_NAME": "User first name",
     "USER_LAST_NAME": "User last name",
+    "MEMBER_NAME": "Member full name",
+    "FULL_NAME": "Full name",
+    "FIRST_NAME": "First name",
+    "LAST_NAME": "Last name",
+    "COMPANY": "Company",
+    "OCCUPATION": "Occupation",
+    "LOGIN": "Login",
+    "PASSWORD": "Password of registered user",
+    "EMAIL": "Email address",
+    "PHONE": "Phone number",
+    "LEAD_SOURCE": "How did you hear about us?",
+
+    "START_DATE": "Start date",
+    "RENEWAL_DATE": "Renewal date",
+    "RENEWAL_TERM": "Renewal term",
+    "PRODUCT": "Product",
+    "PRICE": "Price",
+    "DISCOUNT": "Discount",
+    "NET": "Net",
+    "REFUND_AMOUNT": "Refund amount",
+    "ORDER_NO": "Order No.",
 
     "MESSAGES": "New messages from Message Board"
   }

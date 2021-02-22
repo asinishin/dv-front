@@ -31,6 +31,7 @@
 		"SIGN_UPS.NAV_TITLE": "Voir le profil utilisateur",
 		"SIGN_UPS.STAFF_HELP": "Ce membre a demandé de l'aide d'un employé pendant l'auto-enregistrement.",
 		"SIGN_UPS.ABANDONED": "Ce membre a abandonné l'auto-enregistrement et n'a pas demandé l'aide d'un employé.",
+		"SIGN_UPS.BANNED": "Banned self-registration. Too many declined payments.",
 
 		"RESERVATION_CONFLICTS.HEADER": "Vous avez les <b>conflits de réservation</b> suivants",
 		"RESERVATION_CONFLICTS.EMPTY": "Aucun conflit.",
