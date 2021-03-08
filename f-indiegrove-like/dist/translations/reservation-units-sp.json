@@ -16,6 +16,8 @@
 		"NAME": "Name",
 		"DESCRIPTION": "Description",
 		"AREA": "Area ({{areaUnit}})",
+		"CAPACITY": "Capacity",
+		"CAPACITY.HINT": "Number of people this space can comfortably hold.",
 		"EXPECTED_USE_PER_MONTH": "Expected Use Per Month",
 		"EXPECTED_USE_PER_MONTH.HINT": "Amount of hours the unit is supposed to be used within one month",
 		"CONFIRM_DELETE": "Are you sure to remove the reservation unit?",
