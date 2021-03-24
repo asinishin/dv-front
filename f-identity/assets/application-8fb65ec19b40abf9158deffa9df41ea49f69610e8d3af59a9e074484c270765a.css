@@ -26,6 +26,10 @@ a {
   overflow: hidden;
 }
 
+.long-string {
+  width: 300px;
+}
+
 #container {
   width: 75%;
   margin: 0 auto;
