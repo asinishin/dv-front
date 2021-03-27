@@ -27,6 +27,13 @@
 		"COLUMNS.CENTER": "Center",
 		"COLUMNS.USER_NAME": "Name",
 		"COLUMNS.USER_COMPANY": "Company",
+		"COLUMNS.ORDER_ID": "Order #",
+		"COLUMNS.ITEM": "Item",
+		"COLUMNS.ITEM_CODE": "P/N",
+		"COLUMNS.QUANTITY": "Qty",
+		"COLUMNS.AMOUNT": "Amount",
+		"COLUMNS.DISCOUNT": "Discount",
+		"COLUMNS.TOTAL": "Total",
 
 		"BTN_PDF": "Download Report PDF",
 		"BTN_CSV": "Download Report CSV",

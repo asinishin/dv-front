@@ -34,6 +34,7 @@
     "BTN_UPLOAD": "Загрузить",
     "BTN_CROP": "Обрезать",
     "BTN_AUDIT": "Audit",
+    "BTN_DOWNLOAD_CSV": "Download CSV",
 
     "FULL_NAME": "Имя Фамилия",
     "FIRST_NAME": "Имя",
@@ -58,9 +59,19 @@
     "COMPANY": "Компания",
     "TITLE": "Название",
     "TIME": "Время",
+    "DATE": "Дата",
+    "AMOUNT": "Сумма",
+    "REFUND": "Возврат",
+    "TOTAL": "Всего",
+    "BALANCE": "Баланс",
+    "DISCOUNT": "Скидка",
+    "TAX": "Налог",
+    "PRODUCT": "Продукт",
 
-    "PHOTO": "Photo",
+    "PHOTO": "Фото",
     "PHOTO.INVALID_FORMAT": "Please use <b>JPEG</b> or <b>PNG</b> image format.",
+    "NO_PHOTO": "No Photo",
+    "CONFIRM_DELETE_PHOTO": "Are you sure to delete the photo?",
 
     "ADDRESS": "Адрес",
     "ADDRESS.STREET": "Улица",
@@ -108,7 +119,9 @@
 
     "DATEPICKER": "Date Picker",
     "PREV_MONTH": "Previous Month",
-    "NEXT_MONTH": "Next Month"
+    "NEXT_MONTH": "Next Month",
+
+    "UNIT_CAPACITY": "This space can comfortably hold <b>{{capacity}}</b> people."
   },
 
   "SIDEBAR": {
@@ -117,6 +130,7 @@
     "CURRENT_USER": "Активные Компания / Член",
     "CURRENT_USER.LABEL": "нажмите для выбора...",
     "CURRENT_USER.HINT": "Нажмите для поиска пользователя",
+    "CURRENT_USER.UNSELECT.HINT": "Clear active user",
 
     "DASHBOARD": "Дэшборд",
     "SIGN_IN": "Вход",

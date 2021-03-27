@@ -19,7 +19,8 @@
 		"BILLING_INFO.HEADER": "Платежная инфромация",
 		"BILLING_INFO.INCOME": "Доход за текущий месяц",
 		"BILLING_INFO.INCOME.NAV_TITLE": "Перейти к отчету о доходах",
-		"BILLING_INFO.ACCOUNTS_RECEIVABLE": "Текущая задолженость по счетам",
+		"BILLING_INFO.ACCOUNTS_RECEIVABLE.CURRENT": "Текущая задолженость по счетам",
+		"BILLING_INFO.ACCOUNTS_RECEIVABLE.TOTAL": "Общая задолженость по счетам",
 		"BILLING_INFO.ACCOUNTS_RECEIVABLE.NAV_TITLE": "Перейти к отчету о задолженности по счетам",
 		"BILLING_INFO.CC_EXPIRE": "Следующие <em>кредитные карты</em> истекают в этом месяце",
 		"BILLING_INFO.CC_EXPIRE.NAV_TITLE": "Посмотреть платежный профиль",
@@ -30,6 +31,7 @@
 		"SIGN_UPS.NAV_TITLE": "Посмотреть профиль пользователя",
 		"SIGN_UPS.STAFF_HELP": "Пользователь запросил помощь персонала в процессе само-регистрации.",
 		"SIGN_UPS.ABANDONED": "Пользователь бросил само-регистрацию и не запросил помощь персонала.",
+		"SIGN_UPS.BANNED": "Banned self-registration. Too many declined payments.",
 
 		"RESERVATION_CONFLICTS.HEADER": "Есть следующие <b>конфликты резервирований</b>",
 		"RESERVATION_CONFLICTS.EMPTY": "Нет конфликтов.",
@@ -41,6 +43,7 @@
 
 	"DASHBOARD.USER": {
 		"PAGE_TITLE": "Приветствуем {{userName}}!",
+		"NO_PERMISSION": "No permission for user dashboard.",
 
 		"UPCOMING_RESERVATIONS.HEADER": "Предстоящие резервирования",
 		"UPCOMING_RESERVATIONS.DATE": "Дата",

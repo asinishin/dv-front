@@ -43,6 +43,8 @@
     "INVOICE_TEMPLATE": "PDF Invoice Template",
     "INVOICE_TEMPLATE.STANDARD": "Standard",
     "INVOICE_TEMPLATE.ALTERNATE": "Alternate",
+    "ENABLE_GDPR_DELETE": "Enable GDPR Delete in User Profile",
+    "ENABLE_GDPR_DELETE.HINT": "Enables deletion of phone, address and billing info details.",
 
     "BILLING_FEATURES.HEADER": "Billing Features",
 
