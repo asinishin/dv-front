@@ -119,7 +119,9 @@
 
     "DATEPICKER": "Date Picker",
     "PREV_MONTH": "Previous Month",
-    "NEXT_MONTH": "Next Month"
+    "NEXT_MONTH": "Next Month",
+
+    "UNIT_CAPACITY": "This space can comfortably hold <b>{{capacity}}</b> people."
   },
 
   "SIDEBAR": {

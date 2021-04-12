@@ -32,6 +32,7 @@
 		"COLUMNS.ITEM_CODE": "P/N",
 		"COLUMNS.QUANTITY": "Qty",
 		"COLUMNS.AMOUNT": "Amount",
+		"COLUMNS.DISCOUNT": "Discount",
 		"COLUMNS.TOTAL": "Total",
 
 		"BTN_PDF": "Скачать отчет PDF",
