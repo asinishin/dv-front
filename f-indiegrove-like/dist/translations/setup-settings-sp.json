@@ -75,6 +75,8 @@
     "RESERVATION_INFO_VISIBILITY.ALL": "Allow all members to see ALL reservation details",
     "HIDE_RECURRING_RESERVATIONS": "Hide Recurring Reservations",
     "HIDE_RECURRING_RESERVATIONS.HINT": "Members and non-members will not be able to make recurring reservations.",
+    "HIDE_STAFF_ONLY_UNITS": "Hide \"Staff Only\" Reservation Units",
+    "HIDE_STAFF_ONLY_UNITS.HINT": "Hides reservation units set to <b>Staff Only</b> from <b>member</b> and <b>non-member</b> calendar views.",
 
     "PRO_RATION.HEADER": "Pro-ration",
     "PRO_RATION.HINT": "If you bill everyone on the 1st of the month, setup <strong>automatic pro-ration</strong> at <strong>registration</strong> and <strong>termination</strong> of plans.",
