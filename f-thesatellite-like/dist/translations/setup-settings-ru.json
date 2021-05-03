@@ -75,6 +75,8 @@
     "RESERVATION_INFO_VISIBILITY.ALL": "Позволить всем пользователям видеть детали всех резервирований",
     "HIDE_RECURRING_RESERVATIONS": "Не показывать регулярные резервирования",
     "HIDE_RECURRING_RESERVATIONS.HINT": "Члены и не-члены не смогут делать регулярные резервирования.",
+    "HIDE_STAFF_ONLY_UNITS": "Hide \"Staff Only\" Reservation Units",
+    "HIDE_STAFF_ONLY_UNITS.HINT": "Hides reservation units set to <b>Staff Only</b> from <b>member</b> and <b>non-member</b> calendar views.",
 
     "PRO_RATION.HEADER": "Пропорциональное распределение",
     "PRO_RATION.HINT": "Если Вы выставляете счета по первым числам месяца, установите <strong>автоматическую пропорцию</strong> при <strong>регистрации</strong> и <strong>завершении</strong> планов.",
