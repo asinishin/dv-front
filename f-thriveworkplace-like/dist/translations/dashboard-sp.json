@@ -31,6 +31,7 @@
 		"SIGN_UPS.NAV_TITLE": "View User Profile",
 		"SIGN_UPS.STAFF_HELP": "Member requested staff help during self-registration.",
 		"SIGN_UPS.ABANDONED": "Member abandoned self-registration and not requested staff help.",
+		"SIGN_UPS.BANNED": "Banned self-registration. Too many declined payments.",
 
 		"RESERVATION_CONFLICTS.HEADER": "You have the following <b>Reservation Conflicts</b>",
 		"RESERVATION_CONFLICTS.EMPTY": "No conflicts.",

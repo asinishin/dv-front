@@ -16,10 +16,16 @@
 		"NAME": "Название",
 		"DESCRIPTION": "Описание",
 		"AREA": "Площадь ({{areaUnit}})",
+		"CAPACITY": "Capacity",
+		"CAPACITY.HINT": "Number of people this space can comfortably hold.",
 		"EXPECTED_USE_PER_MONTH": "Предполагаемое использование за месяц",
 		"EXPECTED_USE_PER_MONTH.HINT": "Ожидаемое количество часов использования юнита в течение одного месяца",
 		"CONFIRM_DELETE": "Вы точно хотите удалить юнит резервирования?",
 
 		"PHOTO.HINT": "Recommended minimum size is <strong>1280x640 px</strong>"
+	},
+	"NEXKEY": {
+		"LOCKS": "Nexkey Locks",
+		"LOCKS.HINT": "<b>Nexkey locks IDs</b> separated by comma. Keys for these locks will be sent to user <b>30 min</b> prior to reservation."
 	}
 }
