@@ -1,0 +1,24 @@
+{
+	"RECURRING_BILLING_CHANGE_REPORT": {
+		"REPORT_NAME": "Recurring Billing Change Report",
+
+		"COLUMNS.MEMBER": "Member",
+		"COLUMNS.MEMBER_STATUS": "Member Status",
+		"COLUMNS.PRODUCT": "Recurring Billing Item",
+		"COLUMNS.START_DATE": "Start Date",
+		"COLUMNS.NOTICE_DATE": "Notice Date",
+		"COLUMNS.TERMINATION_DATE": "Termination Date",
+		"COLUMNS.DAYS_ACTIVE": "Days Active",
+
+		"REVENUE_AS_OF_DATE": "Recurring Revenue as of {{date}}",
+		"TOTAL_NEW": "Total New Recurring Billings",
+		"TOTAL_NOTICES": "Total Value for Notices Given",
+		"TOTAL_TERMINATIONS": "Total Terminated Recurring Billings",
+
+		"NEW_RB": "New Recurring Billings",
+		"NOTICES_GIVEN": "Notices Given",
+		"TERMINATIONS": "Terminations",
+
+		"CHART.HEADER": "Recurring Billing Change Chart"
+	}
+}

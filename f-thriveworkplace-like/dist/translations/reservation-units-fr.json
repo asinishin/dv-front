@@ -16,10 +16,16 @@
 		"NAME": "Nom",
 		"DESCRIPTION": "Description",
 		"AREA": "Area ({{areaUnit}})",
+		"CAPACITY": "Capacity",
+		"CAPACITY.HINT": "Number of people this space can comfortably hold.",
 		"EXPECTED_USE_PER_MONTH": "Expected Use Per Month",
 		"EXPECTED_USE_PER_MONTH.HINT": "Amount of hours the unit is supposed to be used within one month",
 		"CONFIRM_DELETE": "Êtes-vous sûr de vouloir supprimer cette unité de réservation?",
 
 		"PHOTO.HINT": "Recommended minimum size is <strong>1280x640 px</strong>"
+	},
+	"NEXKEY": {
+		"LOCKS": "Nexkey Locks",
+		"LOCKS.HINT": "<b>Nexkey locks IDs</b> separated by comma. Keys for these locks will be sent to user <b>30 min</b> prior to reservation."
 	}
 }

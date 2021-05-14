@@ -4,6 +4,7 @@
 
 		"ENABLED": "Enabled",
 		"API_KEY": "API Key",
+		"API_SECRET": "API Secret",
 
 		"APP_PLUS.HEADER": "Appointment Plus Integration",
 		"APP_PLUS.ENABLED": "Enabled",
@@ -45,10 +46,12 @@
 		"KISI.DEFAULT_ACCESS_GROUP": "Default Access Group",
 		"KISI.NO_ACCESS": "No Access",
 
+		"NEXKEY.HEADER": "Nexkey Integration",
+
 		"EZEEP.HEADER": "Ezeep Integration",
 		"EZEEP.USERNAME": "Username",
 		"EZEEP.PASSWORD": "Password",
-        "EZEEP.DEFAULT_GROUP": "Default Group",
+		"EZEEP.DEFAULT_GROUP": "Default Group",
 
 		"GREETLY.HEADER": "Greetly Integration",
 		"GREETLY.CENTER": "Center",

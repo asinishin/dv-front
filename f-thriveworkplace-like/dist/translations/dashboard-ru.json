@@ -31,6 +31,7 @@
 		"SIGN_UPS.NAV_TITLE": "Посмотреть профиль пользователя",
 		"SIGN_UPS.STAFF_HELP": "Пользователь запросил помощь персонала в процессе само-регистрации.",
 		"SIGN_UPS.ABANDONED": "Пользователь бросил само-регистрацию и не запросил помощь персонала.",
+		"SIGN_UPS.BANNED": "Banned self-registration. Too many declined payments.",
 
 		"RESERVATION_CONFLICTS.HEADER": "Есть следующие <b>конфликты резервирований</b>",
 		"RESERVATION_CONFLICTS.EMPTY": "Нет конфликтов.",
