@@ -110,6 +110,7 @@
 
     "FORBID_STAFF.HEADER": "Запрещено",
     "FORBID_STAFF.TEXT": "Сотрудники сначала должены выйти из системы.",
+    "FORBID_MEMBER.TEXT": "You are already registered as a member of {{center}}.<br>Please contact staff if you would like to add or modify your plan.",
 
     "NEED_HELP": "Need help? Phone {{phone}}.",
     "POSITION": "#",

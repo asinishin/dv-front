@@ -19,6 +19,10 @@
     "GTM_CONTAINER_ID.HINT": "Укажите идентификатор <a href=\"https://tagmanager.google.com/\" target=\"_blank\" rel=\"noopener\">GTM</a> контейнера для включения отслеживания или оставьте пустым для отключения отслеживания.",
     "AFFILIATLY_ID": "Affiliatly ID",
     "AFFILIATLY_ID.HINT": "Enables <a href=\"https://www.affiliatly.com/\" target=\"_blank\" rel=\"noopener\">Affiliatly</a> to track purchases in Member Sign Up wizard.",
+    "ADD_ON_PRODUCTS_REGISTRATION": "Show additional products for Self Registration",
+    "ADD_ON_PRODUCTS_REGISTRATION.HINT": "If checked, all products available for self-registration are shown and can be selected as add-ons to membership on last screen.",
+    "EXTRA_FIELDS_REGISTRATION": "Show extra fields in self-registration",
+    "EXTRA_FIELDS_REGISTRATION.HINT": "If checked, shows Occupation, Do not send group emails, Photo, How did you hear about us.",
 
     "FEATURES.HEADER": "Функции",
     "ENABLE_EMAILING": "Включить рассылку email",

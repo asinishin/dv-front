@@ -19,6 +19,7 @@
 		"RECEIPT.GENERAL": "Обычный чек",
 		"RECEIPT.RESERVATION": "Чек для резервирования",
 		"RECEIPT.PASS": "Чек для пропуска",
+		"RECEIPT_PAGE.PAGE_TITLE": "Receipt Page Settings",
 		"RENEWAL_NOTICE.PAGE_TITLE": "Шаблон уведомления об обновлении",
 		"STARTUP_INFO.PAGE_TITLE": "Startup Info",
 		"STARTUP_INFO.HINT": "Send Startup Info Email with receipt from self registration.",

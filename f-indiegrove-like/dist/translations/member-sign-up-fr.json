@@ -25,6 +25,7 @@
 
 		"PURCHASE.PAGE_TITLE": "Confirmer et acheter l'abonnement à {{centerName}}",
 		"PURCHASE.ORDER.HEADER": "Id de la commande: {{orderId}}",
+		"PURCHASE.ADD_ON_PRODUCTS.HINT": "Any Membership or Service options below are in addition to the membership you've already selected",
 
 		"BILLING.BTN_COMPLETE": "Compléter l'inscription",
 
