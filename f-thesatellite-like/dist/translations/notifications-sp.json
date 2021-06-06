@@ -19,6 +19,7 @@
 		"RECEIPT.GENERAL": "General Receipt",
 		"RECEIPT.RESERVATION": "Reservation Receipt",
 		"RECEIPT.PASS": "Day Pass Receipt",
+		"RECEIPT_PAGE.PAGE_TITLE": "Receipt Page Settings",
 		"RENEWAL_NOTICE.PAGE_TITLE": "Renewal Notice Email Settings",
 		"STARTUP_INFO.PAGE_TITLE": "Startup Info",
 		"STARTUP_INFO.HINT": "Send Startup Info Email with receipt from self registration.",

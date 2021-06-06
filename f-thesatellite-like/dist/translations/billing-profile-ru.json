@@ -35,6 +35,7 @@
 		"E_CHECKS.ACCOUNT_NUMBER": "Номер счета",
 		"E_CHECKS.ACCOUNT_NAME": "Имя владельца",
 		"E_CHECKS.CONFIRM_DELETE": "Вы точно хотите удалить е-чек?",
+		"E_CHECKS.BTN_ADD": "Add E-Check (Bank Info)",
 
 		"REGISTRATION.SKIP_BILLING": "Продолжить без платежных данных",
 		"REGISTRATION.COMPLETE": "Вы успешно зарегистрировали {{userName}}."

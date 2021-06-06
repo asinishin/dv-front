@@ -4,7 +4,7 @@
 		"MEMBERSHIP.THANKS": "Thanks for signing up!",
 		"MEMBERSHIP.BTN_PROCEED": "Proceed to Checkout",
 
-		"LANDING.PAGE_TITLE": "Your Order in {{centerName}}",
+		"LANDING.PAGE_TITLE": "Welcome! Confirm your plan and start date",
 
 		"MEMBERSHIP.CENTER.HEADER": "Sélectionner un centre",
 		"MEMBERSHIP.CENTER.CENTER": "Centre",
@@ -23,8 +23,11 @@
 		"MEMBERSHIP.PRODUCT.START_DATE": "Start Date",
 		"MEMBERSHIP.PRODUCT.DESCRIPTION": "Forfait Description",
 
+		"PROFILE.PAGE_TITLE": "Create Your Account",
+
 		"PURCHASE.PAGE_TITLE": "Confirmer et acheter l'abonnement à {{centerName}}",
 		"PURCHASE.ORDER.HEADER": "Id de la commande: {{orderId}}",
+		"PURCHASE.ADD_ON_PRODUCTS.HINT": "Any Membership or Service options below are in addition to the membership you've already selected",
 
 		"BILLING.BTN_COMPLETE": "Compléter l'inscription",
 
