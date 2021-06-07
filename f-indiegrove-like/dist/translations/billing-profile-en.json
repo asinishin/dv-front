@@ -36,7 +36,7 @@
 		"E_CHECKS.ACCOUNT_NUMBER": "Account Number",
 		"E_CHECKS.ACCOUNT_NAME": "Account Name",
 		"E_CHECKS.CONFIRM_DELETE": "Are you sure to delete the eCheck?",
-		"E_CHECKS.BTN_ADD": "Add E-Check (Bank Info)",
+		"E_CHECKS.BTN_ADD": "Add E-Check",
 
 		"REGISTRATION.SKIP_BILLING": "Continue without entering credit card information",
 		"REGISTRATION.COMPLETE": "You have successfully registered {{userName}}."

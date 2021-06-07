@@ -15,7 +15,8 @@
       "TOTAL": "Всего",
       "START_DATE": "Начальная дата",
       "TERMINATION_DATE": "Дата закрытия",
-      "DAYS_ACTIVE": "Активные дни"
+      "DAYS_ACTIVE": "Активные дни",
+      "LEAD_SOURCE": "Lead Source"
     },
 
     "TOTALS": {

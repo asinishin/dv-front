@@ -4,7 +4,7 @@
 		"MEMBERSHIP.THANKS": "Спасибо за регистрацию!",
 		"MEMBERSHIP.BTN_PROCEED": "Proceed to Checkout",
 
-		"LANDING.PAGE_TITLE": "Welcome! Confirm your plan and start date",
+		"LANDING.PAGE_TITLE": "Your Order in {{centerName}}",
 
 		"MEMBERSHIP.CENTER.HEADER": "Выберите Центр",
 		"MEMBERSHIP.CENTER.CENTER": "Центр",
@@ -22,9 +22,7 @@
 		"MEMBERSHIP.PRODUCT.START_DATE": "Дата начала",
 		"MEMBERSHIP.PRODUCT.DESCRIPTION": "Описание плана",
 
-		"PROFILE.PAGE_TITLE": "Create Your Account",
-
-		"PURCHASE.PAGE_TITLE": "Confirm And Add Payment",
+		"PURCHASE.PAGE_TITLE": "Подтвердите покупку членства в {{centerName}}",
 		"PURCHASE.ORDER.HEADER": "Номер ордера: {{orderId}}",
 		"PURCHASE.ADD_ON_PRODUCTS.HINT": "Any Membership or Service options below are in addition to the membership you've already selected",
 
