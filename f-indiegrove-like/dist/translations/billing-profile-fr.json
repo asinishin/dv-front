@@ -35,6 +35,7 @@
 		"E_CHECKS.ACCOUNT_NUMBER": "Numéro de compte",
 		"E_CHECKS.ACCOUNT_NAME": "Nom du compte",
 		"E_CHECKS.CONFIRM_DELETE": "Êtes-vous sûrs de vouloir supprimer le e-chèque?",
+		"E_CHECKS.BTN_ADD": "Add ACH/EFT (Bank Info)",
 
 		"REGISTRATION.SKIP_BILLING": "Continuer sans entrer les informations de carte de crédit",
 		"REGISTRATION.COMPLETE": "Vous avez enregistré {{userName}} avec succès."
