@@ -1,12 +1,13 @@
 {
   "ANALYTICS": {
-    "PAGE_TITLE": "Analytics Dashboard",
+    "PAGE_TITLE": "KPI Dashboard",
 
     "WIDGET.SALES": "Sales",
     "WIDGET.SALES_BY_PRODUCT_CATEGORY": "Sales by Product Category",
     "WIDGET.SALES_BY_PRODUCT_CATEGORY.HINT": "Click a wedge for monthly chart.",
     "WIDGET.INCOME": "Income (Cash)",
     "WIDGET.RECURRING_BILLINGS": "Recurring Billings",
+    "WIDGET.RECURRING_BILLINGS.HINT": "Accurate as of 1st day of each period.",
     "WIDGET.REVENUE_FORECAST": "Revenue Forecast",
     "WIDGET.OVERALL_SPACE_UTILIZATION": "Overall Space Utilization",
     "WIDGET.RESERVATION_SPACE_UTILIZATION": "Reservation Space Utilization",
@@ -21,7 +22,7 @@
     "BTN_SAVE_DEFAULTS": "Save Defaults",
     "BTN_TRASH": "Trash",
     "ALL_CENTERS": "All Centers",
-    "ALL_CENTERS.HINT": "Display charts either for all centers or for current center in sidebar.",
+    "ALL_CENTERS.HINT": "Display charts either for all centers or for CURRENT CENTER shown in sidebar.",
     "DRAG_N_DROP": "Drag'n'drop to reorder or trash",
     "WIDE": "Half/Full Width"
   }

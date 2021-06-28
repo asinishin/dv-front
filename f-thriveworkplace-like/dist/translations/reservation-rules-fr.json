@@ -25,6 +25,7 @@
 		"MAX_LIMIT": "Maximum<br>Heures/jours/personnes",
 		"DAYS_IN_ADVANCE": "Nombre de jours à l'avance que les réservations sont permises",
 		"TIME_IN_ADVANCE": "Time in Advance Reservations Required",
+		"NESTED_UNITS": "If reserved, make these units unavailable",
 		"NON_MEMBER": "Non-Membre",
 		"MEMBER": "Membre",
 		"UNLIMITED": "Illimité",

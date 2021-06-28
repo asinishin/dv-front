@@ -62,6 +62,7 @@
 		"CALENDAR.LEGEND.OWN.HINT": "Réservé par vous",
 		"CALENDAR.LEGEND.AVAILABLE": "Disponible",
 		"CALENDAR.LEGEND.AVAILABLE.HINT": "Disponible pour réservation",
+		"CALENDAR.LEGEND.UNAVAILABLE": "Unavailable",
 		"CALENDAR.ROLE.COORDINATOR": "Vue en tant que coordonnateur",
 		"CALENDAR.ROLE.MEMBER": "Vue en tant que membre",
 		"CALENDAR.ROLE.NON_MEMBER": "Vue en tant que non-membre",

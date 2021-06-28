@@ -4,7 +4,6 @@
 
 		"ENABLED": "Включена",
 		"API_KEY": "API Key",
-		"API_SECRET": "API Secret",
 
 		"APP_PLUS.HEADER": "Интеграция с Appointment Plus",
 		"APP_PLUS.ENABLED": "Включена",
@@ -45,8 +44,6 @@
 		"KISI.PLACE": "Kisi Place",
 		"KISI.DEFAULT_ACCESS_GROUP": "Default Access Group",
 		"KISI.NO_ACCESS": "No Access",
-
-		"NEXKEY.HEADER": "Nexkey Integration",
 
 		"EZEEP.HEADER": "Интеграция Ezeep",
 		"EZEEP.USERNAME": "Имя пользователя",
