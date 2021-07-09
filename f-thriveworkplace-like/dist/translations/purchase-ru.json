@@ -110,6 +110,24 @@
 
 		"PAYMENT_PROCESSING_FEE": "payment processing fee",
 
-		"AUDIT.HEADER": "Order Audit"
+		"AUDIT.HEADER": "Order Audit",
+
+		"FACTURA.HEADER": "Factura CFDI",
+		"FACTURA.EMPTY": "Empty",
+		"FACTURA.EMPTY.HINT": "This order is empty. Please add charges to stamp CFDI.",
+		"FACTURA.NO_CHARGES": "No Charges",
+		"FACTURA.NO_CHARGES.HINT": "This order doesn't contain charges. Please add charges to stamp CFDI.",
+		"FACTURA.STAMPED": "Stamped",
+		"FACTURA.DIRTY": "Dirty",
+		"FACTURA.DIRTY.HINT": "The order has been modified since the last stamping. Re-stamping cancels all related CFDIs and creates new ones.",
+		"FACTURA.USTAMPED": "Unstamped",
+		"FACTURA.STAMP": "Stamp",
+		"FACTURA.RE_STAMP": "Re-stamp",
+		"FACTURA.CANCEL": "Cancel",
+		"FACTURA.NO_TAX_ID": "No Tax ID",
+		"FACTURA.NO_TAX_ID.HINT": "User's <b>Tax ID</b> is not defined in <b>Billing Profile</b>.",
+		"FACTURA.CFDI_TYPE.INVOICE": "Invoice CFDI",
+		"FACTURA.CFDI_TYPE.CREDIT": "Credit CFDI",
+		"FACTURA.CFDI_TYPE.PAYMENT": "Payment CFDI"
 	}
 }

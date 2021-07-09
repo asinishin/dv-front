@@ -56,6 +56,11 @@
 		"GREETLY.NOTIFICATION.BY_EMAIL": "Уведомление по электронной почте",
 		"GREETLY.NOTIFICATION.BY_SLACK": "Уведомление по Slack",
 		"GREETLY.NOTIFICATION.BY_SMS": "Уведомление отправкой sms",
-		"GREETLY.NOTIFICATION.BY_VOICE": "Уведомление голосом"
+		"GREETLY.NOTIFICATION.BY_VOICE": "Уведомление голосом",
+
+		"FACTURA.HEADER": "Factura Integration",
+		"FACTURA.BASE_URL": "Base URL",
+		"FACTURA.API_KEY": "API Key",
+		"FACTURA.SECRET_KEY": "Secret Key"
 	}
 }

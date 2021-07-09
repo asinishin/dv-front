@@ -65,9 +65,11 @@
     "BALANCE": "Баланс",
     "DISCOUNT": "Скидка",
     "TAX": "Налог",
+    "TAX_ID": "Tax ID",
     "PRODUCT": "Продукт",
     "TOTAL": "Total",
     "PERIOD": "Period",
+    "STATUS": "Status",
 
     "PHOTO": "Фото",
     "PHOTO.INVALID_FORMAT": "Please use <b>JPEG</b> or <b>PNG</b> image format.",
