@@ -61,6 +61,7 @@
 		"CALENDAR.LEGEND.OWN.HINT": "Зарезервировано Вами",
 		"CALENDAR.LEGEND.AVAILABLE": "Доступно",
 		"CALENDAR.LEGEND.AVAILABLE.HINT": "Доступно для резервирования",
+		"CALENDAR.LEGEND.UNAVAILABLE": "Unavailable",
 		"CALENDAR.ROLE.COORDINATOR": "Как координатор",
 		"CALENDAR.ROLE.MEMBER": "Как член",
 		"CALENDAR.ROLE.NON_MEMBER": "Как не-член",

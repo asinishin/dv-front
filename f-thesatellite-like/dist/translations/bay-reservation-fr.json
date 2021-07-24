@@ -7,6 +7,8 @@
 		"BAY": "Bay",
 		"RESERVING_BAYS": "We are reserving the following bays for you",
 		"NUMBER_IN_PARTY": "Number in Party: {{count}}",
-		"UNITS.PAGE_TITLE": "Select Bay"
+		"UNITS.PAGE_TITLE": "Select Bay",
+		"LOGIN_PASSWORD.HEADER": "Would you like to enter a password to set up an account at {{center}}?",
+		"BTN_SKIP": "Skip"
 	}
 }

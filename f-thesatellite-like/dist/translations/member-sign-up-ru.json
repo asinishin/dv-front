@@ -8,6 +8,7 @@
 
 		"MEMBERSHIP.CENTER.HEADER": "Выберите Центр",
 		"MEMBERSHIP.CENTER.CENTER": "Центр",
+		"MEMBERSHIP.CENTER.AT": "At: {{center}}",
 
 		"MEMBERSHIP.CATEGORY.HEADER": "Выберите категорию члества",
 		"MEMBERSHIP.CATEGORY.EMPTY": "Нет категорий членства.",

@@ -8,6 +8,7 @@
 
 		"MEMBERSHIP.CENTER.HEADER": "Sélectionner un centre",
 		"MEMBERSHIP.CENTER.CENTER": "Centre",
+		"MEMBERSHIP.CENTER.AT": "At: {{center}}",
 
 		"MEMBERSHIP.CATEGORY.HEADER": "Choisir une catégorie d'abonnement",
 		"MEMBERSHIP.CATEGORY.EMPTY": "Aucune catégorie d'abonnement.",

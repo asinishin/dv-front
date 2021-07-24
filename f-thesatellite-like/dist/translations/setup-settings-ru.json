@@ -27,7 +27,7 @@
     "FEATURES.HEADER": "Функции",
     "ENABLE_EMAILING": "Включить рассылку email",
     "ENABLE_EMAILING.HINT": "Если выключено, ни уведомления ни массовые рассылки не будут отсылаться.",
-    "USE_E_CHECKS": "Использовать е-чеки?",
+    "USE_E_CHECKS": "Использовать ACH/EFT?",
     "IS_FRANCHISE": "Это франшиза?",
     "ENABLE_ACCESS_CODES": "Отображать коды доступа WiFi",
     "ACTIVATE_MEMBERS_FOR_ALL_CENTERS": "Активировать членов для всех центров",
@@ -62,8 +62,6 @@
     "INVOICE_DATE.CHARGE_DATE": "Дата списания",
 
     "RESERVATION.HEADER": "Резервирование",
-    "RESERVATION_REMINDER": "Напоминания о резервир.",
-    "RESERVATION_REMINDER.HINT": "Слать напоминание за <b>23 чвса</b> до резервирования.",
     "HIDE_RESERVATION_COST_ESTIMATE": "Hide Reservation Cost Estimate",
     "HIDE_RESERVATION_COST_ESTIMATE.HINT": "Do not show cost estimate on Make a New Reservation.",
     "RESERVATION_CREDITS_UNIT": "Единица кредита резервир.",

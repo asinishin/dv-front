@@ -68,7 +68,7 @@
 		"MEMBERSHIP.STATUS.ACTIVE": "Active",
 		"MEMBERSHIP.STATUS.INACTIVE": "Inactive",
 		"MEMBERSHIP.STATUS.NON_MEMBER": "Non-Member",
-		"MEMBERSHIP.CATEGORY": "Category",
+		"MEMBERSHIP.CATEGORY": "Membership Category",
 		"MEMBERSHIP.PLAN": "Plan",
 		"MEMBERSHIP.PRICE_LIST": "Price List",
 		"MEMBERSHIP.PRICE_LIST.CHANGE_WARNING": "Changing this setting will make all recurring billings inactive. You can create new ones using the new price list.",

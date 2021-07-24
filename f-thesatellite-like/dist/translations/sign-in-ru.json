@@ -1,6 +1,6 @@
 {
 	"SIGN_IN": {
-		"PAGE_TITLE": "Sign in to your {{company}} account",
+		"PAGE_TITLE": "Вход",
 		"REMEMBER_ME": "Запомнить меня",
 		"FORGOT_PASSWORD": "Забыли пароль?",
 		"BTN_SIGN_IN": "Войти",
