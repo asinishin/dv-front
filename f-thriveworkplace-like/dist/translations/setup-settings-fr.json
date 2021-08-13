@@ -62,6 +62,8 @@
     "INVOICE_DATE.CHARGE_DATE": "Due/Charge Date",
 
     "RESERVATION.HEADER": "Reservation",
+    "RESERVATION_REMINDER": "Send Reservation Reminder",
+    "RESERVATION_REMINDER.HINT": "Send reminder <b>23 hours</b> prior to reservation.",
     "HIDE_RESERVATION_COST_ESTIMATE": "Hide Reservation Cost Estimate",
     "HIDE_RESERVATION_COST_ESTIMATE.HINT": "Do not show cost estimate on Make a New Reservation.",
     "RESERVATION_CREDITS_UNIT": "Reservation Credits Unit",
