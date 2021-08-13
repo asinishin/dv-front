@@ -1,13 +1,13 @@
 {
 	"BAY_RESERVATION": {
 		"HEADER": "Select the number of guests in your party",
-		"GUESTS_COUNT": "Number of Guests",
-		"GUESTS_OVERFLOW": "You have more than {{capacity}} people in your party. You will need an additional {{category}}.",
+		"NUMBER_IN_PARTY": "Number in party",
+		"NIP_OVERFLOW": "Number exceeds availability. Please adjust the number in your party.",
 		"BTN_CONTINUE": "Continue",
 		"BAY": "Bay",
 		"RESERVING_BAYS": "We are reserving the following bays for you",
-		"NUMBER_IN_PARTY": "Number in Party: {{count}}",
-		"UNITS.PAGE_TITLE": "Select Bay",
+		"CURRENT_NUMBER_IN_PARTY": "Number in Party: {{count}}",
+		"UNITS.PAGE_TITLE": "Select",
 		"LOGIN_PASSWORD.HEADER": "Would you like to enter a password to set up an account at {{center}}?",
 		"BTN_SKIP": "Skip"
 	}
