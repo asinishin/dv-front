@@ -68,7 +68,7 @@
 		"MEMBERSHIP.STATUS.ACTIVE": "Активный",
 		"MEMBERSHIP.STATUS.INACTIVE": "Неактивный",
 		"MEMBERSHIP.STATUS.NON_MEMBER": "Не-член",
-		"MEMBERSHIP.CATEGORY": "Категория",
+		"MEMBERSHIP.CATEGORY": "Membership Category",
 		"MEMBERSHIP.PLAN": "План",
 		"MEMBERSHIP.PRICE_LIST": "Прайс-лист",
 		"MEMBERSHIP.PRICE_LIST.CHANGE_WARNING": "Изменение этой настройки деактивирует все регулярные платежи. Вы можете создать новые используя новый прайс-лист.",

@@ -41,8 +41,8 @@
 
 		"TIME_SELECTOR.HINT.START": "Click an open time slot to select a start time.",
 		"TIME_SELECTOR.HINT.END": "Click an open time slot to select an end time.",
-		"TIME_SELECTOR.FROM": "From",
-		"TIME_SELECTOR.TO": "To",
+		"TIME_SELECTOR.FROM": "Start",
+		"TIME_SELECTOR.TO": "End",
 		"TIME_SELECTOR.BTN_CLEAR": "Clear time selection",
 		"TIME_SELECTOR.SLOT.AVAILABLE": "Available time slot: {{from}} - {{to}}",
 		"TIME_SELECTOR.SLOT.UNAVAILABLE": "Unavailable time slot: {{from}} - {{to}}",
@@ -62,6 +62,7 @@
 		"CALENDAR.LEGEND.OWN.HINT": "Reserved by you",
 		"CALENDAR.LEGEND.AVAILABLE": "Available",
 		"CALENDAR.LEGEND.AVAILABLE.HINT": "Available for reservation",
+		"CALENDAR.LEGEND.UNAVAILABLE": "Unavailable",
 		"CALENDAR.ROLE.COORDINATOR": "View as Coordinator",
 		"CALENDAR.ROLE.MEMBER": "View as Member",
 		"CALENDAR.ROLE.NON_MEMBER": "View as Non-Member",
