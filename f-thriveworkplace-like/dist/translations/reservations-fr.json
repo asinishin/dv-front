@@ -82,7 +82,7 @@
 		"CALENDAR.PRICES": "Prices",
 		"CALENDAR.HINT": "Hover over left menu name for info. Click in a time slot to reserve.",
 
-		"CALENDAR.CAPACITY": "<b>{{capacity}}</b> slots available.",
+		"CALENDAR.CAPACITY": "This space can comfortably hold <b>{{capacity}}</b> people.",
 
 		"RESERVATION_AGREEMENT.LABEL": "By checking this box you agree to",
 		"RESERVATION_AGREEMENT.REQUIRED": "Check this box to agree",

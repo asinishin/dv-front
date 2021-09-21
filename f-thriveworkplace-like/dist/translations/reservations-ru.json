@@ -81,7 +81,7 @@
 		"CALENDAR.PRICES": "Цены",
 		"CALENDAR.HINT": "Наведите на левое меню для инфо. Нажмите на временной слот для резервирования.",
 
-		"CALENDAR.CAPACITY": "<b>{{capacity}}</b> slots available.",
+		"CALENDAR.CAPACITY": "This space can comfortably hold <b>{{capacity}}</b> people.",
 
 		"RESERVATION_AGREEMENT.LABEL": "Ставя галочку вы соглашаетесь с ",
 		"RESERVATION_AGREEMENT.REQUIRED": "Поставьте галочку, чтобы согласиться с ",

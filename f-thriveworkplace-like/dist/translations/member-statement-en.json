@@ -1,7 +1,7 @@
 {
 	"MEMBER_STATEMENT": {
-		"PAGE_TITLE": "Member Statement for {{userName}}",
-		"REPORT_NAME": "Member Statement",
+		"PAGE_TITLE": "Statement for {{userName}}",
+		"REPORT_NAME": "Statement",
 		"PREVIEW.HEADER": "Statement Preview",
 		"BTN_PDF": "Download Statement PDF",
 
