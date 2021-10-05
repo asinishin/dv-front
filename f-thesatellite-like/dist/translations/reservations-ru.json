@@ -38,8 +38,7 @@
 		"BTN_CALENDAR": "Календарь",
 
 		"STAFF_ONLY": "Свяжитесь с персоналом {{centerName}} для резервирования.<br><a href=\"tel:{{centerPhone}}\">{{centerPhone}}</a> or <a href=\"mailto:{{centerEmail}}\">{{centerEmail}}</a>",
-		"TIME_SELECTOR.HINT.START": "Нажмите на свободную ячейку для выбора времени начала.",
-		"TIME_SELECTOR.HINT.END": "Нажмите на свободную ячейку для выбора времени конца.",
+		"TIME_SELECTOR.HINT": "Click and drag to select time.",
 		"TIME_SELECTOR.FROM": "Начало",
 		"TIME_SELECTOR.TO": "Конец",
 		"TIME_SELECTOR.BTN_CLEAR": "Сбросить выбор времени",
