@@ -62,6 +62,8 @@
     "INVOICE_DATE.CHARGE_DATE": "Дата списания",
 
     "RESERVATION.HEADER": "Резервирование",
+    "RESERVATION_REMINDER": "Напоминания о резервир.",
+    "RESERVATION_REMINDER.HINT": "Слать напоминание за <b>23 чвса</b> до резервирования.",
     "HIDE_RESERVATION_COST_ESTIMATE": "Hide Reservation Cost Estimate",
     "HIDE_RESERVATION_COST_ESTIMATE.HINT": "Do not show cost estimate on Make a New Reservation.",
     "RESERVATION_CREDITS_UNIT": "Единица кредита резервир.",
@@ -129,6 +131,9 @@
     "TERMS_OF_SERVICE_URL.HINT": "Эта ссылка отображается в <b>первом шаге само-регистрации пользователя</b>. Пользователь должен <b>согласиться</b> с помощью <b>галочки</b>.",
     "BTN_UPLOAD_TERMS_OF_SERVICE.HINT": "Загрузить PDF условий обслуживания",
     "TERMS_OF_SERVICE_TEXT": "Текст ссылки условий обслуживания",
-    "INVALID_FORMAT_PDF": "Пожалуйста используйте документы формата .pdf."
+    "INVALID_FORMAT_PDF": "Пожалуйста используйте документы формата .pdf.",
+
+    "RESERVATION_PAYMENT_ONE_PERSON": "Allow reservation with payment for one person",
+    "RESERVATION_PAYMENT_ONE_PERSON.HINT": "Default reservation receipt to payment for one person; allow payment for all in party."
   }
 }

@@ -29,20 +29,16 @@
 		"COUNT_CHECK_INS_PER.CO_MEMBER": "Co-Membere",
 		"COUNT_CHECK_INS_PER.COMPANY": "Compagniey",
 		"ONLY_NON_MEMBER_HOURS": "Peut seulement réserver pendant les heures non-membres",
-		"ONLY_NON_MEMBER_HOURS.SHORT": "Réserver pendant les heures non-membres",
 		"ALLOW_RESERVATION_CREDITS": "Peut-être utilisé avec les crédits de réservation",
 		"BUY_ON_SPLASH_PAGE": "Peut être acheté sur la Splash Page?",
 		"TAXABLE": "Taxable?",
 		"SHOW_FOR_SIGN_UP": "Show for Self-Registration?",
-		"SHOW_FOR_SIGN_UP.SHORT": "Show for Self Registration",
 		"HAS_REGISTRATION_FEE": "A des coûts d'inscription?",
 		"SECURITY_DEPOSIT_AMOUNT": "Security Deposit Amount",
 		"TRACK_ACROSS_ALL_CENTERS": "Track across all centers?",
 		"PASS_SIZE": "Taille de la passe (heures)",
-		"MIN_PASS": "Min {{minPassUnit}} facturé après la 1re passe",
-		"MIN_PASS.SHORT": "Min time after 1st pass",
+		"MIN_PASS": "Min{{minPassUnit}} facturé après la 1re passe",
 		"MAX_PASS": "Nombre de passes maximales facturées dans une période de 24 heures",
-		"MAX_PASS.SHORT": "Max passes per use",
 		"RESERVATION_CATEGORY": "Catégorie de réservation",
 		"NO_RESERVATION_CATEGORY": "Pas de catégorie de réservation",
 		"CONFIRM_DELETE": "Êtes-vous sûr de vouloir supprimer ce produit?",
@@ -56,13 +52,6 @@
 		"PRICE_LISTS.CREDIT": "Crédit",
 		"PRICE_LISTS.PRICE": "Prix",
 
-		"COUNT_MEMBERS": "Count Members / Co-members",
-		"BTN_PRINT": "Print Inventory List",
-		"INVENTORY_LIST": "Inventory List",
-
-		"FREE_COPIES.PRINT_BLACK": "BW",
-		"FREE_COPIES.PRINT_COLOR": "Color",
-		"FREE_COPIES.FAX": "Fax",
-		"FREE_COPIES.SCAN": "Scan"
+		"COUNT_MEMBERS": "Count Members / Co-members"
 	}
 }

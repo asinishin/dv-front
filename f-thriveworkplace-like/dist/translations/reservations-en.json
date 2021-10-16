@@ -41,8 +41,8 @@
 
 		"TIME_SELECTOR.HINT.START": "Click an open time slot to select a start time.",
 		"TIME_SELECTOR.HINT.END": "Click an open time slot to select an end time.",
-		"TIME_SELECTOR.FROM": "Start",
-		"TIME_SELECTOR.TO": "End",
+		"TIME_SELECTOR.FROM": "From",
+		"TIME_SELECTOR.TO": "To",
 		"TIME_SELECTOR.BTN_CLEAR": "Clear time selection",
 		"TIME_SELECTOR.SLOT.AVAILABLE": "Available time slot: {{from}} - {{to}}",
 		"TIME_SELECTOR.SLOT.UNAVAILABLE": "Unavailable time slot: {{from}} - {{to}}",
@@ -82,7 +82,7 @@
 		"CALENDAR.PRICES": "Prices",
 		"CALENDAR.HINT": "Hover over left menu name for info. Click in a time slot to reserve.",
 
-		"CALENDAR.CAPACITY": "This space can comfortably hold <b>{{capacity}}</b> people.",
+		"CALENDAR.CAPACITY": "<b>{{capacity}}</b> slots available.",
 
 		"RESERVATION_AGREEMENT.LABEL": "By checking this box you agree to",
 		"RESERVATION_AGREEMENT.REQUIRED": "Check this box to agree",

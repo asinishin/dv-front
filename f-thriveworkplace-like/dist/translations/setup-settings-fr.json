@@ -62,6 +62,8 @@
     "INVOICE_DATE.CHARGE_DATE": "Due/Charge Date",
 
     "RESERVATION.HEADER": "Reservation",
+    "RESERVATION_REMINDER": "Send Reservation Reminder",
+    "RESERVATION_REMINDER.HINT": "Send reminder <b>23 hours</b> prior to reservation.",
     "HIDE_RESERVATION_COST_ESTIMATE": "Hide Reservation Cost Estimate",
     "HIDE_RESERVATION_COST_ESTIMATE.HINT": "Do not show cost estimate on Make a New Reservation.",
     "RESERVATION_CREDITS_UNIT": "Reservation Credits Unit",
@@ -129,6 +131,9 @@
     "TERMS_OF_SERVICE_URL.HINT": "This link is displayed in the <b>1st step</b> of <b>member self-registration</b>. User has to <b>agree</b> via <b>checkbox</b>.",
     "BTN_UPLOAD_TERMS_OF_SERVICE.HINT": "Upload Terms Of Service PDF",
     "TERMS_OF_SERVICE_TEXT": "Terms of Service link text",
-    "INVALID_FORMAT_PDF": "Please use .pdf document format."
+    "INVALID_FORMAT_PDF": "Please use .pdf document format.",
+
+    "RESERVATION_PAYMENT_ONE_PERSON": "Allow reservation with payment for one person",
+    "RESERVATION_PAYMENT_ONE_PERSON.HINT": "Default reservation receipt to payment for one person; allow payment for all in party."
   }
 }

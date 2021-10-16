@@ -13,7 +13,8 @@
 		"BTN_SAVE_TEMPLATE": "Save Template",
 
 		"OPTIONS.HEADER": "Опции",
-		"OPTIONS.MEMBERSHIP": "Категория членства",
+		"OPTIONS.MEMBERSHIP": "Членство",
+		"OPTIONS.MEMBERSHIP.ALL": "Все",
 		"OPTIONS.INCLUDE_NON_MEMBERS": "Включить не-членов",
 		"OPTIONS.ONLY_CHECKED_IN": "Только тем, кто сейчас в центре",
 
