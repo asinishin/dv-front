@@ -30,6 +30,10 @@
     "POINT.STATUS.NOT_AVAILABLE": "Not Available",
     "POINT.PRICE": "Price",
     "POINT.AREA": "Area",
+    "POINT.AVAILABILITY_TODAY": "Availability Today",
+    "POINT.AVAILABILITY_TODAY.AVAILABLE": "Available",
+    "POINT.AVAILABILITY_TODAY.UNAVAILABLE": "Unavailable",
+    "POINT.BTN_RESERVE": "Click to reserve",
 
     "POINT.MEMBER": "Member",
     "POINT.BTN_MORE": "More",
