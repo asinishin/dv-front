@@ -1,4 +1,4 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[74],{KNin:function(t,e,r){var n;
+(window.webpackJsonp=window.webpackJsonp||[]).push([[75],{KNin:function(t,e,r){var n;
 /*!
  * angular-translate - v2.18.4 - 2021-01-14
  * 
