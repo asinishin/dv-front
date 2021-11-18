@@ -45,10 +45,13 @@
 		"KISI.DEFAULT_ACCESS_GROUP": "Default Access Group",
 		"KISI.NO_ACCESS": "No Access",
 
+		"DOORFLOW.HEADER": "DoorFlow Integration",
+		"DOORFLOW.SITE": "DoorFlow Site",
+
 		"EZEEP.HEADER": "Интеграция Ezeep",
 		"EZEEP.USERNAME": "Имя пользователя",
 		"EZEEP.PASSWORD": "Пароль",
-        "EZEEP.DEFAULT_GROUP": "Default Group",
+    "EZEEP.DEFAULT_GROUP": "Default Group",
 
 		"GREETLY.HEADER": "Интеграция Greetly",
 		"GREETLY.CENTER": "Центр",
