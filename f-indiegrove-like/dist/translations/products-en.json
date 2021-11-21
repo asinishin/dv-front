@@ -14,6 +14,7 @@
 		"ITEM_CATEGORY": "Item Category",
 		"ITEM_NUMBER": "Item Number",
 		"QB_ACCOUNT": "QuickBooks Account",
+		"DOORFLOW_GROUP": "DoorFlow Access Group",
 		"PRODUCT_TYPE": "Product Type",
 		"PRODUCT_TYPE.MEMBERSHIP": "Membership",
 		"PRODUCT_TYPE.REGISTRATION": "Registration",
