@@ -110,7 +110,12 @@ __webpack_require__.r(__webpack_exports__);
   $ctrl.$onInit = function () {
     $ctrl.product = {
       doorflowGroupId: 5535
-    }; // $ctrl.load();
+    };
+    $ctrl.groups = [{
+      id: 22,
+      name: "Hola Group"
+    }];
+    $ctrl.save = save; // $ctrl.load();
   };
   /**
    * Load data
@@ -609,4 +614,4 @@ module.exports = code;
 /***/ })
 
 }]);
-//# sourceMappingURL=doorflow~._bundles_doorflow .js.map?_rev=08e38e504716cbc6e354
+//# sourceMappingURL=doorflow~._bundles_doorflow .js.map?_rev=808a6ae795a87607f17c
