@@ -167,7 +167,7 @@ __webpack_require__.r(__webpack_exports__);
 /***/ (function(module, exports) {
 
 // Module
-var code = "<label class=\"ff-row animate-collapse\" ng-if=\"$ctrl.groups.length\"> <ff-label flex=\"0 0 102px\" class=\"ff-small\"><span translate=\"PRODUCTS.DOORFLOW_GROUP\"></span></ff-label> <ff-select name=\"doorflowGroup\" ff-model=\"$ctrl.product.doorflowGroupId\" ff-options=\"opt.id as opt.name for opt in $ctrl.groups\"> <option value=\"\">-</option> </ff-select> </label> ";
+var code = "<label class=\"ff-row animate-collapse\"> Hello Vasya! </label> ";
 // Exports
 module.exports = code;
 
@@ -614,4 +614,4 @@ module.exports = code;
 /***/ })
 
 }]);
-//# sourceMappingURL=doorflow~._bundles_doorflow .js.map?_rev=808a6ae795a87607f17c
+//# sourceMappingURL=doorflow~._bundles_doorflow .js.map?_rev=70673bfec47459b919dc
