@@ -100,7 +100,7 @@ __webpack_require__.r(__webpack_exports__);
     scope: true,
     controller: 'DoorflowAccessGroupCtrl as $ctrl',
     bindToController: {
-      save: '=',
+      // save: '=',
       productId: '<'
     }
   };
@@ -614,4 +614,4 @@ module.exports = code;
 /***/ })
 
 }]);
-//# sourceMappingURL=doorflow~._bundles_doorflow .js.map?_rev=70673bfec47459b919dc
+//# sourceMappingURL=doorflow~._bundles_doorflow .js.map?_rev=1f2e8abe4309abac7d5a
