@@ -1703,7 +1703,8 @@ __webpack_require__.r(__webpack_exports__);
       }],
       lazy1: 'lazyLoadInventory',
       lazy2: 'lazyLoadQuickBooks',
-      lazy3: 'lazyLoadDeskworksSweep'
+      lazy3: 'lazyLoadDoorflow',
+      lazy4: 'lazyLoadDeskworksSweep'
     }
   });
   /**
@@ -4948,4 +4949,4 @@ __webpack_require__.r(__webpack_exports__);
 /***/ })
 
 }]);
-//# sourceMappingURL=main~._a.js.map?_rev=af92b842ea11a5d7cc29
+//# sourceMappingURL=main~._a.js.map?_rev=968502b420da253eb184
