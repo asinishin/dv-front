@@ -1,0 +1,43 @@
+.dw-add-charges-collapse-btn {
+  min-width: 220px;
+  margin-bottom: 1rem;
+}
+.dw-add-charges-collapse-btn .ff-btn {
+  width: 100%;
+  text-align: left;
+}
+.dw-add-charges-collapse-btn .ff-btn .fa.fa {
+  margin-left: auto;
+}
+.purchase .payment-submit {
+  margin-top: 0.667rem;
+}
+.purchase .payment-submit .ff-grid, .purchase .payment-submit .ff-grid .ff-row {
+  align-items: center;
+}
+.purchase .payment-submit ff-btn, .purchase .payment-submit .ff-row > span {
+  margin-right: 0.5rem;
+}
+.purchase .payment-hint {
+  margin-top: 0.667rem;
+}
+.purchase .purchase-dates {
+  justify-content: flex-end !important;
+  margin: -2px 0.5rem -0.2rem 0;
+  font-weight: normal;
+  text-transform: none;
+}
+.purchase .purchase-dates .ff-label, .purchase .purchase-dates .ff-date {
+  min-height: 1.4rem;
+  height: 1.4rem;
+}
+.purchase .purchase-dates button.fa-calendar {
+  padding-top: 2px;
+  background: transparent;
+}
+
+purchase-audit .standout .ff-label {
+  min-height: 1.8rem;
+}
+
+/*# sourceMappingURL=main~._common .css.map?_rev=4d93169b4d0dfc89d072*/
