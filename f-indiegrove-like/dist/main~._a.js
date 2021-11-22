@@ -1703,8 +1703,8 @@ __webpack_require__.r(__webpack_exports__);
       }],
       lazy1: 'lazyLoadInventory',
       lazy2: 'lazyLoadQuickBooks',
-      lazy3: 'lazyLoadDoorflow',
-      lazy4: 'lazyLoadDeskworksSweep'
+      lazy3: 'lazyLoadDeskworksSweep',
+      lazy4: 'lazyLoadDoorflow'
     }
   });
   /**
@@ -4949,4 +4949,4 @@ __webpack_require__.r(__webpack_exports__);
 /***/ })
 
 }]);
-//# sourceMappingURL=main~._a.js.map?_rev=968502b420da253eb184
+//# sourceMappingURL=main~._a.js.map?_rev=5b1590d2e5c11dbde595

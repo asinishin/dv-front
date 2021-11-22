@@ -93,7 +93,7 @@ __webpack_require__.r(__webpack_exports__);
  * Product -> Doorflow Access Group directive
  */
 /* harmony default export */ __webpack_exports__["default"] = (angular.module('deskworks.doorflowAccessGroupDirective', ['deskworks.DoorflowAccessGroup', 'deskworks.DoorflowCenter', 'deskworks.DoorflowProduct']).directive('doorflowAccessGroup', ["$compile", "$templateCache", function ($compile, $templateCache) {
-  var templateUrl = 'doorflow/doorflow-access-group.tpl.html';
+  var templateUrl = 'access-group/doorflow-access-group.tpl.html';
   return {
     templateUrl: templateUrl,
     restrict: 'E',
@@ -614,4 +614,4 @@ module.exports = code;
 /***/ })
 
 }]);
-//# sourceMappingURL=doorflow~._bundles_doorflow .js.map?_rev=1f2e8abe4309abac7d5a
+//# sourceMappingURL=doorflow~._bundles_doorflow .js.map?_rev=e12b127fbd58d78dc09d
