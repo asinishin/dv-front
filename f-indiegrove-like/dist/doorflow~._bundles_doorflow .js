@@ -100,7 +100,7 @@ __webpack_require__.r(__webpack_exports__);
     scope: true,
     controller: 'DoorflowAccessGroupCtrl as $ctrl',
     bindToController: {
-      // save: '=',
+      save: '=',
       productId: '<'
     }
   };
@@ -108,14 +108,7 @@ __webpack_require__.r(__webpack_exports__);
   var $ctrl = this;
 
   $ctrl.$onInit = function () {
-    $ctrl.product = {
-      doorflowGroupId: 5535
-    };
-    $ctrl.groups = [{
-      id: 22,
-      name: "Hola Group"
-    }];
-    $ctrl.save = save; // $ctrl.load();
+    $ctrl.load();
   };
   /**
    * Load data
@@ -167,7 +160,7 @@ __webpack_require__.r(__webpack_exports__);
 /***/ (function(module, exports) {
 
 // Module
-var code = "<label class=\"ff-row animate-collapse\"> Hello Vasya! </label> ";
+var code = "<label class=\"ff-row animate-collapse\" ng-if=\"$ctrl.groups.length\"> <ff-label flex=\"0 0 102px\" class=\"ff-small\"><span translate=\"PRODUCTS.DOORFLOW_GROUP\"></span></ff-label> <ff-select name=\"doorflowGroup\" ff-model=\"$ctrl.product.doorflowGroupId\" ff-options=\"opt.id as opt.name for opt in $ctrl.groups\"> <option value=\"\">-</option> </ff-select> </label> ";
 // Exports
 module.exports = code;
 
@@ -614,4 +607,4 @@ module.exports = code;
 /***/ })
 
 }]);
-//# sourceMappingURL=doorflow~._bundles_doorflow .js.map?_rev=e12b127fbd58d78dc09d
+//# sourceMappingURL=doorflow~._bundles_doorflow .js.map?_rev=7b46a948c273ebb79999
