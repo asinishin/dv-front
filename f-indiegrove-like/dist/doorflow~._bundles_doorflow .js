@@ -108,6 +108,7 @@ __webpack_require__.r(__webpack_exports__);
   var $ctrl = this;
 
   $ctrl.$onInit = function () {
+    $ctrl.product = {};
     $ctrl.load();
   };
   /**
@@ -125,8 +126,7 @@ __webpack_require__.r(__webpack_exports__);
       })
     };
     return $q.all(promises).then(function (result) {
-      $ctrl.product = result.product;
-
+      // $ctrl.product = result.product;
       var center = _babel_runtime_corejs3_core_js_stable_instance_find__WEBPACK_IMPORTED_MODULE_0___default()(helper).call(helper, result.centers, state.getCurrentCenterId());
 
       if (center && center.enabled) {
@@ -608,4 +608,4 @@ module.exports = code;
 /***/ })
 
 }]);
-//# sourceMappingURL=doorflow~._bundles_doorflow .js.map?_rev=360980d485443040176b
+//# sourceMappingURL=doorflow~._bundles_doorflow .js.map?_rev=4cda5f84192bf4254a63
