@@ -1708,10 +1708,128 @@ module.exports = code;
 /*!********************************************************************************!*\
   !*** ./bundles/inventory/reservation-unit/reservation-unit-edit.controller.js ***!
   \********************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
-throw new Error("Module build failed (from ../node_modules/babel-loader/lib/index.js):\nSyntaxError: /Users/asinishin/Documents/3-work/Deskworks/src/bundles/inventory/reservation-unit/reservation-unit-edit.controller.js: Unexpected token, expected \",\" (46:79)\n\n\u001b[0m \u001b[90m 44 |\u001b[39m         \u001b[33mReservationUnit\u001b[39m\u001b[33m.\u001b[39msave(state\u001b[33m.\u001b[39mgetCurrentCenterId()\u001b[33m,\u001b[39m data)\u001b[0m\n\u001b[0m \u001b[90m 45 |\u001b[39m           \u001b[33m.\u001b[39m\u001b[36mcatch\u001b[39m(err \u001b[33m=>\u001b[39m dwAlerts\u001b[33m.\u001b[39merror(err\u001b[33m,\u001b[39m \u001b[32m'Failed to save reservation unit.'\u001b[39m))\u001b[33m,\u001b[39m\u001b[0m\n\u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 46 |\u001b[39m         $q\u001b[33m.\u001b[39mwhen($ctrl\u001b[33m.\u001b[39msaveDoorflow \u001b[33m&&\u001b[39m $ctrl\u001b[33m.\u001b[39msaveDoorflow())\u001b[33m.\u001b[39m\u001b[36mcatch\u001b[39m(angular\u001b[33m.\u001b[39mnoop))\u001b[33m,\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m                                                                                \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 47 |\u001b[39m       ])\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 48 |\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 49 |\u001b[39m       \u001b[36mreturn\u001b[39m promise\u001b[0m\n    at Parser._raise (/Users/asinishin/Documents/3-work/Deskworks/node_modules/@babel/parser/lib/index.js:816:17)\n    at Parser.raiseWithData (/Users/asinishin/Documents/3-work/Deskworks/node_modules/@babel/parser/lib/index.js:809:17)\n    at Parser.raise (/Users/asinishin/Documents/3-work/Deskworks/node_modules/@babel/parser/lib/index.js:770:17)\n    at Parser.unexpected (/Users/asinishin/Documents/3-work/Deskworks/node_modules/@babel/parser/lib/index.js:9905:16)\n    at Parser.expect (/Users/asinishin/Documents/3-work/Deskworks/node_modules/@babel/parser/lib/index.js:9879:28)\n    at Parser.parseExprList (/Users/asinishin/Documents/3-work/Deskworks/node_modules/@babel/parser/lib/index.js:12037:14)\n    at Parser.parseArrayLike (/Users/asinishin/Documents/3-work/Deskworks/node_modules/@babel/parser/lib/index.js:11941:26)\n    at Parser.parseExprAtom (/Users/asinishin/Documents/3-work/Deskworks/node_modules/@babel/parser/lib/index.js:11211:23)\n    at Parser.parseExprSubscripts (/Users/asinishin/Documents/3-work/Deskworks/node_modules/@babel/parser/lib/index.js:10878:23)\n    at Parser.parseUpdate (/Users/asinishin/Documents/3-work/Deskworks/node_modules/@babel/parser/lib/index.js:10858:21)\n    at Parser.parseMaybeUnary (/Users/asinishin/Documents/3-work/Deskworks/node_modules/@babel/parser/lib/index.js:10836:23)\n    at Parser.parseExprOps (/Users/asinishin/Documents/3-work/Deskworks/node_modules/@babel/parser/lib/index.js:10693:23)\n    at Parser.parseMaybeConditional (/Users/asinishin/Documents/3-work/Deskworks/node_modules/@babel/parser/lib/index.js:10667:23)\n    at Parser.parseMaybeAssign (/Users/asinishin/Documents/3-work/Deskworks/node_modules/@babel/parser/lib/index.js:10630:21)\n    at /Users/asinishin/Documents/3-work/Deskworks/node_modules/@babel/parser/lib/index.js:10598:39\n    at Parser.allowInAnd (/Users/asinishin/Documents/3-work/Deskworks/node_modules/@babel/parser/lib/index.js:12345:12)\n    at Parser.parseMaybeAssignAllowIn (/Users/asinishin/Documents/3-work/Deskworks/node_modules/@babel/parser/lib/index.js:10598:17)\n    at Parser.parseExprListItem (/Users/asinishin/Documents/3-work/Deskworks/node_modules/@babel/parser/lib/index.js:12079:18)\n    at Parser.parseCallExpressionArguments (/Users/asinishin/Documents/3-work/Deskworks/node_modules/@babel/parser/lib/index.js:11082:22)\n    at Parser.parseCoverCallAndAsyncArrowHead (/Users/asinishin/Documents/3-work/Deskworks/node_modules/@babel/parser/lib/index.js:10989:29)\n    at Parser.parseSubscript (/Users/asinishin/Documents/3-work/Deskworks/node_modules/@babel/parser/lib/index.js:10922:19)\n    at Parser.parseSubscripts (/Users/asinishin/Documents/3-work/Deskworks/node_modules/@babel/parser/lib/index.js:10895:19)\n    at Parser.parseExprSubscripts (/Users/asinishin/Documents/3-work/Deskworks/node_modules/@babel/parser/lib/index.js:10884:17)\n    at Parser.parseUpdate (/Users/asinishin/Documents/3-work/Deskworks/node_modules/@babel/parser/lib/index.js:10858:21)\n    at Parser.parseMaybeUnary (/Users/asinishin/Documents/3-work/Deskworks/node_modules/@babel/parser/lib/index.js:10836:23)\n    at Parser.parseExprOps (/Users/asinishin/Documents/3-work/Deskworks/node_modules/@babel/parser/lib/index.js:10693:23)\n    at Parser.parseMaybeConditional (/Users/asinishin/Documents/3-work/Deskworks/node_modules/@babel/parser/lib/index.js:10667:23)\n    at Parser.parseMaybeAssign (/Users/asinishin/Documents/3-work/Deskworks/node_modules/@babel/parser/lib/index.js:10630:21)\n    at /Users/asinishin/Documents/3-work/Deskworks/node_modules/@babel/parser/lib/index.js:10598:39\n    at Parser.allowInAnd (/Users/asinishin/Documents/3-work/Deskworks/node_modules/@babel/parser/lib/index.js:12345:12)\n    at Parser.parseMaybeAssignAllowIn (/Users/asinishin/Documents/3-work/Deskworks/node_modules/@babel/parser/lib/index.js:10598:17)\n    at Parser.parseVar (/Users/asinishin/Documents/3-work/Deskworks/node_modules/@babel/parser/lib/index.js:13215:70)\n    at Parser.parseVarStatement (/Users/asinishin/Documents/3-work/Deskworks/node_modules/@babel/parser/lib/index.js:13029:10)\n    at Parser.parseStatementContent (/Users/asinishin/Documents/3-work/Deskworks/node_modules/@babel/parser/lib/index.js:12612:21)\n    at Parser.parseStatement (/Users/asinishin/Documents/3-work/Deskworks/node_modules/@babel/parser/lib/index.js:12545:17)\n    at Parser.parseBlockOrModuleBlockBody (/Users/asinishin/Documents/3-work/Deskworks/node_modules/@babel/parser/lib/index.js:13134:25)");
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var core_js_modules_es_object_to_string_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! core-js/modules/es.object.to-string.js */ "../node_modules/core-js/modules/es.object.to-string.js");
+/* harmony import */ var core_js_modules_es_object_to_string_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_object_to_string_js__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var core_js_modules_es_promise_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! core-js/modules/es.promise.js */ "../node_modules/core-js/modules/es.promise.js");
+/* harmony import */ var core_js_modules_es_promise_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_promise_js__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _babel_runtime_corejs3_core_js_stable_instance_find__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @babel/runtime-corejs3/core-js-stable/instance/find */ "../node_modules/@babel/runtime-corejs3/core-js-stable/instance/find.js");
+/* harmony import */ var _babel_runtime_corejs3_core_js_stable_instance_find__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_corejs3_core_js_stable_instance_find__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var shared_reservation_rules_reservation_rules_component__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! shared/reservation-rules/reservation-rules.component */ "./shared/reservation-rules/reservation-rules.component.js");
+/* harmony import */ var shared_services_inventory_reservation_unit_service__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! shared/services/inventory/reservation-unit.service */ "./shared/services/inventory/reservation-unit.service.js");
+
+
+
+
+
+/* harmony default export */ __webpack_exports__["default"] = (angular.module('deskworks.inventory.reservationUnit.edit', ['deskworks.reservationCategory.service', shared_reservation_rules_reservation_rules_component__WEBPACK_IMPORTED_MODULE_3__["default"].name, shared_services_inventory_reservation_unit_service__WEBPACK_IMPORTED_MODULE_4__["default"].name]).controller('InventoryReservationUnitEditCtrl', ["$scope", "$q", "$route", "$translate", "$window", "dwAlerts", "state", "helper", "unit", "categories", "ReservationUnit", function ($scope, $q, $route, $translate, $window, dwAlerts, state, helper, unit, categories, ReservationUnit) {
+  var _context;
+
+  var $ctrl = this;
+  state.setPageTitle($translate.instant(unit.id === 'new' ? 'RESERVATION_UNITS.NEW.PAGE_TITLE' : 'RESERVATION_UNITS.EDIT.PAGE_TITLE'));
+  $ctrl.unit = unit;
+  $ctrl.categories = categories;
+  $ctrl.areaUnit = (_babel_runtime_corejs3_core_js_stable_instance_find__WEBPACK_IMPORTED_MODULE_2___default()(_context = window.dwLocales).call(_context, function (i) {
+    return i.id === $scope.currentLocale;
+  }) || {}).area || 'ft²';
+  /**
+   * Save Reservation Unit handler
+   */
+
+  $ctrl.saveReservationUnit = function (form) {
+    if (helper.pointFirstInvalid('#reservation-unit-edit')) return;
+    var data = helper.pick($ctrl.unit, ['id', 'name', 'reservationTypeId', 'syncWithCalendar', 'calendarId', 'description', 'area', 'capacity', 'expectedUsePerMonth']);
+    data.area = data.area ? +data.area : null;
+    data.capacity = data.capacity ? +data.capacity : null;
+    data.expectedUsePerMonth = data.expectedUsePerMonth ? +data.expectedUsePerMonth : null;
+    var promise = $q.all([ReservationUnit.save(state.getCurrentCenterId(), data).catch(function (err) {
+      return dwAlerts.error(err, 'Failed to save reservation unit.');
+    }), $q.when($ctrl.saveDoorflow && $ctrl.saveDoorflow()).catch(angular.noop)]);
+    return promise.then(function (result) {
+      $ctrl.form.$setPristine();
+      if ($ctrl.unit.id === 'new') return state.setPath('/reservation-units/' + result.id);
+      $route.reload();
+    }).catch(function (err) {
+      return dwAlerts.error(err, 'Failed to save reservation unit.');
+    });
+  };
+  /**
+   * Remove Reservation Unit handler
+   */
+
+
+  $ctrl.removeReservationUnit = function () {
+    if (confirm($translate.instant('RESERVATION_UNITS.CONFIRM_DELETE'))) {
+      return ReservationUnit.delete(state.getCurrentCenterId(), $ctrl.unit.id).then(function () {
+        return state.setPath('/reservation-units');
+      }).catch(function (err) {
+        return dwAlerts.error(err, 'Failed to remove reservation unit.');
+      });
+    }
+  };
+  /**
+   * Upload Photo handler
+   */
+
+
+  $ctrl.uploadPhoto = function ($files, $invalidFiles) {
+    if ($invalidFiles && $invalidFiles.length > 0) return dwAlerts.error($translate.instant('GLOBAL.PHOTO.INVALID_FORMAT'));
+
+    if ($files && $files.length > 0) {
+      $ctrl.spinUpload = true;
+      return ReservationUnit.uploadPhoto(state.getCurrentCenterId(), $ctrl.unit.id, $files[0]).catch(function (err) {
+        return dwAlerts.error(err, 'Failed to upload photo.');
+      }).finally(function () {
+        $ctrl.spinUpload = false;
+      }).then(function (result) {
+        $ctrl.unit.thumbnail = result.data.thumbnail ? result.data.thumbnail + '?' + Date.now() : $ctrl.unit.thumbnail;
+        $ctrl.unit.photo = result.data.photo + '?' + Date.now();
+      });
+    }
+  };
+  /**
+   * Delete photo
+   */
+
+
+  $ctrl.deletePhoto = function () {
+    if (!$window.confirm($translate.instant('GLOBAL.CONFIRM_DELETE_PHOTO'))) return;
+    return ReservationUnit.deletePhoto({
+      centerId: state.getCurrentCenterId(),
+      id: $ctrl.unit.id
+    }).catch(function (err) {
+      return dwAlerts.error(err, 'Failed to delete photo.');
+    }).then(function () {
+      $ctrl.unit.thumbnail = null;
+      $ctrl.unit.photo = null;
+    });
+  };
+  /**
+   * Back button handler
+   */
+
+
+  $ctrl.back = function () {
+    return state.setPath('/reservation-units');
+  };
+  /**
+   * 'Sync With Calendar' change handler
+   */
+
+
+  $ctrl.calSyncChange = function () {
+    if (!$ctrl.unit.syncWithCalendar) $ctrl.unit.calendarId = null;
+    $ctrl.calendarIdEnabled = $ctrl.unit.syncWithCalendar;
+  };
+
+  $scope.$watch('state.getCurrentCenterId()', function (nv, ov) {
+    if (nv !== ov) state.setPath('/reservation-units');
+  });
+}]));
 
 /***/ }),
 
@@ -1810,276 +1928,6 @@ __webpack_require__.r(__webpack_exports__);
     }
   };
 }]));
-
-/***/ }),
-
-/***/ "./shared/drag-n-drop/dnd.service.js":
-/*!*******************************************!*\
-  !*** ./shared/drag-n-drop/dnd.service.js ***!
-  \*******************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _babel_runtime_corejs3_core_js_stable_instance_splice__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime-corejs3/core-js-stable/instance/splice */ "../node_modules/@babel/runtime-corejs3/core-js-stable/instance/splice.js");
-/* harmony import */ var _babel_runtime_corejs3_core_js_stable_instance_splice__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_corejs3_core_js_stable_instance_splice__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var angular_drag_and_drop_lists__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! angular-drag-and-drop-lists */ "../node_modules/angular-drag-and-drop-lists/angular-drag-and-drop-lists.js");
-/* harmony import */ var angular_drag_and_drop_lists__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(angular_drag_and_drop_lists__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _drag_n_drop_scss__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./drag-n-drop.scss */ "./shared/drag-n-drop/drag-n-drop.scss");
-/* harmony import */ var _drag_n_drop_scss__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_drag_n_drop_scss__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var _keese_service__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./keese.service */ "./shared/drag-n-drop/keese.service.js");
-
-
-
-
-/**
- * Drag'n'Drop helper service
- */
-
-/* harmony default export */ __webpack_exports__["default"] = (angular.module('dnd', ['dndLists', _keese_service__WEBPACK_IMPORTED_MODULE_3__["default"].name]).factory('dnd', ["keese", function (keese) {
-  return {
-    move: move
-  };
-  /**
-   * Move item from srcList[srcIndex] to targetList[targetIndex], auto-generates new order. Returns moved item.
-   */
-
-  function move(srcList, srcIndex, targetList, targetIndex) {
-    var item = srcList[srcIndex];
-    if (targetList) _babel_runtime_corejs3_core_js_stable_instance_splice__WEBPACK_IMPORTED_MODULE_0___default()(targetList).call(targetList, targetIndex, 0, item); // copy item from source to target
-    // remove source item, possibly correcting index. We must do this immediately, otherwise ng-repeat complains about duplicates
-
-    if (srcList === targetList && targetIndex <= srcIndex) srcIndex++;
-
-    _babel_runtime_corejs3_core_js_stable_instance_splice__WEBPACK_IMPORTED_MODULE_0___default()(srcList).call(srcList, srcIndex, 1); // remove source item
-
-
-    if (targetList) {
-      var index = targetList.indexOf(item); // find new index of item
-
-      item.order = keese.generate(targetList[index - 1] && targetList[index - 1].order, targetList[index + 1] && targetList[index + 1].order);
-    }
-
-    return item;
-  }
-}]));
-
-/***/ }),
-
-/***/ "./shared/drag-n-drop/drag-n-drop.scss":
-/*!*********************************************!*\
-  !*** ./shared/drag-n-drop/drag-n-drop.scss ***!
-  \*********************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-// extracted by extract-css-chunks-webpack-plugin
-
-/***/ }),
-
-/***/ "./shared/drag-n-drop/keese.service.js":
-/*!*********************************************!*\
-  !*** ./shared/drag-n-drop/keese.service.js ***!
-  \*********************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _babel_runtime_corejs3_core_js_stable_json_stringify__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime-corejs3/core-js-stable/json/stringify */ "../node_modules/@babel/runtime-corejs3/core-js-stable/json/stringify.js");
-/* harmony import */ var _babel_runtime_corejs3_core_js_stable_json_stringify__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_corejs3_core_js_stable_json_stringify__WEBPACK_IMPORTED_MODULE_0__);
-
-
-/**
- * Sort keys generator. Based on node-keese v1.1.1: https://github.com/thejoshwolfe/node-keese
- */
-/* harmony default export */ __webpack_exports__["default"] = (angular.module('keese', []).factory('keese', function () {
-  var alphabet = "0123456789?@ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
-  var radix = alphabet.length;
-  var order_specifier = '~'; // bigger than any from the alphabet
-
-  /**
-   * Character to numerical value aka index of the character: "0": 0, "z": 63, etc.
-   */
-
-  var values = function () {
-    var values = {};
-
-    for (var i = 0; i < alphabet.length; i++) {
-      values[alphabet[i]] = i;
-    }
-
-    return values;
-  }();
-
-  return {
-    /**
-     * Main exported function. Generates new sort key.
-     * @param low - previous sort key or null/undefined
-     * @param high - next sort key or null/undefined
-     * @param count - if defined - the result is an Array of size count values
-     * @returns {*} - single key or array of keys, depending on count
-     */
-    generate: function keese(low, high, count) {
-      if (count) {
-        return multi_keese(low, high, count);
-      } else {
-        return single_keese(low, high);
-      }
-    }
-  };
-
-  function single_keese(low, high) {
-    if (!low) {
-      if (!high) {
-        return '1'; // return anything above 0
-      } else {
-        return average('0', high); // go smaller
-      }
-    } else {
-      if (!high) {
-        return increment(low); // go bigger
-      } else {
-        return average(low, high); // go in between
-      }
-    }
-  }
-
-  function multi_keese(low, high, count) {
-    var result = new Array(count);
-
-    if (count > 0) {
-      if (!high) {
-        for (var i = 0; i < count; i++) {
-          // just allocate straight forward
-          var value = keese(low, null);
-          result[i] = value;
-          low = value;
-        }
-      } else {
-        recurse(low, high, 0, count); // binary tree descent
-      }
-    }
-
-    return result;
-
-    function recurse(low_value, high_value, low_index, high_index) {
-      var mid_index = Math.floor((low_index + high_index) / 2);
-      var mid_value = single_keese(low_value, high_value);
-      result[mid_index] = mid_value;
-      if (low_index < mid_index) recurse(low_value, mid_value, low_index, mid_index);
-      if (mid_index + 1 < high_index) recurse(mid_value, high_value, mid_index + 1, high_index);
-    }
-  }
-
-  function increment(value) {
-    var n = parse(value);
-    n.digits = n.digits.substr(0, n.order_length + 1); // drop the fraction
-
-    return add(n, parse("1"));
-  }
-
-  function average(low, high) {
-    if (low > high) {
-      throw new Error('assertion failed: ' + _babel_runtime_corejs3_core_js_stable_json_stringify__WEBPACK_IMPORTED_MODULE_0___default()(low) + " < " + _babel_runtime_corejs3_core_js_stable_json_stringify__WEBPACK_IMPORTED_MODULE_0___default()(high));
-    }
-
-    var a = parse(low);
-    var b = parse(high);
-    pad_to_equal_order(a, b);
-    var b_carry = 0;
-    var max_digit_length = Math.max(a.digits.length, b.digits.length);
-
-    for (var i = 0; i < max_digit_length || b_carry > 0; i++) {
-      var a_value = values[a.digits[i]] || 0;
-      var b_value = b_carry + (values[b.digits[i]] || 0);
-      if (a_value === b_value) continue;
-
-      if (a_value === b_value - 1) {
-        b_carry = radix; // we need more digits, but remember that b is ahead
-
-        continue;
-      } // we have a distance of at least 2 between the values.
-      // half the distance floored is sure to be a positive single digit.
-
-
-      var half_distance_value = Math.floor((b_value - a_value) / 2);
-      var half_distance_digits = '';
-
-      for (var j = 0; j < i; j++) {
-        half_distance_digits += '0';
-      }
-
-      half_distance_digits += alphabet[half_distance_value];
-      var half_distance = parse(construct(a.order_length, half_distance_digits)); // truncate insignificant digits of a
-
-      a.digits = a.digits.substr(0, i + 1);
-      return add(a, half_distance);
-    }
-
-    throw new Error(); // unreachable
-  }
-
-  function add(a, b) {
-    pad_to_equal_order(a, b);
-    var result_digits = "";
-    var order_length = a.order_length;
-    var value = 0;
-
-    for (var i = Math.max(a.digits.length, b.digits.length) - 1; i >= 0; i--) {
-      value += values[a.digits[i]] || 0;
-      value += values[b.digits[i]] || 0;
-      result_digits = alphabet[value % radix] + result_digits;
-      value = Math.floor(value / radix);
-    } // overflow up to moar digits
-
-
-    while (value > 0) {
-      result_digits = alphabet[value % radix] + result_digits;
-      value = Math.floor(value / radix);
-      order_length++;
-    }
-
-    return construct(order_length, result_digits);
-  }
-
-  function parse(value) {
-    var order_length = value.lastIndexOf(order_specifier) + 1;
-    return {
-      order_length: order_length,
-      digits: value.substr(order_length)
-    };
-  }
-
-  function construct(order_length, digits) {
-    while (order_length > 0 && digits.charAt(0) == '0') {
-      // strip unnecessary leading zeros
-      digits = digits.substr(1);
-      order_length--;
-    }
-
-    var result = "";
-
-    for (var i = 0; i < order_length; i++) {
-      result += order_specifier;
-    }
-
-    return result + digits;
-  }
-
-  function pad_to_equal_order(a, b) {
-    pad_in_place(a, b.order_length);
-    pad_in_place(b, a.order_length);
-  }
-
-  function pad_in_place(n, order_length) {
-    while (n.order_length < order_length) {
-      n.digits = "0" + n.digits;
-      n.order_length++;
-    }
-  }
-}));
 
 /***/ }),
 
@@ -2193,4 +2041,4 @@ module.exports = code;
 /***/ })
 
 }]);
-//# sourceMappingURL=inventory~._b.js.map?_rev=992cef8b52ad3a576961
+//# sourceMappingURL=inventory~._b.js.map?_rev=52329da9f648f63ac51c
