@@ -8,7 +8,8 @@
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
-	"./access-group/doorflow-access-group.tpl.html": "./bundles/doorflow/access-group/doorflow-access-group.tpl.html",
+	"./access-group/doorflow-product-access-group.tpl.html": "./bundles/doorflow/access-group/doorflow-product-access-group.tpl.html",
+	"./access-group/doorflow-reservation-unit-access-group.tpl.html": "./bundles/doorflow/access-group/doorflow-reservation-unit-access-group.tpl.html",
 	"./settings/doorflow-settings.tpl.html": "./bundles/doorflow/settings/doorflow-settings.tpl.html",
 	"./user-access/doorflow-user-access.tpl.html": "./bundles/doorflow/user-access/doorflow-user-access.tpl.html"
 };
@@ -43,10 +44,12 @@ webpackContext.id = "./bundles/doorflow sync recursive .*\\.tpl\\.html$";
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
-	"./access-group/doorflow-access-group.directive.js": "./bundles/doorflow/access-group/doorflow-access-group.directive.js",
+	"./access-group/doorflow-product-access-group.directive.js": "./bundles/doorflow/access-group/doorflow-product-access-group.directive.js",
+	"./access-group/doorflow-reservation-unit-access-group.directive.js": "./bundles/doorflow/access-group/doorflow-reservation-unit-access-group.directive.js",
 	"./services/doorflow-access-group.service.js": "./bundles/doorflow/services/doorflow-access-group.service.js",
 	"./services/doorflow-center.service.js": "./bundles/doorflow/services/doorflow-center.service.js",
 	"./services/doorflow-product.service.js": "./bundles/doorflow/services/doorflow-product.service.js",
+	"./services/doorflow-reservation-unit.service.js": "./bundles/doorflow/services/doorflow-reservation-unit.service.js",
 	"./services/doorflow-settings.service.js": "./bundles/doorflow/services/doorflow-settings.service.js",
 	"./services/doorflow-site.service.js": "./bundles/doorflow/services/doorflow-site.service.js",
 	"./services/doorflow-user.service.js": "./bundles/doorflow/services/doorflow-user.service.js",
@@ -76,10 +79,10 @@ webpackContext.id = "./bundles/doorflow sync recursive \\..+\\/.+\\.js$";
 
 /***/ }),
 
-/***/ "./bundles/doorflow/access-group/doorflow-access-group.directive.js":
-/*!**************************************************************************!*\
-  !*** ./bundles/doorflow/access-group/doorflow-access-group.directive.js ***!
-  \**************************************************************************/
+/***/ "./bundles/doorflow/access-group/doorflow-product-access-group.directive.js":
+/*!**********************************************************************************!*\
+  !*** ./bundles/doorflow/access-group/doorflow-product-access-group.directive.js ***!
+  \**********************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -92,19 +95,19 @@ __webpack_require__.r(__webpack_exports__);
 /**
  * Product -> Doorflow Access Group directive
  */
-/* harmony default export */ __webpack_exports__["default"] = (angular.module('deskworks.doorflowAccessGroupDirective', ['deskworks.DoorflowAccessGroup', 'deskworks.DoorflowCenter', 'deskworks.DoorflowProduct']).directive('doorflowAccessGroup', ["$compile", "$templateCache", function ($compile, $templateCache) {
-  var templateUrl = 'access-group/doorflow-access-group.tpl.html';
+/* harmony default export */ __webpack_exports__["default"] = (angular.module('deskworks.doorflowProductAccessGroupDirective', ['deskworks.DoorflowAccessGroup', 'deskworks.DoorflowCenter', 'deskworks.DoorflowProduct']).directive('doorflowProductAccessGroup', ["$compile", "$templateCache", function ($compile, $templateCache) {
+  var templateUrl = 'access-group/doorflow-product-access-group.tpl.html';
   return {
     templateUrl: templateUrl,
     restrict: 'E',
     scope: true,
-    controller: 'DoorflowAccessGroupCtrl as $ctrl',
+    controller: 'DoorflowProductAccessGroupCtrl as $ctrl',
     bindToController: {
       save: '=',
       productId: '<'
     }
   };
-}]).controller('DoorflowAccessGroupCtrl', ["$q", "dwAlerts", "helper", "state", "DoorflowAccessGroup", "DoorflowCenter", "DoorflowProduct", function ($q, dwAlerts, helper, state, DoorflowAccessGroup, DoorflowCenter, DoorflowProduct) {
+}]).controller('DoorflowProductAccessGroupCtrl', ["$q", "dwAlerts", "helper", "state", "DoorflowAccessGroup", "DoorflowCenter", "DoorflowProduct", function ($q, dwAlerts, helper, state, DoorflowAccessGroup, DoorflowCenter, DoorflowProduct) {
   var $ctrl = this;
 
   $ctrl.$onInit = function () {
@@ -131,7 +134,7 @@ __webpack_require__.r(__webpack_exports__);
 
       if (center && center.enabled) {
         return DoorflowAccessGroup.query(state.getCurrentCenterId()).catch(function (err) {
-          return dwAlerts.error(err, 'Failed to query QuickBooks income accounts.');
+          return dwAlerts.error(err, 'Failed to query DoorFlow groups.');
         }).then(function (groups) {
           $ctrl.groups = groups;
           if ($ctrl.groups && $ctrl.groups.length) $ctrl.save = save; // expose save method only if have accounts
@@ -153,15 +156,106 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./bundles/doorflow/access-group/doorflow-access-group.tpl.html":
-/*!**********************************************************************!*\
-  !*** ./bundles/doorflow/access-group/doorflow-access-group.tpl.html ***!
-  \**********************************************************************/
+/***/ "./bundles/doorflow/access-group/doorflow-product-access-group.tpl.html":
+/*!******************************************************************************!*\
+  !*** ./bundles/doorflow/access-group/doorflow-product-access-group.tpl.html ***!
+  \******************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
 // Module
 var code = "<label class=\"ff-row animate-collapse\" ng-if=\"$ctrl.groups.length\"> <ff-label flex=\"0 0 102px\" class=\"ff-small\"><span translate=\"PRODUCTS.DOORFLOW_GROUP\"></span></ff-label> <ff-select name=\"doorflowGroup\" ff-model=\"$ctrl.product.doorflowGroupId\" ff-options=\"opt.id as opt.name for opt in $ctrl.groups\"> <option value=\"\">-</option> </ff-select> </label> ";
+// Exports
+module.exports = code;
+
+/***/ }),
+
+/***/ "./bundles/doorflow/access-group/doorflow-reservation-unit-access-group.directive.js":
+/*!*******************************************************************************************!*\
+  !*** ./bundles/doorflow/access-group/doorflow-reservation-unit-access-group.directive.js ***!
+  \*******************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _babel_runtime_corejs3_core_js_stable_instance_find__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime-corejs3/core-js-stable/instance/find */ "../node_modules/@babel/runtime-corejs3/core-js-stable/instance/find.js");
+/* harmony import */ var _babel_runtime_corejs3_core_js_stable_instance_find__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_corejs3_core_js_stable_instance_find__WEBPACK_IMPORTED_MODULE_0__);
+
+
+/**
+ * Product -> Doorflow Access Group directive
+ */
+/* harmony default export */ __webpack_exports__["default"] = (angular.module('deskworks.doorflowReservationUnitAccessGroupDirective', ['deskworks.DoorflowAccessGroup', 'deskworks.DoorflowCenter', 'deskworks.DoorflowReservationUnit']).directive('doorflowReservationUnitAccessGroup', ["$compile", "$templateCache", function ($compile, $templateCache) {
+  var templateUrl = 'access-group/doorflow-reservation-unit-access-group.tpl.html';
+  return {
+    templateUrl: templateUrl,
+    restrict: 'E',
+    scope: true,
+    controller: 'DoorflowReservationUnitAccessGroupCtrl as $ctrl',
+    bindToController: {
+      save: '=',
+      reservationUnitId: '<'
+    }
+  };
+}]).controller('DoorflowReservationUnitAccessGroupCtrl', ["$q", "dwAlerts", "helper", "state", "DoorflowAccessGroup", "DoorflowCenter", "DoorflowReservationUnit", function ($q, dwAlerts, helper, state, DoorflowAccessGroup, DoorflowCenter, DoorflowReservationUnit) {
+  var $ctrl = this;
+
+  $ctrl.$onInit = function () {
+    $ctrl.load();
+  };
+  /**
+   * Load data
+   */
+
+
+  $ctrl.load = function () {
+    var promises = {
+      centers: DoorflowCenter.query().catch(function (err) {
+        return dwAlerts.error(err, 'Failed to query Doorflow centers.');
+      }),
+      reservationUnit: DoorflowReservationUnit.get(state.getCurrentCenterId(), $ctrl.reservationUnitId).catch(function (err) {
+        return dwAlerts.error(err, 'Failed to load Doorflow reservation unit.');
+      })
+    };
+    return $q.all(promises).then(function (result) {
+      $ctrl.reservationUnit = result.reservationUnit;
+
+      var center = _babel_runtime_corejs3_core_js_stable_instance_find__WEBPACK_IMPORTED_MODULE_0___default()(helper).call(helper, result.centers, state.getCurrentCenterId());
+
+      if (center && center.enabled) {
+        return DoorflowAccessGroup.query(state.getCurrentCenterId()).catch(function (err) {
+          return dwAlerts.error(err, 'Failed to query DoorFlow groups.');
+        }).then(function (groups) {
+          $ctrl.groups = groups;
+          if ($ctrl.groups && $ctrl.groups.length) $ctrl.save = save; // expose save method only if have accounts
+        });
+      }
+    });
+  };
+  /**
+   * Save settings
+   */
+
+
+  function save() {
+    return DoorflowReservationUnit.save(state.getCurrentCenterId(), $ctrl.reservationUnitId, $ctrl.reservationUnit).catch(function (err) {
+      return dwAlerts.error(err, 'Failed to save Doorflow reservation unit.');
+    });
+  }
+}]));
+
+/***/ }),
+
+/***/ "./bundles/doorflow/access-group/doorflow-reservation-unit-access-group.tpl.html":
+/*!***************************************************************************************!*\
+  !*** ./bundles/doorflow/access-group/doorflow-reservation-unit-access-group.tpl.html ***!
+  \***************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+// Module
+var code = "<label class=\"ff-row animate-collapse\" ng-if=\"$ctrl.groups.length\"> <ff-label flex=\"0 0 102px\" class=\"ff-small\"><span translate=\"PRODUCTS.DOORFLOW_GROUP\"></span></ff-label> <ff-select name=\"doorflowGroup\" ff-model=\"$ctrl.reservationUnit.doorflowGroupId\" ff-options=\"opt.id as opt.name for opt in $ctrl.groups\"> <option value=\"\">-</option> </ff-select> </label> ";
 // Exports
 module.exports = code;
 
@@ -296,6 +390,42 @@ __webpack_require__.r(__webpack_exports__);
       return res.update({
         centerId: centerId,
         productId: productId
+      }, data).$promise;
+    }
+  };
+}]));
+
+/***/ }),
+
+/***/ "./bundles/doorflow/services/doorflow-reservation-unit.service.js":
+/*!************************************************************************!*\
+  !*** ./bundles/doorflow/services/doorflow-reservation-unit.service.js ***!
+  \************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = (angular.module('deskworks.DoorflowReservationUnit', ['ngResource', 'deskworks.config']).factory('DoorflowReservationUnit', ["$resource", "deskworksConfig", function ($resource, deskworksConfig) {
+  var res = $resource(deskworksConfig.getApiAbsUrl('/doorflow/centers/:centerId/reservation-units/:reservationUnitId'), {}, {
+    get: {
+      method: 'GET'
+    },
+    update: {
+      method: 'PUT'
+    }
+  });
+  return {
+    get: function get(centerId, reservationUnitId) {
+      return res.get({
+        centerId: centerId,
+        reservationUnitId: reservationUnitId
+      }).$promise;
+    },
+    save: function save(centerId, reservationUnitId, data) {
+      return res.update({
+        centerId: centerId,
+        reservationUnitId: reservationUnitId
       }, data).$promise;
     }
   };
@@ -608,4 +738,4 @@ module.exports = code;
 /***/ })
 
 }]);
-//# sourceMappingURL=doorflow~._bundles_doorflow .js.map?_rev=b51e2dac1593eb30e9b6
+//# sourceMappingURL=doorflow~._bundles_doorflow .js.map?_rev=6d73195c834b62b8cb18

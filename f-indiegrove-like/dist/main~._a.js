@@ -1982,7 +1982,7 @@ __webpack_require__.r(__webpack_exports__);
     return $injector.invoke(m.default);
   });
 }]).factory('lazyLoadInventory', ["$injector", function ($injector) {
-  return Promise.all(/*! import() | inventory */[__webpack_require__.e("vendors~analytics~floor-plans~inventory~setup~.._node_modules_angular-drag-and-drop-lists_angular-dr~33cc1538"), __webpack_require__.e("vendors~communications~inventory~notifications~.._node_modules_r"), __webpack_require__.e("vendors~communications~inventory~notifications~.._node_modules_textangularjs_dist_textAngular.umd.js~98438490"), __webpack_require__.e("inventory~setup~._shared_d"), __webpack_require__.e("inventory~._b")]).then(__webpack_require__.bind(null, /*! ./inventory/index.js */ "./bundles/inventory/index.js")).then(function (m) {
+  return Promise.all(/*! import() | inventory */[__webpack_require__.e("vendors~analytics~floor-plans~inventory~setup~.._node_modules_angular-drag-and-drop-lists_angular-dr~33cc1538"), __webpack_require__.e("vendors~communications~inventory~notifications~.._node_modules_r"), __webpack_require__.e("vendors~communications~inventory~notifications~.._node_modules_textangularjs_dist_textAngular.umd.js~98438490"), __webpack_require__.e("inventory~._b")]).then(__webpack_require__.bind(null, /*! ./inventory/index.js */ "./bundles/inventory/index.js")).then(function (m) {
     return $injector.invoke(m.default);
   });
 }]).factory('lazyLoadNotifications', ["$injector", function ($injector) {
@@ -2006,7 +2006,7 @@ __webpack_require__.r(__webpack_exports__);
     return $injector.invoke(m.default);
   });
 }]).factory('lazyLoadSetup', ["$injector", function ($injector) {
-  return Promise.all(/*! import() | setup */[__webpack_require__.e("vendors~analytics~floor-plans~inventory~setup~.._node_modules_angular-drag-and-drop-lists_angular-dr~33cc1538"), __webpack_require__.e("inventory~setup~._shared_d"), __webpack_require__.e("setup~._b")]).then(__webpack_require__.bind(null, /*! ./setup/index.js */ "./bundles/setup/index.js")).then(function (m) {
+  return Promise.all(/*! import() | setup */[__webpack_require__.e("vendors~analytics~floor-plans~inventory~setup~.._node_modules_angular-drag-and-drop-lists_angular-dr~33cc1538"), __webpack_require__.e("setup~._b")]).then(__webpack_require__.bind(null, /*! ./setup/index.js */ "./bundles/setup/index.js")).then(function (m) {
     return $injector.invoke(m.default);
   });
 }]).factory('lazyLoadSystem', ["$injector", function ($injector) {
@@ -4949,4 +4949,4 @@ __webpack_require__.r(__webpack_exports__);
 /***/ })
 
 }]);
-//# sourceMappingURL=main~._a.js.map?_rev=5b1590d2e5c11dbde595
+//# sourceMappingURL=main~._a.js.map?_rev=77029a99a6f956cc242f

@@ -1292,7 +1292,7 @@ __webpack_require__.r(__webpack_exports__);
 /***/ (function(module, exports) {
 
 // Module
-var code = "<form name=\"formProduct\" id=\"productEdit\" novalidate ff-bulk-read-only> <h1 class=\"page-title\">{{state.getPageTitle()}}</h1> <div class=\"ff-grid gutter-v gutter-h-half\"> <ff-panel flex=\"{lg: '0 0 50%'}\"> <label class=\"ff-row\"> <ff-label flex=\"0 0 92px\"><req translate=\"PRODUCTS.NAME\"></req></ff-label> <ff-text name=\"name\" ff-model=\"vm.product.name\" ff-required=\"true\" ff-maxlength=\"128\" ff-validate-alert=\"{{'PRODUCTS.NAME' | translate}}\"></ff-text> </label> <label class=\"ff-row\"> <ff-label flex=\"0 0 92px\"><span translate=\"PRODUCTS.DESCRIPTION\" style=\"margin-bottom:auto;padding:.3333rem 0\"></span></ff-label> <ff-textarea name=\"description\" ff-model=\"vm.product.description\" ff-maxlength=\"1024\" rowspan=\"3\" ff-validate-alert=\"{{'PRODUCTS.DESCRIPTION' | translate}}\"></ff-textarea> </label> <div class=\"ff-grid\"> <label flex=\"{sm: '0 0 65%'}\" class=\"ff-row\"> <ff-label flex=\"0 0 92px\"><req translate=\"PRODUCTS.ITEM_CATEGORY\"></req></ff-label> <ff-select name=\"productCategory\" ff-model=\"vm.product.productCategoryId\" ff-options=\"opt.id as opt.fullName for opt in vm.productCategories\" ff-required=\"true\" ff-validate-alert=\"{{'PRODUCTS.ITEM_CATEGORY' | translate}}\"></ff-select> </label> <label flex=\"{sm: '0 0 35%'}\" class=\"ff-row\"> <ff-label flex=\"0 0 92px\"><req translate=\"PRODUCTS.ITEM_NUMBER\"></req></ff-label> <ff-number name=\"productNumber\" ff-model=\"vm.product.productNumber\" placeholder=\"01\" ff-required=\"true\" ff-gte=\"0\" ff-lt=\"1000\" ff-validate-alert=\"{{'PRODUCTS.ITEM_NUMBER' | translate}}\"></ff-number> </label> </div> <quick-books-account product-id=\"vm.product.id\" save=\"vm.saveQuickBooks\" ng-if=\"vm.product.id\"></quick-books-account> <doorflow-access-group product-id=\"vm.product.id\" save=\"vm.saveDoorflow\" ng-if=\"vm.product.id && vm.product.type.id === 'membership'\"></doorflow-access-group> <label class=\"ff-row\" ng-if=\"vm.product.type.id === 'membership' && vm.product.showInSelfRegistration && vm.product.id\"> <ff-label flex=\"0 0 92px\"> <span translate=\"PRODUCTS.WEBSITE_LINK\"></span> <ff-hint><span translate=\"PRODUCTS.WEBSITE_LINK.HINT\"></span></ff-hint> </ff-label> <ff-static> <a href=\"{{vm.getMemberSignUpUrl()}}\" target=\"_blank\" rel=\"noopener\">{{vm.getMemberSignUpUrl()}}</a> </ff-static> </label> </ff-panel> <ff-panel flex=\"{lg: '0 0 50%'}\"> <label class=\"ff-row\"> <ff-label flex=\"0 0 90px\"><req translate=\"PRODUCTS.PRODUCT_TYPE\"></req></ff-label> <ff-select name=\"productType\" ff-model=\"vm.product.type\" ff-required=\"true\" ff-validate-alert=\"{{'PRODUCTS.PRODUCT_TYPE' | translate}}\" ff-options=\"type.name for type in vm.product.options.productTypes\" ng-if=\"vm.product.typeId !== 'discount'\"></ff-select> <ff-static ng-if=\"vm.product.typeId === 'discount'\" class=\"disabled\">Discount</ff-static> </label> <label class=\"ff-row\" flex=\"1 1 50%\" ng-if=\"vm.product.type.id === 'membership' || vm.product.type.id === 'services'\"> <ff-label flex=\"0 0 90px\" ng-if=\"vm.product.type.id === 'membership'\"> <req translate=\"PRODUCTS.MEMBERSHIP_CATEGORY\"></req> </ff-label> <ff-select name=\"membershipType\" ff-model=\"vm.product.membershipType\" ff-required=\"true\" ng-if=\"vm.product.type.id === 'membership'\" ff-validate-alert=\"{{'PRODUCTS.MEMBERSHIP_CATEGORY' | translate}}\" ff-options=\"type.name for type in vm.product.options.membershipTypes\"></ff-select> </label> <label class=\"ff-row\" flex=\"1 1 50%\" ng-if=\"vm.product.type.id === 'membership' || vm.product.type.id === 'services'\"> <ff-label flex=\"0 0 90px\"> <req translate=\"PRODUCTS.BILLING_FREQUENCY\"></req> </ff-label> <ff-select name=\"billingFrequency\" ff-model=\"vm.product.billingFrequency\" ff-required=\"true\" ff-validate-alert=\"{{'PRODUCTS.BILLING_FREQUENCY' | translate}}\" ff-options=\"billingFrequency.name for billingFrequency in vm.product.options.billingFrequencies\"></ff-select> </label> <div class=\"ff-grid\" ng-if=\"vm.product.type.id === 'membership'\"> <label flex=\"{sm: '0 0 50%'}\" class=\"ff-row\"> <ff-checkbox name=\"isCreditable\" ff-model=\"vm.product.isCreditable\" class=\"ff-control\"> <span translate=\"PRODUCTS.IS_CREDITABLE\"></span> </ff-checkbox> </label> <label flex=\"{sm: '0 0 50%'}\" class=\"ff-row\"> <ff-checkbox name=\"hasPasses\" ff-model=\"vm.product.hasPasses\" class=\"ff-control\"> <span translate=\"PRODUCTS.HAS_PASSES\"></span> </ff-checkbox> </label> </div> <label class=\"ff-row\" ng-if=\"vm.product.type.id === 'membership'\"> <ff-label flex=\"1 0 50%\" ng-disabled=\"!vm.product.hasPasses\"> <req translate=\"PRODUCTS.PASS_PRODUCT\"></req> </ff-label> <ff-select flex=\"1 0 50%\" name=\"passProduct\" ff-model=\"vm.product.passProduct\" ff-disabled=\"!vm.product.hasPasses\" ff-required=\"vm.product.hasPasses\" ff-validate-alert=\"{{'PRODUCTS.PASS_PRODUCT' | translate}}\" ff-options=\"passProduct.name for passProduct in vm.product.options.passProducts\"></ff-select> </label> <div class=\"ff-grid\" ng-if=\"vm.product.type.id === 'membership'\"> <label flex=\"{sm: '0 0 50%'}\" class=\"ff-row\"> <ff-label flex=\"0 0 50%\" ng-disabled=\"!vm.product.hasPasses\"> <req translate=\"PRODUCTS.COUNT_CHECK_INS_PER\"></req> </ff-label> <ff-select flex=\"1 0 50%\" name=\"countCheckInsPer\" ff-model=\"vm.product.countCheckInsPer\" ff-disabled=\"!vm.product.hasPasses\" ff-required=\"vm.product.hasPasses\" ff-validate-alert=\"{{'PRODUCTS.COUNT_CHECK_INS_PER' | translate}}\"> <option value=\"{{opt.id}}\" ng-repeat=\"opt in vm.optsCountCheckInsPer\">{{opt.name}}</option> </ff-select> </label> <label flex=\"{sm: '0 0 50%'}\" class=\"ff-row\"> <ff-checkbox name=\"reserveWithNonMemberRules\" ff-model=\"vm.product.reserveWithNonMemberRules\" class=\"ff-control\"> <span translate=\"PRODUCTS.ONLY_NON_MEMBER_HOURS\"></span> </ff-checkbox> </label> </div> <div class=\"ff-grid\" ng-if=\"vm.product.type.id === 'rental'\"> <label flex=\"{sm: '0 0 50%'}\" class=\"ff-row\"> <ff-checkbox name=\"allowReservationCredits\" ff-model=\"vm.product.allowReservationCredits\" class=\"ff-control\"> <span translate=\"PRODUCTS.ALLOW_RESERVATION_CREDITS\"></span> </ff-checkbox> </label> <label flex=\"{sm: '0 0 50%'}\" class=\"ff-row\"> <ff-checkbox name=\"canBuyOnSplashPage\" ff-model=\"vm.product.canBuyOnSplashPage\" class=\"ff-control\"> <span translate=\"PRODUCTS.BUY_ON_SPLASH_PAGE\"></span> </ff-checkbox> </label> </div> <div class=\"ff-grid\"> <label flex=\"{sm: '1 0 50%'}\" class=\"ff-row\"> <ff-checkbox name=\"taxable\" ff-model=\"vm.product.taxable\" class=\"ff-control\"> <span translate=\"PRODUCTS.TAXABLE\"></span> </ff-checkbox> </label> <label flex=\"{sm: '0 0 50%'}\" class=\"ff-row\" ng-if=\"vm.product.type.id === 'membership' || vm.product.type.id === 'services'\"> <ff-checkbox name=\"showInSelfRegistration\" ff-model=\"vm.product.showInSelfRegistration\" class=\"ff-control\"> <span translate=\"PRODUCTS.SHOW_FOR_SIGN_UP\"></span> </ff-checkbox> </label> </div> <div class=\"ff-grid\" ng-if=\"vm.product.type.id === 'membership'\"> <label flex=\"{sm: '1 0 50%'}\" class=\"ff-row\"> <ff-checkbox name=\"hasRegistrationFee\" ff-model=\"vm.product.hasRegistrationFee\" class=\"ff-control\"> <span translate=\"PRODUCTS.HAS_REGISTRATION_FEE\"></span> </ff-checkbox> </label> <label flex=\"{sm: '1 0 50%'}\" class=\"ff-row\" ng-if=\"vm.settings.enableSecurityDepositInMembershipProducts\"> <ff-label flex=\"0 1 180px\"><req translate=\"PRODUCTS.SECURITY_DEPOSIT_AMOUNT\"></req></ff-label> <ff-number name=\"securityDepositAmount\" flex=\"1 0 50px\" ff-model=\"vm.product.securityDepositAmount\" ff-required=\"true\" ff-gte=\"0\" ff-validate-alert=\"{{'PRODUCTS.SECURITY_DEPOSIT_AMOUNT' | translate}}\"></ff-number> </label> <label flex=\"{sm: '0 0 50%'}\"> <ff-checkbox name=\"trackAcrossAllCenters\" ff-model=\"vm.product.trackAcrossAllCenters\" class=\"ff-control\" ff-disabled=\"!vm.product.hasPasses\"> <span translate=\"PRODUCTS.TRACK_ACROSS_ALL_CENTERS\"></span> </ff-checkbox> </label> <deskworks-sweep-product product-id=\"vm.product.id\" save=\"vm.saveDeskworksSweep\"></deskworks-sweep-product> </div> <ff-row ng-if=\"vm.product.type.id === 'rental'\"> <label flex=\"1 0 50%\" class=\"ff-row\"> <ff-label flex=\"3 0 60px\"><req translate=\"PRODUCTS.PASS_SIZE\"></req></ff-label> <ff-number flex=\"1 1 10px\" name=\"passSize\" ff-model=\"vm.product.passSize\" ff-required=\"true\" ff-validate-alert=\"{{'PRODUCTS.PASS_SIZE' | translate}}\"></ff-number> </label> <ff-static flex=\"{xs: '0 0 0', sm: '0 0 50%'}\" ff-style=\"{'padding': 0}\"></ff-static> </ff-row> <div class=\"ff-grid\" ng-if=\"vm.product.type.id === 'rental'\"> <label flex=\"{sm: '0 0 50%'}\" class=\"ff-row\"> <ff-label flex=\"3 0 60px\"><req translate=\"PRODUCTS.MIN_PASS\" translate-values=\"{ minPassUnit: vm.passMinUnit }\"></req></ff-label> <ff-select flex=\"1 1 10px\" name=\"passMin\" ff-model=\"vm.product.passMin\" ff-required=\"true\" ff-validate-alert=\"Min {{vm.passMinUnit}}\" ff-options=\"opt.id as opt.name for opt in vm.optsPassMin\"></ff-select> </label> <label flex=\"{sm: '0 0 50%'}\" class=\"ff-row\"> <ff-label flex=\"3 0 60px\"><req translate=\"PRODUCTS.MAX_PASS\"></req></ff-label> <ff-select flex=\"1 1 10px\" name=\"passMax\" ff-model=\"vm.product.passMax\" ff-required=\"true\" ff-options=\"max.name for max in vm.optsPassMax\" ff-validate-alert=\"{{'PRODUCTS.MAX_PASS' | translate}}\"></ff-select> </label> </div> <label class=\"ff-row\" ng-if=\"vm.product.type.id === 'rental'\"> <ff-label flex=\"1 1 220px\"><span translate=\"PRODUCTS.RESERVATION_CATEGORY\"></span></ff-label> <ff-select flex=\"1 1 344px\" name=\"reservationType\" ff-model=\"vm.product.reservationTypeId\"> <option value=\"\" translate=\"PRODUCTS.NO_RESERVATION_CATEGORY\"></option> <option ng-repeat=\"resType in vm.product.options.reservationTypes\" value=\"{{resType.id}}\">{{resType.name}}</option> </ff-select> </label> </ff-panel> <printer-usage-free-copies flex=\"{md: '0 0 50%'}\" style=\"margin-left:auto\" free-copies-settings=\"vm.product.printerUsageFreeCopiesSettings\" ng-if=\"vm.product.type.id === 'membership' && vm.product.printerUsageFreeCopiesSettings.length > 0\"></printer-usage-free-copies> <ff-btn-group> <ff-btn sense=\"save\" type=\"submit\" ff-disabled=\"formProduct.$pristine\" ff-click=\"vm.save(formProduct)\"> <span translate=\"GLOBAL.BTN_SAVE\"></span> </ff-btn> <ff-btn sense=\"remove\" ng-if=\"vm.product.id\" ff-click=\"vm.remove()\"> <span translate=\"GLOBAL.BTN_DELETE\"></span> </ff-btn> <ff-btn sense=\"back\" ff-click=\"vm.back()\"><span translate=\"GLOBAL.BTN_BACK\"></span></ff-btn> </ff-btn-group> </div> </form> <div id=\"productPriceLists\" ff-bulk-read-only style=\"margin:1.5rem 0\"> <ff-panel ng-if=\"vm.product.id\"> <ff-panel-header><span translate=\"PRODUCTS.PRICE_LISTS.HEADER\"></span></ff-panel-header> <ff-btn-group class=\"ff-section-buttons\"> <ff-btn sense=\"add\" size=\"sm\" ff-click=\"vm.addPriceList()\"><span translate=\"PRODUCTS.PRICE_LISTS.BTN_ADD\"></span></ff-btn> </ff-btn-group> <ff-header ng-show=\"vm.product.priceLists.length > 0\"> <ff-row> <cell><req translate=\"PRODUCTS.PRICE_LISTS.PRICE_LIST\"></req></cell> <cell flex=\"0 0 60px\" ng-if=\"vm.product.hasPasses\"><req translate=\"PRODUCTS.PRICE_LISTS.PASSES\"></req></cell> <cell flex=\"0 0 60px\" class=\"ff-right\" ng-if=\"vm.product.isCreditable\"><req translate=\"PRODUCTS.PRICE_LISTS.CREDIT\"></req></cell> <cell flex=\"0 0 60px\" class=\"ff-right\"><req translate=\"PRODUCTS.PRICE_LISTS.PRICE\"></req></cell> <ff-btn-group flex=\"none\" class=\"buttons-row zero-height\"> <ff-btn sense=\"save\" size=\"xs\" title=\"{{'GLOBAL.BTN_SAVE' | translate}}\"></ff-btn> <ff-btn sense=\"remove\" size=\"xs\" title=\"{{'GLOBAL.BTN_DELETE' | translate}}\"></ff-btn> </ff-btn-group> </ff-row> </ff-header> <form name=\"priceListForm\" id=\"productPriceList-{{priceList.id}}\" ng-repeat=\"priceList in vm.product.priceLists\" novalidate> <ff-row> <ff-select name=\"priceList\" ff-model=\"priceList.priceList\" ff-required=\"true\" ff-validate-alert=\"{{'PRODUCTS.PRICE_LISTS.PRICE_LIST' | translate}}\" ff-unique=\"{ array: vm.product.priceLists, prop: 'priceList' }\" ff-model-options=\"{ allowInvalid: true }\" ff-options=\"priceList.name for priceList in vm.product.options.priceLists\"> </ff-select> <ff-number flex=\"0 0 60px\" name=\"passQty\" class=\"ff-center\" ff-model=\"priceList.passQty\" ff-required=\"true\" ff-validate-alert=\"{{'PRODUCTS.PRICE_LISTS.PASSES' | translate}}\" ng-if=\"vm.product.hasPasses\"></ff-number> <ff-price flex=\"0 0 60px\" name=\"credit\" class=\"ff-right\" ff-model=\"priceList.reservationCredit\" ff-required=\"true\" ff-validate-alert=\"{{'PRODUCTS.PRICE_LISTS.CREDIT' | translate}}\" ng-if=\"vm.product.isCreditable\"></ff-price> <ff-price flex=\"0 0 60px\" name=\"price\" class=\"ff-right\" ff-model=\"priceList.price\" ff-required=\"true\" ff-validate-alert=\"{{'PRODUCTS.PRICE_LISTS.PRICE' | translate}}\"></ff-price> <ff-btn-group flex=\"none\" class=\"buttons-row\"> <ff-btn sense=\"save\" type=\"submit\" size=\"xs\" title=\"{{'GLOBAL.BTN_SAVE' | translate}}\" ff-click=\"vm.savePriceList(priceList, priceListForm)\" ff-disabled=\"priceListForm.$pristine\"></ff-btn> <ff-btn sense=\"remove\" size=\"xs\" title=\"{{'GLOBAL.BTN_DELETE' | translate}}\" ff-click=\"vm.removePriceList(priceList, $index)\"></ff-btn> </ff-btn-group> </ff-row> </form> <ff-btn-group ng-show=\"vm.product.priceLists.length > 0\" class=\"ff-section-buttons\"> <ff-btn sense=\"add\" size=\"sm\" ff-click=\"vm.addPriceList()\"> <span translate=\"PRODUCTS.PRICE_LISTS.BTN_ADD\"></span> </ff-btn> </ff-btn-group> </ff-panel> </div> ";
+var code = "<form name=\"formProduct\" id=\"productEdit\" novalidate ff-bulk-read-only> <h1 class=\"page-title\">{{state.getPageTitle()}}</h1> <div class=\"ff-grid gutter-v gutter-h-half\"> <ff-panel flex=\"{lg: '0 0 50%'}\"> <label class=\"ff-row\"> <ff-label flex=\"0 0 92px\"><req translate=\"PRODUCTS.NAME\"></req></ff-label> <ff-text name=\"name\" ff-model=\"vm.product.name\" ff-required=\"true\" ff-maxlength=\"128\" ff-validate-alert=\"{{'PRODUCTS.NAME' | translate}}\"></ff-text> </label> <label class=\"ff-row\"> <ff-label flex=\"0 0 92px\"><span translate=\"PRODUCTS.DESCRIPTION\" style=\"margin-bottom:auto;padding:.3333rem 0\"></span></ff-label> <ff-textarea name=\"description\" ff-model=\"vm.product.description\" ff-maxlength=\"1024\" rowspan=\"3\" ff-validate-alert=\"{{'PRODUCTS.DESCRIPTION' | translate}}\"></ff-textarea> </label> <div class=\"ff-grid\"> <label flex=\"{sm: '0 0 65%'}\" class=\"ff-row\"> <ff-label flex=\"0 0 92px\"><req translate=\"PRODUCTS.ITEM_CATEGORY\"></req></ff-label> <ff-select name=\"productCategory\" ff-model=\"vm.product.productCategoryId\" ff-options=\"opt.id as opt.fullName for opt in vm.productCategories\" ff-required=\"true\" ff-validate-alert=\"{{'PRODUCTS.ITEM_CATEGORY' | translate}}\"></ff-select> </label> <label flex=\"{sm: '0 0 35%'}\" class=\"ff-row\"> <ff-label flex=\"0 0 92px\"><req translate=\"PRODUCTS.ITEM_NUMBER\"></req></ff-label> <ff-number name=\"productNumber\" ff-model=\"vm.product.productNumber\" placeholder=\"01\" ff-required=\"true\" ff-gte=\"0\" ff-lt=\"1000\" ff-validate-alert=\"{{'PRODUCTS.ITEM_NUMBER' | translate}}\"></ff-number> </label> </div> <quick-books-account product-id=\"vm.product.id\" save=\"vm.saveQuickBooks\" ng-if=\"vm.product.id\"></quick-books-account> <doorflow-product-access-group product-id=\"vm.product.id\" save=\"vm.saveDoorflow\" ng-if=\"vm.product.id && vm.product.type.id === 'membership'\"></doorflow-product-access-group> <label class=\"ff-row\" ng-if=\"vm.product.type.id === 'membership' && vm.product.showInSelfRegistration && vm.product.id\"> <ff-label flex=\"0 0 92px\"> <span translate=\"PRODUCTS.WEBSITE_LINK\"></span> <ff-hint><span translate=\"PRODUCTS.WEBSITE_LINK.HINT\"></span></ff-hint> </ff-label> <ff-static> <a href=\"{{vm.getMemberSignUpUrl()}}\" target=\"_blank\" rel=\"noopener\">{{vm.getMemberSignUpUrl()}}</a> </ff-static> </label> </ff-panel> <ff-panel flex=\"{lg: '0 0 50%'}\"> <label class=\"ff-row\"> <ff-label flex=\"0 0 90px\"><req translate=\"PRODUCTS.PRODUCT_TYPE\"></req></ff-label> <ff-select name=\"productType\" ff-model=\"vm.product.type\" ff-required=\"true\" ff-validate-alert=\"{{'PRODUCTS.PRODUCT_TYPE' | translate}}\" ff-options=\"type.name for type in vm.product.options.productTypes\" ng-if=\"vm.product.typeId !== 'discount'\"></ff-select> <ff-static ng-if=\"vm.product.typeId === 'discount'\" class=\"disabled\">Discount</ff-static> </label> <label class=\"ff-row\" flex=\"1 1 50%\" ng-if=\"vm.product.type.id === 'membership' || vm.product.type.id === 'services'\"> <ff-label flex=\"0 0 90px\" ng-if=\"vm.product.type.id === 'membership'\"> <req translate=\"PRODUCTS.MEMBERSHIP_CATEGORY\"></req> </ff-label> <ff-select name=\"membershipType\" ff-model=\"vm.product.membershipType\" ff-required=\"true\" ng-if=\"vm.product.type.id === 'membership'\" ff-validate-alert=\"{{'PRODUCTS.MEMBERSHIP_CATEGORY' | translate}}\" ff-options=\"type.name for type in vm.product.options.membershipTypes\"></ff-select> </label> <label class=\"ff-row\" flex=\"1 1 50%\" ng-if=\"vm.product.type.id === 'membership' || vm.product.type.id === 'services'\"> <ff-label flex=\"0 0 90px\"> <req translate=\"PRODUCTS.BILLING_FREQUENCY\"></req> </ff-label> <ff-select name=\"billingFrequency\" ff-model=\"vm.product.billingFrequency\" ff-required=\"true\" ff-validate-alert=\"{{'PRODUCTS.BILLING_FREQUENCY' | translate}}\" ff-options=\"billingFrequency.name for billingFrequency in vm.product.options.billingFrequencies\"></ff-select> </label> <div class=\"ff-grid\" ng-if=\"vm.product.type.id === 'membership'\"> <label flex=\"{sm: '0 0 50%'}\" class=\"ff-row\"> <ff-checkbox name=\"isCreditable\" ff-model=\"vm.product.isCreditable\" class=\"ff-control\"> <span translate=\"PRODUCTS.IS_CREDITABLE\"></span> </ff-checkbox> </label> <label flex=\"{sm: '0 0 50%'}\" class=\"ff-row\"> <ff-checkbox name=\"hasPasses\" ff-model=\"vm.product.hasPasses\" class=\"ff-control\"> <span translate=\"PRODUCTS.HAS_PASSES\"></span> </ff-checkbox> </label> </div> <label class=\"ff-row\" ng-if=\"vm.product.type.id === 'membership'\"> <ff-label flex=\"1 0 50%\" ng-disabled=\"!vm.product.hasPasses\"> <req translate=\"PRODUCTS.PASS_PRODUCT\"></req> </ff-label> <ff-select flex=\"1 0 50%\" name=\"passProduct\" ff-model=\"vm.product.passProduct\" ff-disabled=\"!vm.product.hasPasses\" ff-required=\"vm.product.hasPasses\" ff-validate-alert=\"{{'PRODUCTS.PASS_PRODUCT' | translate}}\" ff-options=\"passProduct.name for passProduct in vm.product.options.passProducts\"></ff-select> </label> <div class=\"ff-grid\" ng-if=\"vm.product.type.id === 'membership'\"> <label flex=\"{sm: '0 0 50%'}\" class=\"ff-row\"> <ff-label flex=\"0 0 50%\" ng-disabled=\"!vm.product.hasPasses\"> <req translate=\"PRODUCTS.COUNT_CHECK_INS_PER\"></req> </ff-label> <ff-select flex=\"1 0 50%\" name=\"countCheckInsPer\" ff-model=\"vm.product.countCheckInsPer\" ff-disabled=\"!vm.product.hasPasses\" ff-required=\"vm.product.hasPasses\" ff-validate-alert=\"{{'PRODUCTS.COUNT_CHECK_INS_PER' | translate}}\"> <option value=\"{{opt.id}}\" ng-repeat=\"opt in vm.optsCountCheckInsPer\">{{opt.name}}</option> </ff-select> </label> <label flex=\"{sm: '0 0 50%'}\" class=\"ff-row\"> <ff-checkbox name=\"reserveWithNonMemberRules\" ff-model=\"vm.product.reserveWithNonMemberRules\" class=\"ff-control\"> <span translate=\"PRODUCTS.ONLY_NON_MEMBER_HOURS\"></span> </ff-checkbox> </label> </div> <div class=\"ff-grid\" ng-if=\"vm.product.type.id === 'rental'\"> <label flex=\"{sm: '0 0 50%'}\" class=\"ff-row\"> <ff-checkbox name=\"allowReservationCredits\" ff-model=\"vm.product.allowReservationCredits\" class=\"ff-control\"> <span translate=\"PRODUCTS.ALLOW_RESERVATION_CREDITS\"></span> </ff-checkbox> </label> <label flex=\"{sm: '0 0 50%'}\" class=\"ff-row\"> <ff-checkbox name=\"canBuyOnSplashPage\" ff-model=\"vm.product.canBuyOnSplashPage\" class=\"ff-control\"> <span translate=\"PRODUCTS.BUY_ON_SPLASH_PAGE\"></span> </ff-checkbox> </label> </div> <div class=\"ff-grid\"> <label flex=\"{sm: '1 0 50%'}\" class=\"ff-row\"> <ff-checkbox name=\"taxable\" ff-model=\"vm.product.taxable\" class=\"ff-control\"> <span translate=\"PRODUCTS.TAXABLE\"></span> </ff-checkbox> </label> <label flex=\"{sm: '0 0 50%'}\" class=\"ff-row\" ng-if=\"vm.product.type.id === 'membership' || vm.product.type.id === 'services'\"> <ff-checkbox name=\"showInSelfRegistration\" ff-model=\"vm.product.showInSelfRegistration\" class=\"ff-control\"> <span translate=\"PRODUCTS.SHOW_FOR_SIGN_UP\"></span> </ff-checkbox> </label> </div> <div class=\"ff-grid\" ng-if=\"vm.product.type.id === 'membership'\"> <label flex=\"{sm: '1 0 50%'}\" class=\"ff-row\"> <ff-checkbox name=\"hasRegistrationFee\" ff-model=\"vm.product.hasRegistrationFee\" class=\"ff-control\"> <span translate=\"PRODUCTS.HAS_REGISTRATION_FEE\"></span> </ff-checkbox> </label> <label flex=\"{sm: '1 0 50%'}\" class=\"ff-row\" ng-if=\"vm.settings.enableSecurityDepositInMembershipProducts\"> <ff-label flex=\"0 1 180px\"><req translate=\"PRODUCTS.SECURITY_DEPOSIT_AMOUNT\"></req></ff-label> <ff-number name=\"securityDepositAmount\" flex=\"1 0 50px\" ff-model=\"vm.product.securityDepositAmount\" ff-required=\"true\" ff-gte=\"0\" ff-validate-alert=\"{{'PRODUCTS.SECURITY_DEPOSIT_AMOUNT' | translate}}\"></ff-number> </label> <label flex=\"{sm: '0 0 50%'}\"> <ff-checkbox name=\"trackAcrossAllCenters\" ff-model=\"vm.product.trackAcrossAllCenters\" class=\"ff-control\" ff-disabled=\"!vm.product.hasPasses\"> <span translate=\"PRODUCTS.TRACK_ACROSS_ALL_CENTERS\"></span> </ff-checkbox> </label> <deskworks-sweep-product product-id=\"vm.product.id\" save=\"vm.saveDeskworksSweep\"></deskworks-sweep-product> </div> <ff-row ng-if=\"vm.product.type.id === 'rental'\"> <label flex=\"1 0 50%\" class=\"ff-row\"> <ff-label flex=\"3 0 60px\"><req translate=\"PRODUCTS.PASS_SIZE\"></req></ff-label> <ff-number flex=\"1 1 10px\" name=\"passSize\" ff-model=\"vm.product.passSize\" ff-required=\"true\" ff-validate-alert=\"{{'PRODUCTS.PASS_SIZE' | translate}}\"></ff-number> </label> <ff-static flex=\"{xs: '0 0 0', sm: '0 0 50%'}\" ff-style=\"{'padding': 0}\"></ff-static> </ff-row> <div class=\"ff-grid\" ng-if=\"vm.product.type.id === 'rental'\"> <label flex=\"{sm: '0 0 50%'}\" class=\"ff-row\"> <ff-label flex=\"3 0 60px\"><req translate=\"PRODUCTS.MIN_PASS\" translate-values=\"{ minPassUnit: vm.passMinUnit }\"></req></ff-label> <ff-select flex=\"1 1 10px\" name=\"passMin\" ff-model=\"vm.product.passMin\" ff-required=\"true\" ff-validate-alert=\"Min {{vm.passMinUnit}}\" ff-options=\"opt.id as opt.name for opt in vm.optsPassMin\"></ff-select> </label> <label flex=\"{sm: '0 0 50%'}\" class=\"ff-row\"> <ff-label flex=\"3 0 60px\"><req translate=\"PRODUCTS.MAX_PASS\"></req></ff-label> <ff-select flex=\"1 1 10px\" name=\"passMax\" ff-model=\"vm.product.passMax\" ff-required=\"true\" ff-options=\"max.name for max in vm.optsPassMax\" ff-validate-alert=\"{{'PRODUCTS.MAX_PASS' | translate}}\"></ff-select> </label> </div> <label class=\"ff-row\" ng-if=\"vm.product.type.id === 'rental'\"> <ff-label flex=\"1 1 220px\"><span translate=\"PRODUCTS.RESERVATION_CATEGORY\"></span></ff-label> <ff-select flex=\"1 1 344px\" name=\"reservationType\" ff-model=\"vm.product.reservationTypeId\"> <option value=\"\" translate=\"PRODUCTS.NO_RESERVATION_CATEGORY\"></option> <option ng-repeat=\"resType in vm.product.options.reservationTypes\" value=\"{{resType.id}}\">{{resType.name}}</option> </ff-select> </label> </ff-panel> <printer-usage-free-copies flex=\"{md: '0 0 50%'}\" style=\"margin-left:auto\" free-copies-settings=\"vm.product.printerUsageFreeCopiesSettings\" ng-if=\"vm.product.type.id === 'membership' && vm.product.printerUsageFreeCopiesSettings.length > 0\"></printer-usage-free-copies> <ff-btn-group> <ff-btn sense=\"save\" type=\"submit\" ff-disabled=\"formProduct.$pristine\" ff-click=\"vm.save(formProduct)\"> <span translate=\"GLOBAL.BTN_SAVE\"></span> </ff-btn> <ff-btn sense=\"remove\" ng-if=\"vm.product.id\" ff-click=\"vm.remove()\"> <span translate=\"GLOBAL.BTN_DELETE\"></span> </ff-btn> <ff-btn sense=\"back\" ff-click=\"vm.back()\"><span translate=\"GLOBAL.BTN_BACK\"></span></ff-btn> </ff-btn-group> </div> </form> <div id=\"productPriceLists\" ff-bulk-read-only style=\"margin:1.5rem 0\"> <ff-panel ng-if=\"vm.product.id\"> <ff-panel-header><span translate=\"PRODUCTS.PRICE_LISTS.HEADER\"></span></ff-panel-header> <ff-btn-group class=\"ff-section-buttons\"> <ff-btn sense=\"add\" size=\"sm\" ff-click=\"vm.addPriceList()\"><span translate=\"PRODUCTS.PRICE_LISTS.BTN_ADD\"></span></ff-btn> </ff-btn-group> <ff-header ng-show=\"vm.product.priceLists.length > 0\"> <ff-row> <cell><req translate=\"PRODUCTS.PRICE_LISTS.PRICE_LIST\"></req></cell> <cell flex=\"0 0 60px\" ng-if=\"vm.product.hasPasses\"><req translate=\"PRODUCTS.PRICE_LISTS.PASSES\"></req></cell> <cell flex=\"0 0 60px\" class=\"ff-right\" ng-if=\"vm.product.isCreditable\"><req translate=\"PRODUCTS.PRICE_LISTS.CREDIT\"></req></cell> <cell flex=\"0 0 60px\" class=\"ff-right\"><req translate=\"PRODUCTS.PRICE_LISTS.PRICE\"></req></cell> <ff-btn-group flex=\"none\" class=\"buttons-row zero-height\"> <ff-btn sense=\"save\" size=\"xs\" title=\"{{'GLOBAL.BTN_SAVE' | translate}}\"></ff-btn> <ff-btn sense=\"remove\" size=\"xs\" title=\"{{'GLOBAL.BTN_DELETE' | translate}}\"></ff-btn> </ff-btn-group> </ff-row> </ff-header> <form name=\"priceListForm\" id=\"productPriceList-{{priceList.id}}\" ng-repeat=\"priceList in vm.product.priceLists\" novalidate> <ff-row> <ff-select name=\"priceList\" ff-model=\"priceList.priceList\" ff-required=\"true\" ff-validate-alert=\"{{'PRODUCTS.PRICE_LISTS.PRICE_LIST' | translate}}\" ff-unique=\"{ array: vm.product.priceLists, prop: 'priceList' }\" ff-model-options=\"{ allowInvalid: true }\" ff-options=\"priceList.name for priceList in vm.product.options.priceLists\"> </ff-select> <ff-number flex=\"0 0 60px\" name=\"passQty\" class=\"ff-center\" ff-model=\"priceList.passQty\" ff-required=\"true\" ff-validate-alert=\"{{'PRODUCTS.PRICE_LISTS.PASSES' | translate}}\" ng-if=\"vm.product.hasPasses\"></ff-number> <ff-price flex=\"0 0 60px\" name=\"credit\" class=\"ff-right\" ff-model=\"priceList.reservationCredit\" ff-required=\"true\" ff-validate-alert=\"{{'PRODUCTS.PRICE_LISTS.CREDIT' | translate}}\" ng-if=\"vm.product.isCreditable\"></ff-price> <ff-price flex=\"0 0 60px\" name=\"price\" class=\"ff-right\" ff-model=\"priceList.price\" ff-required=\"true\" ff-validate-alert=\"{{'PRODUCTS.PRICE_LISTS.PRICE' | translate}}\"></ff-price> <ff-btn-group flex=\"none\" class=\"buttons-row\"> <ff-btn sense=\"save\" type=\"submit\" size=\"xs\" title=\"{{'GLOBAL.BTN_SAVE' | translate}}\" ff-click=\"vm.savePriceList(priceList, priceListForm)\" ff-disabled=\"priceListForm.$pristine\"></ff-btn> <ff-btn sense=\"remove\" size=\"xs\" title=\"{{'GLOBAL.BTN_DELETE' | translate}}\" ff-click=\"vm.removePriceList(priceList, $index)\"></ff-btn> </ff-btn-group> </ff-row> </form> <ff-btn-group ng-show=\"vm.product.priceLists.length > 0\" class=\"ff-section-buttons\"> <ff-btn sense=\"add\" size=\"sm\" ff-click=\"vm.addPriceList()\"> <span translate=\"PRODUCTS.PRICE_LISTS.BTN_ADD\"></span> </ff-btn> </ff-btn-group> </ff-panel> </div> ";
 // Exports
 module.exports = code;
 
@@ -1708,125 +1708,10 @@ module.exports = code;
 /*!********************************************************************************!*\
   !*** ./bundles/inventory/reservation-unit/reservation-unit-edit.controller.js ***!
   \********************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/*! no static exports found */
+/***/ (function(module, exports) {
 
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var core_js_modules_es_object_to_string_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! core-js/modules/es.object.to-string.js */ "../node_modules/core-js/modules/es.object.to-string.js");
-/* harmony import */ var core_js_modules_es_object_to_string_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_object_to_string_js__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var core_js_modules_es_promise_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! core-js/modules/es.promise.js */ "../node_modules/core-js/modules/es.promise.js");
-/* harmony import */ var core_js_modules_es_promise_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_promise_js__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _babel_runtime_corejs3_core_js_stable_instance_find__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @babel/runtime-corejs3/core-js-stable/instance/find */ "../node_modules/@babel/runtime-corejs3/core-js-stable/instance/find.js");
-/* harmony import */ var _babel_runtime_corejs3_core_js_stable_instance_find__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_corejs3_core_js_stable_instance_find__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var shared_reservation_rules_reservation_rules_component__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! shared/reservation-rules/reservation-rules.component */ "./shared/reservation-rules/reservation-rules.component.js");
-/* harmony import */ var shared_services_inventory_reservation_unit_service__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! shared/services/inventory/reservation-unit.service */ "./shared/services/inventory/reservation-unit.service.js");
-
-
-
-
-
-/* harmony default export */ __webpack_exports__["default"] = (angular.module('deskworks.inventory.reservationUnit.edit', ['deskworks.reservationCategory.service', shared_reservation_rules_reservation_rules_component__WEBPACK_IMPORTED_MODULE_3__["default"].name, shared_services_inventory_reservation_unit_service__WEBPACK_IMPORTED_MODULE_4__["default"].name]).controller('InventoryReservationUnitEditCtrl', ["$scope", "$route", "$translate", "$window", "dwAlerts", "state", "helper", "unit", "categories", "ReservationUnit", function ($scope, $route, $translate, $window, dwAlerts, state, helper, unit, categories, ReservationUnit) {
-  var _context;
-
-  var $ctrl = this;
-  state.setPageTitle($translate.instant(unit.id === 'new' ? 'RESERVATION_UNITS.NEW.PAGE_TITLE' : 'RESERVATION_UNITS.EDIT.PAGE_TITLE'));
-  $ctrl.unit = unit;
-  $ctrl.categories = categories;
-  $ctrl.areaUnit = (_babel_runtime_corejs3_core_js_stable_instance_find__WEBPACK_IMPORTED_MODULE_2___default()(_context = window.dwLocales).call(_context, function (i) {
-    return i.id === $scope.currentLocale;
-  }) || {}).area || 'ft²';
-  /**
-   * Save Reservation Unit handler
-   */
-
-  $ctrl.saveReservationUnit = function (form) {
-    if (helper.pointFirstInvalid('#reservation-unit-edit')) return;
-    var data = helper.pick($ctrl.unit, ['id', 'name', 'reservationTypeId', 'syncWithCalendar', 'calendarId', 'description', 'area', 'capacity', 'expectedUsePerMonth']);
-    data.area = data.area ? +data.area : null;
-    data.capacity = data.capacity ? +data.capacity : null;
-    data.expectedUsePerMonth = data.expectedUsePerMonth ? +data.expectedUsePerMonth : null;
-    return ReservationUnit.save(state.getCurrentCenterId(), data).then(function (result) {
-      $ctrl.form.$setPristine();
-      if ($ctrl.unit.id === 'new') return state.setPath('/reservation-units/' + result.id);
-      $route.reload();
-    }).catch(function (err) {
-      return dwAlerts.error(err, 'Failed to save reservation unit.');
-    });
-  };
-  /**
-   * Remove Reservation Unit handler
-   */
-
-
-  $ctrl.removeReservationUnit = function () {
-    if (confirm($translate.instant('RESERVATION_UNITS.CONFIRM_DELETE'))) {
-      return ReservationUnit.delete(state.getCurrentCenterId(), $ctrl.unit.id).then(function () {
-        return state.setPath('/reservation-units');
-      }).catch(function (err) {
-        return dwAlerts.error(err, 'Failed to remove reservation unit.');
-      });
-    }
-  };
-  /**
-   * Upload Photo handler
-   */
-
-
-  $ctrl.uploadPhoto = function ($files, $invalidFiles) {
-    if ($invalidFiles && $invalidFiles.length > 0) return dwAlerts.error($translate.instant('GLOBAL.PHOTO.INVALID_FORMAT'));
-
-    if ($files && $files.length > 0) {
-      $ctrl.spinUpload = true;
-      return ReservationUnit.uploadPhoto(state.getCurrentCenterId(), $ctrl.unit.id, $files[0]).catch(function (err) {
-        return dwAlerts.error(err, 'Failed to upload photo.');
-      }).finally(function () {
-        $ctrl.spinUpload = false;
-      }).then(function (result) {
-        $ctrl.unit.thumbnail = result.data.thumbnail ? result.data.thumbnail + '?' + Date.now() : $ctrl.unit.thumbnail;
-        $ctrl.unit.photo = result.data.photo + '?' + Date.now();
-      });
-    }
-  };
-  /**
-   * Delete photo
-   */
-
-
-  $ctrl.deletePhoto = function () {
-    if (!$window.confirm($translate.instant('GLOBAL.CONFIRM_DELETE_PHOTO'))) return;
-    return ReservationUnit.deletePhoto({
-      centerId: state.getCurrentCenterId(),
-      id: $ctrl.unit.id
-    }).catch(function (err) {
-      return dwAlerts.error(err, 'Failed to delete photo.');
-    }).then(function () {
-      $ctrl.unit.thumbnail = null;
-      $ctrl.unit.photo = null;
-    });
-  };
-  /**
-   * Back button handler
-   */
-
-
-  $ctrl.back = function () {
-    return state.setPath('/reservation-units');
-  };
-  /**
-   * 'Sync With Calendar' change handler
-   */
-
-
-  $ctrl.calSyncChange = function () {
-    if (!$ctrl.unit.syncWithCalendar) $ctrl.unit.calendarId = null;
-    $ctrl.calendarIdEnabled = $ctrl.unit.syncWithCalendar;
-  };
-
-  $scope.$watch('state.getCurrentCenterId()', function (nv, ov) {
-    if (nv !== ov) state.setPath('/reservation-units');
-  });
-}]));
+throw new Error("Module build failed (from ../node_modules/babel-loader/lib/index.js):\nSyntaxError: /Users/asinishin/Documents/3-work/Deskworks/src/bundles/inventory/reservation-unit/reservation-unit-edit.controller.js: Unexpected token, expected \",\" (46:79)\n\n\u001b[0m \u001b[90m 44 |\u001b[39m         \u001b[33mReservationUnit\u001b[39m\u001b[33m.\u001b[39msave(state\u001b[33m.\u001b[39mgetCurrentCenterId()\u001b[33m,\u001b[39m data)\u001b[0m\n\u001b[0m \u001b[90m 45 |\u001b[39m           \u001b[33m.\u001b[39m\u001b[36mcatch\u001b[39m(err \u001b[33m=>\u001b[39m dwAlerts\u001b[33m.\u001b[39merror(err\u001b[33m,\u001b[39m \u001b[32m'Failed to save reservation unit.'\u001b[39m))\u001b[33m,\u001b[39m\u001b[0m\n\u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 46 |\u001b[39m         $q\u001b[33m.\u001b[39mwhen($ctrl\u001b[33m.\u001b[39msaveDoorflow \u001b[33m&&\u001b[39m $ctrl\u001b[33m.\u001b[39msaveDoorflow())\u001b[33m.\u001b[39m\u001b[36mcatch\u001b[39m(angular\u001b[33m.\u001b[39mnoop))\u001b[33m,\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m                                                                                \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 47 |\u001b[39m       ])\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 48 |\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 49 |\u001b[39m       \u001b[36mreturn\u001b[39m promise\u001b[0m\n    at Parser._raise (/Users/asinishin/Documents/3-work/Deskworks/node_modules/@babel/parser/lib/index.js:816:17)\n    at Parser.raiseWithData (/Users/asinishin/Documents/3-work/Deskworks/node_modules/@babel/parser/lib/index.js:809:17)\n    at Parser.raise (/Users/asinishin/Documents/3-work/Deskworks/node_modules/@babel/parser/lib/index.js:770:17)\n    at Parser.unexpected (/Users/asinishin/Documents/3-work/Deskworks/node_modules/@babel/parser/lib/index.js:9905:16)\n    at Parser.expect (/Users/asinishin/Documents/3-work/Deskworks/node_modules/@babel/parser/lib/index.js:9879:28)\n    at Parser.parseExprList (/Users/asinishin/Documents/3-work/Deskworks/node_modules/@babel/parser/lib/index.js:12037:14)\n    at Parser.parseArrayLike (/Users/asinishin/Documents/3-work/Deskworks/node_modules/@babel/parser/lib/index.js:11941:26)\n    at Parser.parseExprAtom (/Users/asinishin/Documents/3-work/Deskworks/node_modules/@babel/parser/lib/index.js:11211:23)\n    at Parser.parseExprSubscripts (/Users/asinishin/Documents/3-work/Deskworks/node_modules/@babel/parser/lib/index.js:10878:23)\n    at Parser.parseUpdate (/Users/asinishin/Documents/3-work/Deskworks/node_modules/@babel/parser/lib/index.js:10858:21)\n    at Parser.parseMaybeUnary (/Users/asinishin/Documents/3-work/Deskworks/node_modules/@babel/parser/lib/index.js:10836:23)\n    at Parser.parseExprOps (/Users/asinishin/Documents/3-work/Deskworks/node_modules/@babel/parser/lib/index.js:10693:23)\n    at Parser.parseMaybeConditional (/Users/asinishin/Documents/3-work/Deskworks/node_modules/@babel/parser/lib/index.js:10667:23)\n    at Parser.parseMaybeAssign (/Users/asinishin/Documents/3-work/Deskworks/node_modules/@babel/parser/lib/index.js:10630:21)\n    at /Users/asinishin/Documents/3-work/Deskworks/node_modules/@babel/parser/lib/index.js:10598:39\n    at Parser.allowInAnd (/Users/asinishin/Documents/3-work/Deskworks/node_modules/@babel/parser/lib/index.js:12345:12)\n    at Parser.parseMaybeAssignAllowIn (/Users/asinishin/Documents/3-work/Deskworks/node_modules/@babel/parser/lib/index.js:10598:17)\n    at Parser.parseExprListItem (/Users/asinishin/Documents/3-work/Deskworks/node_modules/@babel/parser/lib/index.js:12079:18)\n    at Parser.parseCallExpressionArguments (/Users/asinishin/Documents/3-work/Deskworks/node_modules/@babel/parser/lib/index.js:11082:22)\n    at Parser.parseCoverCallAndAsyncArrowHead (/Users/asinishin/Documents/3-work/Deskworks/node_modules/@babel/parser/lib/index.js:10989:29)\n    at Parser.parseSubscript (/Users/asinishin/Documents/3-work/Deskworks/node_modules/@babel/parser/lib/index.js:10922:19)\n    at Parser.parseSubscripts (/Users/asinishin/Documents/3-work/Deskworks/node_modules/@babel/parser/lib/index.js:10895:19)\n    at Parser.parseExprSubscripts (/Users/asinishin/Documents/3-work/Deskworks/node_modules/@babel/parser/lib/index.js:10884:17)\n    at Parser.parseUpdate (/Users/asinishin/Documents/3-work/Deskworks/node_modules/@babel/parser/lib/index.js:10858:21)\n    at Parser.parseMaybeUnary (/Users/asinishin/Documents/3-work/Deskworks/node_modules/@babel/parser/lib/index.js:10836:23)\n    at Parser.parseExprOps (/Users/asinishin/Documents/3-work/Deskworks/node_modules/@babel/parser/lib/index.js:10693:23)\n    at Parser.parseMaybeConditional (/Users/asinishin/Documents/3-work/Deskworks/node_modules/@babel/parser/lib/index.js:10667:23)\n    at Parser.parseMaybeAssign (/Users/asinishin/Documents/3-work/Deskworks/node_modules/@babel/parser/lib/index.js:10630:21)\n    at /Users/asinishin/Documents/3-work/Deskworks/node_modules/@babel/parser/lib/index.js:10598:39\n    at Parser.allowInAnd (/Users/asinishin/Documents/3-work/Deskworks/node_modules/@babel/parser/lib/index.js:12345:12)\n    at Parser.parseMaybeAssignAllowIn (/Users/asinishin/Documents/3-work/Deskworks/node_modules/@babel/parser/lib/index.js:10598:17)\n    at Parser.parseVar (/Users/asinishin/Documents/3-work/Deskworks/node_modules/@babel/parser/lib/index.js:13215:70)\n    at Parser.parseVarStatement (/Users/asinishin/Documents/3-work/Deskworks/node_modules/@babel/parser/lib/index.js:13029:10)\n    at Parser.parseStatementContent (/Users/asinishin/Documents/3-work/Deskworks/node_modules/@babel/parser/lib/index.js:12612:21)\n    at Parser.parseStatement (/Users/asinishin/Documents/3-work/Deskworks/node_modules/@babel/parser/lib/index.js:12545:17)\n    at Parser.parseBlockOrModuleBlockBody (/Users/asinishin/Documents/3-work/Deskworks/node_modules/@babel/parser/lib/index.js:13134:25)");
 
 /***/ }),
 
@@ -1838,7 +1723,7 @@ __webpack_require__.r(__webpack_exports__);
 /***/ (function(module, exports) {
 
 // Module
-var code = "<div class=\"ff-grid gutter-v\"> <form name=\"$ctrl.form\" id=\"reservation-unit-edit\" novalidate ff-bulk-read-only> <h1 class=\"page-title\">{{state.getPageTitle()}}</h1> <div class=\"ff-grid gutter-v gutter-h\"> <ff-panel flex=\"{ md: '0 0 50%' }\"> <ff-panel-header> <span translate=\"RESERVATION_UNITS.GENERAL.HEADER\"></span> </ff-panel-header> <label class=\"ff-row\"> <ff-label flex=\"0 1 170px\"><req translate=\"RESERVATION_UNITS.NAME\"></req></ff-label> <ff-text flex=\"1 1 300px\" name=\"name\" ff-model=\"$ctrl.unit.name\" ff-required=\"true\" ff-validate-alert=\"{{'RESERVATION_UNITS.NAME' | translate}}\"></ff-text> </label> <label class=\"ff-row\"> <ff-label flex=\"0 1 170px\"><req translate=\"RESERVATION_UNITS.CATEGORY\"></req></ff-label> <ff-select flex=\"1 1 300px\" ff-model=\"$ctrl.unit.reservationTypeId\" ff-options=\"cat.id as cat.name for cat in $ctrl.categories\" ff-required=\"true\" ff-validate-alert=\"{{'RESERVATION_UNITS.CATEGORY' | translate}}\"></ff-select> </label> <label class=\"ff-row\"> <ff-label flex=\"0 1 170px\"><span translate=\"RESERVATION_UNITS.DESCRIPTION\"></span></ff-label> <ff-text flex=\"1 1 300px\" ff-model=\"$ctrl.unit.description\"></ff-text> </label> <ff-row> <label class=\"ff-row\"> <ff-label flex=\"0 1 170px\"><span translate=\"RESERVATION_UNITS.AREA\" translate-values=\"{ areaUnit: $ctrl.areaUnit }\"></span></ff-label> <ff-number name=\"area\" flex=\"1 1 60px\" ff-model=\"$ctrl.unit.area\" ff-validate-alert=\"{{'RESERVATION_UNITS.AREA' | translate: { areaUnit: $ctrl.areaUnit } }}\"></ff-number> </label> <label class=\"ff-row\"> <ff-label flex=\"0 1 170px\"> <span> <span translate=\"RESERVATION_UNITS.CAPACITY\"></span> <ff-hint><span translate=\"RESERVATION_UNITS.CAPACITY.HINT\"></span></ff-hint> </span> </ff-label> <ff-number name=\"area\" flex=\"1 1 60px\" ff-model=\"$ctrl.unit.capacity\" ff-validate-alert=\"{{'RESERVATION_UNITS.CAPACITY' | translate}}\"></ff-number> </label> </ff-row> <label class=\"ff-row\"> <ff-label flex=\"0 1 170px\"> <span> <req translate=\"RESERVATION_UNITS.EXPECTED_USE_PER_MONTH\"></req> <ff-hint><span translate=\"RESERVATION_UNITS.EXPECTED_USE_PER_MONTH.HINT\"></span></ff-hint> </span> </ff-label> <ff-number flex=\"1 1 300px\" ff-model=\"$ctrl.unit.expectedUsePerMonth\" ff-gte=\"0\" ff-required=\"true\" ff-validate-alert=\"{{'RESERVATION_UNITS.EXPECTED_USE_PER_MONTH' | translate}}\"></ff-number> </label> <ff-static> <label> <ff-checkbox ff-model=\"$ctrl.unit.syncWithCalendar\" ff-label=\"{{'RESERVATION_UNITS.SYNC_WITH_CALENDAR' | translate}}\" ff-change=\"$ctrl.calSyncChange()\"></ff-checkbox> </label> </ff-static> <label class=\"ff-row\"> <ff-label flex=\"0 1 170px\"> <span> <span translate=\"RESERVATION_UNITS.CALENDAR_ID\"></span> <ff-hint><span translate=\"RESERVATION_UNITS.CALENDAR_ID.HINT\"></span></ff-hint> </span> </ff-label> <ff-text flex=\"1 1 300px\" name=\"calendarId\" ff-model=\"$ctrl.unit.calendarId\" ff-disabled=\"!$ctrl.calendarIdEnabled\" ff-validate-alert=\"{{'RESERVATION_UNITS.CALENDAR_ID' | translate}}\"></ff-text> </label> </ff-panel> <ff-panel flex=\"{ md: '0 0 50%' }\" ng-if=\"$ctrl.unit.id && $ctrl.unit.id !== 'new'\" ngf-drop=\"$ctrl.uploadPhoto($files, $invalidFiles)\" ngf-pattern=\"'image/png,image/jpeg'\" ngf-drag-over-class=\"dragover\"> <ff-panel-header> <span translate=\"GLOBAL.PHOTO\"></span> <ff-hint><span translate=\"RESERVATION_UNITS.PHOTO.HINT\"></span></ff-hint> </ff-panel-header> <ff-col style=\"height:100%\"> <ff-col flex=\"auto\"> <ff-img flex=\"auto\" ff-style=\"{ height: '100%', width: 'auto', 'object-fit': 'contain' }\" img-placeholder=\"1280 x 640\" ff-src=\"{{$ctrl.unit.thumbnail}}\" ff-src-hq=\"{{$ctrl.unit.photo}}\" ff-alt=\"{{$ctrl.unit.name}}\"></ff-img> </ff-col> <ff-btn-group flex=\"none\" class=\"ff-section-buttons\"> <ff-btn sense=\"upload\" size=\"sm\" ff-spin=\"$ctrl.spinUpload\" ngf-select=\"$ctrl.uploadPhoto($files, $invalidFiles)\" ngf-pattern=\"'image/png,image/jpeg'\" accept=\"image/png,image/jpeg\"> <span translate=\"GLOBAL.BTN_UPLOAD\"></span> </ff-btn> </ff-btn-group> </ff-col> </ff-panel> <ff-btn-group> <ff-btn sense=\"save\" type=\"submit\" ff-click=\"$ctrl.saveReservationUnit()\" ff-disabled=\"$ctrl.form.$pristine\"> <span translate=\"GLOBAL.BTN_SAVE\"></span> </ff-btn> <ff-btn sense=\"remove\" ng-if=\"$ctrl.unit.id !== 'new'\" ff-click=\"$ctrl.removeReservationUnit()\"> <span translate=\"GLOBAL.BTN_DELETE\"></span> </ff-btn> <ff-btn sense=\"back\" ff-click=\"$ctrl.back()\"><span translate=\"GLOBAL.BTN_BACK\"></span></ff-btn> </ff-btn-group> </div> </form> <reservation-rules center-id=\"state.getCurrentCenterId()\" reservation-unit-id=\"$ctrl.unit.id\" ng-if=\"$ctrl.unit.id !== 'new'\" ff-bulk-read-only></reservation-rules> </div> ";
+var code = "<div class=\"ff-grid gutter-v\"> <form name=\"$ctrl.form\" id=\"reservation-unit-edit\" novalidate ff-bulk-read-only> <h1 class=\"page-title\">{{state.getPageTitle()}}</h1> <div class=\"ff-grid gutter-v gutter-h\"> <ff-panel flex=\"{ md: '0 0 50%' }\"> <ff-panel-header> <span translate=\"RESERVATION_UNITS.GENERAL.HEADER\"></span> </ff-panel-header> <label class=\"ff-row\"> <ff-label flex=\"0 1 170px\"><req translate=\"RESERVATION_UNITS.NAME\"></req></ff-label> <ff-text flex=\"1 1 300px\" name=\"name\" ff-model=\"$ctrl.unit.name\" ff-required=\"true\" ff-validate-alert=\"{{'RESERVATION_UNITS.NAME' | translate}}\"></ff-text> </label> <label class=\"ff-row\"> <ff-label flex=\"0 1 170px\"><req translate=\"RESERVATION_UNITS.CATEGORY\"></req></ff-label> <ff-select flex=\"1 1 300px\" ff-model=\"$ctrl.unit.reservationTypeId\" ff-options=\"cat.id as cat.name for cat in $ctrl.categories\" ff-required=\"true\" ff-validate-alert=\"{{'RESERVATION_UNITS.CATEGORY' | translate}}\"></ff-select> </label> <label class=\"ff-row\"> <ff-label flex=\"0 1 170px\"><span translate=\"RESERVATION_UNITS.DESCRIPTION\"></span></ff-label> <ff-text flex=\"1 1 300px\" ff-model=\"$ctrl.unit.description\"></ff-text> </label> <ff-row> <label class=\"ff-row\"> <ff-label flex=\"0 1 170px\"><span translate=\"RESERVATION_UNITS.AREA\" translate-values=\"{ areaUnit: $ctrl.areaUnit }\"></span></ff-label> <ff-number name=\"area\" flex=\"1 1 60px\" ff-model=\"$ctrl.unit.area\" ff-validate-alert=\"{{'RESERVATION_UNITS.AREA' | translate: { areaUnit: $ctrl.areaUnit } }}\"></ff-number> </label> <label class=\"ff-row\"> <ff-label flex=\"0 1 170px\"> <span> <span translate=\"RESERVATION_UNITS.CAPACITY\"></span> <ff-hint><span translate=\"RESERVATION_UNITS.CAPACITY.HINT\"></span></ff-hint> </span> </ff-label> <ff-number name=\"area\" flex=\"1 1 60px\" ff-model=\"$ctrl.unit.capacity\" ff-validate-alert=\"{{'RESERVATION_UNITS.CAPACITY' | translate}}\"></ff-number> </label> </ff-row> <label class=\"ff-row\"> <ff-label flex=\"0 1 170px\"> <span> <req translate=\"RESERVATION_UNITS.EXPECTED_USE_PER_MONTH\"></req> <ff-hint><span translate=\"RESERVATION_UNITS.EXPECTED_USE_PER_MONTH.HINT\"></span></ff-hint> </span> </ff-label> <ff-number flex=\"1 1 300px\" ff-model=\"$ctrl.unit.expectedUsePerMonth\" ff-gte=\"0\" ff-required=\"true\" ff-validate-alert=\"{{'RESERVATION_UNITS.EXPECTED_USE_PER_MONTH' | translate}}\"></ff-number> </label> <doorflow-reservation-unit-access-group reservation-unit-id=\"$ctrl.unit.id\" save=\"$ctrl.saveDoorflow\" ng-if=\"$ctrl.unit.id\"></doorflow-reservation-unit-access-group> <ff-static> <label> <ff-checkbox ff-model=\"$ctrl.unit.syncWithCalendar\" ff-label=\"{{'RESERVATION_UNITS.SYNC_WITH_CALENDAR' | translate}}\" ff-change=\"$ctrl.calSyncChange()\"></ff-checkbox> </label> </ff-static> <label class=\"ff-row\"> <ff-label flex=\"0 1 170px\"> <span> <span translate=\"RESERVATION_UNITS.CALENDAR_ID\"></span> <ff-hint><span translate=\"RESERVATION_UNITS.CALENDAR_ID.HINT\"></span></ff-hint> </span> </ff-label> <ff-text flex=\"1 1 300px\" name=\"calendarId\" ff-model=\"$ctrl.unit.calendarId\" ff-disabled=\"!$ctrl.calendarIdEnabled\" ff-validate-alert=\"{{'RESERVATION_UNITS.CALENDAR_ID' | translate}}\"></ff-text> </label> </ff-panel> <ff-panel flex=\"{ md: '0 0 50%' }\" ng-if=\"$ctrl.unit.id && $ctrl.unit.id !== 'new'\" ngf-drop=\"$ctrl.uploadPhoto($files, $invalidFiles)\" ngf-pattern=\"'image/png,image/jpeg'\" ngf-drag-over-class=\"dragover\"> <ff-panel-header> <span translate=\"GLOBAL.PHOTO\"></span> <ff-hint><span translate=\"RESERVATION_UNITS.PHOTO.HINT\"></span></ff-hint> </ff-panel-header> <ff-col style=\"height:100%\"> <ff-col flex=\"auto\"> <ff-img flex=\"auto\" ff-style=\"{ height: '100%', width: 'auto', 'object-fit': 'contain' }\" img-placeholder=\"1280 x 640\" ff-src=\"{{$ctrl.unit.thumbnail}}\" ff-src-hq=\"{{$ctrl.unit.photo}}\" ff-alt=\"{{$ctrl.unit.name}}\"></ff-img> </ff-col> <ff-btn-group flex=\"none\" class=\"ff-section-buttons\"> <ff-btn sense=\"upload\" size=\"sm\" ff-spin=\"$ctrl.spinUpload\" ngf-select=\"$ctrl.uploadPhoto($files, $invalidFiles)\" ngf-pattern=\"'image/png,image/jpeg'\" accept=\"image/png,image/jpeg\"> <span translate=\"GLOBAL.BTN_UPLOAD\"></span> </ff-btn> </ff-btn-group> </ff-col> </ff-panel> <ff-btn-group> <ff-btn sense=\"save\" type=\"submit\" ff-click=\"$ctrl.saveReservationUnit()\" ff-disabled=\"$ctrl.form.$pristine\"> <span translate=\"GLOBAL.BTN_SAVE\"></span> </ff-btn> <ff-btn sense=\"remove\" ng-if=\"$ctrl.unit.id !== 'new'\" ff-click=\"$ctrl.removeReservationUnit()\"> <span translate=\"GLOBAL.BTN_DELETE\"></span> </ff-btn> <ff-btn sense=\"back\" ff-click=\"$ctrl.back()\"><span translate=\"GLOBAL.BTN_BACK\"></span></ff-btn> </ff-btn-group> </div> </form> <reservation-rules center-id=\"state.getCurrentCenterId()\" reservation-unit-id=\"$ctrl.unit.id\" ng-if=\"$ctrl.unit.id !== 'new'\" ff-bulk-read-only></reservation-rules> </div> ";
 // Exports
 module.exports = code;
 
@@ -1925,6 +1810,276 @@ __webpack_require__.r(__webpack_exports__);
     }
   };
 }]));
+
+/***/ }),
+
+/***/ "./shared/drag-n-drop/dnd.service.js":
+/*!*******************************************!*\
+  !*** ./shared/drag-n-drop/dnd.service.js ***!
+  \*******************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _babel_runtime_corejs3_core_js_stable_instance_splice__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime-corejs3/core-js-stable/instance/splice */ "../node_modules/@babel/runtime-corejs3/core-js-stable/instance/splice.js");
+/* harmony import */ var _babel_runtime_corejs3_core_js_stable_instance_splice__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_corejs3_core_js_stable_instance_splice__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var angular_drag_and_drop_lists__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! angular-drag-and-drop-lists */ "../node_modules/angular-drag-and-drop-lists/angular-drag-and-drop-lists.js");
+/* harmony import */ var angular_drag_and_drop_lists__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(angular_drag_and_drop_lists__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _drag_n_drop_scss__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./drag-n-drop.scss */ "./shared/drag-n-drop/drag-n-drop.scss");
+/* harmony import */ var _drag_n_drop_scss__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_drag_n_drop_scss__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _keese_service__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./keese.service */ "./shared/drag-n-drop/keese.service.js");
+
+
+
+
+/**
+ * Drag'n'Drop helper service
+ */
+
+/* harmony default export */ __webpack_exports__["default"] = (angular.module('dnd', ['dndLists', _keese_service__WEBPACK_IMPORTED_MODULE_3__["default"].name]).factory('dnd', ["keese", function (keese) {
+  return {
+    move: move
+  };
+  /**
+   * Move item from srcList[srcIndex] to targetList[targetIndex], auto-generates new order. Returns moved item.
+   */
+
+  function move(srcList, srcIndex, targetList, targetIndex) {
+    var item = srcList[srcIndex];
+    if (targetList) _babel_runtime_corejs3_core_js_stable_instance_splice__WEBPACK_IMPORTED_MODULE_0___default()(targetList).call(targetList, targetIndex, 0, item); // copy item from source to target
+    // remove source item, possibly correcting index. We must do this immediately, otherwise ng-repeat complains about duplicates
+
+    if (srcList === targetList && targetIndex <= srcIndex) srcIndex++;
+
+    _babel_runtime_corejs3_core_js_stable_instance_splice__WEBPACK_IMPORTED_MODULE_0___default()(srcList).call(srcList, srcIndex, 1); // remove source item
+
+
+    if (targetList) {
+      var index = targetList.indexOf(item); // find new index of item
+
+      item.order = keese.generate(targetList[index - 1] && targetList[index - 1].order, targetList[index + 1] && targetList[index + 1].order);
+    }
+
+    return item;
+  }
+}]));
+
+/***/ }),
+
+/***/ "./shared/drag-n-drop/drag-n-drop.scss":
+/*!*********************************************!*\
+  !*** ./shared/drag-n-drop/drag-n-drop.scss ***!
+  \*********************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+// extracted by extract-css-chunks-webpack-plugin
+
+/***/ }),
+
+/***/ "./shared/drag-n-drop/keese.service.js":
+/*!*********************************************!*\
+  !*** ./shared/drag-n-drop/keese.service.js ***!
+  \*********************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _babel_runtime_corejs3_core_js_stable_json_stringify__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime-corejs3/core-js-stable/json/stringify */ "../node_modules/@babel/runtime-corejs3/core-js-stable/json/stringify.js");
+/* harmony import */ var _babel_runtime_corejs3_core_js_stable_json_stringify__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_corejs3_core_js_stable_json_stringify__WEBPACK_IMPORTED_MODULE_0__);
+
+
+/**
+ * Sort keys generator. Based on node-keese v1.1.1: https://github.com/thejoshwolfe/node-keese
+ */
+/* harmony default export */ __webpack_exports__["default"] = (angular.module('keese', []).factory('keese', function () {
+  var alphabet = "0123456789?@ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
+  var radix = alphabet.length;
+  var order_specifier = '~'; // bigger than any from the alphabet
+
+  /**
+   * Character to numerical value aka index of the character: "0": 0, "z": 63, etc.
+   */
+
+  var values = function () {
+    var values = {};
+
+    for (var i = 0; i < alphabet.length; i++) {
+      values[alphabet[i]] = i;
+    }
+
+    return values;
+  }();
+
+  return {
+    /**
+     * Main exported function. Generates new sort key.
+     * @param low - previous sort key or null/undefined
+     * @param high - next sort key or null/undefined
+     * @param count - if defined - the result is an Array of size count values
+     * @returns {*} - single key or array of keys, depending on count
+     */
+    generate: function keese(low, high, count) {
+      if (count) {
+        return multi_keese(low, high, count);
+      } else {
+        return single_keese(low, high);
+      }
+    }
+  };
+
+  function single_keese(low, high) {
+    if (!low) {
+      if (!high) {
+        return '1'; // return anything above 0
+      } else {
+        return average('0', high); // go smaller
+      }
+    } else {
+      if (!high) {
+        return increment(low); // go bigger
+      } else {
+        return average(low, high); // go in between
+      }
+    }
+  }
+
+  function multi_keese(low, high, count) {
+    var result = new Array(count);
+
+    if (count > 0) {
+      if (!high) {
+        for (var i = 0; i < count; i++) {
+          // just allocate straight forward
+          var value = keese(low, null);
+          result[i] = value;
+          low = value;
+        }
+      } else {
+        recurse(low, high, 0, count); // binary tree descent
+      }
+    }
+
+    return result;
+
+    function recurse(low_value, high_value, low_index, high_index) {
+      var mid_index = Math.floor((low_index + high_index) / 2);
+      var mid_value = single_keese(low_value, high_value);
+      result[mid_index] = mid_value;
+      if (low_index < mid_index) recurse(low_value, mid_value, low_index, mid_index);
+      if (mid_index + 1 < high_index) recurse(mid_value, high_value, mid_index + 1, high_index);
+    }
+  }
+
+  function increment(value) {
+    var n = parse(value);
+    n.digits = n.digits.substr(0, n.order_length + 1); // drop the fraction
+
+    return add(n, parse("1"));
+  }
+
+  function average(low, high) {
+    if (low > high) {
+      throw new Error('assertion failed: ' + _babel_runtime_corejs3_core_js_stable_json_stringify__WEBPACK_IMPORTED_MODULE_0___default()(low) + " < " + _babel_runtime_corejs3_core_js_stable_json_stringify__WEBPACK_IMPORTED_MODULE_0___default()(high));
+    }
+
+    var a = parse(low);
+    var b = parse(high);
+    pad_to_equal_order(a, b);
+    var b_carry = 0;
+    var max_digit_length = Math.max(a.digits.length, b.digits.length);
+
+    for (var i = 0; i < max_digit_length || b_carry > 0; i++) {
+      var a_value = values[a.digits[i]] || 0;
+      var b_value = b_carry + (values[b.digits[i]] || 0);
+      if (a_value === b_value) continue;
+
+      if (a_value === b_value - 1) {
+        b_carry = radix; // we need more digits, but remember that b is ahead
+
+        continue;
+      } // we have a distance of at least 2 between the values.
+      // half the distance floored is sure to be a positive single digit.
+
+
+      var half_distance_value = Math.floor((b_value - a_value) / 2);
+      var half_distance_digits = '';
+
+      for (var j = 0; j < i; j++) {
+        half_distance_digits += '0';
+      }
+
+      half_distance_digits += alphabet[half_distance_value];
+      var half_distance = parse(construct(a.order_length, half_distance_digits)); // truncate insignificant digits of a
+
+      a.digits = a.digits.substr(0, i + 1);
+      return add(a, half_distance);
+    }
+
+    throw new Error(); // unreachable
+  }
+
+  function add(a, b) {
+    pad_to_equal_order(a, b);
+    var result_digits = "";
+    var order_length = a.order_length;
+    var value = 0;
+
+    for (var i = Math.max(a.digits.length, b.digits.length) - 1; i >= 0; i--) {
+      value += values[a.digits[i]] || 0;
+      value += values[b.digits[i]] || 0;
+      result_digits = alphabet[value % radix] + result_digits;
+      value = Math.floor(value / radix);
+    } // overflow up to moar digits
+
+
+    while (value > 0) {
+      result_digits = alphabet[value % radix] + result_digits;
+      value = Math.floor(value / radix);
+      order_length++;
+    }
+
+    return construct(order_length, result_digits);
+  }
+
+  function parse(value) {
+    var order_length = value.lastIndexOf(order_specifier) + 1;
+    return {
+      order_length: order_length,
+      digits: value.substr(order_length)
+    };
+  }
+
+  function construct(order_length, digits) {
+    while (order_length > 0 && digits.charAt(0) == '0') {
+      // strip unnecessary leading zeros
+      digits = digits.substr(1);
+      order_length--;
+    }
+
+    var result = "";
+
+    for (var i = 0; i < order_length; i++) {
+      result += order_specifier;
+    }
+
+    return result + digits;
+  }
+
+  function pad_to_equal_order(a, b) {
+    pad_in_place(a, b.order_length);
+    pad_in_place(b, a.order_length);
+  }
+
+  function pad_in_place(n, order_length) {
+    while (n.order_length < order_length) {
+      n.digits = "0" + n.digits;
+      n.order_length++;
+    }
+  }
+}));
 
 /***/ }),
 
@@ -2038,4 +2193,4 @@ module.exports = code;
 /***/ })
 
 }]);
-//# sourceMappingURL=inventory~._b.js.map?_rev=7176b4d0afdbea620dd4
+//# sourceMappingURL=inventory~._b.js.map?_rev=992cef8b52ad3a576961
