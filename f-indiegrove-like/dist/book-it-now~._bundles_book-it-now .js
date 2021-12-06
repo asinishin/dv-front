@@ -153,4 +153,4 @@ var index = ['$injector', function index($injector) {
 /***/ })
 
 }]);
-//# sourceMappingURL=book-it-now~._bundles_book-it-now .js.map?_rev=317d7ea4250a96e25b61
+//# sourceMappingURL=book-it-now~._bundles_book-it-now .js.map?_rev=96d9fc3f64cfc1757fd4

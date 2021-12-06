@@ -27,5 +27,8 @@
 	"NEXKEY": {
 		"LOCKS": "Nexkey Locks",
 		"LOCKS.HINT": "<b>Nexkey locks IDs</b> separated by comma. Keys for these locks will be sent to user <b>30 min</b> prior to reservation."
+	},
+	"DOORFLOW":  {
+		"GROUP": "DoorFlow Access Group"
 	}
 }

@@ -873,10 +873,10 @@ __webpack_require__.r(__webpack_exports__);
     required: false,
     name: 'Kisi integration'
   }, {
-    id: 'doorflow',
+    id: 'nexkey',
     enabled: false,
     required: false,
-    name: 'DoorFlow integration'
+    name: 'Nexkey integration'
   }, {
     id: 'ezeep',
     enabled: false,
@@ -1703,8 +1703,7 @@ __webpack_require__.r(__webpack_exports__);
       }],
       lazy1: 'lazyLoadInventory',
       lazy2: 'lazyLoadQuickBooks',
-      lazy3: 'lazyLoadDeskworksSweep',
-      lazy4: 'lazyLoadDoorflow'
+      lazy3: 'lazyLoadDeskworksSweep'
     }
   });
   /**
@@ -1792,7 +1791,8 @@ __webpack_require__.r(__webpack_exports__);
           return dwAlerts.error(err, 'Failed to query reservation categories.');
         });
       }],
-      lazy: 'lazyLoadInventory'
+      lazy1: 'lazyLoadInventory',
+      lazy2: 'lazyLoadNexkey'
     }
   });
   /**
@@ -2113,9 +2113,9 @@ __webpack_require__.r(__webpack_exports__);
   }).then(function (m) {
     return $injector.invoke(m.default);
   }).catch(angular.noop);
-}]).factory('lazyLoadDoorflow', ["$injector", "checkBundleConfig", function ($injector, checkBundleConfig) {
-  return checkBundleConfig('doorflow', true).then(function () {
-    return __webpack_require__.e(/*! import() | doorflow */ "doorflow~._bundles_doorflow ").then(__webpack_require__.bind(null, /*! ./doorflow/index.js */ "./bundles/doorflow/index.js"));
+}]).factory('lazyLoadNexkey', ["$injector", "checkBundleConfig", function ($injector, checkBundleConfig) {
+  return checkBundleConfig('nexkey', true).then(function () {
+    return __webpack_require__.e(/*! import() | nexkey */ "nexkey~._bundles_nexkey ").then(__webpack_require__.bind(null, /*! ./nexkey/index.js */ "./bundles/nexkey/index.js"));
   }).then(function (m) {
     return $injector.invoke(m.default);
   }).catch(angular.noop);
@@ -3934,7 +3934,7 @@ __webpack_require__.r(__webpack_exports__);
     controller: 'CenterEditCtrl as vm',
     label: 'Edit',
     routeBranch: 'centers',
-    translations: ['centers', 'reservation-rules'],
+    translations: ['centers', 'reservation-units', 'reservation-rules'],
     resolve: {
       center: ["$route", "dwAlerts", "centerService", "state", "routeHelper", function center($route, dwAlerts, centerService, state, routeHelper) {
         return routeHelper.auth().then(function () {
@@ -3948,7 +3948,8 @@ __webpack_require__.r(__webpack_exports__);
           return dwAlerts.error(err, 'Failed to get setup settings.');
         });
       }],
-      lazy: 'lazyLoadSetup'
+      lazy1: 'lazyLoadSetup',
+      lazy2: 'lazyLoadNexkey'
     }
   });
   $routeProvider.when('/system-emails', {
@@ -4110,9 +4111,9 @@ __webpack_require__.r(__webpack_exports__);
       lazy3: 'lazyLoadQuickBooks',
       lazy4: 'lazyLoadTeamgo',
       lazy5: 'lazyLoadKisi',
-      lazy6: 'lazyLoadEzeep',
-      lazy7: 'lazyLoadGreetly',
-      lazy8: 'lazyLoadDoorflow'
+      lazy6: 'lazyLoadNexkey',
+      lazy7: 'lazyLoadEzeep',
+      lazy8: 'lazyLoadGreetly'
     }
   });
   $routeProvider.when('/bundles', {
@@ -4949,4 +4950,4 @@ __webpack_require__.r(__webpack_exports__);
 /***/ })
 
 }]);
-//# sourceMappingURL=main~._a.js.map?_rev=5b1590d2e5c11dbde595
+//# sourceMappingURL=main~._a.js.map?_rev=fc33beb895406d6b8d33

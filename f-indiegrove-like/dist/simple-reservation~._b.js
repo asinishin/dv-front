@@ -2006,4 +2006,4 @@ module.exports = code;
 /***/ })
 
 }]);
-//# sourceMappingURL=simple-reservation~._b.js.map?_rev=a67921b482e7c7b75c3f
+//# sourceMappingURL=simple-reservation~._b.js.map?_rev=99ba28ea6b1af7682bb1

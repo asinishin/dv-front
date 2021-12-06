@@ -1239,4 +1239,4 @@ __webpack_require__.r(__webpack_exports__);
 /***/ })
 
 }]);
-//# sourceMappingURL=inventory~setup~._shared_d.js.map?_rev=1c1f7c25959513772da3
+//# sourceMappingURL=inventory~setup~._shared_d.js.map?_rev=45440fc55409e60239bd
