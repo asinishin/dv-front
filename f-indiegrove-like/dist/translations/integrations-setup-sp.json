@@ -4,6 +4,7 @@
 
 		"ENABLED": "Enabled",
 		"API_KEY": "API Key",
+		"API_SECRET": "API Secret",
 
 		"APP_PLUS.HEADER": "Appointment Plus Integration",
 		"APP_PLUS.ENABLED": "Enabled",
@@ -44,6 +45,8 @@
 		"KISI.PLACE": "Kisi Place",
 		"KISI.DEFAULT_ACCESS_GROUP": "Default Access Group",
 		"KISI.NO_ACCESS": "No Access",
+
+		"NEXKEY.HEADER": "Nexkey Integration",
 
 		"DOORFLOW.HEADER": "DoorFlow Integration",
 		"DOORFLOW.SITE": "DoorFlow Site",

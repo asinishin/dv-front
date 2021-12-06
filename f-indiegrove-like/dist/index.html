@@ -1,92 +1,11 @@
-<!DOCTYPE html>
-<html ng-app="deskworks" ng-controller="AppCtrl as $app" lang="{{currentLocale}}"
-      ng-class="{ 'sidebar-hidden': hideSidebar, 'sidebar-visible': !hideSidebar, [$app.routeClass]: true,
-       'hide-banner': $app.hideBanner, 'inelastic-banner': wl.getProperty('--elastic-banner') === 'false' }">
-
-<head>
-  <title ng-bind="state.getPageTitle() + ' | ' + wlLinks.companyName">Satellite Deskworks</title>
-
-  <base href="/">
-
-  <meta name="dw:commit" content="3c527e823">
-
-  <meta name="twitter:card" content="summary">
-  <meta name="twitter:site" content="@deskworks">
-  <meta name="twitter:title" content="Satellite Deskworks">
-  <meta name="twitter:description" content="Web application for co-working centers.">
-  <meta name="twitter:creator" content="@deskworks">
-  <meta name="twitter:image:src" content="https://satellitedeskworks.com/wp-content/uploads/2016/03/NewDW_splash-01.png">
-  <meta property="og:title" content="Satellite Deskworks">
-  <meta property="og:type" content="website">
-  <meta property="og:url" content="https://satellitedeskworks.com/">
-  <meta property="og:image" content="https://satellitedeskworks.com/wp-content/uploads/2016/03/NewDW_splash-01.png">
-  <meta property="og:description" content="Web application for co-working centers.">
-
-  <meta charset="utf-8">
-  <meta name="viewport" content="initial-scale=1.0, width=device-width">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-
-  <meta name="mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-title" content="Deskworks">
-  <meta name="apple-touch-fullscreen" content="yes">
-  <meta name="apple-itunes-app" content="app-id=1438030835">
-  <meta name="theme-color" content="#fff">
-
-  <link rel="icon" type="image/png" sizes="96x96" href="/api/v1/white-label/images/icon-96x96.png" class="white-label-prefix">
-  <link rel="icon" type="image/png" sizes="192x192" href="/api/v1/white-label/images/icon-192x192.png" class="white-label-prefix">
-  <link rel="icon" type="image/png" sizes="512x512" href="/api/v1/white-label/images/icon-512x512.png" class="white-label-prefix">
-  <link rel="apple-touch-icon" type="image/png" sizes="180x180" href="/api/v1/white-label/images/icon-180x180-white.png" class="white-label-prefix">
-
-  <script>window.dwLocales = [{"id":"en-au","name":"English (AU)","area":"m²"},{"id":"en-ca","name":"English (CA)","area":"m²"},{"id":"en-gb","name":"English (GB)","area":"m²"},{"id":"en-nl","name":"English (NL)","area":"m²"},{"id":"en-sg","name":"English (SG)","area":"m²"},{"id":"en-us","name":"English (US)","area":"ft²"},{"id":"en-za","name":"English (ZA)","area":"m²"},{"id":"fr-fr","name":"French (FR)","area":"m²"},{"id":"fr-ca","name":"French (CA)","area":"m²"},{"id":"ru-ru","name":"Russian (RU)","area":"m²"},{"id":"ru-ua","name":"Russian (UA)","area":"m²"}];</script>
-
-  <link href="/api/v1/white-label/vars.css" rel="stylesheet" id="vars-css">
-<link href="vendors~.._node_modules_angular-m.css?_rev=8ea89ea06370070c9c4c" rel="stylesheet"><link href="vendors~.._node_modules_e.css?_rev=915fb14b6e031d45a8d9" rel="stylesheet"><link href="main~._a.css?_rev=3cebf73dab1205a59857" rel="stylesheet"><link href="main~._c.css?_rev=cf35d76c487b83c7430f" rel="stylesheet"><link href="main~._common%20.css?_rev=4d93169b4d0dfc89d072" rel="stylesheet"><link href="main~._common_flex-forms_c.css?_rev=f07916ad8ca28347eeea" rel="stylesheet"><link href="main~._common_g.css?_rev=55d2bc7ab57465d323c9" rel="stylesheet"><link href="main~._common_scss_index.scss~5.css?_rev=ca33735a75447570304b" rel="stylesheet"><link href="main~._shared_d.css?_rev=541972cc46e819f1007e" rel="stylesheet"></head>
-
-<body class="ff-spin" ng-class="$app.routeExtraClass">
-<noscript>Please enable JavaScript in browser settings to access this application.</noscript>
-
-<!--[if lte IE 9]>
+<!doctype html><html ng-app="deskworks" ng-controller="AppCtrl as $app" lang="{{currentLocale}}" ng-class="{ 'sidebar-hidden': hideSidebar, 'sidebar-visible': !hideSidebar, [$app.routeClass]: true,
+       'hide-banner': $app.hideBanner, 'inelastic-banner': wl.getProperty('--elastic-banner') === 'false' }"><head><title ng-bind="state.getPageTitle() + ' | ' + wlLinks.companyName">Satellite Deskworks</title><base href="/"><meta name="dw:commit" content="50f172e60"><meta name="twitter:card" content="summary"><meta name="twitter:site" content="@deskworks"><meta name="twitter:title" content="Satellite Deskworks"><meta name="twitter:description" content="Web application for co-working centers."><meta name="twitter:creator" content="@deskworks"><meta name="twitter:image:src" content="https://satellitedeskworks.com/wp-content/uploads/2016/03/NewDW_splash-01.png"><meta property="og:title" content="Satellite Deskworks"><meta property="og:type" content="website"><meta property="og:url" content="https://satellitedeskworks.com/"><meta property="og:image" content="https://satellitedeskworks.com/wp-content/uploads/2016/03/NewDW_splash-01.png"><meta property="og:description" content="Web application for co-working centers."><meta charset="utf-8"><meta name="viewport" content="initial-scale=1,width=device-width"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-title" content="Deskworks"><meta name="apple-touch-fullscreen" content="yes"><meta name="apple-itunes-app" content="app-id=1438030835"><meta name="theme-color" content="#fff"><link rel="icon" type="image/png" sizes="96x96" href="/api/v1/white-label/images/icon-96x96.png" class="white-label-prefix"><link rel="icon" type="image/png" sizes="192x192" href="/api/v1/white-label/images/icon-192x192.png" class="white-label-prefix"><link rel="icon" type="image/png" sizes="512x512" href="/api/v1/white-label/images/icon-512x512.png" class="white-label-prefix"><link rel="apple-touch-icon" type="image/png" sizes="180x180" href="/api/v1/white-label/images/icon-180x180-white.png" class="white-label-prefix"><script>window.dwLocales = [{"id":"en-au","name":"English (AU)","area":"m²"},{"id":"en-ca","name":"English (CA)","area":"m²"},{"id":"en-gb","name":"English (GB)","area":"m²"},{"id":"en-nl","name":"English (NL)","area":"m²"},{"id":"en-sg","name":"English (SG)","area":"m²"},{"id":"en-us","name":"English (US)","area":"ft²"},{"id":"en-za","name":"English (ZA)","area":"m²"},{"id":"fr-fr","name":"French (FR)","area":"m²"},{"id":"fr-ca","name":"French (CA)","area":"m²"},{"id":"ru-ru","name":"Russian (RU)","area":"m²"},{"id":"ru-ua","name":"Russian (UA)","area":"m²"}];</script><link href="/api/v1/white-label/vars.css" rel="stylesheet" id="vars-css"><link href="vendors~98c0d023.css?_rev=f30ee1fd8458568c2ac7" rel="stylesheet"><link href="vendors~1d14d743.css?_rev=6f4970c536e7b3cff2ee" rel="stylesheet"><link href="main~493df0b3.css?_rev=6dda2385c59e57717faa" rel="stylesheet"><link href="main~f075b844.css?_rev=037ee474a2c4d0d7992d" rel="stylesheet"><link href="main~1d875263.css?_rev=3f4eb1d8abcbd5b4cf91" rel="stylesheet"><link href="main~81cc718f.css?_rev=5614a4c827b3023dd5b4" rel="stylesheet"><link href="main~dfa8dfae.css?_rev=9ddf057ca94c479df56a" rel="stylesheet"><link href="main~02550352.css?_rev=e38f01ee1fafe98f61fc" rel="stylesheet"><link href="main~89db6124.css?_rev=2181e13188266e32f7c1" rel="stylesheet"></head><body class="ff-spin" ng-class="$app.routeExtraClass"><noscript>Please enable JavaScript in browser settings to access this application.</noscript><!--[if lte IE 9]>
 <div class="error-list" style="z-index: 999">
   <div class="alert alert-danger" role="alert">
     Sorry, IE9 not supported. Please use Edge / Chrome / Firefox / Safari browsers.
   </div>
 </div>
-<![endif]-->
-
-<snap-content class="ff-dim-app" ff-dim="appDim">
-  <div class="snap-content-scroller" scroll-pointer-events-none>
-    <div class="snap-content-wrapper" ng-class="{landing: landing}">
-      <div class="menu-button fa fa-bars ng-cloak" snap-toggle="left" ng-hide="hideSidebar"></div>
-
-      <header role="banner" aria-label="Main" class="header" ng-if="!$app.hideHeader">
-        <div class="header-logo">
-          <a href="{{wlLinks.homepageUrl}}" title="{{wlLinks.companyName}}" target="_blank" rel="noopener">
-            <img src="/api/v1/white-label/images/logo.png" class="white-label-prefix" alt="{{wlLinks.companyName}}">
-          </a>
-        </div>
-
-        <div class="header-banner">
-          <div class="sidebar-logo logo-fake" style="width: 220px;">
-            <img src="/api/v1/white-label/images/logo.png" class="white-label-prefix" alt="{{wlLinks.companyName}}">
-          </div>
-          <img src="/api/v1/white-label/images/banner.jpg" class="white-label-prefix" alt="{{wlLinks.companyName}}">
-        </div>
-      </header>
-
-      <main role="main" class="main" ng-view></main>
-
-      <div class="snap-dragger ng-cloak" snap-dragger ng-hide="hideSidebar"></div>
-    </div>
-  </div>
-</snap-content>
-
-<sidebar snap-drawer scroll-pointer-events-none aria-hidden="{{hideSidebar}}"></sidebar>
-
-<dw-alerts></dw-alerts>
-
-<script>
-  var styles = window.getComputedStyle(document.documentElement);
+<![endif]--><snap-content class="ff-dim-app" ff-dim="appDim"><div class="snap-content-scroller" scroll-pointer-events-none><div class="snap-content-wrapper" ng-class="{landing: landing}"><div class="menu-button fa fa-bars ng-cloak" snap-toggle="left" ng-hide="hideSidebar"></div><header role="banner" aria-label="Main" class="header" ng-if="!$app.hideHeader"><div class="header-logo"><a href="{{wlLinks.homepageUrl}}" title="{{wlLinks.companyName}}" target="_blank" rel="noopener"><img src="/api/v1/white-label/images/logo.png" class="white-label-prefix" alt="{{wlLinks.companyName}}"></a></div><div class="header-banner"><div class="sidebar-logo logo-fake" style="width: 220px;"><img src="/api/v1/white-label/images/logo.png" class="white-label-prefix" alt="{{wlLinks.companyName}}"></div><img src="/api/v1/white-label/images/banner.jpg" class="white-label-prefix" alt="{{wlLinks.companyName}}"></div></header><main role="main" class="main" ng-view></main><div class="snap-dragger ng-cloak" snap-dragger ng-hide="hideSidebar"></div></div></div></snap-content><sidebar snap-drawer scroll-pointer-events-none aria-hidden="{{hideSidebar}}"></sidebar><dw-alerts></dw-alerts><script>var styles = window.getComputedStyle(document.documentElement);
   [(styles.getPropertyValue('--font-name-major') || 'Optima'), (styles.getPropertyValue('--font-name-minor') || 'Lato')]
     .forEach(name => {
       name = name.trim();
@@ -96,16 +15,9 @@
       link.rel = 'stylesheet';
       link.setAttribute('font-name', name);
       document.head.appendChild(link);
-    });
-</script>
-
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    });</script><script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
     (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
     m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
   })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-  ga('create', 'UA-61562577-1', 'auto');
-</script>
-<script src="runtime.js?_rev=9bca9720936cc29da19f"></script><script src="vendors~.._node_modules_%40.js?_rev=59847ab0ecb47961c1db"></script><script src="vendors~.._node_modules_a.js?_rev=87371f39b499d0872237"></script><script src="vendors~.._node_modules_angular-.js?_rev=3d3961d2520ebd6e4b94"></script><script src="vendors~.._node_modules_angular-m.js?_rev=402a3e1d68d57215c32f"></script><script src="vendors~.._node_modules_angular_angular.js~41fad05f.js?_rev=f01421ac9e118fd5f887"></script><script src="vendors~.._node_modules_asn1.js_l.js?_rev=fda97a7379b597f6b91d"></script><script src="vendors~.._node_modules_browserify-a.js?_rev=962af2256a012ac6de97"></script><script src="vendors~.._node_modules_buffer-.js?_rev=e95ab75f7d0e10a7398f"></script><script src="vendors~.._node_modules_ci.js?_rev=7b88b5b24b5679b54f77"></script><script src="vendors~.._node_modules_core-j.js?_rev=b7a4a4eb47d4baf363d0"></script><script src="vendors~.._node_modules_cre.js?_rev=b5e63d0781e7ab3c2eec"></script><script src="vendors~.._node_modules_des.js_lib_des..js?_rev=98432ba72b0e2d83ce7f"></script><script src="vendors~.._node_modules_diffie-hellman_b.js?_rev=27abaf8dab24de7fb7b7"></script><script src="vendors~.._node_modules_e.js?_rev=9694dd9ec0b63fcd8c90"></script><script src="vendors~.._node_modules_elliptic_l.js?_rev=7b5967840ff25e74eb6f"></script><script src="vendors~.._node_modules_events_events.js~84164f07.js?_rev=9fe7fee80048f0555ea5"></script><script src="vendors~.._node_modules_ma.js?_rev=fe29268706ed054b4c3b"></script><script src="vendors~.._node_modules_messageformat-.js?_rev=1858985a5f6c424c3c27"></script><script src="vendors~.._node_modules_mi.js?_rev=3d854c41fe9fec021c58"></script><script src="vendors~.._node_modules_miller-rabin_l.js?_rev=fc9a543af0f32fc2d3a0"></script><script src="vendors~.._node_modules_moment_moment.js~4e22a0c6.js?_rev=71519a43d3f662fac823"></script><script src="vendors~.._node_modules_n.js?_rev=97cb5598e7a6201d1467"></script><script src="vendors~.._node_modules_ng-.js?_rev=6d20d1ef9d8f1d2b31da"></script><script src="vendors~.._node_modules_r.js?_rev=375b9246f7735df4ffa6"></script><script src="vendors~.._node_modules_u.js?_rev=ab00953d30adcddaebfd"></script><script src="main~...js?_rev=f359554d61243132408f"></script><script src="main~._a.js?_rev=5b1590d2e5c11dbde595"></script><script src="main~._c.js?_rev=7d6c8f0a2245b3c4363a"></script><script src="main~._common%20.js?_rev=e2f8c2dd1e2f26dff1dc"></script><script src="main~._common_flex-forms_c.js?_rev=65738d60315859bb1e6f"></script><script src="main~._common_g.js?_rev=b09160f161882d3baccc"></script><script src="main~._common_scss_index.scss~5.js?_rev=d4276cc6124aaad3e447"></script><script src="main~._common_services__.js?_rev=f449dd7d66b1fb3ff48c"></script><script src="main~._common_services_c.js?_rev=f8417ff66929eaa4f932"></script><script src="main~._shared_d.js?_rev=85c833f0f98fab311d4e"></script></body>
-</html>
+  ga('create', 'UA-61562577-1', 'auto');</script><script src="runtime.js?_rev=b9eeb88324c16f35d199"></script><script src="vendors~9b1fde68.js?_rev=5683ed1e509bab981142"></script><script src="vendors~74226ea0.js?_rev=3d38b9655a9c10c325bd"></script><script src="vendors~c796a8a1.js?_rev=4568ef4891dd39a2c06a"></script><script src="vendors~98c0d023.js?_rev=0904a7a8cbe1cb68f067"></script><script src="vendors~3c1e547b.js?_rev=e55bc8f76b3c03eab917"></script><script src="vendors~c119eefb.js?_rev=ce8f742fd10c058e2331"></script><script src="vendors~b60d9e2a.js?_rev=679fd137974058646da2"></script><script src="vendors~7e966a1e.js?_rev=63e1b977cc4466a75ab8"></script><script src="vendors~710ae2cc.js?_rev=c97428ce7d718857a887"></script><script src="vendors~dd335215.js?_rev=b8bad14939e82b6d710b"></script><script src="vendors~b6de6d05.js?_rev=4f96b50d0eaf093750de"></script><script src="vendors~2e075015.js?_rev=e70f3ffb66c110687882"></script><script src="vendors~1d14d743.js?_rev=c448e916bd1ced17ab38"></script><script src="vendors~8c192a9d.js?_rev=43bced1ef1a5b467dd28"></script><script src="vendors~c88c8c89.js?_rev=ebb3d4c1b4c1a63dfecc"></script><script src="vendors~ce726c1a.js?_rev=fc9f6f1adcbbceb653a2"></script><script src="vendors~319fb7d7.js?_rev=39d6ec32ef36a832c7c3"></script><script src="vendors~fd09cff9.js?_rev=cd4c0ea3558d9f3f9fcf"></script><script src="vendors~ce893d0f.js?_rev=84bb589626b5d64f7367"></script><script src="vendors~57d0b60b.js?_rev=36e333a0bf71d6f6286f"></script><script src="vendors~cc905d91.js?_rev=605a7c446ad85edf7068"></script><script src="vendors~e4dfd1bd.js?_rev=034c49ad3c7c39f493f3"></script><script src="vendors~49492de1.js?_rev=8c8457cb910cb9a99f93"></script><script src="main~493df0b3.js?_rev=7ccb388fccdde6ee6c07"></script><script src="main~f075b844.js?_rev=3ace5e47ea324669cd0b"></script><script src="main~1d875263.js?_rev=c3948850542286491f07"></script><script src="main~81cc718f.js?_rev=2c69f75e5077049832a6"></script><script src="main~dfa8dfae.js?_rev=6a7cfc7d271be044e857"></script><script src="main~02550352.js?_rev=aa3acc063e8a1605abc3"></script><script src="main~3d4431b1.js?_rev=e68f7d79437d741fe512"></script><script src="main~89db6124.js?_rev=c143cd66fb8f8d17e49b"></script></body></html>
