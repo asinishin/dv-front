@@ -1651,9 +1651,11 @@ __webpack_require__.r(__webpack_exports__);
     reloadOnSearch: false,
     translations: ['products', 'recurring-billing', 'reports'],
     resolve: {
-      products: ["dwAlerts", "productService", "routeHelper", function products(dwAlerts, productService, routeHelper) {
+      products: ["dwAlerts", "productService", "routeHelper", "state", function products(dwAlerts, productService, routeHelper, state) {
         return routeHelper.auth().then(function () {
-          return productService.getProducts().catch(function (err) {
+          return productService.getProducts(state.getParam('archived') ? {
+            archived: true
+          } : {}).catch(function (err) {
             return dwAlerts.error(err, 'Failed to query products.');
           });
         });
@@ -4950,4 +4952,4 @@ __webpack_require__.r(__webpack_exports__);
 /***/ })
 
 }]);
-//# sourceMappingURL=main~._a.js.map?_rev=fc33beb895406d6b8d33
+//# sourceMappingURL=main~._a.js.map?_rev=0b90eee137354ad08e90

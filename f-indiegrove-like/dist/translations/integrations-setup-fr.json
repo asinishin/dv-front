@@ -5,6 +5,8 @@
 		"ENABLED": "Enabled",
 		"API_KEY": "API Key",
 		"API_SECRET": "API Secret",
+		"CONNECT": "Connect",
+		"CONNECTED": "Connected",
 
 		"APP_PLUS.HEADER": "Appointment Plus Integration",
 		"APP_PLUS.ENABLED": "Enabled",
@@ -50,6 +52,7 @@
 
 		"DOORFLOW.HEADER": "DoorFlow Integration",
 		"DOORFLOW.SITE": "DoorFlow Site",
+		"DOORFLOW.CONNECTION": "DoorFlow Connection",
 
 		"EZEEP.HEADER": "Ezeep Integration",
 		"EZEEP.USERNAME": "Username",

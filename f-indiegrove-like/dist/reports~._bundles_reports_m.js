@@ -3170,12 +3170,14 @@ __webpack_require__.r(__webpack_exports__);
 /**
  * ProductReport service
  */
-/* harmony default export */ __webpack_exports__["default"] = (angular.module('deskworks.ProductReport', ['deskworks.inventory.product.service', 'deskworks.inventory.membershipCategory.service', 'deskworks.reservationCategory.service', 'deskworks.billing.optsBillingFrequency', 'deskworks.inventory.optsCountCheckInsPer']).factory('ProductReport', ["$q", "dwAlerts", "productService", "membershipCategoryService", "reservationCategoryService", "optsBillingFrequency", "optsCountCheckInsPer", function ($q, dwAlerts, productService, membershipCategoryService, reservationCategoryService, optsBillingFrequency, optsCountCheckInsPer) {
+/* harmony default export */ __webpack_exports__["default"] = (angular.module('deskworks.ProductReport', ['deskworks.inventory.product.service', 'deskworks.inventory.membershipCategory.service', 'deskworks.reservationCategory.service', 'deskworks.billing.optsBillingFrequency', 'deskworks.inventory.optsCountCheckInsPer']).factory('ProductReport', ["$q", "dwAlerts", "state", "productService", "membershipCategoryService", "reservationCategoryService", "optsBillingFrequency", "optsCountCheckInsPer", function ($q, dwAlerts, state, productService, membershipCategoryService, reservationCategoryService, optsBillingFrequency, optsCountCheckInsPer) {
   return {
     query: function query(_ref) {
       var centerId = _ref.centerId;
       return $q.all({
-        products: productService.getProducts().catch(function (err) {
+        products: productService.getProducts(state.getParam('archived') ? {
+          archived: true
+        } : {}).catch(function (err) {
           return dwAlerts.error(err, 'Failed to query products.');
         }),
         membershipCategories: membershipCategoryService.query().catch(function (err) {
@@ -7364,4 +7366,4 @@ module.exports = code;
 /***/ })
 
 }]);
-//# sourceMappingURL=reports~._bundles_reports_m.js.map?_rev=c622e9d7aebafd64a154
+//# sourceMappingURL=reports~._bundles_reports_m.js.map?_rev=ba8624aada7cafa2ce8e

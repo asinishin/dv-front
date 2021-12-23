@@ -683,11 +683,11 @@ Pagination Styles
   vertical-align: text-bottom;
 }
 .sr-units .legend .available::before {
-  background-color: #fff;
+  background-color: var(--brand-color);
   border: 1px solid;
 }
 .sr-units .legend .unavailable::before {
-  background-color: var(--brand-color);
+  background-color: #000;
 }
 /* Media Queries */
 /* Header */
@@ -705,12 +705,12 @@ res-bar {
   min-height: 18px;
   margin-bottom: 1.1rem;
   border: 1px solid;
-  background-color: var(--brand-color);
+  background-color: #000;
 }
 res-bar .availability {
   position: absolute;
   top: 0;
-  background-color: #fff;
+  background-color: var(--brand-color);
   height: 100%;
 }
 res-bar .from, res-bar .to {
@@ -812,4 +812,4 @@ res-bar > .availability:first-of-type .from sup, res-bar > .availability:last-of
   margin: 1rem 0 0.5rem 0;
 }
 
-/*# sourceMappingURL=simple-reservation~._b.css.map?_rev=37687a41d9f1f51ae02d*/
+/*# sourceMappingURL=simple-reservation~._b.css.map?_rev=336c6beefeeebbee00d2*/

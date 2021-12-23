@@ -763,8 +763,8 @@ __webpack_require__.r(__webpack_exports__);
     new: function _new() {
       return this.resolve({});
     },
-    getProducts: function getProducts() {
-      return res.query().$promise;
+    getProducts: function getProducts(params) {
+      return res.query(params).$promise;
     },
     getMembershipProducts: function getMembershipProducts(centerId) {
       return resMembership.query({
@@ -915,7 +915,8 @@ __webpack_require__.r(__webpack_exports__);
         productNumber: '' + product.productNumber,
         taxable: product.taxable,
         hideInSelfRegistration: !product.showInSelfRegistration,
-        hasRegistrationFee: !!product.hasRegistrationFee
+        hasRegistrationFee: !!product.hasRegistrationFee,
+        archived: !!product.archived
       };
 
       if (product.type && product.type.id === 'membership') {
@@ -6977,4 +6978,4 @@ angular.module('deskworks.UserTasks.service', ['ngResource', 'autoCacheFactory',
 /***/ })
 
 }]);
-//# sourceMappingURL=main~._common_services_c.js.map?_rev=f8417ff66929eaa4f932
+//# sourceMappingURL=main~._common_services_c.js.map?_rev=29d9bccef9eb758db6ae
