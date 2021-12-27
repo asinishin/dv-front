@@ -224,19 +224,6 @@ img {
   background: #ff9000;
   border-color: #f4f4f4; }
 
-.dashboard {
-  display: grid;
-  height: 100%;
-  grid-template-columns: 1fr;
-  grid-template-rows: auto;
-  column-gap: 20px;
-  row-gap: 0.5rem; }
-
-@media (min-width: 992px) {
-  .dashboard {
-    grid-template-columns: 1fr 1fr 1fr;
-    row-gap: 20px; } }
-
 .header {
   background-image: url(../../../images/banner.png);
   background-size: cover;
@@ -270,7 +257,6 @@ img {
   color: #5a5a5a;
   font-family: Roboto;
   width: 100%;
-  height: 100%;
   padding: 16px;
   border-radius: 10px; }
   .panel .panel-header {
@@ -299,6 +285,27 @@ img {
     height: 18px;
     width: 98px;
     margin: 30px auto; }
+
+.three-columns {
+  display: grid;
+  height: 100%;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+  column-gap: 20px;
+  row-gap: 0.5rem; }
+  .three-columns .column {
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.5rem; }
+
+@media (min-width: 1320px) {
+  .three-columns {
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 20px; }
+    .three-columns .column {
+      row-gap: 18px; }
+      .three-columns .column > div:last-child {
+        flex-grow: 1; } }
 
 .header-nav {
   display: flex;
@@ -370,6 +377,20 @@ img {
   font-size: 24px;
   text-decoration: none; }
 
+.dashboard-cc-renewal {
+  display: flex;
+  flex-direction: column;
+  row-gap: 5px;
+  border-left: solid 6px red;
+  padding-left: 17px; }
+  .dashboard-cc-renewal .name {
+    font-size: 14px;
+    font-weight: 700; }
+  .dashboard-cc-renewal .card {
+    display: flex;
+    flex-direction: row;
+    column-gap: 5px; }
+
 .dashboard-people-checked-in {
   display: flex;
   flex-direction: row;
@@ -410,6 +431,21 @@ img {
     font-size: 16px; }
   .dashboard-reservation .info .user {
     font-size: 12px; }
+
+.dashboard-self-registering {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 16px;
+  min-width: 325px; }
+  .dashboard-self-registering .info .name {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 16px; }
+  .dashboard-self-registering .info .email {
+    font-size: 12px;
+    line-height: 14px; }
 
 .header .content .header-nav {
   display: flex;
@@ -489,6 +525,40 @@ img {
     .toolbox .toolbox-user .name {
       display: block; } }
 
+.panel .content.access-code .code {
+  font-size: 28px;
+  font-weight: bold;
+  color: #000000; }
+
+.billing-info {
+  display: flex;
+  flex-direction: column;
+  row-gap: 15px;
+  font-size: 14px; }
+  .billing-info .revenue .amount {
+    color: #23262b;
+    font-size: 28px;
+    font-weight: bold; }
+  .billing-info .accounts-receivable {
+    display: flex;
+    flex-direction: row;
+    column-gap: 0.5rem; }
+    .billing-info .accounts-receivable .item {
+      background-color: rgba(94, 137, 35, 0.15);
+      border-radius: 10px;
+      padding: 17px 14px;
+      flex-grow: 1; }
+      .billing-info .accounts-receivable .item .amount {
+        font-size: 22px;
+        font-weight: bold; }
+      .billing-info .accounts-receivable .item .title {
+        margin-top: 9px; }
+
+.panel .cc-renewal {
+  display: flex;
+  flex-direction: column;
+  row-gap: 21px; }
+
 .panel .people-checked-in {
   display: flex;
   flex-direction: column;
@@ -499,23 +569,35 @@ img {
   flex-direction: column;
   row-gap: 10px; }
 
+.panel .self-registering {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px; }
+
+/*
 .reservation {
-  grid-column: 1 / 2; }
+  grid-column: 1 / 2;
+}
 
 .people-checked-in {
-  grid-column: 1 / 2; }
-
-.access-code {
-  background-color: #fff;
-  width: 100%;
   grid-column: 1 / 2;
-  padding: 16px;
-  border-radius: 10px; }
+}
 
-@media (min-width: 992px) {
+.miscellaneous {
+  grid-column: 1 / 2;
+}
+
+@media (min-width: $laptop-breakpoint) {
   .reservation {
-    grid-column: 1 / 2; }
+    grid-column: 1 / 2;
+  }
+
   .people-checked-in {
-    grid-column: 2 / 3; }
-  .access-code {
-    grid-column: 3 / 4; } }
+    grid-column: 2 / 3;
+  }
+
+  .miscellaneous {
+    grid-column: 3 / 4;
+  }
+}
+*/
