@@ -1,0 +1,22 @@
+{
+	"USER_RESERVATIONS": {
+		"PAGE_TITLE": "Резервирования для {{userName}}",
+
+		"FILTER": "Filter",
+		"FILTER.ALL": "Все",
+		"FILTER.UPCOMING": "Будущие",
+		"FILTER.PAST": "Прошлые",
+
+		"RESERVATIONS": "Reservations",
+		"DATE": "Дата",
+		"SPACE": "Место",
+		"TIME": "Время",
+		"NOTES": "Замечания",
+		"ACCESS_CODE": "Код доступа",
+		"ADDED_BY": "Кем добавлен",
+		"UPDATED_ON": "Когда обновлен",
+
+		"BTN_NEW": "Новое резервирование",
+		"CONFIRM_DELETE": "Вы точно хотите отменить резервирование?"
+	}
+}

@@ -1,0 +1,27 @@
+{
+	"RESERVATION_UNITS": {
+		"PAGE_TITLE": "Unités de réservation",
+		"NEW.PAGE_TITLE": "Nouvelle unité de réservation",
+		"EDIT.PAGE_TITLE": "Modifier l'unité de réservation",
+
+		"LIST.EMPTY": "Aucune unité de réservation",
+		"GENERAL.HEADER": "General",
+
+		"UNIT": "Unité de réservation",
+		"CATEGORY": "Catégorie de réservation",
+		"WHO_CAN_RESERVE": "Qui peut réserver?",
+		"SYNC_WITH_CALENDAR": "Synchroniser avec le calendrier?",
+		"CALENDAR_ID": "Calendar ID",
+		"CALENDAR_ID.HINT": "Pour changer l'identification (ID), permettre la <b>Synchronisation avec la calendrier</b> ci-dessus et indiquer l'ID du <b>calendrier existant</b>. Si vide, un <b>nouveau calendrier</b> sera créé pour cette unité",
+		"NAME": "Nom",
+		"DESCRIPTION": "Description",
+		"AREA": "Area ({{areaUnit}})",
+		"CAPACITY": "Capacity",
+		"CAPACITY.HINT": "Number of people this space can comfortably hold.",
+		"EXPECTED_USE_PER_MONTH": "Expected Use Per Month",
+		"EXPECTED_USE_PER_MONTH.HINT": "Amount of hours the unit is supposed to be used within one month",
+		"CONFIRM_DELETE": "Êtes-vous sûr de vouloir supprimer cette unité de réservation?",
+
+		"PHOTO.HINT": "Recommended minimum size is <strong>1280x640 px</strong>"
+	}
+}

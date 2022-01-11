@@ -1,0 +1,19 @@
+{
+  "PAYMENT_GATEWAYS": {
+    "PAGE_TITLE": "Payment Gateways",
+    "EDIT.PAGE_TITLE": "Payment Gateway",
+
+    "NAME": "Name",
+    "TIMEZONE": "Timezone",
+    "CUT_OFF_TIME": "Cut-Off Time",
+    "CURRENCY": "Currency",
+    "NOTES": "Notes",
+    "CENTER_GATEWAY": "Payment gateway for {{center}}",
+    "PROCESSOR": "Processor",
+    "BASE_URL": "Base URL",
+    "ACCESS_TOKEN": "Access Token",
+    "ENTITY_ID": "Entity ID",
+
+    "CONFIRM_DELETE": "Are you sure to delete the payment gateway?"
+  }
+}

@@ -1,0 +1,32 @@
+{
+	"RECURRING_BILLINGS_REPORT": {
+		"REPORT_NAME": "Recurring Billings Report",
+
+		"COLUMNS.COMPANY": "Company",
+		"COLUMNS.MEMBER": "Member",
+		"COLUMNS.LAST_BILL_DATE": "Last Bill Date",
+		"COLUMNS.NEXT_BILL_DATE": "Next Bill Date",
+		"COLUMNS.AMOUNT": "Amount",
+		"COLUMNS.BILLING_METHOD": "Billing Method",
+		"COLUMNS.CC_EXPIRY": "CC Expiry",
+		"COLUMNS.DISCOUNT": "Discount",
+		"COLUMNS.PRODUCT": "Subscription Item",
+		"COLUMNS.DESCRIPTION": "Description",
+		"COLUMNS.START_DATE": "Start Date",
+		"COLUMNS.NOTICE_DATE": "Notice Date",
+		"COLUMNS.NOTICE_PERIOD": "Notice Period",
+		"COLUMNS.NOTICE_REQUIRED_BY": "Notice Required By",
+		"COLUMNS.TERMINATION_DATE": "Termination Date",
+		"COLUMNS.RENEWAL_DATE": "Renewal Date",
+		"COLUMNS.RENEWAL_TERM": "Renewal Term",
+		"COLUMNS.RENEWAL_REMINDER": "Renewal Reminder",
+		"COLUMNS.TOTAL": "Total",
+		"COLUMNS.USE_FOR_CHECK_IN_BILLING": "Use Checkin for billing",
+
+		"TOTALS.MONTHLY": "Monthly Recurring Billings",
+		"TOTALS.QUARTERLY": "Quarterly Recurring Billings",
+		"TOTALS.SEMI_ANNUAL": "Semi-Annual Recurring Billings",
+		"TOTALS.ANNUAL": "Annual Recurring Billings",
+		"TOTALS.AS_NEEDED": "As Needed Recurring Billings"
+	}
+}

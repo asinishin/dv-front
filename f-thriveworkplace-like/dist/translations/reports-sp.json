@@ -1,0 +1,58 @@
+{
+	"REPORTS": {
+		"PERIOD.HEADER": "Show Transactions",
+		"PERIOD.FROM_DATE": "From Date",
+		"PERIOD.TO_DATE": "To Date",
+
+		"OPTIONS.HEADER": "Options",
+		"OPTIONS.BANK": "Bank",
+		"OPTIONS.CENTER": "Center",
+		"OPTIONS.SIZE": "Paper Size",
+		"OPTIONS.LAYOUT": "Layout",
+		"OPTIONS.LAYOUT.PORTRAIT": "Portrait",
+		"OPTIONS.LAYOUT.LANDSCAPE": "Landscape",
+		"OPTIONS.SELECT_BY": "Select By",
+
+		"OWNER_REGION.HEADER": "Owners & Regions",
+		"OWNER_REGION.OWNER": "Owner",
+		"OWNER_REGION.OWNER.ALL": "All Owners",
+		"OWNER_REGION.REGION": "Region",
+		"OWNER_REGION.REGION.ALL": "All Regions",
+
+		"COLUMNS.HEADER": "Check Columns to Include",
+		"COLUMNS.ORDER_BY": "Order By",
+		"COLUMNS.THEN_ORDER_BY": "Then Order By",
+		"COLUMNS.COLUMN": "Report Column",
+		"COLUMNS.TOTALS": "Totals",
+		"COLUMNS.CENTER": "Center",
+		"COLUMNS.USER_NAME": "Name",
+		"COLUMNS.USER_COMPANY": "Company",
+		"COLUMNS.ORDER_ID": "Order #",
+		"COLUMNS.ITEM": "Item",
+		"COLUMNS.ITEM_CODE": "P/N",
+		"COLUMNS.QUANTITY": "Qty",
+		"COLUMNS.AMOUNT": "Amount",
+		"COLUMNS.DISCOUNT": "Discount",
+		"COLUMNS.TOTAL": "Total",
+
+		"BTN_PDF": "Download Report PDF",
+		"BTN_CSV": "Download Report CSV",
+		"PREVIEW.HEADER": "Report Preview",
+
+		"HEADER.FOR_PERIOD": "For Period",
+		"HEADER.FROM": "From",
+		"HEADER.THROUGH": "Through",
+		"HEADER.PAGE": "Page",
+		"HEADER.REPORT_FOR": "Report For",
+		"HEADER.REPORT_DATE": "Report Date",
+
+		"BY_PERIOD": "By",
+		"BY_PERIOD.WEEK": "Week",
+		"BY_PERIOD.MONTH": "Month",
+		"BY_PERIOD.QUARTER": "Quarter",
+		"BY_PERIOD.YEAR": "Year",
+
+		"TOTAL": "Total",
+		"TOTALS": "Totals"
+	}
+}

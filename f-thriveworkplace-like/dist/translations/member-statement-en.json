@@ -1,0 +1,20 @@
+{
+	"MEMBER_STATEMENT": {
+		"PAGE_TITLE": "Member Statement for {{userName}}",
+		"REPORT_NAME": "Member Statement",
+		"PREVIEW.HEADER": "Statement Preview",
+		"BTN_PDF": "Download Statement PDF",
+
+		"COLUMNS.DATE": "Date",
+		"COLUMNS.ITEM": "Item",
+		"COLUMNS.UNIT_PRICE": "Unit Price",
+		"COLUMNS.QUANTITY": "Qty",
+		"COLUMNS.AMOUNT_BILLED": "Amt. Billed",
+		"COLUMNS.AMOUNT_PAID": "Amt. Paid",
+		"COLUMNS.BALANCE": "Balance",
+
+		"BALANCE_FORWARD": "Balance Forward",
+		"TOTALS": "Totals",
+		"SECURITY_DEPOSITS": "Security Deposit Transactions"
+	}
+}

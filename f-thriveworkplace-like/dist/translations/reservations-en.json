@@ -1,0 +1,91 @@
+{
+	"RESERVATIONS": {
+		"NEW.PAGE_TITLE": "New Reservation for {{centerName}}",
+		"EDIT.PAGE_TITLE": "Edit Reservation for {{centerName}}",
+		"CONFIRM.PAGE_TITLE": "Confirm Your Reservation",
+		"CANCEL.PAGE_TITLE": "Confirm Cancelling Reservation",
+		"CALENDAR.PAGE_TITLE": "Reservation Calendar",
+
+		"HINT": "If your plans change, please update or cancel your reservation 24 hours or more in advance to avoid charges.",
+
+		"ESTIMATED_COST": "Estimated Cost For This Reservation",
+		"TITLE": "Reservation Title",
+		"TITLE.SHORT": "Title",
+		"NOTES": "Reservation Notes",
+		"EMAIL_CONFIRMATION": "Email Confirmation",
+		"USER": "User",
+		"LOCATION": "Location",
+		"CATEGORY": "Space Category",
+		"SPACE": "Space",
+		"DATE": "Date",
+		"TIME": "Time",
+		"COST": "Cost",
+		"ACCESS_CODE": "Access Code",
+		"ADDED_BY": "Added By",
+
+		"REPEAT_FREQUENCY": "Repeats",
+		"REPEAT_FREQUENCY.NONE": "Does not repeat",
+		"REPEAT_FREQUENCY.DAILY": "Every day",
+		"REPEAT_FREQUENCY.WEEKLY": "Every week",
+		"REPEAT_FREQUENCY.MONTHLY": "Every month on same date",
+		"REPEAT_FREQUENCY.MONTHLY_WEEKLY": "Monthly on same day of week",
+		"REPEAT_DURATION": "for a total of",
+		"REPEAT_DURATION.LABEL": "Repeat Duration",
+
+		"BTN_CREATE": "Make Reservation",
+		"BTN_UPDATE": "Update Reservation",
+		"BTN_DELETE": "Cancel Reservation",
+		"BTN_CALENDAR": "Calendar",
+
+		"STAFF_ONLY": "Please contact {{centerName}} staff for assistance.<br><a href=\"tel:{{centerPhone}}\">{{centerPhone}}</a> or <a href=\"mailto:{{centerEmail}}\">{{centerEmail}}</a>",
+
+		"TIME_SELECTOR.HINT.START": "Click an open time slot to select a start time.",
+		"TIME_SELECTOR.HINT.END": "Click an open time slot to select an end time.",
+		"TIME_SELECTOR.FROM": "From",
+		"TIME_SELECTOR.TO": "To",
+		"TIME_SELECTOR.BTN_CLEAR": "Clear time selection",
+		"TIME_SELECTOR.SLOT.AVAILABLE": "Available time slot: {{from}} - {{to}}",
+		"TIME_SELECTOR.SLOT.UNAVAILABLE": "Unavailable time slot: {{from}} - {{to}}",
+		"TIME_SELECTOR.SLOT.RESERVED": "Reserved time slot: {{from}} - {{to}}",
+		"TIME_SELECTOR.SLOT.SELECTED": "Selected time slot: {{from}} - {{to}}",
+
+		"DATE_SELECTOR.DAY.PREV.HINT": "Prev Day",
+		"DATE_SELECTOR.DAY.NEXT.HINT": "Next Day",
+		"DATE_SELECTOR.DAY.EXTRA": "{{month}}, {{year}}",
+		"DATE_SELECTOR.WEEK.PREV.HINT": "Prev Week",
+		"DATE_SELECTOR.WEEK.NEXT.HINT": "Next Week",
+		"DATE_SELECTOR.WEEK.EXTRA": "Week of {{month}}, {{year}}",
+
+		"CALENDAR.LEGEND.RESERVED": "Reserved",
+		"CALENDAR.LEGEND.RESERVED.HINT": "Reserved by other members",
+		"CALENDAR.LEGEND.OWN": "Your Reservation",
+		"CALENDAR.LEGEND.OWN.HINT": "Reserved by you",
+		"CALENDAR.LEGEND.AVAILABLE": "Available",
+		"CALENDAR.LEGEND.AVAILABLE.HINT": "Available for reservation",
+		"CALENDAR.ROLE.COORDINATOR": "View as Coordinator",
+		"CALENDAR.ROLE.MEMBER": "View as Member",
+		"CALENDAR.ROLE.NON_MEMBER": "View as Non-Member",
+		"CALENDAR.FILTER.AVAILABLE": "Available",
+		"CALENDAR.FILTER.ALL": "All Units",
+		"CALENDAR.MODE.DAY": "Day View",
+		"CALENDAR.MODE.WEEK": "Week View",
+		"CALENDAR.ZOOM": "Zoom",
+		"CALENDAR.ZOOM.HINT": "Calendar Scale",
+		"CALENDAR.EMPTY": "No Reservation Units Available",
+		"CALENDAR.NOT_AVAILABLE.HINT": "Not Available for Reservation",
+		"CALENDAR.AVAILABLE.HINT": "Click to Reserve",
+		"CALENDAR.NO_PERMISSION.HINT": "No permission to reserve",
+		"CALENDAR.RESERVED.HINT": "Reservation",
+		"CALENDAR.STAFF_ONLY.HINT": "Contact Staff to Reserve",
+
+		"CALENDAR.PRICES": "Prices",
+		"CALENDAR.HINT": "Hover over left menu name for info. Click in a time slot to reserve.",
+
+		"CALENDAR.CAPACITY": "This space can comfortably hold <b>{{capacity}}</b> people.",
+
+		"RESERVATION_AGREEMENT.LABEL": "By checking this box you agree to",
+		"RESERVATION_AGREEMENT.REQUIRED": "Check this box to agree",
+
+		"RESERVATION_BUFFER": "Reservation Buffer"
+	}
+}

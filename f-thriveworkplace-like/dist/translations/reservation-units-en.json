@@ -1,0 +1,27 @@
+{
+	"RESERVATION_UNITS": {
+		"PAGE_TITLE": "Reservation Units",
+		"NEW.PAGE_TITLE": "New Reservation Unit",
+		"EDIT.PAGE_TITLE": "Edit Reservation Unit",
+
+		"LIST.EMPTY": "No Reservation Units",
+    "GENERAL.HEADER": "General",
+
+		"UNIT": "Reservation Unit",
+		"CATEGORY": "Reservation Category",
+		"WHO_CAN_RESERVE": "Who Can Reserve?",
+		"SYNC_WITH_CALENDAR": "Sync With Calendar?",
+		"CALENDAR_ID": "Calendar ID",
+		"CALENDAR_ID.HINT": "To change this ID, re-enable <b>Sync With Calendar</b> above and specify ID of <b>existing calendar</b>. If you leave it empty, a <b>new calendar</b> will be created for this unit.",
+		"NAME": "Name",
+		"DESCRIPTION": "Description",
+		"AREA": "Area ({{areaUnit}})",
+		"CAPACITY": "Capacity",
+		"CAPACITY.HINT": "Number of people this space can comfortably hold.",
+		"EXPECTED_USE_PER_MONTH": "Expected Use Per Month",
+		"EXPECTED_USE_PER_MONTH.HINT": "Amount of hours the unit is supposed to be used within one month",
+		"CONFIRM_DELETE": "Are you sure to remove the reservation unit?",
+
+    "PHOTO.HINT": "Recommended minimum size is <strong>1280x640 px</strong>"
+	}
+}

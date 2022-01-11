@@ -1,0 +1,23 @@
+{
+	"DISCOUNT_CODES": {
+		"PAGE_TITLE": "Discount Codes",
+		"EDIT.PAGE_TITLE": "Discount Code",
+
+		"ACTIVE_CODES": "Active Codes",
+		"EXPIRED_CODES": "Expired Codes",
+		"CODE": "Code",
+		"DESCRIPTION": "Description",
+		"TYPE": "Type",
+		"AMOUNT": "Amount",
+		"AMOUNT.HINT": "Amount goes to <b>Recurring Billing</b> -> <b>Discount Value</b>",
+		"DURATION": "Months",
+		"DURATION.HINT": "Duration goes to <b>Recurring Billing</b> -> <b>Months of Discount</b>",
+		"START_DATE": "Start Date",
+		"START_DATE.HINT": "<b>Start/End Date</b> define discount code validity period.",
+		"END_DATE": "End Date",
+		"APPLY_TO": "Apply To",
+		"ALL_MEMBERSHIPS": "All Memberships",
+		"SELECTED_MEMBERSHIPS": "Memberships Below",
+		"MEMBERSHIP": "Membership"
+	}
+}
