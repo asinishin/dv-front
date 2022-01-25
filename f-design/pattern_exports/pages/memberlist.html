@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="../assets/css/style.css?1639538092966" media="all">
+</head>
+
+<div class="layout">
+  
+  <div class="sidebar">
+    <img class="sidebar-logo" src="../../images/logo.png">
+    <div class="sidebar-nav">      
+        <div class="sidebar-nav-item ">
+          <a href="#">
+            <object class="sidebar-icon-color" data="../../images/sidenav-dashboard.svg" type="image/svg+xml">
+              <img src="../../images/sidenav-dashboard.svg" alt="Sidebar Icon">
+            </object>
+            <span>Dashboard</span>
+          </a>
+          
+        </div>
+        
+        <div class="sidebar-nav-item selected">
+          <a href="#">
+            <object class="sidebar-icon-color" data="../../images/sidenav-members.svg" type="image/svg+xml">
+              <img src="../../images/sidenav-members.svg" alt="Sidebar Icon">
+            </object>
+            <span>Members</span>
+          </a>
+          
+        </div>
+        
+        <div class="sidebar-nav-item ">
+          <a href="#">
+            <object class="sidebar-icon-color" data="../../images/sidenav-accounting.svg" type="image/svg+xml">
+              <img src="../../images/sidenav-accounting.svg" alt="Sidebar Icon">
+            </object>
+            <span>Accounting</span>
+          </a>
+          
+        </div>
+        
+        <div class="sidebar-nav-item ">
+          <a href="#">
+            <object class="sidebar-icon-color" data="../../images/sidenav-reports.svg" type="image/svg+xml">
+              <img src="../../images/sidenav-reports.svg" alt="Sidebar Icon">
+            </object>
+            <span>Reports</span>
+          </a>
+          
+        </div>
+        
+        <div class="sidebar-nav-item ">
+          <a href="#">
+            <object class="sidebar-icon-color" data="../../images/sidenav-communications.svg" type="image/svg+xml">
+              <img src="../../images/sidenav-communications.svg" alt="Sidebar Icon">
+            </object>
+            <span>Communications</span>
+          </a>
+          
+        </div>
+        
+        <div class="sidebar-nav-item ">
+          <a href="#">
+            <object class="sidebar-icon-color" data="../../images/sidenav-accounts.svg" type="image/svg+xml">
+              <img src="../../images/sidenav-accounts.svg" alt="Sidebar Icon">
+            </object>
+            <span>My Accounts</span>
+          </a>
+          
+        </div>
+  </div>
+  </div>
+  <div class="right-layout">
+    
+    <div class="header">
+      <div class="content">
+          <div class="header-nav">
+            <a href="#">
+              <i class="fa fa-bars"></i>
+            </a>
+            <img src="../../images/logo.png">
+          </div>
+          <div class="toolbox">
+              <div class="toolbox-item">
+                <a href="#">
+                  <i class="fa fa-headset"></i>
+                </a>
+              </div>
+              <div class="toolbox-item">
+                <a href="#">
+                  <i class="fa fa-sliders-h"></i>
+                </a>
+              </div>
+              <div class="toolbox-item">
+                <a href="#">
+                  <i class="far fa-bell"></i>
+                </a>
+              </div>
+            <div class="toolbox-user">
+              <div class="name">John Ferdinand</div>
+              <div class="toolbox-avatar">JK</div>
+            </div>
+          </div>
+          <div id="welcome">
+            Welcome Ferdinand,
+          </div>
+          <div class="center-selection">
+            <div><i class="fas fa-building"></i>Center</div>
+          </div>
+          <div class="searchbox">
+            <input placeholder="Search: name, company, $xx.xx, phone, MAC, etc">
+          </div>
+      </div>
+    </div>
+    <div class="memberlist page-header">
+      <div class="page-header-title">
+        Member List
+      </div>
+      <div class="memberlist-controls">
+      
+        <div class="memberlist-checkboxes">
+      
+          
+          <span class="checkbox-wrapper memberlist-checkbox">
+            <input class="styled-checkbox" id="styled-checkbox-1" type="checkbox" value="value1" checked>
+            <label for="styled-checkbox-1">All</label>
+          </span>
+          
+          <span class="checkbox-wrapper memberlist-checkbox">
+            <input class="styled-checkbox" id="styled-checkbox-2" type="checkbox" value="value2">
+            <label for="styled-checkbox-2">Active members</label>
+          </span>
+          
+          <span class="checkbox-wrapper memberlist-checkbox">
+            <input class="styled-checkbox" id="styled-checkbox-3" type="checkbox" value="value3">
+            <label for="styled-checkbox-3">Inactive Members</label>
+          </span>
+          
+          <span class="checkbox-wrapper memberlist-checkbox">
+            <input class="styled-checkbox" id="styled-checkbox-4" type="checkbox" value="value4">
+            <label for="styled-checkbox-4">Non-members</label>
+          </span>
+      
+      
+        </div>
+        
+        <span class="memberlist-actions">
+          <span id="memberlist-new-member">
+            <a href="#" class="btn-plus-thin">
+              <object data="../../images/plus-thin.svg" type="image/svg+xml"></object>
+              <span style="font-size: 12px;">New Member</span>
+            </a>
+          </span>
+      
+          <span id="memberlist-new-non-member">
+            <a href="#" class="btn-plus-thin">
+              <object data="../../images/plus-thin.svg" type="image/svg+xml"></object>
+              <span style="font-size: 12px;">New Non Member</span>
+            </a>
+          </span>
+        </span>
+      </div>
+      <div class="memberlist-counter">500 members</div>
+    </div>
+    <div class="memberlist-table">
+    
+      
+      <div class="memberlist-table-header">
+        <span>Members</span>
+        <span id="hideCompany">Company</span>
+        <span>Status</span>
+      </div>
+      
+      
+      <div id="panel-separator"></div>
+    
+        <div class="memberlist-table-row">
+        
+          <div class="dashboard-people-checked-in">
+            
+            <div class="avatar ">AE</div>
+            <div class="info">
+              <div class="name">Albert Einstein</div>
+              <div class="email">albert.einstein@specialrelativity.com</div>
+            </div>
+          </div>
+        
+          <div id="hideCompany">Special and General Relativity, Inc.</div>
+        
+          <div class="member-row-status">
+            <span class="member-row-chip">
+              <a href="#" class="chip Non-member ">
+                Non-member
+              </a>
+            </span>
+            <div id="page-header-pencil" class="memberlist-edit">
+              <object data="../../images/pencil-large.svg" type="image/svg+xml">
+                <img src="../../images/pencil-large.svg" alt="Edit">
+              </object>
+            </div>
+          </div>
+        </div>
+        
+        <div id="dashed-divider"></div>
+        <div class="memberlist-table-row">
+        
+          <div class="dashboard-people-checked-in">
+            
+            <div class="avatar ">GG</div>
+            <div class="info">
+              <div class="name">Galileo Galilei</div>
+              <div class="email">galileo.galilei@italy.com</div>
+            </div>
+          </div>
+        
+          <div id="hideCompany">Astronomy, Inc.</div>
+        
+          <div class="member-row-status">
+            <span class="member-row-chip">
+              <a href="#" class="chip Active ">
+                Active
+              </a>
+            </span>
+            <div id="page-header-pencil" class="memberlist-edit">
+              <object data="../../images/pencil-large.svg" type="image/svg+xml">
+                <img src="../../images/pencil-large.svg" alt="Edit">
+              </object>
+            </div>
+          </div>
+        </div>
+        
+        <div id="dashed-divider"></div>
+        <div class="memberlist-table-row">
+        
+          <div class="dashboard-people-checked-in">
+            
+            <div class="avatar ">IN</div>
+            <div class="info">
+              <div class="name">Isaac Newton</div>
+              <div class="email">sir.isaac.newton@greatbritain.com</div>
+            </div>
+          </div>
+        
+          <div id="hideCompany">Gravity Apple, Inc.</div>
+        
+          <div class="member-row-status">
+            <span class="member-row-chip">
+              <a href="#" class="chip Active ">
+                Active
+              </a>
+            </span>
+            <div id="page-header-pencil" class="memberlist-edit">
+              <object data="../../images/pencil-large.svg" type="image/svg+xml">
+                <img src="../../images/pencil-large.svg" alt="Edit">
+              </object>
+            </div>
+          </div>
+        </div>
+        
+        <div id="dashed-divider"></div>
+        <div class="memberlist-table-row">
+        
+          <div class="dashboard-people-checked-in">
+            
+            <div class="avatar ">A</div>
+            <div class="info">
+              <div class="name">Archimedes</div>
+              <div class="email">archimedes@philosophy.com</div>
+            </div>
+          </div>
+        
+          <div id="hideCompany">Syracuse Engineering Corporation</div>
+        
+          <div class="member-row-status">
+            <span class="member-row-chip">
+              <a href="#" class="chip Active ">
+                Active
+              </a>
+            </span>
+            <div id="page-header-pencil" class="memberlist-edit">
+              <object data="../../images/pencil-large.svg" type="image/svg+xml">
+                <img src="../../images/pencil-large.svg" alt="Edit">
+              </object>
+            </div>
+          </div>
+        </div>
+        
+        <div id="dashed-divider"></div>
+        <div class="memberlist-table-row">
+        
+          <div class="dashboard-people-checked-in">
+            
+            <div class="avatar ">NT</div>
+            <div class="info">
+              <div class="name">Nikola Tesla</div>
+              <div class="email">nikola.tesla@modernera.com</div>
+            </div>
+          </div>
+        
+          <div id="hideCompany">Modern Electricity &amp; Future of Energy, Inc.</div>
+        
+          <div class="member-row-status">
+            <span class="member-row-chip">
+              <a href="#" class="chip Inactive ">
+                Inactive
+              </a>
+            </span>
+            <div id="page-header-pencil" class="memberlist-edit">
+              <object data="../../images/pencil-large.svg" type="image/svg+xml">
+                <img src="../../images/pencil-large.svg" alt="Edit">
+              </object>
+            </div>
+          </div>
+        </div>
+        
+        <div id="dashed-divider"></div>
+        <div class="memberlist-table-row">
+        
+          <div class="dashboard-people-checked-in">
+            
+            <div class="avatar ">RB</div>
+            <div class="info">
+              <div class="name">Robert Boyle</div>
+              <div class="email">robert.boyle@firstchemist.com</div>
+            </div>
+          </div>
+        
+          <div id="hideCompany">First Chemist, llc</div>
+        
+          <div class="member-row-status">
+            <span class="member-row-chip">
+              <a href="#" class="chip Inactive ">
+                Inactive
+              </a>
+            </span>
+            <div id="page-header-pencil" class="memberlist-edit">
+              <object data="../../images/pencil-large.svg" type="image/svg+xml">
+                <img src="../../images/pencil-large.svg" alt="Edit">
+              </object>
+            </div>
+          </div>
+        </div>
+        
+        <div id="dashed-divider"></div>
+        <div class="memberlist-table-row">
+        
+          <div class="dashboard-people-checked-in">
+            
+            <div class="avatar ">NC</div>
+            <div class="info">
+              <div class="name">Nicolaus Copernicus</div>
+              <div class="email">copernicus@copernicus.com</div>
+            </div>
+          </div>
+        
+          <div id="hideCompany">Theory of Money, Inc.</div>
+        
+          <div class="member-row-status">
+            <span class="member-row-chip">
+              <a href="#" class="chip Active ">
+                Active
+              </a>
+            </span>
+            <div id="page-header-pencil" class="memberlist-edit">
+              <object data="../../images/pencil-large.svg" type="image/svg+xml">
+                <img src="../../images/pencil-large.svg" alt="Edit">
+              </object>
+            </div>
+          </div>
+        </div>
+        
+        <div id="dashed-divider"></div>
+        <div class="memberlist-table-row">
+        
+          <div class="dashboard-people-checked-in">
+            
+            <div class="avatar ">CD</div>
+            <div class="info">
+              <div class="name">Charles Darwin</div>
+              <div class="email">charles.darwin@voyager.com</div>
+            </div>
+          </div>
+        
+          <div id="hideCompany">Biological Adaptation &amp; Evolution of Organisms in various Environments and Conditions, llc</div>
+        
+          <div class="member-row-status">
+            <span class="member-row-chip">
+              <a href="#" class="chip Non-member ">
+                Non-member
+              </a>
+            </span>
+            <div id="page-header-pencil" class="memberlist-edit">
+              <object data="../../images/pencil-large.svg" type="image/svg+xml">
+                <img src="../../images/pencil-large.svg" alt="Edit">
+              </object>
+            </div>
+          </div>
+        </div>
+        
+        <div id="dashed-divider"></div>
+        <div class="memberlist-table-row">
+        
+          <div class="dashboard-people-checked-in">
+            
+            <div class="avatar ">MF</div>
+            <div class="info">
+              <div class="name">Michael Faraday</div>
+              <div class="email">faraday@michaelfaraday.com</div>
+            </div>
+          </div>
+        
+          <div id="hideCompany">Electromagnetism &amp; Electrochemistry, Inc</div>
+        
+          <div class="member-row-status">
+            <span class="member-row-chip">
+              <a href="#" class="chip Non-member ">
+                Non-member
+              </a>
+            </span>
+            <div id="page-header-pencil" class="memberlist-edit">
+              <object data="../../images/pencil-large.svg" type="image/svg+xml">
+                <img src="../../images/pencil-large.svg" alt="Edit">
+              </object>
+            </div>
+          </div>
+        </div>
+        
+        <div id="dashed-divider"></div>
+    
+      <div class="memberlist-load-more"><a href="#" id="btn-load-more"> load more records</a>
+    </div>
+    </div>
+  </div>
+</div>
+</html>
