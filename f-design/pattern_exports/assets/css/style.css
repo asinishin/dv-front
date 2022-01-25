@@ -1127,6 +1127,37 @@ img {
       .wizard-panel.membership .panel-body .purchase .amount span {
         margin-top: 22px; } }
 
+.wizard-panel.payment-information .panel-body {
+  padding-top: 19px;
+  padding-bottom: 30px; }
+
+.wizard-panel.payment-information .address-header {
+  border-bottom: 1px solid #CDCDCD;
+  padding-bottom: 13px; }
+
+.wizard-panel.payment-information .card-expiry {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 13px;
+  align-items: end; }
+
+@media (min-width: 992px) {
+  .wizard-panel.payment-information .wizard-field.cc-name {
+    grid-column-start: 2;
+    grid-column-end: 3; }
+  .wizard-panel.payment-information .card-expiry {
+    grid-column-start: 1;
+    grid-column-end: 3; }
+  .wizard-panel.payment-information .address-header {
+    grid-column-start: 1;
+    grid-column-end: 3; }
+  .wizard-panel.payment-information .wizard-field.city {
+    grid-column-start: 2;
+    grid-column-end: 3; }
+  .wizard-panel.payment-information .wizard-field.state {
+    grid-column-start: 2;
+    grid-column-end: 3; } }
+
 .wizard-panel.personal-information .wizard-field.first-name {
   grid-column-start: 1;
   grid-column-end: 2; }
