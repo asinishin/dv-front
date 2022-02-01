@@ -1,4 +1,7 @@
 <svg width="29" height="29" viewBox="0 0 29 29" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <style>
+    svg { cursor: pointer; } /* whole rectangle */
+  </style>
 <rect width="29" height="29" transform="matrix(-1 0 0 1 29 0)" fill="url(#pattern0)"/>
 <defs>
 <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
