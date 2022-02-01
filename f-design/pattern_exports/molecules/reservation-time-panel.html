@@ -6,32 +6,40 @@
     <meta name="viewport" content="width=device-width">
     <link rel="stylesheet" href="../assets/css/style.css?1639538092966" media="all">
 </head>
-<div class="wizard-panel address">
-  <div class="panel-header">Address</div>
+<div class="wizard-panel reservation-time">
+  <div class="panel-header">Reservation Time</div>
   <div class="panel-body">
-    <div class="wizard-field address-type">
-      <label>Address Type</label>
+      <div class="grid-container">
+    <div class="wizard-field start-time">
+      <label>Start Time</label>
+      <div class="field-content">
+              <input class="wizard-text-input" placeholder="Please enter" value="12:30">
+      </div>
+    </div>
+    <div class="wizard-field end-time">
+      <label>End Time</label>
+      <div class="field-content">
+              <input class="wizard-text-input" placeholder="Please enter" value="11:00">
+      </div>
+    </div>
+      </div>
+    <div class="wizard-field repeats">
+      <label>Repeats</label>
       <div class="field-content">
             <a href="#" class="wizard-dropdown">
-                  <span class="select">Select</span>
+                <span class="value">Does not Repeat</span>
               <img src="../../images/down-chevron.svg" alt="Dropdown">
             </a>
       </div>
     </div>
-    <div class="wizard-field street">
-      <label>Street</label>
+    <div class="wizard-field rservation-notes">
+      <label>Rservation Notes</label>
       <div class="field-content">
               <input class="wizard-text-input" placeholder="Please enter">
       </div>
     </div>
-    <div class="wizard-field city">
-      <label>City</label>
-      <div class="field-content">
-              <input class="wizard-text-input" placeholder="Please enter">
-      </div>
-    </div>
-    <div class="wizard-field country">
-      <label>Country</label>
+    <div class="wizard-field no-of-people">
+      <label>NO.of people?</label>
       <div class="field-content">
             <a href="#" class="wizard-dropdown">
                   <span class="select">Select</span>
@@ -39,17 +47,8 @@
             </a>
       </div>
     </div>
-    <div class="wizard-field state">
-      <label>State/Province</label>
-      <div class="field-content">
-            <a href="#" class="wizard-dropdown">
-                  <span class="select">Select</span>
-              <img src="../../images/down-chevron.svg" alt="Dropdown">
-            </a>
-      </div>
-    </div>
-    <div class="wizard-field zip">
-      <label>Zip/Postal</label>
+    <div class="wizard-field room-configuration">
+      <label>Room Configuration</label>
       <div class="field-content">
               <input class="wizard-text-input" placeholder="Please enter">
       </div>
