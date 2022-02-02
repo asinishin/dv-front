@@ -64,6 +64,10 @@
 		"FREE_COPIES.PRINT_BLACK": "BW",
 		"FREE_COPIES.PRINT_COLOR": "Color",
 		"FREE_COPIES.FAX": "Fax",
-		"FREE_COPIES.SCAN": "Scan"
+		"FREE_COPIES.SCAN": "Scan",
+
+		"ARCHIVED": "Archived",
+		"BTN_SHOW_ARCHIVED": "Show Archived Products",
+		"BTN_HIDE_ARCHIVED": "Hide Archived Products"
 	}
 }

@@ -40,6 +40,7 @@
     "POINT.PRODUCT": "Product",
     "POINT.NET": "Net",
     "POINT.DISCOUNT": "Discount",
+    "POINT.WHO_IS_THERE": "Who is there now?",
 
     "CATEGORY": "Reservation Category",
     "CATEGORY.HINT": "Please select Reservation Category.",
