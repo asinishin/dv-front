@@ -6,8 +6,6 @@
 		"ACTIVE.BTN_RESET.CONFIRM": "Are you sure to reset current rules to default facility rules?",
 		"DEFAULT.HEADER": "Reservation Calendar Rules Defaults",
 		"DEFAULT.HINT": "This is default rules template for new<br><b>reservation units</b>.",
-		"DEFAULT.BTN_RESET": "Bulk update all reservation units",
-		"DEFAULT.BTN_RESET.CONFIRM": "Are you sure to reset current rules for all reservation units to default facility rules?",
 		"ANNUAL.HEADER": "Annual Holiday Calendar",
 		"ANNUAL.HINT": "Applies globally to <b>all reservation units</b> in <b>center</b>.",
 
@@ -27,6 +25,7 @@
 		"MAX_LIMIT": "Maximum<br>Hours/Day/Person",
 		"DAYS_IN_ADVANCE": "Days in Advance Reservations Permitted",
 		"TIME_IN_ADVANCE": "Time in Advance Reservations Required",
+		"NESTED_UNITS": "If reserved, make these units unavailable",
 		"NON_MEMBER": "Non-Member",
 		"MEMBER": "Member",
 		"UNLIMITED": "Unlimited",

@@ -1,6 +1,6 @@
 {
   "MEMBERSHIP_REPORT": {
-    "REPORT_NAME": "Employee Report",
+    "REPORT_NAME": "Membership Report",
     "MEMBERSHIP.HEADER": "Select Membership",
 
     "COLUMNS.COMPANY": "Company",
