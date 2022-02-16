@@ -9,7 +9,7 @@
 		"LIST.NOT_AVAILABLE": "N/A",
 		"LIST.BTN_NEW": "New Charge",
 
-		"PAGE_TITLE": "Plan for {{userName}}",
+		"PAGE_TITLE": "Recurring Billing for {{userName}}",
 
 		"GENERAL.HEADER": "General",
 		"GENERAL.BILLING_FREQUENCY": "Billing Frequency",
@@ -29,7 +29,7 @@
 		"GENERAL.ATTACHED_RES_UNIT": "Assign Dedicated Space",
 		"GENERAL.ATTACHED_RES_UNIT.HINT": "Removes a space from inventory. Space will show as <b>occupied</b> on the Availability Report and not be reservable.",
 
-		"DATES.HEADER": "Dates",
+		"DATES.HEADER": "Recurring Billing Dates",
 		"DATES.BILLING_DATES": "Billing Dates",
 		"DATES.NOTICE_DATES": "Notice Dates",
 		"DATES.RENEWAL_DATES": "Renewal Dates",
@@ -48,7 +48,7 @@
 		"DATES.NOTICE_REQUIRED_BY": "Notice <br>Required By",
 		"DATES.NOTICE_REQUIRED_BY.HINT": "Notice Required By = Renewal Date - Notice Period.",
 		"DATES.TERMINATE": "Terminate",
-		"DATES.TERMINATE.HINT": "Plan will become inactive on termination.",
+		"DATES.TERMINATE.HINT": "Recurring billing will become inactive on termination.",
 		"DATES.TERMINATE.NEVER": "Never",
 		"DATES.TERMINATE.WHEN_USED_UP": "When Used Up",
 
@@ -73,7 +73,7 @@
 		"STATUS_NOTES.STATUS.ACTIVE": "Active",
 		"STATUS_NOTES.STATUS.INACTIVE": "Inactive",
 		"STATUS_NOTES.STATUS.DELETED": "Deleted",
-		"STATUS_NOTES.STATUS.HINT": "Plans are auto-deactivated according to Termination Date.",
+		"STATUS_NOTES.STATUS.HINT": "Recurring Charges are auto-deactivated according to Termination Date.",
 		"STATUS_NOTES.STATUS.WARNING": "Warning: the sweep for this plan is stopped. No reservations or usage will be swept or billed.",
 		"STATUS_NOTES.INACTIVATE_MEMBER": "Make Member Inactive?",
 		"STATUS_NOTES.INACTIVATE_CO_MEMBERS": "Make Co-Members Inactive?",

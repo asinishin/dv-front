@@ -1,6 +1,6 @@
 {
 	"OUR_MEMBERS": {
-		"PAGE_TITLE": "Our Employees",
+		"PAGE_TITLE": "Meet Our Members",
 
 		"EMPTY": "Nobody.",
 
@@ -10,7 +10,7 @@
 		"SORT.OCCUPATION": "Occupation",
 		"SEARCH": "Search",
 
-		"EMBEDDING.HEADER": "Our Employees Embedding",
+		"EMBEDDING.HEADER": "Our Members Embedding",
 		"EMBEDDING.HINT": "Use the following code to embed the widget to your website. Copy/paste the code to your HTML page."
 	}
 }

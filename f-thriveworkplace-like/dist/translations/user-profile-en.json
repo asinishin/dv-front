@@ -1,8 +1,8 @@
 {
 	"USER_PROFILE": {
 		"PAGE_TITLE": "{{userName}}",
-		"NEW_MEMBER.PAGE_TITLE": "New Employee Registration",
-		"NEW_NON_MEMBER.PAGE_TITLE": "New Non-member Registration",
+		"NEW_MEMBER.PAGE_TITLE": "New Member Registration",
+		"NEW_NON_MEMBER.PAGE_TITLE": "New Non-Member Registration",
 		"NEW_USER.PAGE_TITLE": "New User Registration",
 		"USER_PROFILE": "User Profile",
 
@@ -63,19 +63,19 @@
 
 		"COMMENTS.HEADER": "Comments",
 
-		"MEMBERSHIP.HEADER": "Dedicated Space",
+		"MEMBERSHIP.HEADER": "Membership",
 		"MEMBERSHIP.STATUS": "Status",
 		"MEMBERSHIP.STATUS.ACTIVE": "Active",
 		"MEMBERSHIP.STATUS.INACTIVE": "Inactive",
-		"MEMBERSHIP.STATUS.NON_MEMBER": "Non-member",
-		"MEMBERSHIP.CATEGORY": "Category",
+		"MEMBERSHIP.STATUS.NON_MEMBER": "Non-Member",
+		"MEMBERSHIP.CATEGORY": "Membership Category",
 		"MEMBERSHIP.PLAN": "Plan",
 		"MEMBERSHIP.PRICE_LIST": "Price List",
 		"MEMBERSHIP.PRICE_LIST.CHANGE_WARNING": "Changing this setting will make all recurring billings inactive. You can create new ones using the new price list.",
 		"MEMBERSHIP.DISCOUNT_CODE": "Discount Code",
 		"MEMBERSHIP.START_DATE": "Start Date",
 		"MEMBERSHIP.ATTACHED_RESERVATION_UNIT": "Assign Dedicated Space",
-		"MEMBERSHIP.ATTACHED_RESERVATION_UNIT.HINT": "The selected space will no longer show on your calendar as available for booking.",
+		"MEMBERSHIP.ATTACHED_RESERVATION_UNIT.HINT": "Removes a space from inventory. Space will show as <b>occupied</b> on the Availability Report and not be reservable.",
 		"MEMBERSHIP.ATTACHED_RESERVATION_UNIT.NONE": "None",
 		"MEMBERSHIP.INACTIVATE_RECURRING_BILLINGS": "Make all Recurring Billings inactive?",
 		"MEMBERSHIP.INACTIVATE_CO_MEMBERS": "Make all Co-Members inactive?",
@@ -91,6 +91,8 @@
 		"MEMBERSHIP.BTN_DELETE_GDPR": "GDPR Delete",
 		"MEMBERSHIP.CONFIRM_DELETE_GDPR": "ARE YOU SURE? Removes phone, address, shared information and credit card/bank info. This information CANNOT be recovered.",
 		"MEMBERSHIP.KISI_ACCESS_GROUP": "Kisi Access Group",
+		"MEMBERSHIP.DOORFLOW_ACCESS": "DoorFlow Access",
+		"MEMBERSHIP.DOORFLOW_ACCESS_DESCRIPTION": "Person is active and allowed access",
 		"MEMBERSHIP.EZEEP_GROUP": "Ezeep Group",
 
 		"PRINTER_CODES.HEADER": "Printer Codes",
@@ -107,7 +109,7 @@
 
 		"CUSTOM_FIELDS.HEADER": "Custom Fields",
 		"SHAREABLE_INFO.HEADER": "Shareable Information",
-		"SHAREABLE_INFO.HINT": "Information you enter below will be shared on our <b>Our Employees</b> page so others can get in touch with you. Only enter information you want shared. If nothing is checked or entered, no information will be shared (not even your name).",
+		"SHAREABLE_INFO.HINT": "Information you enter below will be shared on our <b>Meet Our Members</b> page so others can get in touch with you. Only enter information you want shared. If nothing is checked or entered, no information will be shared (not even your name).",
 		"SHAREABLE_INFO.PUBLIC_FIELDS": "Public Profile Fields",
 		"SHAREABLE_INFO.EMAIL.PRIVATE": "Private",
 		"SHAREABLE_INFO.EMAIL.MEMBERS": "Members Only",

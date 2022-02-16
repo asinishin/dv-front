@@ -9,7 +9,7 @@
 		"LIST.NOT_AVAILABLE": "Н/Д",
 		"LIST.BTN_NEW": "Новый платеж",
 
-		"PAGE_TITLE": "План для {{userName}}",
+		"PAGE_TITLE": "Периодический платеж для {{userName}}",
 
 		"GENERAL.HEADER": "Общие",
 		"GENERAL.BILLING_FREQUENCY": "Частота платежа",
@@ -29,7 +29,7 @@
 		"GENERAL.ATTACHED_RES_UNIT": "Assign Dedicated Space",
 		"GENERAL.ATTACHED_RES_UNIT.HINT": "Removes a space from inventory. Space will show as <b>occupied</b> on the Availability Report and not be reservable.",
 
-		"DATES.HEADER": "Dates",
+		"DATES.HEADER": "Recurring Billing Dates",
 		"DATES.BILLING_DATES": "Billing Dates",
 		"DATES.NOTICE_DATES": "Notice Dates",
 		"DATES.RENEWAL_DATES": "Renewal Dates",
@@ -48,7 +48,7 @@
 		"DATES.NOTICE_REQUIRED_BY": "Notice <br>Required By",
 		"DATES.NOTICE_REQUIRED_BY.HINT": "Notice Required By = Renewal Date - Notice Period.",
 		"DATES.TERMINATE": "Завершение",
-		"DATES.TERMINATE.HINT": "Plan will become inactive on termination.",
+		"DATES.TERMINATE.HINT": "Recurring billing will become inactive on termination.",
 		"DATES.TERMINATE.NEVER": "Никогда",
 		"DATES.TERMINATE.WHEN_USED_UP": "По использованию",
 
@@ -73,7 +73,7 @@
 		"STATUS_NOTES.STATUS.ACTIVE": "Активный",
 		"STATUS_NOTES.STATUS.INACTIVE": "Неактивный",
 		"STATUS_NOTES.STATUS.DELETED": "Удален",
-		"STATUS_NOTES.STATUS.HINT": "Plans are auto-deactivated according to Termination Date.",
+		"STATUS_NOTES.STATUS.HINT": "Периодические платежи автоматически деактивируются в соответствии с датой завершения.",
 		"STATUS_NOTES.STATUS.WARNING": "Внимание: обработка для этого плана остановлена. Резервирования и использования не будут обработаны и оплачены.",
 		"STATUS_NOTES.INACTIVATE_MEMBER": "Сделать члена неактивным?",
 		"STATUS_NOTES.INACTIVATE_CO_MEMBERS": "Сделать со-членов неактивными?",

@@ -6,8 +6,6 @@
 		"ACTIVE.BTN_RESET.CONFIRM": "Are you sure to reset current rules to default facility rules?",
 		"DEFAULT.HEADER": "Правила календаря резервирований поумолчанию",
 		"DEFAULT.HINT": "Это шаблон правил поумолчанию для новых<br><b>юнитов резервирования</b>.",
-		"DEFAULT.BTN_RESET": "Bulk update all reservation units",
-		"DEFAULT.BTN_RESET.CONFIRM": "Are you sure to reset current rules for all reservation units to default facility rules?",
 		"ANNUAL.HEADER": "Годовой календарь праздников",
 		"ANNUAL.HINT": "Применяется глобально для <b>всех юнитов резервирования</b> в <b>центре</b>.",
 
@@ -27,6 +25,7 @@
 		"MAX_LIMIT": "Макс.<br>часов/день/человек",
 		"DAYS_IN_ADVANCE": "Дней заранее резерв. разрешено",
 		"TIME_IN_ADVANCE": "Мин. время резерв. юнита до начала",
+		"NESTED_UNITS": "If reserved, make these units unavailable",
 		"NON_MEMBER": "Не-член",
 		"MEMBER": "Член",
 		"UNLIMITED": "Неограниченно",
