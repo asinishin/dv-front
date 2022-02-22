@@ -4,11 +4,16 @@ MIT
 @angular/core
 MIT
 
+@angular/forms
+MIT
+
 @angular/platform-browser
 MIT
 
 @angular/router
 MIT
+
+ngx-validators
 
 rxjs
 Apache-2.0
