@@ -1,0 +1,15 @@
+{
+  "PASSPORT_RESERVATION_USAGE_REPORT": {
+    "REPORT_NAME": "Passport Reservation Usage Report",
+    "TOTALS_BY_RESERVATION_UNIT": "Totals by Reservation Unit",
+
+    "COLUMNS": {
+      "COMPANY": "Компания",
+      "USER": "Пользователь",
+      "RESERVATION_UNIT": "Резервационный юнит",
+      "HOURS": "Часы",
+      "START_TIME": "Начало в",
+      "END_TIME": "Конец в"
+    }
+  }
+}

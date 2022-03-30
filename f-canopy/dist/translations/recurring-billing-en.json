@@ -26,8 +26,8 @@
 		"GENERAL.QUANTITY": "Quantity",
 		"GENERAL.INVOICE_SENT": "Invoice Sent?",
 		"GENERAL.POST_PRO_RATION": "Post Pro-ration",
-		"GENERAL.ATTACHED_RES_UNIT": "Make a matching Reservation Unit unavailable",
-		"GENERAL.ATTACHED_RES_UNIT.HINT": "The selected Reservation Unit will no longer show on your calendar as available for booking.",
+		"GENERAL.ATTACHED_RES_UNIT": "Assign Dedicated Space",
+		"GENERAL.ATTACHED_RES_UNIT.HINT": "Removes a space from inventory. Space will show as <b>occupied</b> on the Availability Report and not be reservable.",
 
 		"DATES.HEADER": "Recurring Billing Dates",
 		"DATES.BILLING_DATES": "Billing Dates",

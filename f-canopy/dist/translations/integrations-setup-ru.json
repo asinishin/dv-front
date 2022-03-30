@@ -4,6 +4,9 @@
 
 		"ENABLED": "Включена",
 		"API_KEY": "API Key",
+		"API_SECRET": "API Secret",
+		"CONNECT": "Connect",
+		"CONNECTED": "Connected",
 
 		"APP_PLUS.HEADER": "Интеграция с Appointment Plus",
 		"APP_PLUS.ENABLED": "Включена",
@@ -45,10 +48,16 @@
 		"KISI.DEFAULT_ACCESS_GROUP": "Default Access Group",
 		"KISI.NO_ACCESS": "No Access",
 
+		"NEXKEY.HEADER": "Nexkey Integration",
+
+		"DOORFLOW.HEADER": "DoorFlow Integration",
+		"DOORFLOW.SITE": "DoorFlow Site",
+		"DOORFLOW.CONNECTION": "DoorFlow Connection",
+
 		"EZEEP.HEADER": "Интеграция Ezeep",
 		"EZEEP.USERNAME": "Имя пользователя",
 		"EZEEP.PASSWORD": "Пароль",
-        "EZEEP.DEFAULT_GROUP": "Default Group",
+    "EZEEP.DEFAULT_GROUP": "Default Group",
 
 		"GREETLY.HEADER": "Интеграция Greetly",
 		"GREETLY.CENTER": "Центр",

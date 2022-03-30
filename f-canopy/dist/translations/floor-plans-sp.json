@@ -30,12 +30,17 @@
     "POINT.STATUS.NOT_AVAILABLE": "Not Available",
     "POINT.PRICE": "Price",
     "POINT.AREA": "Area",
+    "POINT.AVAILABILITY_TODAY": "Availability Today",
+    "POINT.AVAILABILITY_TODAY.AVAILABLE": "Available",
+    "POINT.AVAILABILITY_TODAY.UNAVAILABLE": "Unavailable",
+    "POINT.BTN_RESERVE": "Click to reserve",
 
     "POINT.MEMBER": "Member",
     "POINT.BTN_MORE": "More",
     "POINT.PRODUCT": "Product",
     "POINT.NET": "Net",
     "POINT.DISCOUNT": "Discount",
+    "POINT.WHO_IS_THERE": "Who is there now?",
 
     "CATEGORY": "Reservation Category",
     "CATEGORY.HINT": "Please select Reservation Category.",

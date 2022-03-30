@@ -39,8 +39,7 @@
 
 		"STAFF_ONLY": "Veuillez contacter les employés de {{centerName}} pour de l'aide.<br><a href=\"tel:{{centerPhone}}\">{{centerPhone}}</a> ou <a href=\"mailto:{{centerEmail}}\">{{centerEmail}}</a>",
 
-		"TIME_SELECTOR.HINT.START": "Cliquez sur une plage horaire ouverte pour sélectionner une heure de début.",
-		"TIME_SELECTOR.HINT.END": "Cliquez sur une plate horaire pour sélectionner une heure de fin.",
+		"TIME_SELECTOR.HINT": "Cliquez sur une plage horaire ouverte pour sélectionner une heure de début.",
 		"TIME_SELECTOR.FROM": "De",
 		"TIME_SELECTOR.TO": "À",
 		"TIME_SELECTOR.BTN_CLEAR": "Effacer la sélection d'horaire",
@@ -62,6 +61,7 @@
 		"CALENDAR.LEGEND.OWN.HINT": "Réservé par vous",
 		"CALENDAR.LEGEND.AVAILABLE": "Disponible",
 		"CALENDAR.LEGEND.AVAILABLE.HINT": "Disponible pour réservation",
+		"CALENDAR.LEGEND.UNAVAILABLE": "Unavailable",
 		"CALENDAR.ROLE.COORDINATOR": "Vue en tant que coordonnateur",
 		"CALENDAR.ROLE.MEMBER": "Vue en tant que membre",
 		"CALENDAR.ROLE.NON_MEMBER": "Vue en tant que non-membre",

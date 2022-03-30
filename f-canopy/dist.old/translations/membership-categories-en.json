@@ -1,0 +1,15 @@
+{
+	"MEMBERSHIP_CATEGORIES": {
+		"PAGE_TITLE": "Membership Categories",
+		"NEW.PAGE_TITLE": "New Membership Category",
+		"EDIT.PAGE_TITLE": "Edit Membership Category",
+
+		"LIST.HEADER": "Membership Categories",
+		"LIST.HINT": "Drag'n'Drop to reorder",
+		"LIST.EMPTY": "No Membership Categories",
+
+		"NAME": "Name",
+		"DESCRIPTION": "Description",
+		"CONFIRM_DELETE": "Are you sure to remove the membership category?"
+	}
+}

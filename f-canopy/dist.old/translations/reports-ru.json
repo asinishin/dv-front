@@ -1,0 +1,58 @@
+{
+	"REPORTS": {
+		"PERIOD.HEADER": "Показывать транзакции",
+		"PERIOD.FROM_DATE": "С даты",
+		"PERIOD.TO_DATE": "По дату",
+
+		"OPTIONS.HEADER": "Опции",
+		"OPTIONS.CENTER": "Центр",
+		"OPTIONS.BANK": "Банк",
+		"OPTIONS.SIZE": "Формат",
+		"OPTIONS.LAYOUT": "Ориентация",
+		"OPTIONS.LAYOUT.PORTRAIT": "Портрет",
+		"OPTIONS.LAYOUT.LANDSCAPE": "Ландшафт",
+		"OPTIONS.SELECT_BY": "Выбрать по",
+
+		"OWNER_REGION.HEADER": "Владельцы и Регионы",
+		"OWNER_REGION.OWNER": "Владелец",
+		"OWNER_REGION.OWNER.ALL": "Все Владельцы",
+		"OWNER_REGION.REGION": "Регион",
+		"OWNER_REGION.REGION.ALL": "Все Регионы",
+
+		"COLUMNS.HEADER": "Выберите столбцы",
+		"COLUMNS.ORDER_BY": "Сорт.",
+		"COLUMNS.THEN_ORDER_BY": "Then Order By",
+		"COLUMNS.COLUMN": "Столбец",
+		"COLUMNS.TOTALS": "Totals",
+		"COLUMNS.CENTER": "Center",
+		"COLUMNS.USER_NAME": "Имя",
+		"COLUMNS.USER_COMPANY": "Компания",
+		"COLUMNS.ORDER_ID": "Order #",
+		"COLUMNS.ITEM": "Item",
+		"COLUMNS.ITEM_CODE": "P/N",
+		"COLUMNS.QUANTITY": "Qty",
+		"COLUMNS.AMOUNT": "Amount",
+		"COLUMNS.DISCOUNT": "Discount",
+		"COLUMNS.TOTAL": "Total",
+
+		"BTN_PDF": "Скачать отчет PDF",
+		"BTN_CSV": "Скачать отчет CSV",
+		"PREVIEW.HEADER": "Предпросмотр отчета",
+
+		"HEADER.FOR_PERIOD": "За период",
+		"HEADER.FROM": "С",
+		"HEADER.THROUGH": "По",
+		"HEADER.PAGE": "Страница",
+		"HEADER.REPORT_FOR": "Отчет для",
+		"HEADER.REPORT_DATE": "Дата",
+
+		"BY_PERIOD": "By",
+		"BY_PERIOD.WEEK": "Week",
+		"BY_PERIOD.MONTH": "Month",
+		"BY_PERIOD.QUARTER": "Quarter",
+		"BY_PERIOD.YEAR": "Year",
+
+		"TOTAL": "Total",
+		"TOTALS": "Totals"
+	}
+}

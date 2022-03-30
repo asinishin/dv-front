@@ -1,0 +1,22 @@
+{
+	"AVAILABILITY_REPORT": {
+		"REPORT_NAME": "Availability Report",
+
+		"MERGED": "Merge vacant and occupied",
+
+		"VACANT": "Vacant",
+		"OCCUPIED": "Occupied",
+
+		"COLUMNS.UNIT": "Unit",
+		"COLUMNS.PRICE": "Price",
+		"COLUMNS.DESCRIPTION": "Description",
+		"COLUMNS.DISCOUNT": "Discount",
+		"COLUMNS.NET_PRICE": "Net",
+		"COLUMNS.CLIENT": "Client",
+		"COLUMNS.START_DATE": "Start Date",
+		"COLUMNS.TERMINATION_DATE": "Termination Date",
+
+		"TOTALS.VACANT": "Total Vacant",
+		"TOTALS.OCCUPIED": "Total Full Time Occupied"
+	}
+}
