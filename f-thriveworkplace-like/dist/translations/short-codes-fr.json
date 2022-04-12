@@ -13,7 +13,7 @@
     "FULL_NAME": "Nom du membre",
     "FIRST_NAME": "Member first name",
     "LAST_NAME": "Member last name",
-    "COMPANY": "Company",
+    "COMPANY": "Member full name + company name",
     "OCCUPATION": "Occupation",
     "LOGIN": "Nom d'utilisateur du membre",
     "PASSWORD": "Mot de passe de l'utilisateur enregistré",
