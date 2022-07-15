@@ -1,6 +1,6 @@
 {
 	"SIGN_IN": {
-		"PAGE_TITLE": "Вход",
+		"PAGE_TITLE": "Sign in to your {{company}} account",
 		"REMEMBER_ME": "Запомнить меня",
 		"FORGOT_PASSWORD": "Забыли пароль?",
 		"BTN_SIGN_IN": "Войти",
@@ -10,6 +10,7 @@
 		"SUCCESS": "Успех!",
 		"NO_ACCOUNT_YET": "Еще нет аккаунта?&nbsp;&nbsp;",
 		"BTN_SIGN_UP": "Регистрация",
+		"BTN_CHECKOUT_GUEST": "Check out as guest",
 
 		"RESTORE_PASSWORD.PAGE_TITLE": "Восстановление Пароля",
 		"RESTORE_PASSWORD.HINT": "Введите Ваш email адрес",

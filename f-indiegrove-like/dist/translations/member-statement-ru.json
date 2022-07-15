@@ -1,7 +1,7 @@
 {
 	"MEMBER_STATEMENT": {
-		"PAGE_TITLE": "Смета для {{userName}}",
-		"REPORT_NAME": "Смета",
+		"PAGE_TITLE": "Членская смета для {{userName}}",
+		"REPORT_NAME": "Членская смета",
 		"PREVIEW.HEADER": "Предпросмотр сметы",
 		"BTN_PDF": "Скачать смету PDF",
 

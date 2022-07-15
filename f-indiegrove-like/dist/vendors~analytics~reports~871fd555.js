@@ -1,4 +1,4 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[10],{"bU+R":function(t,e,r){
+(window.webpackJsonp=window.webpackJsonp||[]).push([[9],{"bU+R":function(t,e,r){
 /*!
  * chartjs-plugin-datalabels v0.7.0
  * https://chartjs-plugin-datalabels.netlify.com

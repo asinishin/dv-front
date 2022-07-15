@@ -68,6 +68,7 @@
     "PRODUCT": "Product",
     "TOTAL": "Total",
     "PERIOD": "Period",
+    "DESCRIPTION": "Description",
 
     "PHOTO": "Photo",
     "PHOTO.INVALID_FORMAT": "Please use <b>JPEG</b> or <b>PNG</b> image format.",
@@ -123,7 +124,8 @@
     "PREV_MONTH": "Previous Month",
     "NEXT_MONTH": "Next Month",
 
-    "UNIT_CAPACITY": "This space can comfortably hold <b>{{capacity}}</b> people."
+    "UNIT_CAPACITY": "This space can comfortably hold <b>{{capacity}}</b> people.",
+    "DND_REORDER.HINT": "Drag'n'Drop to reorder"
   },
 
   "SIDEBAR": {
