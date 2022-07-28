@@ -13,7 +13,8 @@
 		"BTN_SAVE_TEMPLATE": "Save Template",
 
 		"OPTIONS.HEADER": "Options",
-		"OPTIONS.MEMBERSHIP_CATEGORY": "Membership Category",
+		"OPTIONS.MEMBERSHIP": "Membership",
+		"OPTIONS.MEMBERSHIP.ALL": "All",
 		"OPTIONS.INCLUDE_NON_MEMBERS": "Include Non-Members",
 		"OPTIONS.ONLY_CHECKED_IN": "Checked-in members only",
 

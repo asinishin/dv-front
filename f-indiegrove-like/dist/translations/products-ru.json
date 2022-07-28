@@ -29,20 +29,16 @@
 		"COUNT_CHECK_INS_PER.CO_MEMBER": "Со-члену",
 		"COUNT_CHECK_INS_PER.COMPANY": "Компании",
 		"ONLY_NON_MEMBER_HOURS": "Резервиров. по не-членским часам",
-		"ONLY_NON_MEMBER_HOURS.SHORT": "Reserve non-member hours",
 		"ALLOW_RESERVATION_CREDITS": "Использование с резерв. кредитами",
 		"BUY_ON_SPLASH_PAGE": "Может быть куплен на Splash Page?",
 		"TAXABLE": "Облагаемый налогом?",
 		"SHOW_FOR_SIGN_UP": "Show for Self-Registration?",
-		"SHOW_FOR_SIGN_UP.SHORT": "Show for Self Registration",
 		"HAS_REGISTRATION_FEE": "Имеет взнос при регистрации?",
 		"SECURITY_DEPOSIT_AMOUNT": "Сумма гарантийного депозита",
 		"TRACK_ACROSS_ALL_CENTERS": "Отслеживать по всем центрам?",
 		"PASS_SIZE": "Размер талона (часов)",
 		"MIN_PASS": "Мин. {{minPassUnit}} опл. после 1го талона",
-		"MIN_PASS.SHORT": "Min time after 1st pass",
 		"MAX_PASS": "Max passes billed per usage",
-		"MAX_PASS.SHORT": "Max passes per use",
 		"RESERVATION_CATEGORY": "Категория резервирования",
 		"NO_RESERVATION_CATEGORY": "Нет категории резервирования",
 		"CONFIRM_DELETE": "Вы точно хотите удалить продукт?",
@@ -56,17 +52,6 @@
 		"PRICE_LISTS.CREDIT": "Кредит",
 		"PRICE_LISTS.PRICE": "Цена",
 
-		"COUNT_MEMBERS": "Count Members / Co-members",
-		"BTN_PRINT": "Print Inventory List",
-		"INVENTORY_LIST": "Inventory List",
-
-		"FREE_COPIES.PRINT_BLACK": "BW",
-		"FREE_COPIES.PRINT_COLOR": "Color",
-		"FREE_COPIES.FAX": "Fax",
-		"FREE_COPIES.SCAN": "Scan",
-
-		"ARCHIVED": "Archived",
-		"BTN_SHOW_ARCHIVED": "Show Archived Products",
-		"BTN_HIDE_ARCHIVED": "Hide Archived Products"
+		"COUNT_MEMBERS": "Count Members / Co-members"
 	}
 }
