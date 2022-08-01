@@ -15,6 +15,8 @@
 		"ITEM_NUMBER": "Item Number",
 		"QB_ACCOUNT": "QuickBooks Account",
 		"DOORFLOW_GROUP": "DoorFlow Access Group",
+		"SALTO_GROUPS": "Salto KS Access Groups",
+		"SALTO_GROUP": "Access Group",
 		"PRODUCT_TYPE": "Product Type",
 		"PRODUCT_TYPE.MEMBERSHIP": "Membership",
 		"PRODUCT_TYPE.REGISTRATION": "Registration",
