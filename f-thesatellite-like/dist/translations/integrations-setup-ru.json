@@ -65,6 +65,10 @@
 		"GREETLY.NOTIFICATION.BY_EMAIL": "Уведомление по электронной почте",
 		"GREETLY.NOTIFICATION.BY_SLACK": "Уведомление по Slack",
 		"GREETLY.NOTIFICATION.BY_SMS": "Уведомление отправкой sms",
-		"GREETLY.NOTIFICATION.BY_VOICE": "Уведомление голосом"
+		"GREETLY.NOTIFICATION.BY_VOICE": "Уведомление голосом",
+
+		"PAPER_CUT.HEADER": "PaperCut Integration",
+		"PAPER_CUT.SERVER_DOMAIN": "Server Domain",
+		"PAPER_CUT.PRINTER": "PaperCut Printer"
 	}
 }

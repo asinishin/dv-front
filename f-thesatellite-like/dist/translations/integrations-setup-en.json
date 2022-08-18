@@ -65,6 +65,10 @@
 		"GREETLY.NOTIFICATION.BY_EMAIL": "Notification by Email",
 		"GREETLY.NOTIFICATION.BY_SLACK": "Notification by Slack",
 		"GREETLY.NOTIFICATION.BY_SMS": "Notification by Sms",
-		"GREETLY.NOTIFICATION.BY_VOICE": "Notification by Voice"
+		"GREETLY.NOTIFICATION.BY_VOICE": "Notification by Voice",
+
+		"PAPER_CUT.HEADER": "PaperCut Integration",
+		"PAPER_CUT.SERVER_DOMAIN": "Server Domain",
+		"PAPER_CUT.PRINTER": "PaperCut Printer"
 	}
 }
