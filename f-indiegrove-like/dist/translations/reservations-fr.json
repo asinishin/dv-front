@@ -39,9 +39,7 @@
 
 		"STAFF_ONLY": "Veuillez contacter les employés de {{centerName}} pour de l'aide.<br><a href=\"tel:{{centerPhone}}\">{{centerPhone}}</a> ou <a href=\"mailto:{{centerEmail}}\">{{centerEmail}}</a>",
 
-		"TIME_SELECTOR.HINT.START": "Cliquez sur une plage horaire ouverte pour sélectionner une heure de début.",
-		"TIME_SELECTOR.HINT.END": "Cliquez sur une plate horaire pour sélectionner une heure de fin.",
-		"TIME_SELECTOR_SLOTS.HINT": "Click to select start time.",
+		"TIME_SELECTOR.HINT": "Cliquez sur une plage horaire ouverte pour sélectionner une heure de début.",
 		"TIME_SELECTOR.FROM": "De",
 		"TIME_SELECTOR.TO": "À",
 		"TIME_SELECTOR.BTN_CLEAR": "Effacer la sélection d'horaire",
@@ -83,7 +81,7 @@
 		"CALENDAR.PRICES": "Prices",
 		"CALENDAR.HINT": "Hover over left menu name for info. Click in a time slot to reserve.",
 
-		"CALENDAR.CAPACITY": "<b>{{capacity}}</b> slots available.",
+		"CALENDAR.CAPACITY": "This space can comfortably hold <b>{{capacity}}</b> people.",
 
 		"RESERVATION_AGREEMENT.LABEL": "By checking this box you agree to",
 		"RESERVATION_AGREEMENT.REQUIRED": "Check this box to agree",

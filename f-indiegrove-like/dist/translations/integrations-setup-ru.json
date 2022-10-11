@@ -4,6 +4,11 @@
 
 		"ENABLED": "Включена",
 		"API_KEY": "API Key",
+		"API_SECRET": "API Secret",
+		"PUBLIC_API_KEY": "Public API Key",
+		"PRIVATE_API_KEY": "Private API Key",
+		"CONNECT": "Connect",
+		"CONNECTED": "Connected",
 
 		"APP_PLUS.HEADER": "Интеграция с Appointment Plus",
 		"APP_PLUS.ENABLED": "Включена",
@@ -45,10 +50,16 @@
 		"KISI.DEFAULT_ACCESS_GROUP": "Default Access Group",
 		"KISI.NO_ACCESS": "No Access",
 
+		"NEXKEY.HEADER": "Nexkey Integration",
+
+		"DOORFLOW.HEADER": "DoorFlow Integration",
+		"DOORFLOW.SITE": "DoorFlow Site",
+		"DOORFLOW.CONNECTION": "DoorFlow Connection",
+
 		"EZEEP.HEADER": "Интеграция Ezeep",
 		"EZEEP.USERNAME": "Имя пользователя",
 		"EZEEP.PASSWORD": "Пароль",
-        "EZEEP.DEFAULT_GROUP": "Default Group",
+    "EZEEP.DEFAULT_GROUP": "Default Group",
 
 		"GREETLY.HEADER": "Интеграция Greetly",
 		"GREETLY.CENTER": "Центр",
@@ -56,6 +67,15 @@
 		"GREETLY.NOTIFICATION.BY_EMAIL": "Уведомление по электронной почте",
 		"GREETLY.NOTIFICATION.BY_SLACK": "Уведомление по Slack",
 		"GREETLY.NOTIFICATION.BY_SMS": "Уведомление отправкой sms",
-		"GREETLY.NOTIFICATION.BY_VOICE": "Уведомление голосом"
+		"GREETLY.NOTIFICATION.BY_VOICE": "Уведомление голосом",
+
+		"PAPER_CUT.HEADER": "PaperCut Integration",
+		"PAPER_CUT.SERVER_DOMAIN": "Server Domain",
+		"PAPER_CUT.PRINTER": "PaperCut Printer",
+
+		"PLACEPAY.HEADER": "PlacePay Integration",
+		"PLACEPAY.SANDBOX": "Sandbox",
+		"PLACEPAY.SANDBOX.HINT": "PlacePay sandbox environment is usable only with test accounts. If you use a test account, check this option.",
+		"PLACEPAY.DEPOSIT_ACCOUNT": "Deposit Account"
 	}
 }

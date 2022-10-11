@@ -38,9 +38,7 @@
 		"BTN_CALENDAR": "Календарь",
 
 		"STAFF_ONLY": "Свяжитесь с персоналом {{centerName}} для резервирования.<br><a href=\"tel:{{centerPhone}}\">{{centerPhone}}</a> or <a href=\"mailto:{{centerEmail}}\">{{centerEmail}}</a>",
-		"TIME_SELECTOR.HINT.START": "Нажмите на свободную ячейку для выбора времени начала.",
-		"TIME_SELECTOR.HINT.END": "Нажмите на свободную ячейку для выбора времени конца.",
-		"TIME_SELECTOR_SLOTS.HINT": "Click to select start time.",
+		"TIME_SELECTOR.HINT": "Click and drag to select time.",
 		"TIME_SELECTOR.FROM": "Начало",
 		"TIME_SELECTOR.TO": "Конец",
 		"TIME_SELECTOR.BTN_CLEAR": "Сбросить выбор времени",
@@ -82,7 +80,7 @@
 		"CALENDAR.PRICES": "Цены",
 		"CALENDAR.HINT": "Наведите на левое меню для инфо. Нажмите на временной слот для резервирования.",
 
-		"CALENDAR.CAPACITY": "<b>{{capacity}}</b> slots available.",
+		"CALENDAR.CAPACITY": "This space can comfortably hold <b>{{capacity}}</b> people.",
 
 		"RESERVATION_AGREEMENT.LABEL": "Ставя галочку вы соглашаетесь с ",
 		"RESERVATION_AGREEMENT.REQUIRED": "Поставьте галочку, чтобы согласиться с ",
