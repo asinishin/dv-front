@@ -1,0 +1,23 @@
+{
+	"RESERVATION_INCOME_REPORT": {
+		"REPORT_NAME": "Reservation Income Report",
+
+		"COLUMNS.CENTER": "Center Name",
+		"COLUMNS.USER": "User",
+		"COLUMNS.COMPANY": "Company",
+		"COLUMNS.UNIT": "Reservation Unit",
+		"COLUMNS.DATE": "Date",
+		"COLUMNS.START_TIME": "Begins At",
+		"COLUMNS.END_TIME": "Ends At",
+		"COLUMNS.CREATED_AT": "Created At",
+		"COLUMNS.NOTE": "Note",
+		"COLUMNS.TOTAL_HOURS": "Total\nHours",
+		"COLUMNS.CHARGES": "Charges",
+		"COLUMNS.CREDITS": "Credits\nApplied",
+		"COLUMNS.TOTAL": "NET",
+
+		"SOURCE.MEMBERS": "Members",
+		"SOURCE.NON_MEMBERS": "Non-members",
+		"SOURCE.AGGREGATORS": "Aggregators"
+	}
+}

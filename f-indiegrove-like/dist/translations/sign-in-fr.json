@@ -1,6 +1,6 @@
 {
 	"SIGN_IN": {
-		"PAGE_TITLE": "Sign in to your {{company}} account",
+		"PAGE_TITLE": "Connexion",
 		"REMEMBER_ME": "Se rappeler de moi",
 		"FORGOT_PASSWORD": "Mot de passe oublié?",
 		"BTN_SIGN_IN": "Se connecter",
@@ -10,7 +10,6 @@
 		"SUCCESS": "Succès!",
 		"NO_ACCOUNT_YET": "Pas de compte?&nbsp;&nbsp;",
 		"BTN_SIGN_UP": "S'inscrire",
-		"BTN_CHECKOUT_GUEST": "Check out as guest",
 
 		"RESTORE_PASSWORD.PAGE_TITLE": "Récupérer le mot de passe",
 		"RESTORE_PASSWORD.HINT": "SVP entrez votre adresse courriel",

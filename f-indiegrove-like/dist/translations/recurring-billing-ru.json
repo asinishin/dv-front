@@ -26,8 +26,8 @@
 		"GENERAL.QUANTITY": "Количество",
 		"GENERAL.INVOICE_SENT": "Счет отослан?",
 		"GENERAL.POST_PRO_RATION": "Создать пропорцию",
-		"GENERAL.ATTACHED_RES_UNIT": "Сделать резервационный юнит недоступным",
-		"GENERAL.ATTACHED_RES_UNIT.HINT": "Выбранный резервационный юнит больше не будет доступен в календаре для резервирования.",
+		"GENERAL.ATTACHED_RES_UNIT": "Assign Dedicated Space",
+		"GENERAL.ATTACHED_RES_UNIT.HINT": "Removes a space from inventory. Space will show as <b>occupied</b> on the Availability Report and not be reservable.",
 
 		"DATES.HEADER": "Recurring Billing Dates",
 		"DATES.BILLING_DATES": "Billing Dates",

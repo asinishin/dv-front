@@ -15,5 +15,8 @@
 		"CURRENT_NUMBER_IN_PARTY": "Number in Party: {{count}}",
 		"LOGIN_PASSWORD.HEADER": "Would you like to enter a password to set up an account at {{center}}?",
 		"BTN_SKIP": "Skip"
+	},
+	"BUY_A_PRODUCT": {
+		"PURCHASE.PAGE_TITLE": "Confirm and purchase order in {{centerName}}"
 	}
 }
