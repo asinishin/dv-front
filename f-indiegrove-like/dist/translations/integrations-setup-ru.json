@@ -76,6 +76,12 @@
 		"PLACEPAY.HEADER": "PlacePay Integration",
 		"PLACEPAY.SANDBOX": "Sandbox",
 		"PLACEPAY.SANDBOX.HINT": "PlacePay sandbox environment is usable only with test accounts. If you use a test account, check this option.",
-		"PLACEPAY.DEPOSIT_ACCOUNT": "Deposit Account"
+		"PLACEPAY.DEPOSIT_ACCOUNT": "Deposit Account",
+		"PLACEPAY.SYNC.BTN": "Synchronize All Users",
+		"PLACEPAY.SYNC.PLAN.HEADER": "PlacePay Synchronization Plan",
+		"PLACEPAY.SYNC.PLAN.HINT": "Preview of changes to be done for each user. Click <b>Apply</b> button below to apply these changes.",
+		"PLACEPAY.SYNC.PLAN.BTN_APPLY": "Apply",
+		"PLACEPAY.SYNC.RESULTS.HEADER": "PlacePay Synchronization Results",
+		"PLACEPAY.SYNC.RESULTS.HINT": "Final results of synchronization."
 	}
 }
