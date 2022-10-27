@@ -1,1 +1,2 @@
 iframe[src*="placepay.com/pay_plugin"]{z-index:17000!important}
+.placepay-sync .sync-wrapper{z-index:1;padding:1rem}.placepay-sync .sync-wrapper,.placepay-sync .sync-wrapper .ff-panel-body,.placepay-sync .sync-wrapper ff-panel{width:100%;height:100%}.placepay-sync .sync-wrapper .ff-panel-body{display:flex;flex-direction:column}.placepay-sync .sync-wrapper .sync-scroller{overflow:auto}
