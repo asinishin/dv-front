@@ -1,0 +1,22 @@
+{
+	"BAY_RESERVATION": {
+		"CENTERS.PAGE_TITLE": "Select a location",
+		"BTN_SELECT": "Select",
+		"UNITS.PAGE_TITLE": "Select",
+		"UNITS.EMPTY": "No reservation units.",
+		"DATE.PAGE_TITLE": "Choose your date and the number in your party",
+
+		"HEADER": "Select the number of guests in your party",
+		"NUMBER_IN_PARTY": "Number in party",
+		"NIP_OVERFLOW": "Number exceeds availability. Please adjust the number in your party.",
+		"BTN_CONTINUE": "Continue",
+		"BAY": "Bay",
+		"RESERVING_BAYS": "We are reserving the following bays for you",
+		"CURRENT_NUMBER_IN_PARTY": "Number in Party: {{count}}",
+		"LOGIN_PASSWORD.HEADER": "Would you like to enter a password to set up an account at {{center}}?",
+		"BTN_SKIP": "Skip"
+	},
+	"BUY_A_PRODUCT": {
+		"PURCHASE.PAGE_TITLE": "Confirm and purchase order in {{centerName}}"
+	}
+}

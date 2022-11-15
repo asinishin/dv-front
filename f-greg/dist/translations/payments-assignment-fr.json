@@ -1,0 +1,26 @@
+{
+	"PAYMENTS_ASSIGNMENT": {
+		"HEADER": "Payments Assignment",
+		"PAYMENTS": "Payments",
+		"BTN_ASSIGN": "Assign Payments",
+
+		"BULK.PAGE_TITLE": "Bulk Payments Assignment",
+		"BULK.HEADER": "Select the orders you would like to assign payments for",
+		"BULK.BTN_ASSIGN": "Assign Payments",
+		"BULK.SUCCESS": "Payments Assigned Successfully",
+
+		"FROM": "From",
+		"TO": "To",
+		"FILTER": "Filter",
+		"FILTER.ALL": "All",
+		"FILTER.WITHOUT_ASSIGNMENT": "Without Payments Assignment",
+		"FILTER.WITH_ASSIGNMENT": "With Payments Assignment",
+		"FILTER.WITH_MANUAL_ASSIGNMENT": "With Manual Payments Assignment"
+	},
+
+	"DISCOUNT_ASSIGNMENT": {
+		"BTN_ASSIGN": "Assign Discount",
+		"INVALID_TOTAL": "Total unassigned: <b>{{left}}</b>",
+		"HINT": "Allocate the discount to specific line items of order."
+	}
+}

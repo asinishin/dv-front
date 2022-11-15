@@ -1,0 +1,31 @@
+{
+  "DEPOSIT_AND_TAX_REPORT": {
+    "REPORT_NAME": "Deposit And Tax Report",
+
+    "COLUMNS": {
+      "NAME": "Имя",
+      "COMPANY": "Компания",
+      "ORDER_ID": "Order #",
+      "ITEM": "Item",
+      "ITEM_CODE": "P/N",
+      "TAXABLE_AMOUNT": "Налогооблагаемая сумма",
+      "NON_TAXABLE_AMOUNT": "Не налогооблагаемая сумма",
+      "SUBTOTAL": "Подсумма",
+      "TAX": "Налог",
+      "TOTAL": "Всего"
+    },
+
+    "TOTAL_DAILY": "Daily Total",
+    "TOTAL_PAYMENT_METHOD": "Всего по методу оплаты",
+    "TOTAL_TAXABLE_AMOUNT": "Всего, налогооблагаемая сумма",
+    "TOTAL_NON_TAXABLE_AMOUNT": "Всего, не налогооблагаемая сумма",
+    "TOTAL_CHARGES": "Charges",
+    "TOTAL_TAX": "Налог",
+    "GRAND_TOTAL": "Итоговая сумма",
+    "TOTAL_MEMBERSHIP": "Всего, категория членства",
+    "TOTAL_REGISTRATION": "Всего, регистрация",
+    "TOTAL_RENTAL": "Всего, часы аренды",
+    "TOTAL_PRINT": "Всего, пользование принтером",
+    "TOTAL_SERVICES": "Всего, сервисы"
+  }
+}

@@ -1,0 +1,10 @@
+discount-assignment .discount-amount .ng-validate-alert {
+  max-width: 150px;
+  width: 150px;
+  margin-left: -50px;
+}
+discount-assignment .discount-amount .ng-validate-alert::before, discount-assignment .discount-amount .ng-validate-alert::after {
+  left: 120px;
+}
+
+/*# sourceMappingURL=payments-assignment~...css.map?_rev=1f94606738f9c038d2b3*/

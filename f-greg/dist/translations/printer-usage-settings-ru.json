@@ -1,0 +1,38 @@
+{
+  "PRINTER_USAGE_SETTINGS": {
+    "PAGE_TITLE": "Настройки использования принтера",
+
+    "IMPORT_PROFILE.HEADER": "Профиль импорта",
+    "IMPORT_PROFILES.HEADER": "Профили импорта",
+    "IMPORT_PROFILES.HEADER.HINT": "Сопоставьте поля из Вашего Отчета по Загрузке Принтера (.csv)",
+    "IMPORT_PROFILES.NAME": "Название",
+    "IMPORT_PROFILES.FORMATTING_TYPE": "Тип формата",
+    "IMPORT_PROFILES.PRINTER_CODE": "Заголовок принтер-кода",
+    "IMPORT_PROFILES.JOB_MODE": "Заголовок режима задания (печать/скан/факс/копирование)",
+    "IMPORT_PROFILES.PRINT_BLACK": "Заголовок счетчика Ч/Б печати",
+    "IMPORT_PROFILES.PRINT_COLOR": "Заголовок счетчика цветной печати",
+    "IMPORT_PROFILES.SCAN": "Заголовок счетчика сканирований",
+    "IMPORT_PROFILES.FAX": "Заголовок счетчика факсов",
+    "NEW_IMPORT_PROFILE": "Новый профиль импорта",
+
+    "TYPE.PRINT_BLACK": "Ч/Б печать/копирование",
+    "TYPE.PRINT_COLOR": "Цветная печать/копирование",
+    "TYPE.SCAN": "Сканирование",
+    "TYPE.FAX": "Факс",
+
+    "FREE_COPIES.HEADER": "Бесплатные копии",
+    "FREE_COPIES.FOR": "Бесплатные копии для {{type}}",
+
+    "PART_NUMBERS.HEADER": "Сопоставьте количества к",
+    "PART_NUMBERS.FROM": "От",
+    "PART_NUMBERS.FROM.HINT": "От кол-ва копий",
+    "PART_NUMBERS.TO": "До",
+    "PART_NUMBERS.TO.HINT": "До кол-ва копий",
+    "PART_NUMBERS.MAP_TO": "Сопоставление",
+    "PART_NUMBERS.MAP_TO.HINT": "Сопоставление с продуктом",
+    "PART_NUMBERS.BTN_ADD.HINT": "Добавить разрыв цены",
+    "PART_NUMBERS.BTN_DELETE.HINT": "Удалить разрыв цены",
+
+    "CONFIRM_DELETE": "Вы уверены, что хотите удалить эти настройки принтера?"
+  }
+}

@@ -1,0 +1,38 @@
+{
+	"MEMBER_SIGN_UP": {
+		"MEMBERSHIP.PAGE_TITLE": "Новое Членство",
+		"MEMBERSHIP.THANKS": "Спасибо за регистрацию!",
+		"MEMBERSHIP.BTN_PROCEED": "Proceed to Checkout",
+
+		"LANDING.PAGE_TITLE": "Welcome! Confirm your plan and start date",
+
+		"MEMBERSHIP.CENTER.HEADER": "Выберите Центр",
+		"MEMBERSHIP.CENTER.CENTER": "Центр",
+		"MEMBERSHIP.CENTER.AT": "At: {{center}}",
+
+		"MEMBERSHIP.CATEGORY.HEADER": "Выберите категорию члества",
+		"MEMBERSHIP.CATEGORY.EMPTY": "Нет категорий членства.",
+		"MEMBERSHIP.CATEGORY.MEMB_CATEGORY": "Категория членства",
+		"MEMBERSHIP.CATEGORY.HINT": "Пажалуйста выберите категрию членства. Some services may not be available for self-registration. If you don't see what you're looking for, please contact us.",
+		"MEMBERSHIP.CATEGORY.DESCRIPTION": "Описание категории",
+		"MEMBERSHIP.CATEGORY.NO_DESCRIPTION": "Нет описания.",
+
+		"MEMBERSHIP.PRODUCT.HEADER": "Выберите План",
+		"MEMBERSHIP.PRODUCT.PLAN": "План",
+		"MEMBERSHIP.PRODUCT.PRICE": "Цена",
+		"MEMBERSHIP.PRODUCT.START_DATE": "Дата начала",
+		"MEMBERSHIP.PRODUCT.DESCRIPTION": "Описание плана",
+
+		"PROFILE.PAGE_TITLE": "Create Your Account",
+
+		"PURCHASE.PAGE_TITLE": "Confirm And Add Payment",
+		"PURCHASE.ORDER.HEADER": "Номер ордера: {{orderId}}",
+		"PURCHASE.ADD_ON_PRODUCTS.HINT": "Any Membership or Service options below are in addition to the membership you've already selected",
+
+		"BILLING.BTN_COMPLETE": "Завершить Регистрацию",
+
+		"COMPLETE.PAGE_TITLE": "Добро Пожаловать!",
+		"COMPLETE.SUCCESS": "Вы успешно завершили регистрацию.",
+		"COMPLETE.BACK_ERROR": "Возврат запрещен, регистрация завершена."
+	}
+}

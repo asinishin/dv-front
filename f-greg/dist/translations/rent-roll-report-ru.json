@@ -1,0 +1,20 @@
+{
+  "RENT_ROLL_REPORT": {
+    "REPORT_NAME": "Отчет по арендной плате",
+
+    "COLUMNS": {
+      "CENTER": "Центр",
+      "COMPANY": "Компания",
+      "MEMBER": "Член",
+      "SUBSCRIPTION_ITEM": "Единица подписки",
+      "AREA": "Площадь",
+      "AMOUNT": "Сумма",
+      "DISCOUNT": "Скидка",
+      "TOTAL": "Всего",
+      "START_DATE": "Дата начала аренды",
+      "TERMINATION_DATE": "Дата окончания аренды"
+    },
+
+    "TOTAL_RENT_ROLL": "Месячная сумма арендной платы"
+  }
+}

@@ -1,0 +1,45 @@
+{
+	"CENTERS": {
+		"PAGE_TITLE": "Центры",
+		"NEW.PAGE_TITLE": "Новый центр",
+		"EDIT.PAGE_TITLE": "Редактирование центра",
+
+		"CENTER": "Центр",
+		"NAME": "Название",
+		"SHORT_NAME": "Сокр. название",
+		"PHONE": "Телефон",
+		"FAX": "Факс",
+		"EMAIL": "Email",
+		"COLOR": "Цвет",
+		"TIMEZONE": "Временная зона",
+		"OWNER": "Владелец",
+		"REGION": "Регион",
+		"BANK": "Банк",
+		"TAX.ID": "Налоговый ID",
+		"TAX.ID.HINT": "Если указан, этот ID отображается в инвойсах и <b>Инвойс</b> переименовывается в <b>Налоговый инвойс</b>.",
+		"TAX.INDEX": "Налог #{{index}} (%)",
+		"TAX.NAME": "Название",
+		"TAX.NAME.DEFAULT": "Налог",
+		"TAX.RATE": "Величина",
+		"TAX.BTN_DELETE.HINT": "Удалить налог",
+		"TAX.BTN_ADD": "Добавить налог",
+		"QBO_CLASS": "Класс QuickBooks",
+		"INTERNAL_USE": "Центр для внутреннего использования",
+		"INTERNAL_USE.HINT": "Делает центр доступным только для координаторов и админов.<br><i class=\"fa fa-exclamation-triangle text-danger\"></i> <b>Запрещает всем пользователям доступ к центру!</b>",
+		"HIDE_IN_MEMBER_SIGN_UP": "Hide center for self-registration",
+		"HIDE_IN_MEMBER_SIGN_UP.HINT": "Makes center not available for member self-registration.",
+		"DESCRIPTION": "Описание",
+		"MAP": "Карта",
+		"DIRECTIONS": "Указания",
+		"CONFIRM_DELETE": "Вы точно хотите удалить центр?",
+
+		"PHOTO.HEADER": "Фото",
+		"PHOTO.HINT": "Recommended minimum size is <strong>1280x640 px</strong>",
+		"PHOTO.INVALID_FORMAT": "Используйте формат изображений .jpg или .png.",
+		"PHOTO.BTN_UPLOAD": "Загрузить фото",
+
+		"FREE_ACCESS": "Свободный WiFi доступ",
+		"FREE_ACCESS.HINT": "Позволяет N часов свободного WiFi доступа раз в день для каждого устройства. Отображает опцию <b>Get Free Access</b> на всплывающей странице WiFi.",
+		"FREE_ACCESS.DISABLED": "Отключен"
+	}
+}

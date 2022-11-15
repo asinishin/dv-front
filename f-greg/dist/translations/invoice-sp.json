@@ -1,0 +1,58 @@
+{
+	"INVOICE": {
+		"PAGE_TITLE": "Generate Invoice",
+		"PREVIEW.HEADER": "Preview",
+		"BTN_PDF": "Download Invoice PDF",
+
+		"INVOICE_NAME": "Invoice #{{orderId}}",
+		"TAX_INVOICE_NAME": "Tax Invoice #{{orderId}}",
+		"HEADER.PHONE": "Phone",
+		"HEADER.TAX_ID": "ABN",
+		"HEADER.BILL_TO": "Bill To",
+		"HEADER.DATE": "Date",
+		"HEADER.DUE_DATE": "Due Date",
+
+		"COLUMNS.DATE": "Date",
+		"COLUMNS.DATE_ADDED": "Date Added",
+		"COLUMNS.ITEM": "Item",
+		"COLUMNS.DESCRIPTION": "Description",
+		"COLUMNS.RATE": "Rate",
+		"COLUMNS.PRICE": "Price",
+		"COLUMNS.QTY": "Qty",
+		"COLUMNS.QUANTITY": "Quantity",
+		"COLUMNS.AMOUNT": "Amount",
+
+		"RECURRING": "Recurring Items",
+		"RENTAL": "Reservations & Passes",
+		"DEPOSITS": "Security Deposits",
+		"OTHER_CHARGES": "Other Charges",
+		"PAYMENTS": "Payments",
+		"REFUNDS": "Refunds",
+		"SUBTOTAL": "Subtotal",
+		"CHARGES": "Charges",
+		"BALANCE": "Balance",
+		"TOTAL": "Total",
+
+		"ADDRESS.HEADER": "Billing Address",
+		"ADDRESS.BTN_SELECT": "Select",
+		"ADDRESS.BTN_SELECT.HINT": "Select this address",
+		"ADDRESS.BTN_SELECTED": "Selected",
+		"ADDRESS.BTN_SELECTED.HINT": "This address is currently selected",
+
+		"DATES.HEADER": "Invoice Dates",
+		"DATES.END_DATE": "End Date",
+		"DATES.DUE_DATE": "Due Date",
+		"DATES.ADD_DATE_TO_ALL_ITEMS": "Add date to all items?",
+
+		"ITEMS.HEADER": "Items",
+		"ITEMS.DATE": "Date",
+		"ITEMS.NAME": "Name",
+		"ITEMS.AMOUNT": "Amount",
+
+		"PAYMENTS.HEADER": "Payments",
+		"PAYMENTS.DATE": "Date",
+		"PAYMENTS.AMOUNT": "Amount",
+
+		"ALTERNATE.FOOTER": "Thank you for being a member at {{company}}"
+	}
+}

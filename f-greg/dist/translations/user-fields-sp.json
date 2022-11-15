@@ -1,0 +1,24 @@
+{
+	"USER_FIELDS": {
+		"PAGE_TITLE": "User Profile Fields",
+
+		"CUSTOM.HEADER": "Custom Fields",
+		"SHAREABLE.HEADER": "Shareable Fields",
+		"TOOLBAR.HEADER": "Toolbar",
+		"HINT": "Drag'n'Drop to reorder, drag from toolbar to create, drop to trash to delete.",
+		"EMPTY": "Please drag'n'drop from toolbar.",
+
+		"TYPE": "Type",
+		"NAME": "Name",
+		"TRASH.HINT": "Drop Items to Remove",
+		"TRASH.CONFIRM": "Are you sure to delete the field?",
+
+		"TYPE.TEXT": "Text",
+		"TYPE.TEXTAREA": "Text Area",
+		"TYPE.DATE": "Date",
+		"TYPE.URL": "URL",
+		"TYPE.EMAIL": "Email",
+		"TYPE.PHONE": "Phone",
+		"TYPE.NUMBER": "Number"
+	}
+}
