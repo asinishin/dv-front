@@ -5,6 +5,7 @@
 
 		"COLUMNS.PRODUCT_CODE": "P/N",
 		"COLUMNS.PRODUCT_NAME": "Item",
+		"COLUMNS.USER_COMPANY": "Company",
 		"COLUMNS.USER_NAME": "Name",
 		"COLUMNS.ORDER_NO": "Order",
 		"COLUMNS.DATE": "Date",

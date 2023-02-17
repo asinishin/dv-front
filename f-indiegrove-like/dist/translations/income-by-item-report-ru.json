@@ -5,6 +5,7 @@
 
 		"COLUMNS.PRODUCT_CODE": "К/П",
 		"COLUMNS.PRODUCT_NAME": "Продукт",
+		"COLUMNS.USER_COMPANY": "Company",
 		"COLUMNS.USER_NAME": "Имя",
 		"COLUMNS.DATE": "Дата",
 		"COLUMNS.QUANTITY": "Кол-во",

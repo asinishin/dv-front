@@ -14,6 +14,8 @@
 		"ITEM_CATEGORY": "Catégorie d'item",
 		"ITEM_NUMBER": "Numéro d'item",
 		"QB_ACCOUNT": "Compte QuickBooks",
+		"DOORFLOW_GROUP": "DoorFlow Access Group",
+		"SALTO_GROUPS": "Salto KS Access Groups",
 		"PRODUCT_TYPE": "Type de produit",
 		"PRODUCT_TYPE.MEMBERSHIP": "Abonnement",
 		"PRODUCT_TYPE.REGISTRATION": "Inscription",
@@ -67,6 +69,7 @@
 
 		"ARCHIVED": "Archived",
 		"BTN_SHOW_ARCHIVED": "Show Archived Products",
-		"BTN_HIDE_ARCHIVED": "Hide Archived Products"
+		"BTN_HIDE_ARCHIVED": "Hide Archived Products",
+		"ROYALTY_EXEMPT": "Royalty Exempt"
 	}
 }

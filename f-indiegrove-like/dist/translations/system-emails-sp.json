@@ -6,6 +6,7 @@
 
 		"FUNCTION": "Email Function",
 		"FUNCTION.FROM": "From",
+		"FUNCTION.REPLY_TO": "Reply To",
 		"FUNCTION.SIGN_UP": "New Sign-Up",
 		"FUNCTION.LOST_ACCESS_CARD": "Lost Access Card",
 		"FUNCTION.NEW_ORDER": "New Purchase Order",
