@@ -87,6 +87,7 @@
 		"HUBSPOT.CONNECTION": "HubSpot Connection",
 		"HUBSPOT.RB.HEADER": "Recurring Billing properties mapping",
 		"HUBSPOT.RB.START_DATE": "Start date",
+		"HUBSPOT.RB.NOTICE_PERIOD": "Notice Period",
 		"HUBSPOT.RB.RENEWAL_DATE": "Renewal date",
 		"HUBSPOT.RB.RENEWAL_TERM": "Renewal term",
 		"HUBSPOT.RB.DISCOUNT": "Discount"
