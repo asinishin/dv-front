@@ -78,6 +78,7 @@
 		"SH_CODES.TWO_BUSINESS_DAYS": "Два бизнес дня вперед",
 		"SH_CODES.YEAR": "Текущий год",
 		"SH_CODES.MONTH": "Текущий месяц",
+		"SH_CODES.NEXT_MONTH": "Next month",
 		"SH_CODES.LAST_MONTH": "Предыдущий месяц",
 		"SH_CODES.LAST_MONTH_YEAR": "Последний месяц года",
 		"SH_CODES.DUE_DATE": "Дата платежа",

@@ -78,6 +78,7 @@
 		"SH_CODES.TWO_BUSINESS_DAYS": "Deux jours ouvrables à partir d'aujourd'hui",
 		"SH_CODES.YEAR": "Année en cours",
 		"SH_CODES.MONTH": "Mois en cours",
+		"SH_CODES.NEXT_MONTH": "Next month",
 		"SH_CODES.LAST_MONTH": "Le mois dernier",
 		"SH_CODES.LAST_MONTH_YEAR": "L'année du mois dernier",
 		"SH_CODES.DUE_DATE": "Échéance du paiement",

@@ -77,19 +77,6 @@
 		"SALTO.CONNECTION": "Salto KS Connection",
 		"SALTO.NO_ACCESS_POLICY": "No access policy",
 		"SALTO.NO_ACCESS_POLICY.SUSPEND": "Suspend Salto user account",
-		"SALTO.NO_ACCESS_POLICY.DELETE": "Delete Salto user account",
-
-		"HUBSPOT.GENERAL.HEADER": "General properties mapping",
-		"HUBSPOT.GENERAL.LOCATION": "Contact -> Location",
-		"HUBSPOT.GENERAL.DEAL_STAGE_PROPOSAL": "Proposal started stage",
-		"HUBSPOT.GENERAL.DEAL_STAGE_WON": "Deal won stage",
-		"HUBSPOT.HEADER": "HubSpot Integration",
-		"HUBSPOT.CONNECTION": "HubSpot Connection",
-		"HUBSPOT.RB.HEADER": "Recurring Billing properties mapping",
-		"HUBSPOT.RB.START_DATE": "Start date",
-		"HUBSPOT.RB.NOTICE_PERIOD": "Notice Period",
-		"HUBSPOT.RB.RENEWAL_DATE": "Renewal date",
-		"HUBSPOT.RB.RENEWAL_TERM": "Renewal term",
-		"HUBSPOT.RB.DISCOUNT": "Discount"
+		"SALTO.NO_ACCESS_POLICY.DELETE": "Delete Salto user account"
 	}
 }
