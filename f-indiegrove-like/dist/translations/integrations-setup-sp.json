@@ -5,6 +5,8 @@
 		"ENABLED": "Enabled",
 		"API_KEY": "API Key",
 		"API_SECRET": "API Secret",
+		"PUBLIC_API_KEY": "Public API Key",
+		"PRIVATE_API_KEY": "Private API Key",
 		"CONNECT": "Connect",
 		"CONNECTED": "Connected",
 		"DISCONNECT": "Disconnect",
@@ -58,7 +60,7 @@
 		"EZEEP.HEADER": "Ezeep Integration",
 		"EZEEP.USERNAME": "Username",
 		"EZEEP.PASSWORD": "Password",
-    "EZEEP.DEFAULT_GROUP": "Default Group",
+		"EZEEP.DEFAULT_GROUP": "Default Group",
 
 		"GREETLY.HEADER": "Greetly Integration",
 		"GREETLY.CENTER": "Center",
@@ -77,6 +79,30 @@
 		"SALTO.CONNECTION": "Salto KS Connection",
 		"SALTO.NO_ACCESS_POLICY": "No access policy",
 		"SALTO.NO_ACCESS_POLICY.SUSPEND": "Suspend Salto user account",
-		"SALTO.NO_ACCESS_POLICY.DELETE": "Delete Salto user account"
+		"SALTO.NO_ACCESS_POLICY.DELETE": "Delete Salto user account",
+
+		"PLACEPAY.HEADER": "PlacePay Integration",
+		"PLACEPAY.SANDBOX": "Sandbox",
+		"PLACEPAY.SANDBOX.HINT": "PlacePay sandbox environment is usable only with test accounts. If you use a test account, check this option.",
+		"PLACEPAY.DEPOSIT_ACCOUNT": "Deposit Account",
+		"PLACEPAY.SYNC.BTN": "Synchronize All Users",
+		"PLACEPAY.SYNC.PLAN.HEADER": "PlacePay Synchronization Plan",
+		"PLACEPAY.SYNC.PLAN.HINT": "Preview of changes to be done for each user. Click <b>Apply</b> button below to apply these changes.",
+		"PLACEPAY.SYNC.PLAN.BTN_APPLY": "Apply",
+		"PLACEPAY.SYNC.RESULTS.HEADER": "PlacePay Synchronization Results",
+		"PLACEPAY.SYNC.RESULTS.HINT": "Final results of synchronization.",
+
+		"HUBSPOT.GENERAL.HEADER": "General properties mapping",
+		"HUBSPOT.GENERAL.LOCATION": "Contact -> Location",
+		"HUBSPOT.GENERAL.DEAL_STAGE_PROPOSAL": "Proposal started stage",
+		"HUBSPOT.GENERAL.DEAL_STAGE_WON": "Deal won stage",
+		"HUBSPOT.HEADER": "HubSpot Integration",
+		"HUBSPOT.CONNECTION": "HubSpot Connection",
+		"HUBSPOT.RB.HEADER": "Recurring Billing properties mapping",
+		"HUBSPOT.RB.START_DATE": "Start date",
+		"HUBSPOT.RB.NOTICE_PERIOD": "Notice Period",
+		"HUBSPOT.RB.RENEWAL_DATE": "Renewal date",
+		"HUBSPOT.RB.RENEWAL_TERM": "Renewal term",
+		"HUBSPOT.RB.DISCOUNT": "Discount"
 	}
 }

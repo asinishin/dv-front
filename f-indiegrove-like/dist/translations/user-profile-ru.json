@@ -68,6 +68,7 @@
 		"MEMBERSHIP.STATUS.ACTIVE": "Активный",
 		"MEMBERSHIP.STATUS.INACTIVE": "Неактивный",
 		"MEMBERSHIP.STATUS.NON_MEMBER": "Не-член",
+		"MEMBERSHIP.STATUS.PROSPECT": "Prospect",
 		"MEMBERSHIP.CATEGORY": "Membership Category",
 		"MEMBERSHIP.PLAN": "План",
 		"MEMBERSHIP.PRICE_LIST": "Прайс-лист",
