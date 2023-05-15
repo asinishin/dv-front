@@ -27,6 +27,8 @@
 
     eSites.innerHTML = '';
 
+    console.log('sitePath', window.cordova && window.cordova.sitePath);
+
     sites
       .filter(function(site) { return site.name.toLowerCase().indexOf(text.trim().toLowerCase() || null) >= 0; })
       .forEach(function(site) {
