@@ -32,7 +32,7 @@
       .forEach(function(site) {
         var base = 'https://' + site.id + '.satellitedeskworks.com/';
         var a = document.createElement('a');
-        a.href = base + window.cordova && window.cordova.sitePath || '';
+        a.href = base + window.cordova ? window.cordova.sitePath || '' : '';
         a.title = site.name;
         a.className += 'site';
         a.innerHTML = '<img src="' + base + 'api/v1/white-label/images/icon-192x192.png"><h6>' + site.name + '</h6>';
