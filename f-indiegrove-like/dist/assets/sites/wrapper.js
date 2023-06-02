@@ -16,11 +16,6 @@
     xhr('GET', 'sites.json', null, function(status, data) {
       if(status !== 200) return console.error('ERROR: cannot load sites:', data);
       sites = data;
-      sites.forEach(site => {
-        const pair = site.id.split('@');
-        site.id = pair[0];
-        site.centerId = pair[1];
-      });
       onSearch();
     });
   }
@@ -40,7 +35,7 @@
       .forEach(function(site) {
         var base = 'https://' + site.id + '.venturex.app/';
         var a = document.createElement('a');
-        a.href = base + (window.cordova && window.cordova.sitePath ? window.cordova.sitePath : '') + (!isNaN(+site.centerId) ? '?center=' + site.centerId : '');
+        a.href = base + (window.cordova && window.cordova.sitePath ? window.cordova.sitePath : '') + (site.centerId ? '?center=' + site.centerId : '');
         a.title = site.name;
         a.className += 'site';
         a.innerHTML = '<img src="' + base + 'api/v1/white-label/images/icon-192x192.png"><h6>' + site.name + '</h6>';
