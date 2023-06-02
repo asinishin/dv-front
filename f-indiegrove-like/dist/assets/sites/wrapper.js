@@ -2,7 +2,7 @@
   var sites = [];
   var eSearch, eSites;
 
-  if(location.search === '?cordova-wrapper=true') history.replaceState(null, null, '?');
+  if (location.search === '?cordova-wrapper=true') history.replaceState(null, null, '?');
 
   setTimeout(init);
 
@@ -22,17 +22,22 @@
 
   function onSearch() {
     var text = eSearch.value || '';
-    if(location.hash.substring(1) !== text) history.replaceState(null, null, '#' + text);
-    if(!sites) return;
+    if (location.hash.substring(1) !== text) history.replaceState(null, null, '#' + text);
+    if (!sites) return;
 
     eSites.innerHTML = '';
 
     sites
-      .filter(function(site) { return site.name.toLowerCase().indexOf(text.trim().toLowerCase() || null) >= 0; })
+      .filter(function(site) {
+        var txt = text.trim().toLowerCase() || null;
+        return site.name.toLowerCase().indexOf(txt) >= 0 || site.id.split('@')[0].indexOf(txt) >= 0;
+      })
       .forEach(function(site) {
-        var base = 'https://' + site.id + '.satellitedeskworks.com/';
+        var siteId = site.id.split('&')[0];
+        var centerId = site.id.split('&')[1];
+        var base = 'https://' + siteId + '.venturex.app/';
         var a = document.createElement('a');
-        a.href = base + (window.cordova && window.cordova.sitePath ? window.cordova.sitePath : '');
+        a.href = base + (window.cordova && window.cordova.sitePath ? window.cordova.sitePath : '') + (centerId ? '?center=' + centerId : '');
         a.title = site.name;
         a.className += 'site';
         a.innerHTML = '<img src="' + base + 'api/v1/white-label/images/icon-192x192.png"><h6>' + site.name + '</h6>';
@@ -52,11 +57,11 @@
     var xhr = new XMLHttpRequest();
     return function(method, url, data, callback) {
       xhr.onreadystatechange = function() {
-        if(xhr.readyState === 4) {
+        if (xhr.readyState === 4) {
           var data;
           try {
             data = JSON.parse(xhr.responseText);
-          } catch(err) {
+          } catch (err) {
             data = xhr.responseText;
           }
           callback(xhr.status, data);

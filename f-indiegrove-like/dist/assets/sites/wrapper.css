@@ -1,65 +1,65 @@
 * {
-	box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
-	max-width: 480px;
-	margin: auto;
-	font: 16px sans-serif;
-	text-align: center;
+  max-width: 480px;
+  margin: auto;
+  font: 16px sans-serif;
+  text-align: center;
 }
 
 .header {
-	padding: 15px 0;
-	font-size: 0;
+  padding: 15px 0 5px 0;
+  font-size: 0;
 }
 
 .logo {
-	width: 280px;
-	height: 54px;
+  width: 280px;
+  height: 70px;
 }
 
 h1 {
-	font-size: 16px;
-	font-weight: normal;
-	color: #999;
+  font-size: 16px;
+  font-weight: normal;
+  color: #999;
 }
 
 .search {
-	max-width: 96vw;
-	margin: 20px auto;
+  max-width: 96vw;
+  margin: 20px auto;
 }
 .search input[type=text] {
-	width: 100%;
-	padding: 8px;
-	border: 1px solid #ddd;
-	font-size: 20px;
-	text-align: center;
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ddd;
+  font-size: 20px;
+  text-align: center;
 }
 
 .sites {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-between;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 .site {
-	display: block;
-	width: 118px;
-	padding: 10px;
-	border: 1px solid transparent;
-	text-decoration: none;
+  display: block;
+  width: 118px;
+  padding: 10px;
+  border: 1px solid transparent;
+  text-decoration: none;
 }
 .site:hover, .site:focus, .site:active {
-	border-color: #ddd;
+  border-color: #ddd;
 }
 .site img {
-	width: 96px;
-	height: 96px;
-	vertical-align: middle;
+  width: 96px;
+  height: 96px;
+  vertical-align: middle;
 }
 .site h6 {
-	margin: 10px 0 0 0;
-	font-size: 11px;
-	font-weight: normal;
-	color: #777;
+  margin: 10px 0 0 0;
+  font-size: 11px;
+  font-weight: normal;
+  color: #777;
 }
