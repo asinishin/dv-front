@@ -16,6 +16,11 @@
     xhr('GET', 'sites.json', null, function(status, data) {
       if(status !== 200) return console.error('ERROR: cannot load sites:', data);
       sites = data;
+      sites.forEach(site => {
+        const pair = site.id.split('@');
+        site.id = pair[0];
+        site.centerId = pair[1];
+      });
       onSearch();
     });
   }
@@ -30,14 +35,12 @@
     sites
       .filter(function(site) {
         var txt = text.trim().toLowerCase() || null;
-        return site.name.toLowerCase().indexOf(txt) >= 0 || site.id.split('@')[0].indexOf(txt) >= 0;
+        return site.name.toLowerCase().indexOf(txt) >= 0 || site.id.indexOf(txt) >= 0;
       })
       .forEach(function(site) {
-        var siteId = site.id.split('&')[0];
-        var centerId = site.id.split('&')[1];
-        var base = 'https://' + siteId + '.venturex.app/';
+        var base = 'https://' + site.id + '.venturex.app/';
         var a = document.createElement('a');
-        a.href = base + (window.cordova && window.cordova.sitePath ? window.cordova.sitePath : '') + (centerId ? '?center=' + centerId : '');
+        a.href = base + (window.cordova && window.cordova.sitePath ? window.cordova.sitePath : '') + (!isNaN(+site.centerId) ? '?center=' + site.centerId : '');
         a.title = site.name;
         a.className += 'site';
         a.innerHTML = '<img src="' + base + 'api/v1/white-label/images/icon-192x192.png"><h6>' + site.name + '</h6>';
