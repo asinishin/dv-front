@@ -1,8 +1,0 @@
-{
-	"SPLASH_PAGE": {
-		"PAGE_TITLE": "Splash Page for {{centerName}}",
-
-		"ENABLED": "Enabled",
-		"HINT": "This splash page is displayed once a day for each device on first network check-in."
-	}
-}
