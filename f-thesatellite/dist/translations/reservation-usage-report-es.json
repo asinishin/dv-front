@@ -1,0 +1,9 @@
+{
+  "RESERVATION_USAGE_REPORT": {
+    "REPORT_NAME": "Informe de Uso de Reservas"
+
+    "COLUMNS.RESERVATION_COST": "Cargos de Reserva",
+    "COLUMNS.RES_CREDITS_APPLIED": "Créditos de Reserva Utilizados",
+    "COLUMNS.RES_COST_BALANCE": "Saldo Cargado"
+  }
+}

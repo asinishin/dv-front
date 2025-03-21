@@ -1,0 +1,18 @@
+{
+	"DEPOSIT_TRANSACTION_REPORT": {
+		"REPORT_NAME": "Depozito İşlem Raporu",
+
+		"COLUMNS.REFERENCE": "Referans",
+		"COLUMNS.USER_NAME": "Isim",
+		"COLUMNS.PAYOR": "Odeme yapan",
+		"COLUMNS.COMPANY": "Sirket",
+		"COLUMNS.AMOUNT": "Tutar",
+		"COLUMNS.SUBTOTAL": "Ara Toplam",
+		"COLUMNS.TOTAL": "Toplam",
+		"COLUMNS.ORDER_ID": "Sirala #",
+
+		"TOTALS.DAILY": "Gunluk Toplam",
+		"TOTALS.SUBTOTAL": "Ara Toplam",
+		"TOTALS.DEPOSITS": "Depozito"
+	}
+}

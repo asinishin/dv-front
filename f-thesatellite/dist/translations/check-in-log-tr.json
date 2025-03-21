@@ -1,0 +1,19 @@
+{
+	"CHECK_IN_LOG": {
+		"PAGE_TITLE": "Giriş Gunlugu {{userName}}",
+		"MANUAL.PAGE_TITLE": "Manuel Giriş Günlüğü {{userName}}",
+		"NEW.PAGE_TITLE": "Yeni Giriş Günlüğü Kaydı",
+
+		"EMPTY": "Günlük boş",
+		"BTN_CREATE": "Yeni Yarat",
+		"FILTER_BY_MAC": "Filter by MAC",
+
+		"TIME": "Saat",
+		"ACTION": "Action",
+		"NAME": "Isım",
+		"LOGIN": "Login",
+		"MAC": "MAC Address",
+		"CHECK_IN": "Check-In",
+		"CHECK_OUT": "Check-Out"
+	}
+}

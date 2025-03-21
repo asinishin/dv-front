@@ -1,0 +1,15 @@
+{
+	"REVENUE_FORECAST_REPORT": {
+		"REPORT_NAME": "Rapport de prévision des recettes",
+		"BAR_CHART.HEADER": "Tableau de prévision des recettes",
+		"PERIOD": "Période",
+
+		"COLUMNS.COMPANY": "Compagnie",
+		"COLUMNS.NAME": "Nom",
+		"COLUMNS.CURRENT_MONTH": "Current\nMonth",
+
+		"COMMITTED_REVENUE": "Revenus engagés",
+		"AT_RISK_REVENUE": "Revenus à risque",
+		"PERCENT_OF_CURRENT_MONTH": "% du mois en cours"
+	}
+}

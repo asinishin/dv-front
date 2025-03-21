@@ -1,0 +1,20 @@
+{
+	"ACCOUNTS_RECEIVABLE_REPORT": {
+		"REPORT_NAME": "Rapport comptes recevables",
+
+		"COLUMNS.COMPANY": "Compagnie",
+		"COLUMNS.USER_NAME": "Nom",
+		"COLUMNS.BILL_DATE": "Date de facturation",
+		"COLUMNS.AMOUNT": "Montant facturé",
+		"COLUMNS.DUE_DATE": "Date d'échéance",
+		"COLUMNS.AMOUNT_DUE": "Montant dû",
+		"COLUMNS.DAYS_LATE": "Jours de retard",
+		"COLUMNS.COMMENT": "Commentaire",
+		"COLUMNS.ORDER_ID": "No. Commande",
+
+		"DISPLAY_CREDITS": "Afficher les crédits",
+
+		"TOTALS.AVG_DAYS_LATE": "Moyenne de Jours de retard",
+		"TOTALS.TOTAL_DUE": "Solde dû"
+	}
+}

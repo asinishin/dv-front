@@ -1,0 +1,16 @@
+{
+  "RESERVATION_UTILIZATION_REPORT": {
+    "REPORT_NAME": "Rezervasyon Kullanim Raporu",
+
+    "MODE": "Mod",
+    "MODE.DETAILED_ACTUAL": "Ayrintili Mevcut",
+    "MODE.ACTUAL_EXPECTED": "Mevcut / nBeklenen",
+
+    "COLUMNS.EXPECTED_USAGE": "Beklenen Kullanim",
+    "COLUMNS.ACTUAL_USAGE": "Gerçekleşen Kullanim",
+    "COLUMNS.UTILIZATION": "Kullanim",
+
+    "CHART.HEADER": "Rezervasyon Birimlerinin Kullanimi",
+    "CHART.TOTAL_TIME": "Toplam Süre"
+  }
+}

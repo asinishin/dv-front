@@ -1,0 +1,21 @@
+{
+  "RENT_ROLL_REPORT": {
+    "REPORT_NAME": "Informe de Lista de Alquileres",
+
+    "COLUMNS": {
+      "CENTER": "Sitio",
+      "COMPANY": "Empresa",
+      "MEMBER": "Miembro",
+      "SUBSCRIPTION_ITEM": "Artículo de Suscripción",
+      "AREA": "Área",
+      "CAPACITY": "Capacidad",
+      "AMOUNT": "Cantidad",
+      "DISCOUNT": "Descuento",
+      "TOTAL": "Total",
+      "START_DATE": "La Fecha de Inicio",
+      "TERMINATION_DATE": "La Fecha de Terminación"
+    },
+
+    "TOTAL_RENT_ROLL": "Lista de Alquileres Mensual"
+  }
+}

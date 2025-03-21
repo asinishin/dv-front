@@ -1,0 +1,13 @@
+{
+	"MAILBOX_REPORT": {
+		"REPORT_NAME": "Informe de Buzón",
+
+		"COLUMNS.BOX_ID": "Número de Caja",
+		"COLUMNS.COMPANY": "Empresa",
+		"COLUMNS.USER_NAME": "Nombre Completo",
+		"COLUMNS.HANDLING": "Manejo",
+		"COLUMNS.KEY_ID": "Número de Llave",
+		"COLUMNS.OTHER_NAMES": "Otros Nombres",
+		"COLUMNS.NOTES": "Notes"
+	}
+}

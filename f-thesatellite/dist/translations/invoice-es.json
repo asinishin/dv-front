@@ -1,0 +1,58 @@
+{
+	"INVOICE": {
+		"PAGE_TITLE": "Generar Factura",
+		"PREVIEW.HEADER": "Vista Previa",
+		"BTN_PDF": "Descargar Factura en PDF",
+
+		"INVOICE_NAME": "Factura #{{orderId}}",
+		"TAX_INVOICE_NAME": "Factura de Impuestos #{{orderId}}",
+		"HEADER.PHONE": "Télefono",
+		"HEADER.TAX_ID": "ABN",
+		"HEADER.BILL_TO": "Cobrar a",
+		"HEADER.DATE": "Fecha",
+		"HEADER.DUE_DATE": "Fecha de Vencimiento",
+
+		"COLUMNS.DATE": "Fecha",
+		"COLUMNS.DATE_ADDED": "Fecha Agregada",
+		"COLUMNS.ITEM": "Artículo",
+		"COLUMNS.DESCRIPTION": "Descripción",
+		"COLUMNS.RATE": "Tasa",
+		"COLUMNS.PRICE": "Precio",
+		"COLUMNS.QTY": "Cant.",
+		"COLUMNS.QUANTITY": "Cantidad",
+		"COLUMNS.AMOUNT": "Suma",
+
+		"RECURRING": "Artículos Recurrentes",
+		"RENTAL": "Reservas y Permisos",
+		"DEPOSITS": "Depositos de Seguridad",
+		"OTHER_CHARGES": "Otros Cargos",
+		"PAYMENTS": "Pagos",
+		"REFUNDS": "Reembolsos",
+		"SUBTOTAL": "Total Parcial",
+		"CHARGES": "Cargos",
+		"BALANCE": "Saldo",
+		"TOTAL": "Total",
+
+		"ADDRESS.HEADER": "Dirección de Facturación",
+		"ADDRESS.BTN_SELECT": "Seleccionar",
+		"ADDRESS.BTN_SELECT.HINT": "Seleccionar esta dirección",
+		"ADDRESS.BTN_SELECTED": "Seleccionada",
+		"ADDRESS.BTN_SELECTED.HINT": "Esta dirección está actualmente seleccionada",
+
+		"DATES.HEADER": "Fechas de Factura",
+		"DATES.END_DATE": "Fecha Final",
+		"DATES.DUE_DATE": "Fecha de Vencimiento",
+		"DATES.ADD_DATE_TO_ALL_ITEMS": "¿Agregar fecha a todos los artículos?",
+
+		"ITEMS.HEADER": "Artículo",
+		"ITEMS.DATE": "Fecha",
+		"ITEMS.NAME": "Nombre",
+		"ITEMS.AMOUNT": "Cantidad",
+
+		"PAYMENTS.HEADER": "Pagos",
+		"PAYMENTS.DATE": "Fecha",
+		"PAYMENTS.AMOUNT": "Cantidad",
+
+		"ALTERNATE.FOOTER": "Gracias por ser miembro de {{company}}"
+	}
+}

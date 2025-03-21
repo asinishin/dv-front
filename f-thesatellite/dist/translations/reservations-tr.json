@@ -1,0 +1,91 @@
+{
+	"RESERVATIONS": {
+		"NEW.PAGE_TITLE": "Yeni rezervasyon {{centerName}}",
+		"EDIT.PAGE_TITLE": "Rezervasyonu duzenle {{centerName}}",
+		"CONFIRM.PAGE_TITLE": "Rezervasyonu onayla",
+		"CANCEL.PAGE_TITLE": "Iptal edilen rezervasyonu onayla",
+		"CALENDAR.PAGE_TITLE": "Rezervasyon takvimi",
+
+		"HINT": "Planlarınız değişirse, ücret ödememek için lütfen rezervasyonunuzu 24 saat veya daha uzun bir süre önceden güncelleyin veya iptal edin.",
+
+		"ESTIMATED_COST": "Bu rezervasyon için tahmini ucret",
+		"TITLE": "Rezervasyon basligi",
+		"TITLE.SHORT": "Baslik",
+		"NOTES": "Rezervasyon Notlari",
+		"EMAIL_CONFIRMATION": "Konfirmasyon emaili",
+		"USER": "Kullanici",
+		"LOCATION": "Lokasyon",
+		"CATEGORY": "Alan kategorisi",
+		"SPACE": "Alan",
+		"DATE": "Tarih",
+		"TIME": "Zaman",
+		"COST": "Maliyet",
+		"ACCESS_CODE": "Erisim sifresi",
+		"ADDED_BY": "Kim tarafından eklendi",
+
+		"REPEAT_FREQUENCY": "Tekrar",
+		"REPEAT_FREQUENCY.NONE": "Tekrari yok",
+		"REPEAT_FREQUENCY.DAILY": "Her gun",
+		"REPEAT_FREQUENCY.WEEKLY": "Her hafta",
+		"REPEAT_FREQUENCY.MONTHLY": "Her ay aynı tarih",
+		"REPEAT_FREQUENCY.MONTHLY_WEEKLY": "Her ayın belirli gunu",
+		"REPEAT_DURATION": "bir sonraki",
+		"REPEAT_DURATION.LABEL": "Tekrar suresi",
+
+		"BTN_CREATE": "Rezervasyon Yap",
+		"BTN_UPDATE": "Rezervasyonu guncelle",
+		"BTN_DELETE": "Rezervasyonu iptal et",
+		"BTN_CALENDAR": "Takvim",
+
+		"STAFF_ONLY": "Please contact {{centerName}} staff for assistance.<br><a href=\"tel:{{centerPhone}}\">{{centerPhone}}</a> or <a href=\"mailto:{{centerEmail}}\">{{centerEmail}}</a>",
+
+		"TIME_SELECTOR.HINT": "Click and drag to select time.",
+		"TIME_SELECTOR.FROM": "Basla",
+		"TIME_SELECTOR.TO": "Son",
+		"TIME_SELECTOR.BTN_CLEAR": "Zaman seçimini temizle",
+		"TIME_SELECTOR.SLOT.AVAILABLE": "Müsait zaman dilimi: {{from}} - {{to}}",
+		"TIME_SELECTOR.SLOT.UNAVAILABLE": "Kullanılmayan zaman dilimi: {{from}} - {{to}}",
+		"TIME_SELECTOR.SLOT.RESERVED": "Rezerv edilmis zaman dilimi: {{from}} - {{to}}",
+		"TIME_SELECTOR.SLOT.SELECTED": "Secilen zaman dilimi: {{from}} - {{to}}",
+
+		"DATE_SELECTOR.DAY.PREV.HINT": "Onceki gun",
+		"DATE_SELECTOR.DAY.NEXT.HINT": "Bir sonraki gun",
+		"DATE_SELECTOR.DAY.EXTRA": "{{month}}, {{year}}",
+		"DATE_SELECTOR.WEEK.PREV.HINT": "Onceki hafta",
+		"DATE_SELECTOR.WEEK.NEXT.HINT": "Gelecek hafta",
+		"DATE_SELECTOR.WEEK.EXTRA": "Haftasi {{month}}, {{year}}",
+
+		"CALENDAR.LEGEND.RESERVED": "Rezerve",
+		"CALENDAR.LEGEND.RESERVED.HINT": "Diger üyeler tarafindan rezerve edilmis",
+		"CALENDAR.LEGEND.OWN": "Rezervasyonunuz",
+		"CALENDAR.LEGEND.OWN.HINT": "Tarfinizdan rezerve edildi",
+		"CALENDAR.LEGEND.AVAILABLE": "Musait",
+		"CALENDAR.LEGEND.AVAILABLE.HINT": "Rezerve edilebilir",
+		"CALENDAR.LEGEND.UNAVAILABLE": "Müsait degil",
+		"CALENDAR.ROLE.COORDINATOR": "Koordinator bakisi",
+		"CALENDAR.ROLE.MEMBER": "Uye bakisi",
+		"CALENDAR.ROLE.NON_MEMBER": "Uye olmayan bakisi",
+		"CALENDAR.FILTER.AVAILABLE": "Musait",
+		"CALENDAR.FILTER.ALL": "Tum birimler",
+		"CALENDAR.MODE.DAY": "Gune bakis",
+		"CALENDAR.MODE.WEEK": "Haftaya bakis",
+		"CALENDAR.ZOOM": "Zoom",
+		"CALENDAR.ZOOM.HINT": "Takvim olcegi",
+		"CALENDAR.EMPTY": "Rezervasyon Ünitesi Mevcut Degil",
+		"CALENDAR.NOT_AVAILABLE.HINT": "Rezevasyon için uygun degil",
+		"CALENDAR.AVAILABLE.HINT": "Rezerve etmek icin tiklayin",
+		"CALENDAR.NO_PERMISSION.HINT": "Rezervasyon için yetkiniz yok",
+		"CALENDAR.RESERVED.HINT": "Rezervasyon",
+		"CALENDAR.STAFF_ONLY.HINT": "Rezervasyon için personel ile gorusun",
+
+		"CALENDAR.PRICES": "Fiyatlar",
+		"CALENDAR.HINT": "Bilgi için sol menü adinin üzerine gelin. Rezervasyon yapmak için bir zaman araligina tiklayin.",
+
+		"CALENDAR.CAPACITY": "Bu alan rahatlıkla tutulabilir <b>{{capacity}}</b> kisiler.",
+
+		"RESERVATION_AGREEMENT.LABEL": "Bu kutuyu işaretleyerek şunları kabul etmiş olursunuz",
+		"RESERVATION_AGREEMENT.REQUIRED": "Kabul etmek icin bu kutuyu isaretleyin" 		
+		"RESERVATION_BUFFER": "Rezervasyon Arabellegi",
+		"ADDITIONAL_ADDRESS": "Diğer adres"
+	}
+}

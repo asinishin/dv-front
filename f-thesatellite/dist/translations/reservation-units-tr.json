@@ -1,0 +1,34 @@
+{
+	"RESERVATION_UNITS": {
+		"PAGE_TITLE": "Rezervasyon Birimleri",
+		"NEW.PAGE_TITLE": "Yeni Rezervasyon Birimi",
+		"EDIT.PAGE_TITLE": "rezervasyon Birimini Duzenle",
+
+		"LIST.EMPTY": "Rezervasyon Birimi Yok",
+    "GENERAL.HEADER": "Genel",
+
+		"UNIT": "Rezervasyon Birimi",
+		"CATEGORY": "Rezervasyon Kategorisi",
+		"WHO_CAN_RESERVE": "Rezerve Edecek Kisi?",
+		"SYNC_WITH_CALENDAR": "Takvimimi Senkronize Et?",
+		"CALENDAR_ID": "Takvim ID",
+		"CALENDAR_ID.HINT": "Bu Id Degistirmek İcin, re-enable <b>Sync With Calendar</b> above and specify ID of <b>existing calendar</b>. If you leave it empty, a <b>new calendar</b> will be created for this unit.",
+		"NAME": "Isim",
+		"DESCRIPTION": "Aciklama",
+		"AREA": "Alan ({{areaUnit}})",
+		"CAPACITY": "Kapasite",
+		"CAPACITY.HINT": "Bu alanın rahatça barındırabileceği kişi sayısı.",
+		"EXPECTED_USE_PER_MONTH": "Aylik Beklenen Kullanim",
+		"EXPECTED_USE_PER_MONTH.HINT": "Ünitenin bir ay içerisinde kullanılması beklenen saat miktarı",
+		"CONFIRM_DELETE": "Rezervasyon ünitesini silmek istediginizden emin misiniz??",
+
+    "PHOTO.HINT": "Önerilen minimum boyut: <strong>1280x640 px</strong>"
+	},
+	"NEXKEY": {
+		"LOCKS": "Sonraki Anahtar Kilitleri",
+		"LOCKS.HINT": "<b>Sonraki Anahtar Kilitleri ID ler</b> virgülle ayrılmış. Bu kilitlerin anahtarlari kullaniciya gönderilecek <b>30 min</b> prior to reservation."
+	},
+	"DOORFLOW":  {
+		"GROUP": "DoorFlow Erişim Grubu"
+	}
+}

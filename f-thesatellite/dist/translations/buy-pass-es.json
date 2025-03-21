@@ -1,0 +1,16 @@
+{
+  "BUY_PASS": {
+    "SELECT_PASS.PAGE_TITLE": "Comprar un Permiso",
+    "SELECT_PASS.HEADER": "Seleccionar un Permiso",
+    "SELECT_PASS.PASS": "Permiso",
+    "SELECT_PASS.PRICE": "Precio",
+    "SELECT_PASS.NOTE": "Asegúrese de que el sitio esté abierto para usted durante este permiso. Si compra un permiso que dura más allá del Horario Comercial del Sitio, perderá el resto de su permiso.",
+
+    "PURCHASE.PAGE_TITLE": "Confirmar y Comprar Permiso",
+
+    "COMPLETE.PAGE_TITLE": "Completo",
+    "COMPLETE.TEXT": "Gracias por tu pedido. WiFi estará abierto para usted durante el período de su compra. Su código de acceso WiFi: <b>{{accessCode}}</b>",
+    "COMPLETE.BACK_ERROR": "No se permite la vuelta. Pago completo.",
+    "COMPLETE.BTN_START": "Iniciar acceso WiFi"
+  }
+}

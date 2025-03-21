@@ -1,0 +1,11 @@
+{
+	"OWNERS_REGIONS": {
+		"PAGE_TITLE": "Sahipler ve Bolgeler",
+
+		"OWNERS.HEADER": "Sahipler",
+		"OWNERS.NAME": "Isim",
+
+		"REGIONS.HEADER": "Bolgeler",
+		"REGIONS.NAME": "Isim"
+	}
+}

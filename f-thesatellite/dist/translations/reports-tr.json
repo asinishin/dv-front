@@ -1,0 +1,58 @@
+{
+	"REPORTS": {
+		"PERIOD.HEADER": "İşlemleri Göster",
+		"PERIOD.FROM_DATE": "itibaren",
+		"PERIOD.TO_DATE": "Bugune kadar",
+
+		"OPTIONS.HEADER": "Secenekler",
+		"OPTIONS.BANK": "Banka",
+		"OPTIONS.CENTER": "Sube",
+		"OPTIONS.SIZE": "Kagit boyutu",
+		"OPTIONS.LAYOUT": "Duzen",
+		"OPTIONS.LAYOUT.PORTRAIT": "Portrait",
+		"OPTIONS.LAYOUT.LANDSCAPE": "Landscape",
+		"OPTIONS.SELECT_BY": "Suna göre sec:",
+
+		"OWNER_REGION.HEADER": "Sahipler ve Bolgeler",
+		"OWNER_REGION.OWNER": "Sahibi",
+		"OWNER_REGION.OWNER.ALL": "Tum Sahipler",
+		"OWNER_REGION.REGION": "Bolge",
+		"OWNER_REGION.REGION.ALL": "Tum Bolgeler",
+
+		"COLUMNS.HEADER": "Dahil Edilecek Sutunları Kontrol Edin",
+		"COLUMNS.ORDER_BY": "Tarafından sipariş",
+		"COLUMNS.THEN_ORDER_BY": "Daha sonra Sırala",
+		"COLUMNS.COLUMN": "Rapor Kolonu",
+		"COLUMNS.TOTALS": "Toplamlar",
+		"COLUMNS.CENTER": "Sube",
+		"COLUMNS.USER_NAME": "Isim",
+		"COLUMNS.USER_COMPANY": "Sirket",
+		"COLUMNS.ORDER_ID": "Sirala #",
+		"COLUMNS.ITEM": "Madde",
+		"COLUMNS.ITEM_CODE": "P/N",
+		"COLUMNS.QUANTITY": "Adet",
+		"COLUMNS.AMOUNT": "Toplam",
+		"COLUMNS.DISCOUNT": "Indirim",
+		"COLUMNS.TOTAL": "Toplam",
+
+		"BTN_PDF": "Raporu Indir PDF",
+		"BTN_CSV": "Raporu Indir CSV",
+		"PREVIEW.HEADER": "On Izleme",
+
+		"HEADER.FOR_PERIOD": "Donem İçin",
+		"HEADER.FROM": "Itibaren",
+		"HEADER.THROUGH": "Bastan Sona",
+		"HEADER.PAGE": "Sayfa",
+		"HEADER.REPORT_FOR": "Rapor Et",
+		"HEADER.REPORT_DATE": "Rapor Tarihi",
+
+		"BY_PERIOD": "Ile",
+		"BY_PERIOD.WEEK": "Hafta",
+		"BY_PERIOD.MONTH": "Ay",
+		"BY_PERIOD.QUARTER": "3 Aylik",
+		"BY_PERIOD.YEAR": "Yillik",
+
+		"TOTAL": "Toplam",
+		"TOTALS": "Toplamlar"
+	}
+}

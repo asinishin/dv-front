@@ -1,0 +1,31 @@
+{
+  "DEPOSIT_AND_TAX_REPORT": {
+    "REPORT_NAME": "Dépôt et rapport fiscal",
+
+    "COLUMNS": {
+      "NAME": "Nom",
+      "COMPANY": "Compagnie",
+      "ORDER_ID": "No. Commande",
+      "ITEM": "Item",
+      "ITEM_CODE": "P/N",
+      "TAXABLE_AMOUNT": "Montant imposable",
+      "NON_TAXABLE_AMOUNT": "Montant non-imposable",
+      "SUBTOTAL": "Sous-total",
+      "TAX": "Taxe",
+      "TOTAL": "Total"
+    },
+
+    "TOTAL_DAILY": "Total quotidien",
+    "TOTAL_PAYMENT_METHOD": "Payment Method Total",
+    "TOTAL_TAXABLE_AMOUNT": "Total Montant imposable",
+    "TOTAL_NON_TAXABLE_AMOUNT": "Total ontant non-imposable",
+    "TOTAL_CHARGES": "Frais",
+    "TOTAL_TAX": "Taxe",
+    "GRAND_TOTAL": "Grand Total",
+    "TOTAL_MEMBERSHIP": "Total Memberships",
+    "TOTAL_REGISTRATION": "Total Registration",
+    "TOTAL_RENTAL": "Total Heures de location",
+    "TOTAL_PRINT": "Total Print",
+    "TOTAL_SERVICES": "Total Services"
+  }
+}

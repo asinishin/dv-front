@@ -1,0 +1,83 @@
+{
+	"DASHBOARD.ADMIN": {
+		"PAGE_TITLE": "Hosgeldiniz {{userName}}!",
+
+		"NO_PERMISSION": "Merkez kontrol paneli için izniniz yok.",
+
+		"RESERVATIONS.TODAY.HEADER": "Bugunku rezervasyonlariniz <b>Rezervasyonlar Bugun</b>: <b>{{count}}</b>",
+		"RESERVATIONS.TOMORROW.HEADER": "Gelecek Rezeravsyonlarınız <b>Rezervasyonlar Yarın</b>: <b>{{count}}</b>",
+		"RESERVATIONS.EMPTY": "Rezervasyon Yok.",
+		"RESERVATIONS.NAVIGATE_TITLE": "Rezervasyonu takvimde goster",
+
+		"USERS_CHECKED_IN.HEADER": "<b>Kisiler</b> mevcut <b>checked in</b> merkezinizdeki: <b>{{count}}</b>",
+		"USERS_CHECKED_IN.EMPTY": "Calısan yok.",
+		"USERS_CHECKED_IN.NAVIGATE_TITLE": "Kullanici Profilini goster",
+		"USERS_CHECKED_IN.DEVICES": "Cihazlar",
+
+		"ACCESS_CODE.HEADER": "<b>Erisim kodu</b> gunun",
+
+		"BILLING_INFO.HEADER": "<b>Fatura</b> Bilgisi",
+		"BILLING_INFO.INCOME": "Bu Ayın Gelirleri",
+		"BILLING_INFO.INCOME.NAV_TITLE": "Gelirler raporuna git",
+		"BILLING_INFO.ACCOUNTS_RECEIVABLE.CURRENT": "Cari alacaklar",
+		"BILLING_INFO.ACCOUNTS_RECEIVABLE.TOTAL": "Toplam alacak hesaplari",
+		"BILLING_INFO.ACCOUNTS_RECEIVABLE.NAV_TITLE": "Alacak hesaplar raporuna git",
+		"BILLING_INFO.CC_EXPIRE": "Kredi karti son kullanma tarihi dolanlar",
+		"BILLING_INFO.CC_EXPIRE.NAV_TITLE": "Fatura profilini göster",
+		"BILLING_INFO.CC_EXPIRE.DEFAULT_PAYMENT_METHOD": "Mevcut <b>varsayilan odeme yontemi</b>.",
+
+		"SIGN_UPS.HEADER": "People currently <b>self-registering</b> as members: <b>{{count}}</b>",
+		"SIGN_UPS.EMPTY": "Kimse yok",
+		"SIGN_UPS.NAV_TITLE": "Kullanici profilini göster",
+		"SIGN_UPS.STAFF_HELP": "Üye kendi kendine kayıt sırasında personelden yardım istedi.",
+		"SIGN_UPS.ABANDONED": "Üye kendi kendine kayıt yaptırmayı bıraktı ve personelden yardım talep etmedi.",
+		"SIGN_UPS.BANNED": "Kendi kendine kayıt durduruldu. Çok fazla red ödeme.",
+
+		"RESERVATION_CONFLICTS.HEADER": "You have the following <b>Reservation Conflicts</b>: <b>{{count}}</b>",
+		"RESERVATION_CONFLICTS.EMPTY": "No conflicts.",
+		"RESERVATION_CONFLICTS.NAV_TITLE": "Rezervasyon takviminde goster",
+		"RESERVATION_CONFLICTS.RESET_BTN_TITLE": "Sifirla",
+
+		"USER_DASHBOARD_TITLE": "Genel Bakis {{userName}}!"
+	},
+
+	"DASHBOARD.USER": {
+		"PAGE_TITLE": "Hosgeldin {{userName}}!",
+		"NO_PERMISSION": "Kullanıcı kontrol paneli için izniniz yok.",
+
+		"UPCOMING_RESERVATIONS.HEADER": "<b>Yaklasan Rezervasyonlar</b>",
+		"UPCOMING_RESERVATIONS.DATE": "tarih",
+		"UPCOMING_RESERVATIONS.TIME": "Zaman",
+		"UPCOMING_RESERVATIONS.SPACE": "Bosluk",
+		"UPCOMING_RESERVATIONS.ACCESS_CODE": "Erisim Kodu",
+
+		"RECURRING_CHARGES.HEADER": "<b>odemeler</b> hesabinizda planlanan",
+		"RECURRING_CHARGES.QUANTITY": "Qty",
+		"RECURRING_CHARGES.NAME": "Isim",
+		"RECURRING_CHARGES.DESCRIPTION": "Aciklama",
+		"RECURRING_CHARGES.CHARGE_DATE": "Odeme tarihi",
+		"RECURRING_CHARGES.TOTAL": "Toplam",
+
+		"OUTSTANDING_CHARGES.HEADER": "<b>Bekleyen odemeler</b> hesabinizda bekleyen",
+		"OUTSTANDING_CHARGES.EMPTY": "Ucret yok.",
+		"OUTSTANDING_CHARGES.QUANTITY": "Qty",
+		"OUTSTANDING_CHARGES.NAME": "Isim",
+		"OUTSTANDING_CHARGES.DESCRIPTION": "Aciklama",
+		"OUTSTANDING_CHARGES.PRICE": "Ucret",
+		"OUTSTANDING_CHARGES.TOTAL": "Toplam",
+
+		"GENERAL_INFO.HEADER": "<b>Genel</b> Bilgi",
+		"GENERAL_INFO.CREDIT_BALANCE": "You have <b>{{amount}}</b> left in <b>{{productName}}</b> reservation credits for this month, not including your upcoming reservations.",
+		"GENERAL_INFO.PASS_BALANCE": "You have <b>{{passes}} {{productName}}</b> passes left for this period, not including your upcoming reservations.",
+
+		"GENERAL_INFO.CC_DUE_TO_EXPIRE": "Kredi kartinizin kullanım süresinin dolacagi tarih {{date}}.",
+		"GENERAL_INFO.CC_HAS_EXPIRED": "Kredi kartinizin kullanim suresi tarihi {{date}}. Lütfen yeni kredi karti ekleyin veya faturalandirma profilinizde varsayilan ödeme yöntemini değiştirin.",
+
+		"WEB_APP.HEADER": "Hint: <b>Mobile Application</b>",
+		"WEB_APP.BODY": "Bu web uygulamasini ana ekrana eklemek için: tap {{icon}} and then <b>Add to Home Screen</b>.",
+		"WEB_APP.BODY.IOS": "Bu web uygulamasini ana ekrana eklemek için: tap {{icon}} below and then <b>Add to Home Screen</b>.",
+
+		"MESSAGE_BOARD.HEADER": "Last messages from <b>Message Board</b>",
+		"MESSAGE_BOARD.MORE": "...MORE",
+		"MESSAGE_BOARD.BTN_POST": "Post to Message Board"}
+}

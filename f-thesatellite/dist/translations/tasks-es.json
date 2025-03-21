@@ -1,0 +1,22 @@
+{
+	"TASKS": {
+		"PAGE_TITLE": "Tarea",
+		"NEW.PAGE_TITLE": "Nueva Tarea",
+		"EDIT.PAGE_TITLE": "Editar Tarea",
+
+		"GENERAL.HEADER": "General",
+		"POSITION": "Posición",
+		"NAME": "Nombre de la Tarea",
+		"IS_GROUP": "¿Es Grupo?",
+		"URL": "URL de la Tarea",
+
+		"PERMISSIONS.HEADER": "Autorizaciónes",
+		"PERMISSION": "Autorización",
+		"PERMISSION.NONE": "Ninguna",
+		"PERMISSION.VIEW": "Ver",
+		"PERMISSION.EDIT": "Ver/Editar",
+
+		"BTN_HIDDEN": "Tareas Escondidas",
+		"CONFIRM_DELETE": "¿Está seguro/a de eliminar la tarea?"
+	}
+}

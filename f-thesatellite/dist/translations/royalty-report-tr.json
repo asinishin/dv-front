@@ -1,0 +1,20 @@
+{
+	"ROYALTY_REPORT": {
+		"REPORT_NAME": "Royalty Raporu",
+
+		"COLUMNS.DATE": "Fatura Tarihi",
+		"COLUMNS.ORDER_NO": "Sirala #",
+		"COLUMNS.USER_COMPANY": "Sirket",
+		"COLUMNS.PRODUCT_CODE": "P/N",
+		"COLUMNS.PRODUCT_NAME": "Urun Adi",
+		"COLUMNS.NET": "Net",
+
+		"EXEMPTIONS": "Muafiyetler",
+		"SUMMARY": "Ozet",
+
+		"TOTAL_REVENUE": "Toplam Gelirler",
+		"EXEMPT_REVENUE": "Muaf Gelir",
+		"ROYALTIES_REVENUE": "Telif Ücretlerine Uygun Gelir",
+		"TOTAL_DUE": "Toplam Vadesi Gelmis"
+	}
+}

@@ -1,0 +1,24 @@
+{
+	"RECURRING_BILLING_CHANGE_REPORT": {
+		"REPORT_NAME": "Informe del Cambio de Facturación Recurrente",
+
+		"COLUMNS.MEMBER": "Miembro",
+		"COLUMNS.MEMBER_STATUS": "Estatus del Miembro",
+		"COLUMNS.PRODUCT": "Artículo de Facturación Recurrente",
+		"COLUMNS.START_DATE": "Fecha de Inicio",
+		"COLUMNS.NOTICE_DATE": "Fecha de Notificacion",
+		"COLUMNS.TERMINATION_DATE": "Fecha de Terminación",
+		"COLUMNS.DAYS_ACTIVE": "Días Activos",
+
+		"REVENUE_AS_OF_DATE": "Ingresos Recurrentes a partir de {{date}}",
+		"TOTAL_NEW": "Total de Nueva Facturación Recurrente",
+		"TOTAL_NOTICES": "Valor Total de los Avisos Dados",
+		"TOTAL_TERMINATIONS": "Total de Facturación Recurrente Terminada",
+
+		"NEW_RB": "Nueva Facturación Recurrente",
+		"NOTICES_GIVEN": "Avisos Dados",
+		"TERMINATIONS": "Terminaciones",
+
+		"CHART.HEADER": "Tabla de Cambio de Facturación Recurrente"
+	}
+}

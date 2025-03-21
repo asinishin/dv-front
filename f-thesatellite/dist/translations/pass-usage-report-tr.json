@@ -1,0 +1,13 @@
+{
+  "PASS_USAGE_REPORT": {
+    "REPORT_NAME": "Gunluk Kullanim Raporu",
+
+    "COLUMNS.COMPANY": "Sirket",
+    "COLUMNS.NAME": "Isim",
+    "COLUMNS.PASSES_USED_COST": "Günlük Pass Ücretleri",
+    "COLUMNS.PASS_CREDIT_APPLIED_COST": "Kullanılan Günlük Geçiş Kredileri",
+    "COLUMNS.COST_BALANCE": "Bakiye Tahsil Edildi",
+
+    "TOTALS": "Toplamlar"
+  }
+}

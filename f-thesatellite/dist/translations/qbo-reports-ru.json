@@ -1,0 +1,15 @@
+{
+	"QBO_REPORTS": {
+		"MATCH_INVOICES.NAME": "Match QBO Invoices Report",
+		"MATCH_PAYMENTS.NAME": "Match QBO Payments Report",
+		"MATCH_USERS.NAME": "Match QBO Users Report",
+
+		"COLUMNS.QBO_ID": "QBO ID",
+		"COLUMNS.QBO_ORDER_ID": "QBO Order #",
+		"COLUMNS.QBO_DATE": "QBO Date",
+		"COLUMNS.QBO_AMOUNT": "QBO Amount",
+		"COLUMNS.USER_ID": "User ID",
+		"COLUMNS.QBO_USER_ID": "QBO User ID",
+		"COLUMNS.QBO_USER_NAME": "QBO Name"
+	}
+}

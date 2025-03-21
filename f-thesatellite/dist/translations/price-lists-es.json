@@ -1,0 +1,39 @@
+{
+	"PRICE_LISTS": {
+		"PAGE_TITLE": "Listas de Precios",
+		"NEW.PAGE_TITLE": "Nueva Lista de Precios",
+		"EDIT.PAGE_TITLE": "Editar Lista de Precios",
+
+		"LIST.HEADER": "Listas de Precios",
+		"LIST.PRICE_LIST": "Lista de Precios",
+		"LIST.EMPTY": "No Lista de Precios",
+		"LIST.BTN_CLONE": "Clonar",
+		"LIST.PRINT": "Imprimir?",
+		"LIST.BTN_PRINT": "Imprimir las Listas de Precios",
+
+		"NAME": "Nombre",
+		"LAST_UPDATE": "Última Actualización",
+		"VISIBLE_FOR_VISITORS": "Visible para Los Visitantes",
+		"VISIBLE_FOR_VISITORS_DURING_RESERVATION": "Visible para los Visitantes Durante la Reserva",
+		"ARCHIVED": "Archivado",
+		"ARCHIVED.HINT": "Las listas de precios archivadas no están disponibles para reservas o registro.",
+		"USE_FOR": "Utilizar esta Lista de Precios para",
+		"USE_FOR.MEMBERS": "Miembros",
+		"USE_FOR.NON_MEMBERS": "No Miembros",
+		"USE_FOR.NONE": "Ninguno",
+
+		"CLONE.HEADER": "Clonar {{priceList}}",
+		"CLONE.CENTER": "Sitio de Destino",
+		"CLONE.EDIT": "Editar después de la Clonación",
+
+		"CONFIRM_DELETE": "Está seguro/a de eliminar la lista de precios?",
+		"NO_PRODUCTS_ERROR": "No hay productos de este tipo.",
+
+		"PRODUCTS.BTN_ADD": "Agregar Producto",
+		"PRODUCTS.PRODUCT": "Producto",
+		"PRODUCTS.PRICE": "Precios",
+		"PRODUCTS.PASSES": "Los Permisos",
+		"PRODUCTS.CREDIT": "Crédit",
+		"PRODUCTS.CONFIRM_DELETE": "¿Está seguro/a de eliminar el producto?"
+	}
+}

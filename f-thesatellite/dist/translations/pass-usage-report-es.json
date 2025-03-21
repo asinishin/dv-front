@@ -1,0 +1,13 @@
+{
+  "PASS_USAGE_REPORT": {
+    "REPORT_NAME": "Informe de Uso de Permisos Diarios",
+
+    "COLUMNS.COMPANY": "Empresa",
+    "COLUMNS.NAME": "Nombre",
+    "COLUMNS.PASSES_USED_COST": "Cargos de Permisos Diarios",
+    "COLUMNS.PASS_CREDIT_APPLIED_COST": "Créditos de Permiso Diario Utilizados",
+    "COLUMNS.COST_BALANCE": "Saldo Cargado",
+
+    "TOTALS": "Totales"
+  }
+}

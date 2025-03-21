@@ -1,0 +1,27 @@
+{
+	"INCOME_BY_ITEM_REPORT": {
+		"PAGE_TITLE": "Income (Accrual) Report",
+		"REPORT_NAME": "Income (Accrual) Report",
+
+		"COLUMNS.PRODUCT_CODE": "P/N",
+		"COLUMNS.PRODUCT_NAME": "Item",
+		"COLUMNS.USER_COMPANY": "Compagnie",
+		"COLUMNS.USER_NAME": "Nom",
+		"COLUMNS.DATE": "Date",
+		"COLUMNS.QUANTITY": "Qté",
+		"COLUMNS.AMOUNT": "Montant",
+		"COLUMNS.SUBTOTAL": "sous-total",
+		"COLUMNS.TOTAL": "Total",
+
+		"TOTALS.ITEM_TYPE": "Type d'item",
+		"TOTALS.TOTAL": "Total",
+		"TOTALS.INCOME": "Revenu total",
+
+		"ORDER_BY": "Commandé par",
+		"ORDER_BY.ITEM": "Item",
+		"ORDER_BY.MEMBER": "Membre",
+		"ORDER_BY.ORDER": "Commande",
+
+		"PRODUCT_CATEGORIES_PIE_CHART.HEADER": "Totaux par catégories de produits"
+	}
+}

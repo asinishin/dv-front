@@ -1,0 +1,56 @@
+{
+  "FLOOR_PLANS": {
+    "PAGE_TITLE": "Planos de Planta",
+
+    "SELECT_A_PLAN": "Seleccionar un Plano de Planta",
+    "VIEW.PUBLIC": "Vista Pública",
+    "VIEW.COMMUNITY": "Vista de la Comunidad de Miembros",
+
+    "SETTINGS.HEADER": "Ajustes de los Planos de Planta",
+    "NAME": "Nombre",
+    "ENABLED": "Activado",
+    "PRICING_VISIBLE": "Precios Visibles",
+    "AREA_VISIBLE": "Área Visible",
+
+    "BTN_DELETE": "Eliminar Plan",
+    "CONFIRM_DELETE": "¿Está seguro/a de eliminar el plano de planta?",
+
+    "IMAGE.BTN_UPLOAD": "Cargar Imagen",
+    "IMAGE.INVALID_FORMAT": "Por favor utilice el formato de imagen .jpg o .png.",
+    "IMAGE.HINT": "Puede cargar la imagen del plano de planta en formato <b>PNG</b> o <b>JPEG</b>.<br><b>Ajustes Óptimos:</b><br>Formato: <b>PNG</b><br>Tamaño: <b>1200+ px</b><br>Relación de Aspecto: <b>variable</b><br>Fondo: <b>transparente</b> o <b>blanco</b>",
+
+    "POINT.HEADER": "Ajustes de Puntos",
+    "POINT.BTN_DELETE": "Punto de Eliminar",
+    "POINT.HINT.SELECT": "Seleccione un punto en el plano de planta para obtener más detalles.",
+    "POINT.HINT.CREATE": "Haga clic en el plano de planta para crear un nuevo punto.",
+    "POINT.HINT.DRAG": "Puntos de Arrastrar-y-Soltar.",
+
+    "POINT.STATUS": "Estatus",
+    "POINT.STATUS.AVAILABLE": "Disponible",
+    "POINT.STATUS.NOT_AVAILABLE": "No Disponible",
+    "POINT.PRICE": "Precio",
+    "POINT.AREA": "Área",
+    "POINT.AVAILABILITY_TODAY": "Disponibilidad Hoy",
+    "POINT.AVAILABILITY_TODAY.AVAILABLE": "Disponible",
+    "POINT.AVAILABILITY_TODAY.UNAVAILABLE": "No Disponible",
+    "POINT.BTN_RESERVE": "Haga Clic para Reservar",
+
+    "POINT.MEMBER": "Miembro/a",
+    "POINT.BTN_MORE": "Más",
+    "POINT.PRODUCT": "Producto",
+    "POINT.NET": "Net",
+    "POINT.DISCOUNT": "Descuento",
+    "POINT.WHO_IS_THERE": "¿Quién está ahí ahora?",
+
+    "CATEGORY": "Categoría de Reserva",
+    "CATEGORY.HINT": "Por favor seleccione la Categoría de Reserva.",
+
+    "UNIT": "Unidad de Reserva",
+    "UNIT.HINT": "Por favor seleccione la Unidad de Reserva.",
+
+    "EMBEDDING.HEADER": "La Incrustación de Plano de Planta",
+    "EMBEDDING.HINT": "Utilice el sigiuente código para insertar el plano de planta en su sitio web. Copie/pegue el código en su página HTML",
+    "EMBEDDING.ALL": "Todos los planos de planta con selección de planos",
+    "EMBEDDING.ALL.HINT": "Incruste todos los planos de planta para el sitio actual con el menú desplegable de selección de planos. O inserte solo el plano de planta actual."
+  }
+}

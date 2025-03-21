@@ -1,0 +1,30 @@
+{
+	"EMAIL_MEMBERS": {
+		"SITE.PAGE_TITLE": "{{centerName}} Uyelerine E-posta Gonder",
+		"ALL.PAGE_TITLE": "Tum uyelere e-mail gonder",
+
+		"TEST_SUCCESS": "Test e-maili basariyla gonderildi",
+		"SUCCESS": "E-mailler basariyla gonderildi",
+		"BTN_TEST": "Test emaili gonder",
+		"BTN_TEST.HINT": "Kendi e-mail adresine test e-maili gonder",
+		"BTN_SEND": "E-mailleri gonder",
+		"BTN_SEND.HINT": "Uyelere e-mail gonder",
+		"BTN_VIEW_RECIPIENTS": "E-mail listesini goruntule",
+		"BTN_SAVE_TEMPLATE": "Sablonu kaydet",
+
+		"OPTIONS.HEADER": "Secenekler",
+		"OPTIONS.MEMBERSHIP_CATEGORY": "Uyelik Kategorisi",
+		"OPTIONS.INCLUDE_NON_MEMBERS": "Uye olmayanlari dahil et",
+		"OPTIONS.ONLY_CHECKED_IN": "Yalnizca giris yapmis uyeler",
+
+		"MESSAGE.HEADER": "Mesaj",
+		"MESSAGE.SUBJECT": "Konu",
+		"MESSAGE.SITE.DEFAULT": "<p>Sayin \\{\\{member-name\\}\\},</p>\n<p><br></p>\n<p><i>Saygilarimizla,<br>\\{\\{center-name\\}\\} ekibi</i></p>",
+		"MESSAGE.ALL.DEFAULT": "<p>Sayin \\{\\{member-name\\}\\},</p>\n<p><br></p>",
+
+		"RECIPIENTS.HEADER": "Alicilar: {{count}}",
+		"RECIPIENTS.COMPANY": "Firma",
+		"RECIPIENTS.NAME": "Isim",
+		"RECIPIENTS.EMAIL": "E-mail"
+	}
+}

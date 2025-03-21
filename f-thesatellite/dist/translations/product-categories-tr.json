@@ -1,0 +1,13 @@
+{
+	"PRODUCT_CATEGORIES": {
+		"PAGE_TITLE": "Urun Kategorileri",
+
+		"HEADER": "Urun Kategorileri",
+		"HINT": "<b>Urun Kodu</b> = <b>Kategori Kodu</b> + <b>Urun Numarasi</b>. Orn.: <b>1-0502</b> = <b >1-05</b> + <b>02</b>. Urun kategorileri adlariyla birlikte <b class=\"text-nowrap\">Gelir (Tahakkuk) Raporu</b>'nda goruntulenir.",
+
+		"CODE": "Kod",
+		"NAME": "Ad",
+
+		"CONFIRM_DELETE": "Urun kategorisini silmek istediginizden emin misiniz?"
+	}
+}

@@ -1,0 +1,56 @@
+{
+  "FLOOR_PLANS": {
+    "PAGE_TITLE": "Kat Planlari",
+
+    "SELECT_A_PLAN": "Bir Kat Plani Sec",
+    "VIEW.PUBLIC": "Genel Gorunum",
+    "VIEW.COMMUNITY": "Uye Toplulugu Gorunumu",
+
+    "SETTINGS.HEADER": "Kat Plani Ayarlari",
+    "NAME": "Ad",
+    "ENABLED": "Etkin",
+    "PRICING_VISIBLE": "Fiyatlandirma Gorunur",
+    "AREA_VISIBLE": "Alan Gorunur",
+
+    "BTN_DELETE": "Plani Sil",
+    "CONFIRM_DELETE": "Kat Planini Silmek Istediginizden Emin Misiniz?",
+
+    "IMAGE.BTN_UPLOAD": "Resim Yukle",
+    "IMAGE.INVALID_FORMAT": "Lutfen .jpg veya .png resim formatini kullanin.",
+    "IMAGE.HINT": "Kat plani resmini <b>PNG</b> veya <b>JPEG</b> formatinda yukleyebilirsiniz.<br><b>Optimal Ayarlar:</b><br>Bicim : <b>PNG</b><br>Boyut: <b>1200+ piksel</b><br>En Boy Orani: <b>degisken</b><br>Arka Plan: <b>seffaf</b > veya <b>beyaz</b>",
+
+    "POINT.HEADER": "Nokta Ayarlari",
+    "POINT.BTN_DELETE": "Noktayi Sil",
+    "POINT.HINT.SELECT": "Ayrintilar icin kat planindaki noktayi secin.",
+    "POINT.HINT.CREATE": "Yeni bir nokta olusturmak icin kat planina tiklayin.",
+    "POINT.HINT.DRAG": "Surukle birak noktalar.",
+
+    "POINT.STATUS": "Durum",
+    "POINT.STATUS.AVAILABLE": "Uygun",
+    "POINT.STATUS.NOT_AVAILABLE": "Uygun degil",
+    "POINT.PRICE": "Fiyat",
+    "POINT.AREA": "Alan",
+    "POINT.AVAILABILITY_TODAY": "Bugun Uygunluk",
+    "POINT.AVAILABILITY_TODAY.AVAILABLE": "Uygun",
+    "POINT.AVAILABILITY_TODAY.UNAVAILABLE": "Uygun degil",
+    "POINT.BTN_RESERVE": "Rezerve etmek icin tiklayin",
+
+    "POINT.MEMBER": "Uye",
+    "POINT.BTN_MORE": "Daha",
+    "POINT.PRODUCT": "Urun",
+    "POINT.NET": "Net",
+    "POINT.DISCOUNT": "Indirim",
+    "POINT.WHO_IS_THERE": "Su anda orada kim var?",
+
+    "CATEGORY": "Rezervasyon Kategorisi",
+    "CATEGORY.HINT": "Lutfen Rezervasyon Kategorisini Secin.",
+
+    "UNIT": "Rezervasyon Birimi",
+    "UNIT.HINT": "Lutfen Rezervasyon Birimini Secin.",
+
+    "EMBEDDING.HEADER": "Kat Planini Yerlestir",
+    "EMBEDDING.HINT": "Kat planini web sitenize yerlestirmek icin asagidaki kodu kullanin. Kodu kopyalayip HTML sayfaniza yapistirin.",
+    "EMBEDDING.ALL": "Plan secimli tum kat planlari",
+    "EMBEDDING.ALL.HINT": "Plan secimi acilir menusuyle mevcut merkez icin tum kat planlarini yerlestirin. Veya yalnizca mevcut kat planini yerlestirin."
+  }
+}

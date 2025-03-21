@@ -1,0 +1,26 @@
+{
+	"PAYMENTS_ASSIGNMENT": {
+		"HEADER": "Asignación de Pagos",
+		"PAYMENTS": "Pagos",
+		"BTN_ASSIGN": "Asignar Pagos",
+
+		"BULK.PAGE_TITLE": "Asignación de Pagos por Volumen",
+		"BULK.HEADER": "Seleccionar los pedidos a los que le gustaría asignar pagos",
+		"BULK.BTN_ASSIGN": "Asignar Pagos",
+		"BULK.SUCCESS": "Pagos Asignados con Éxito",
+
+		"FROM": "Desde",
+		"TO": "Hasta",
+		"FILTER": "Filtrar",
+		"FILTER.ALL": "Todo",
+		"FILTER.WITHOUT_ASSIGNMENT": "Sin Asignación de Pagos",
+		"FILTER.WITH_ASSIGNMENT": "Con Asignación de Pagos",
+		"FILTER.WITH_MANUAL_ASSIGNMENT": "Con Asignación de Pagos Manual"
+	},
+
+	"DISCOUNT_ASSIGNMENT": {
+		"BTN_ASSIGN": "Asignar Descuento",
+		"INVALID_TOTAL": "Total No Asignado: <b>{{left}}</b>",
+		"HINT": "Asignar el descuento a artículos de línea específicos del pedido."
+	}
+}

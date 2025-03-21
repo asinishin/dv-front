@@ -1,0 +1,28 @@
+{
+	"AVAILABILITY_REPORT": {
+		"REPORT_NAME": "Kullanilabilirlik Raporu",
+
+		"MERGED": "Bos ve dolu olani birlestir",
+
+		"VACANT": "Bos",
+		"OCCUPIED": "Dolu",
+		"SUMMARY": "Ozet",
+
+		"COLUMNS.UNIT": "Birim",
+		"COLUMNS.CAPACITY": "Kapasite",
+		"COLUMNS.AREA": "Alan",
+		"COLUMNS.PRICE": "Fiyat",
+		"COLUMNS.DESCRIPTION": "Acıklama",
+		"COLUMNS.DISCOUNT": "Indirim",
+		"COLUMNS.NET_PRICE": "Net",
+		"COLUMNS.COMPANY": "Sirket",
+		"COLUMNS.CLIENT": "Musteri",
+		"COLUMNS.START_DATE": "Baslangic Tarihi",
+		"COLUMNS.TERMINATION_DATE": "Bitis Tarihi",
+		"COLUMNS.COUNT": "Sayı",
+		"COLUMNS.REVENUE": "Gelir",
+
+		"TOTAL_OCCUPIED": "Toplam Doluluk",
+		"TOTAL_VACANT": "Toplam Bos"
+	}
+}

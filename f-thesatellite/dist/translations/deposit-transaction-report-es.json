@@ -1,0 +1,18 @@
+{
+	"DEPOSIT_TRANSACTION_REPORT": {
+		"REPORT_NAME": "Informe de Transacciones de Depósito",
+
+		"COLUMNS.REFERENCE": "Referencia",
+		"COLUMNS.USER_NAME": "Nombre",
+		"COLUMNS.PAYOR": "Pagador",
+		"COLUMNS.COMPANY": "Empresa",
+		"COLUMNS.AMOUNT": "Cantidad",
+		"COLUMNS.SUBTOTAL": "Total Parcial",
+		"COLUMNS.TOTAL": "Total",
+		"COLUMNS.ORDER_ID": "Número de Pedido",
+
+		"TOTALS.DAILY": "Total Diario",
+		"TOTALS.SUBTOTAL": "Total Parcial",
+		"TOTALS.DEPOSITS": "Depósitos"
+	}
+}

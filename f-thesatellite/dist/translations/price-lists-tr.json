@@ -1,0 +1,39 @@
+{
+	"PRICE_LISTS": {
+		"PAGE_TITLE": "Fiyat Listeleri",
+		"NEW.PAGE_TITLE": "Yeni Fiyat Listesi",
+		"EDIT.PAGE_TITLE": "Fiyat Listesini Duzenle",
+
+		"LIST.HEADER": "Fiyat Listeleri",
+		"LIST.PRICE_LIST": "Fiyat Listesi",
+		"LIST.EMPTY": "Fiyat Listesi Yok",
+		"LIST.BTN_CLONE": "Klonla",
+		"LIST.PRINT": "Yazdir?",
+		"LIST.BTN_PRINT": "Fiyat Listelerini Yazdir",
+
+		"NAME": "Ad",
+		"LAST_UPDATE": "Son Guncelleme",
+		"VISIBLE_FOR_VISITORS": "Ziyaretciler icin gorunur",
+		"VISIBLE_FOR_VISITORS_DURING_RESERVATION": "Ziyaretciler icin rezervasyon sirasinda gorunur",
+		"ARCHIVED": "Arsivlendi",
+		"ARCHIVED.HINT": "Arsivlenmis fiyat listeleri rezervasyon veya kayit icin mevcut degildir.",
+		"USE_FOR": "Bu Fiyat Listesini Sunun Icin Kullan",
+		"USE_FOR.MEMBERS": "Uyeler",
+		"USE_FOR.NON_MEMBERS": "Uye Olmayanlar",
+		"USE_FOR.NONE": "Hicbiri",
+
+		"CLONE.HEADER": "Klonla {{priceList}}",
+		"CLONE.CENTER": "Hedef Merkezi",
+		"CLONE.EDIT": "Klonladiktan sonra duzenle",
+
+		"CONFIRM_DELETE": "Fiyat Listesini kaldirmak istediginizden emin misiniz?",
+		"NO_PRODUCTS_ERROR": "Bu turde urun yok.",
+
+		"PRODUCTS.BTN_ADD": "Urun ekle",
+		"PRODUCTS.PRODUCT": "Urun",
+		"PRODUCTS.PRICE": "Fiyat",
+		"PRODUCTS.PASSES": "Gecis",
+		"PRODUCTS.CREDIT": "Kredi",
+		"PRODUCTS.CONFIRM_DELETE": "Urunu kaldirmak istediginizden emin misiniz?"
+	}
+}

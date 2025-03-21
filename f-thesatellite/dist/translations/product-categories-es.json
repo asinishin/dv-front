@@ -1,0 +1,13 @@
+{
+	"PRODUCT_CATEGORIES": {
+		"PAGE_TITLE": "Categorías de Producto",
+
+		"HEADER": "Categorías de Producto",
+		"HINT": "<b>Código de Producto</b> = <b>Código de Categoría</b> + <b>Número de Producto</b>. E.g.: <b>1-0502</b> = <b>1-05</b> + <b>02</b>. Las categorías de productos con nombres se muestran en el<b class=\"text-nowrap\">Informe de Ingresos (Acumulación)</b>.",
+
+		"CODE": "Código",
+		"NAME": "Nombre",
+
+		"CONFIRM_DELETE": "¿Está seguro de eliminar la categoría de producto?"
+	}
+}

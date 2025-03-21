@@ -1,0 +1,9 @@
+{
+  "RESERVATION_USAGE_REPORT": {
+    "REPORT_NAME": "Rezervasyon Kullanim Raporu",
+
+    "COLUMNS.RESERVATION_COST": "Rezervasyon Ucretleri",
+    "COLUMNS.RES_CREDITS_APPLIED": "Kullanilan Rezervasyon Kredileri",
+    "COLUMNS.RES_COST_BALANCE": "Bakiye Tahsil Edildi"
+  }
+}

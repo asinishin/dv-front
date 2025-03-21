@@ -1,0 +1,36 @@
+{
+  "SH_CODES": {
+    "HEADER": "Códigos Cortos",
+    "HINT": "Use estos códigos cortos en la plantilla de email anterior",
+
+    "CENTER_NAME": "Nombre de Sitio",
+    "COMPANY_NAME": "Nombre de la Empresa (empresa propietaria del sitio)",
+
+    "USER_NAME": "Nombre completo del usuario",
+    "USER_FIRST_NAME": "Nombre del usuario",
+    "USER_LAST_NAME": "Apellido del usuario",
+    "MEMBER_NAME": "Nombre completo del miembro",
+    "FULL_NAME": "Nombre completo",
+    "FIRST_NAME": "Nombre",
+    "LAST_NAME": "Apellido",
+    "COMPANY": "Nombre de la Empresa",
+    "OCCUPATION": "Occupación",
+    "LOGIN": "Inicio de Sesión",
+    "PASSWORD": "Contraseña de Usuario Registrado",
+    "EMAIL": "Email",
+    "PHONE": "Número de Teléfono",
+    "LEAD_SOURCE": "¿Cómo se enteró de nosotros?",
+
+    "START_DATE": "Fecha de Inicio",
+    "RENEWAL_DATE": "Fecha de Renovación",
+    "RENEWAL_TERM": "Plazo de Renovación",
+    "PRODUCT": "Producto",
+    "PRICE": "Precio",
+    "DISCOUNT": "Descuento",
+    "NET": "Red",
+    "REFUND_AMOUNT": "Cantidad del Reembolso",
+    "ORDER_NO": "Número de Pedido",
+
+    "MESSAGES": "Nuevos mensajes del tablero de mensajes"
+  }
+}

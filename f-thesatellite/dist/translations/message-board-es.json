@@ -1,0 +1,14 @@
+{
+	"MESSAGE_BOARD": {
+		"PAGE_TITLE": "Tablero de Mensajes",
+
+		"POST_MESSAGE.HEADER": "Publicar en el Tablero de Mensajes",
+		"POST_MESSAGE.PLACEHOLDER": "Escriba el mensaje y presione Entrar para enviar",
+		"POST_MESSAGE.BTN_POST": "Publicar",
+
+		"EDIT_MESSAGE.HEADER": "Editando mensaje de",
+
+		"MESSAGES.HEADER": "Mensajes",
+		"MESSAGES.CONFIRM_DELETE": "¿Estás seguro/a de eliminar el mensaje?"
+	}
+}

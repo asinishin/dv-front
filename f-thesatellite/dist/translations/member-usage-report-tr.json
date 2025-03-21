@@ -1,0 +1,15 @@
+{
+	"MEMBER_USAGE_REPORT": {
+		"REPORT_NAME": "Üye Kullanim Raporu",
+
+		"COLUMNS.DATE": "Tarih",
+		"COLUMNS.USER_NAME": "Uye Adi",
+		"COLUMNS.USER_EMAIL": "Uye Email",
+		"COLUMNS.CHECK_IN": "Giris Zamani",
+		"COLUMNS.CHECK_OUT": "Cikis Zamani",
+		"COLUMNS.HOURS": "Kullanim Suresi",
+		"COLUMNS.PASSES": "Pass Kullanimlari",
+
+		"TOTALS.SUBTOTAL": "Ara Toplam"
+	}
+}

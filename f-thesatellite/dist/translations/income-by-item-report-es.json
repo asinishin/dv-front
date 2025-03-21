@@ -1,0 +1,27 @@
+{
+	"INCOME_BY_ITEM_REPORT": {
+		"PAGE_TITLE": "Informe de Ingresos (Acumulación)",
+		"REPORT_NAME": "Informe de Ingresos (Acumulación)",
+
+		"COLUMNS.PRODUCT_CODE": "P/N",
+		"COLUMNS.PRODUCT_NAME": "Artículo",
+		"COLUMNS.USER_COMPANY": "Empresa",
+		"COLUMNS.USER_NAME": "Nombre",
+		"COLUMNS.DATE": "Fecha",
+		"COLUMNS.QUANTITY": "Cant.",
+		"COLUMNS.AMOUNT": "Cantidad",
+		"COLUMNS.SUBTOTAL": "Total Parcial",
+		"COLUMNS.TOTAL": "Total",
+
+		"TOTALS.ITEM_TYPE": "Tipo de Artículo",
+		"TOTALS.TOTAL": "Total",
+		"TOTALS.INCOME": "Ingresos Totales",
+
+		"ORDER_BY": "Orden Por",
+		"ORDER_BY.ITEM": "Artículo",
+		"ORDER_BY.MEMBER": "Miembro",
+		"ORDER_BY.ORDER": "Orden",
+
+		"PRODUCT_CATEGORIES_PIE_CHART.HEADER": "Totales por Categorías de Productos"
+	}
+}

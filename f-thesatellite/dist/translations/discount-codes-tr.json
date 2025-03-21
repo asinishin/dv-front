@@ -1,0 +1,23 @@
+{
+	"DISCOUNT_CODES": {
+		"PAGE_TITLE": "Indirim Kodlari",
+		"EDIT.PAGE_TITLE": "Indirim Kodu",
+
+		"ACTIVE_CODES": "Aktif Kodlar",
+		"EXPIRED_CODES": "Suresi Bitmis Kodlar",
+		"CODE": "Kod",
+		"DESCRIPTION": "Aciklama",
+		"TYPE": "Tur",
+		"AMOUNT": "Tutar",
+		"AMOUNT.HINT": "Tutar <b>Tekrarlanan Faturalandirma</b> -> <b>Indirim Degeri</b>'ne gider",
+		"DURATION": "Ay",
+		"DURATION.HINT": "Sure <b>Tekrarlanan Faturalandirma</b> -> <b>Indirim Aylari</b>'na gider",
+		"START_DATE": "Baslangic Tarihi",
+		"START_DATE.HINT": "<b>Baslangic/Bitis Tarihi</b> indirim kodunun gecerlilik suresini tanimlar.",
+		"END_DATE": "Bitis Tarihi",
+		"APPLY_TO": "Suraya Uygula",
+		"ALL_MEMBERSHIPS": "Tum Uyelikler",
+		"SELECTED_MEMBERSHIPS": "Asagidaki Uyelikler",
+		"MEMBERSHIP": "Uyelik"
+	}
+}

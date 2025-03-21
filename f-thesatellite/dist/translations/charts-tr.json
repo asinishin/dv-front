@@ -1,0 +1,22 @@
+{
+  "CHARTS": {
+    "PERIOD": "Donem:",
+    "PERIOD.LAST_MONTH": "Gecen Ay",
+    "PERIOD.THIS_MONTH": "Bu Ay",
+    "PERIOD.LAST_QUARTER": "Son 3 Ay",
+    "PERIOD.THIS_QUARTER": "Bu 3 Ay",
+    "PERIOD.12_MONTHS": "Son 12 Ay",
+    "PERIOD.LAST_YEAR": "Gecen Yil",
+    "PERIOD.THIS_YEAR": "Bu Yil",
+    "PERIOD.ALL_TIME": "Tum Zamanlar",
+    "PERIOD.CUSTOM": "Ozel",
+    "FROM": "Itibaren:",
+    "TO": "Kadar:",
+
+    "BY_PERIOD": "ile:",
+    "BY_PERIOD.WEEK": "Hafta",
+    "BY_PERIOD.MONTH": "Ay",
+    "BY_PERIOD.QUARTER": "Ceyrek",
+    "BY_PERIOD.YEAR": "Yil"
+  }
+}

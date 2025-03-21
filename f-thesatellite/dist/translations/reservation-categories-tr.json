@@ -1,0 +1,26 @@
+{
+  "RESERVATION_CATEGORIES": {
+    "PAGE_TITLE": "Rezervasyon Kategorileri",
+    "NEW.PAGE_TITLE": "Yeni Rezervasyon Kategorisi",
+    "EDIT.PAGE_TITLE": "Rezervasyon Kategorisini Duzenle",
+
+    "LIST.HINT": "Yeniden siralamak için Surukle ve Birak",
+    "LIST.EMPTY": "Rezervasyon Kategorisi Yok",
+    "LIST.CATEGORY": "Rezervasyon Kategorisi",
+    "LIST.NOTICE": "<div>İptal Bildirimi</div><div>Uye Olmayan/ Uye (saatler)</div>",
+
+    "NAME": "Isim",
+    "DESCRIPTION": "Aciklama",
+    "NOTICE_NON_MEMBER": "Uye Olmayanlar İçin İptal Bildirimi Gereklidir",
+    "NOTICE_NON_MEMBER.HINT": "İptal Bildirimi e-postası hem uye olmayanlara hem de yoneticiye gonderilir. <b class=\"text-nowrap\">0 - no notice required</b>",
+    "NOTICE_MEMBER": "Uye Icin Iptal Bildirimi Gereklidir",
+    "NOTICE_MEMBER.HINT": "Iptal Bildirimi e-postası hem üyeye hem de yöneticiye gonderilir. <b class=\"text-nowrap\">0 - no notice required</b>",
+    "HOURS": "hours",
+    "CONFIRM_DELETE": "Rezervasyon kategorisini silmek istediginizden emin misiniz??",
+
+    "PHOTOS.HEADER": "Fotograflar",
+    "PHOTOS.HINT": "Onerilen minimum boyut: <strong>1280x640 px</strong>",
+    "PHOTOS.INVALID_FORMAT": "Lutfen Bu Formati Kullanin .jpg or .png image format.",
+    "PHOTOS.CONFIRM_DELETE": "Fotografı Silmek Istediginizden Emin misiniz??"
+  }
+}

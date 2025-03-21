@@ -1,0 +1,37 @@
+{
+	"USAGE_TRACKING": {
+		"PAGE_TITLE": "Uso para {{userName}}",
+
+		"DATE": "Fecha",
+		"USAGE_AMOUNT": "Cantidad de Uso",
+		"CREDITS_APPLIED": "Créditos Aplicados",
+		"REFILL": "Rellenar",
+		"IS_BILLED": "Es Facturado",
+
+		"FACILITY": "Sitio",
+		"FACILITY.ALL": "Para Todos",
+		"PRODUCT": "Producto",
+		"SOURCE": "Fuente",
+		"SOURCE.RESERVATION": "Reserva",
+		"SOURCE.NETWORK": "Red",
+		"SOURCE.MANUAL": "Manual",
+		"FROM": "Desde",
+		"TO": "A",
+		"HOURS": "Horas",
+		"PASSES": "Permisos",
+		"PRICE": "Precio",
+		"AMOUNT": "Cantidad",
+		"BTN_COLLAPSE.HINT": "Ver Registro de Uso",
+
+		"OPENING_BALANCE": "Saldo de Crédito de Apertura",
+		"REFILLS": "Baldes Rellenados",
+		"USAGE_LOG": "Registro de Uso",
+		"USAGE_TOTALS": "Totales de Uso",
+		"USAGE_TO_CHARGE": "Uso para Cargar",
+		"CLOSING_BALANCE": "Saldo Final de Crédito",
+
+		"CREDIT_TYPE.RESERVATION": "Crédito de Reserva",
+		"CREDIT_TYPE.PASS": "Crédito de Permiso",
+		"CREDIT_TYPE.BUCKET": "Crédito de Balde"
+	}
+}

@@ -1,0 +1,11 @@
+{
+	"OWNERS_REGIONS": {
+		"PAGE_TITLE": "Propietarios y Regiones",
+
+		"OWNERS.HEADER": "Propietarios",
+		"OWNERS.NAME": "Nombre",
+
+		"REGIONS.HEADER": "Regiones",
+		"REGIONS.NAME": "Nombre"
+	}
+}

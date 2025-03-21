@@ -1,0 +1,15 @@
+{
+	"REVENUE_FORECAST_REPORT": {
+		"REPORT_NAME": "Gelir Tahmin Raporu",
+		"BAR_CHART.HEADER": "Gelir Tahmin Tablosu ",
+		"PERIOD": "Donem",
+
+		"COLUMNS.COMPANY": "Sirket",
+		"COLUMNS.NAME": "Isim",
+		"COLUMNS.CURRENT_MONTH": "Mevcut\nAy",
+
+		"COMMITTED_REVENUE": "Taahhüt Edilen Gelir",
+		"AT_RISK_REVENUE": "Risk Altinda Gelir",
+		"PERCENT_OF_CURRENT_MONTH": "% Mevcut Ay"
+	}
+}

@@ -1,0 +1,20 @@
+{
+	"SIGN_IN": {
+		"PAGE_TITLE": "Oturum ac",
+		"REMEMBER_ME": "Beni Hatirla",
+		"FORGOT_PASSWORD": "Sifremi unuttum?",
+		"BTN_SIGN_IN": "Oturum Ac",
+		"HINT": "Lutfen giris bilgilerinizi girin",
+		"INVALID_LOGIN_PASSWORD": "Gecersiz giris/sifre.",
+		"SIGNING_IN": "Oturum aciliyor...",
+		"SUCCESS": "Basarili!",
+		"NO_ACCOUNT_YET": "Henuz hesap acmadiniz?&nbsp;&nbsp;",
+		"BTN_SIGN_UP": "Kaydol",
+
+		"RESTORE_PASSWORD.PAGE_TITLE": "Sifreyi geri yukle",
+		"RESTORE_PASSWORD.HINT": "Lutfen e-mail adresinizi girin",
+		"RESTORE_PASSWORD.BTN_SEND": "Sifre yolla",
+		"RESTORE_PASSWORD.SENDING": "Gonderiliyor...",
+		"RESTORE_PASSWORD.SUCCESS": "Sifreniz e-mail adresinize gonderildi."
+	}
+}

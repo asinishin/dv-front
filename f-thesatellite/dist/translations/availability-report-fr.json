@@ -1,0 +1,28 @@
+{
+	"AVAILABILITY_REPORT": {
+		"REPORT_NAME": "Rapport de disponibilité",
+
+		"MERGED": "Fusionner vacant et occupé",
+
+		"VACANT": "Vacant",
+		"OCCUPIED": "Occupé",
+		"SUMMARY": "Sommaire",
+
+		"COLUMNS.UNIT": "Unité",
+		"COLUMNS.CAPACITY": "Capacité",
+		"COLUMNS.AREA": "Espace",
+		"COLUMNS.PRICE": "Prix",
+		"COLUMNS.DESCRIPTION": "Description",
+		"COLUMNS.DISCOUNT": "Rabais",
+		"COLUMNS.NET_PRICE": "Net",
+		"COLUMNS.COMPANY": "Compagnie",
+		"COLUMNS.CLIENT": "Client",
+		"COLUMNS.START_DATE": "Date de début",
+		"COLUMNS.TERMINATION_DATE": "Date de fin",
+		"COLUMNS.COUNT": "Count",
+		"COLUMNS.REVENUE": "Revenu",
+
+		"TOTAL_OCCUPIED": "Total, Occupé",
+		"TOTAL_VACANT": "Total, Vacant"
+	}
+}

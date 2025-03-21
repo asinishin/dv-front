@@ -1,0 +1,32 @@
+{
+	"RECURRING_BILLINGS_REPORT": {
+		"REPORT_NAME": "Tekrarlanan Faturalar Raporu",
+
+		"COLUMNS.COMPANY": "Sirket",
+		"COLUMNS.MEMBER": "Uye",
+		"COLUMNS.LAST_BILL_DATE": "Son Fatura Tarihi",
+		"COLUMNS.NEXT_BILL_DATE": "Gelecek Fatura Tarihi",
+		"COLUMNS.AMOUNT": "Tutar",
+		"COLUMNS.BILLING_METHOD": "Faturalama Metodu",
+		"COLUMNS.CC_EXPIRY": "CC'nin Sona Ermesi",
+		"COLUMNS.DISCOUNT": "Indirim",
+		"COLUMNS.PRODUCT": "Uyelik Ogesi",
+		"COLUMNS.DESCRIPTION": "Aciklama",
+		"COLUMNS.START_DATE": "Baslangic Tarihi",
+		"COLUMNS.NOTICE_DATE": "Bildirim Tarihi",
+		"COLUMNS.NOTICE_PERIOD": "Ihbar suresi",
+		"COLUMNS.NOTICE_REQUIRED_BY": "Bildirimin Yapilacagi Kisi",
+		"COLUMNS.TERMINATION_DATE": "İptal Tarihi",
+		"COLUMNS.RENEWAL_DATE": "Yenileme Tarihi",
+		"COLUMNS.RENEWAL_TERM": "Yenileme Donemi",
+		"COLUMNS.RENEWAL_REMINDER": "Yenileme Hatirlatma",
+		"COLUMNS.TOTAL": "Toplam",
+		"COLUMNS.USE_FOR_CHECK_IN_BILLING": "Faturada Girisi Kullan",
+
+		"TOTALS.MONTHLY": "Aylik Tekrarlanan Faturalar",
+		"TOTALS.QUARTERLY": "3 Aylik Tekrarlanan Faturalar",
+		"TOTALS.SEMI_ANNUAL": "6 Aylık Tekrarlanan Faturalar",
+		"TOTALS.ANNUAL": "Yillik Tekrarlanan Faturalar",
+		"TOTALS.AS_NEEDED": "Gerektiginde Tekrarlanan Faturalar"
+	}
+}

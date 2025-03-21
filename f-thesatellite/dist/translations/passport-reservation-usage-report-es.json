@@ -1,0 +1,15 @@
+{
+  "PASSPORT_RESERVATION_USAGE_REPORT": {
+    "REPORT_NAME": "Informe de Uso de Reserva de Pasaporte",
+    "TOTALS_BY_RESERVATION_UNIT": "Totales por Unidad de Reserva",
+
+    "COLUMNS": {
+      "COMPANY": "Empresa",
+      "USER": "Usuario",
+      "RESERVATION_UNIT": "Unidad de Reserva",
+      "HOURS": "Horas",
+      "START_TIME": "Hora de Inicio",
+      "END_TIME": "Hora de Finalización"
+    }
+  }
+}

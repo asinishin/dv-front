@@ -1,0 +1,17 @@
+{
+	"SECURITY_DEPOSIT_REPORT": {
+		"REPORT_NAME": "Depozito Raporu",
+
+		"COLUMNS.USER_NAME": "Isim",
+		"COLUMNS.COMPANY": "Sirket",
+		"COLUMNS.NOTES": "Note",
+		"COLUMNS.DATE": "Tarih",
+		"COLUMNS.AMOUNT": "Tutar",
+		"COLUMNS.BALANCE": "Balance",
+		"COLUMNS.ORDER_ID": "Sirala #",
+
+		"TOTALS.TOTAL": "Toplam",
+
+		"SHOW_DETAILS": "Detaylari Goster"
+	}
+}

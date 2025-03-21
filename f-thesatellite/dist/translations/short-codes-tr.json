@@ -1,0 +1,36 @@
+{
+  "SH_CODES": {
+    "HEADER": "Kisa Kodlar",
+    "HINT": "Yukaridaki e-mail sablonunda bu kisa kodlari kullanin",
+
+    "CENTER_NAME": "Sube Adi",
+    "COMPANY_NAME": "Firma Adi (Sube Sahibi Firma)",
+
+    "USER_NAME": "Kullanici Tam Adi",
+    "USER_FIRST_NAME": "Kullanici Adi",
+    "USER_LAST_NAME": "Kullanici Soyadi",
+    "MEMBER_NAME": "Uye Tam Adi",
+    "FULL_NAME": "Tam Ad",
+    "FIRST_NAME": "Ad",
+    "LAST_NAME": "Soyad",
+    "COMPANY": "Firma Adi",
+    "OCCUPATION": "Meslek",
+    "LOGIN": "Giris",
+    "PASSWORD": "Kayitli Kullanicinin Sifresi",
+    "EMAIL": "E-mail adresi",
+    "PHONE": "Telefon Numarasi",
+    "LEAD_SOURCE": "Bizi Nereden Duydunuz?",
+
+    "START_DATE": "Baslangic Tarihi",
+    "RENEWAL_DATE": "Yenileme Tarihi",
+    "RENEWAL_TERM": "Yenileme Suresi",
+    "PRODUCT": "Urun",
+    "PRICE": "Fiyat",
+    "DISCOUNT": "Indirim",
+    "NET": "Net",
+    "REFUND_AMOUNT": "Geri Odeme Tutari",
+    "ORDER_NO": "Siparis No.",
+
+    "MESSAGES": "Mesaj Panosundan Yeni Mesajlar"
+  }
+}

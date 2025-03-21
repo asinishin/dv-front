@@ -1,0 +1,18 @@
+{
+	"ACCOUNTING_PERIODS": {
+		"PAGE_TITLE": "Périodes comptables",
+
+		"CLOSE_PERIODS.HEADER": "PÉRIODES DE FERMETURE",
+		"PERIOD": "Période",
+		"CLOSED": "Fermé",
+		"CLOSED_AT": "Fermé Le",
+		"CLOSED_BY": "Fermé Par",
+
+		"AUDIT.HEADER": "Périodes D'Audit",
+		"AUDIT.DATE": "Date",
+		"AUDIT.BY": "Par",
+		"AUDIT.DESCRIPTION": "Description",
+		"AUDIT.REOPENED": "{{period}} réouvert",
+		"AUDIT.CLOSED": "{{period}} fermé"
+	}
+}

@@ -1,0 +1,26 @@
+{
+  "RESERVATION_CATEGORIES": {
+    "PAGE_TITLE": "Categorías de Reserva",
+    "NEW.PAGE_TITLE": "Nueva Categoría de Reserva",
+    "EDIT.PAGE_TITLE": "Editar Categoría de Reserva",
+
+    "LIST.HINT": "Arrastrar-y-Soltar para Reordenar",
+    "LIST.EMPTY": "No Categorías de Reserva",
+    "LIST.CATEGORY": "Categoría de Reserva",
+    "LIST.NOTICE": "<div>Aviso de Cancelación de</div><div>No-Miembro / Miembro (hours)</div>",
+
+    "NAME": "Nombre",
+    "DESCRIPTION": "Descripción",
+    "NOTICE_NON_MEMBER": "Aviso de Cancelación Requerido para No Miembros",
+    "NOTICE_NON_MEMBER.HINT": "El email de Notificación de Cancelación se envia tanto a los no miembros como al administrador <b class=\"text-nowrap\">0 - no se requiere notificación</b>",
+    "NOTICE_MEMBER": "Aviso de Cancelación Requerido para el Miembro",
+    "NOTICE_MEMBER.HINT": "El email de Notificación de Cancelación se envia tanto al miembro como al administrador<b class=\"text-nowrap\">0 - no se requiere notificación</b>",
+    "HOURS": "horas",
+    "CONFIRM_DELETE": "¿Está seguro/a de eliminar la categoría de reserva?",
+
+    "PHOTOS.HEADER": "Fotos",
+    "PHOTOS.HINT": "El tamaño mínimo recomendado es <strong>1280x640 px</strong>",
+    "PHOTOS.INVALID_FORMAT": "Por favor utilice el formato de .jpg o .png.",
+    "PHOTOS.CONFIRM_DELETE": "¿Está seguro de eliminar la foto?"
+  }
+}

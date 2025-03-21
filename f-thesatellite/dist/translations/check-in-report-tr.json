@@ -1,0 +1,27 @@
+{
+  "CHECK_IN_REPORT": {
+    "REPORT_NAME": "Giris Raporu",
+
+    "COLUMNS": {
+      "NAME": "isim",
+      "COMPANY": "Sirket",
+      "DATE": "Tarih",
+      "CHECK_IN": "Giris Zamani",
+      "CHECK_OUT": "Cikis Zamani",
+      "USAGE_HOURS": "Kullanim Saatleri",
+      "SUBTOTAL": "Ara Toplam",
+      "TOTAL_HOURS_TIME_RANGE": "Toplam saat/zaman araligi",
+      "TOTAL_HOURS_DAY": "Toplam saat/gun"
+    },
+
+    "ORDER_BY": "Sirala",
+    "ORDER_BY.NAME": "Isim",
+    "ORDER_BY.COMPANY": "Sirket",
+    "ORDER_BY.DATE": "Tarih",
+
+    "BAR_CHART.USAGE_PER_DAY": "Gunluk Kullanim",
+    "BAR_CHART.USAGE_BY_MEMBER": "Uyelerin Kullanimi",
+    "BAR_CHART.USAGE_BY_COMPANY": "Sirketlerin Kullanimi",
+    "BAR_CHART.PEOPLE": "insanlar"
+  }
+}

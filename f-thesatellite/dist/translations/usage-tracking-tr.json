@@ -1,0 +1,37 @@
+{
+	"USAGE_TRACKING": {
+		"PAGE_TITLE": "Kullanici {{userName}}",
+
+		"DATE": "Tarih",
+		"USAGE_AMOUNT": "Kullanim Miktari",
+		"CREDITS_APPLIED": "Krediler",
+		"REFILL": "Yeniden doldurma",
+		"IS_BILLED": "Faturalandirildi",
+
+		"FACILITY": "Sube",
+		"FACILITY.ALL": "Hepsi",
+		"PRODUCT": "Urun",
+		"SOURCE": "Kaynak",
+		"SOURCE.RESERVATION": "Rezervasyon",
+		"SOURCE.NETWORK": "Network",
+		"SOURCE.MANUAL": "Manual",
+		"FROM": "Kimden",
+		"TO": "Kime",
+		"HOURS": "Saatler",
+		"PASSES": "Passlar",
+		"PRICE": "Fiyat",
+		"AMOUNT": "Tutar",
+		"BTN_COLLAPSE.HINT": "Yeni Kullanici Logla",
+
+		"OPENING_BALANCE": "Acılıs Kredi Bakiyesi",
+		"REFILLS": "Paketler Dolduruldu",
+		"USAGE_LOG": "Kullanim Logla",
+		"USAGE_TOTALS": "Toplam Kullanimlar",
+		"USAGE_TO_CHARGE": "Sarj Edilecek Kullanım",
+		"CLOSING_BALANCE": "Kredi Bakiyesinin Kapatilmasi",
+
+		"CREDIT_TYPE.RESERVATION": "Rezervasyon Kredisi",
+		"CREDIT_TYPE.PASS": "Pass Credit",
+		"CREDIT_TYPE.BUCKET": "Bucket Credit"
+	}
+}

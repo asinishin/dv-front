@@ -1,0 +1,8 @@
+{
+	"BOOK_IT_NOW": {
+		"PAGE_TITLE": "Reserva Ahora",
+
+		"COMPLETE.PAGE_TITLE": "¡Gracias por su reserva!",
+		"COMPLETE.ACCESS_CODE": "Código de acceso WiFi para sus invitados: <b class=\"text-text\">{{accessCode}}</b>"
+	}
+}

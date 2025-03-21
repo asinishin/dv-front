@@ -1,0 +1,24 @@
+{
+	"RECURRING_BILLING_CHANGE_REPORT": {
+		"REPORT_NAME": "Tekrarlanan Fatura Degistirme Raporu",
+
+		"COLUMNS.MEMBER": "Uye",
+		"COLUMNS.MEMBER_STATUS": "Uye Statusu",
+		"COLUMNS.PRODUCT": "Tekrarlanan Fatura Ogesi",
+		"COLUMNS.START_DATE": "Baslangıc Tarihi",
+		"COLUMNS.NOTICE_DATE": "Bildirim Tarihi",
+		"COLUMNS.TERMINATION_DATE": "Bitis tarihi",
+		"COLUMNS.DAYS_ACTIVE": "Aktif Gunler",
+
+		"REVENUE_AS_OF_DATE": "Su tarihten itibaren gelirler: {{date}}",
+		"TOTAL_NEW": "Toplam Yeni Tekrarlanan Faturalar",
+		"TOTAL_NOTICES": "Verilen Uyarilarin Toplam Degeri",
+		"TOTAL_TERMINATIONS": "Toplam Sonlanan tekrarlanan Faturalar",
+
+		"NEW_RB": "Yeni Tekrarlanan Faturalar",
+		"NOTICES_GIVEN": "Verilen Bildirimler",
+		"TERMINATIONS": "Fesihler",
+
+		"CHART.HEADER": "Tekrarlanan Fatura Degişiklik Tablosu"
+	}
+}

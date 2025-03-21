@@ -1,0 +1,30 @@
+{
+  "RECURRING_BILLING_CHURN_REPORT": {
+    "REPORT_NAME": "Informe de Abandono de Facturación Recurrente",
+    "AS_OF": "A partir de",
+
+    "COLUMNS": {
+      "CENTER": "Sitio",
+      "COMPANY": "Empresa",
+      "MEMBER": "Miembro",
+      "MEMBER_STATUS": "Estatus del miembro",
+      "RECURRING_BILLING_ITEM": "Artículo de Facturación Recurrente",
+      "BILLING_METHOD": "Método de Facturación",
+      "AMOUNT": "Cantidad",
+      "DISCOUNT": "Descuento",
+      "TOTAL": "Total",
+      "START_DATE": "La Fecha de Inicio",
+      "TERMINATION_DATE": "La Fecha de Terminación",
+      "DAYS_ACTIVE": "Días Activos",
+      "LEAD_SOURCE": "Fuente de Prospecto"
+    },
+
+    "TOTALS": {
+      "MONTHLY_RECURRING_BILLINGS": "Facturación Recurrente Mensual",
+      "QUARTERLY_RECURRING_BILLINGS": "Facturación Recurrente Trimestral",
+      "SEMIANNUAL_RECURRING_BILLINGS": "Facturación Recurrente Semestral",
+      "ANNUAL_RECURRING_BILLINGS": "Facturación Recurrente Anual",
+      "AS_NEEDED_RECURRING_BILLINGS": "Facturación Recurrente Según Sea Necesaria"
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "DEPOSIT_AND_TAX_REPORT": {
+    "REPORT_NAME": "Informe de Depósito e Impuestos",
+
+    "COLUMNS": {
+      "NAME": "Nombre",
+      "COMPANY": "Empresa",
+      "ORDER_ID": "Número de Pedido",
+      "ITEM": "Artículo",
+      "ITEM_CODE": "P/N",
+      "TAXABLE_AMOUNT": "Cantidad Imponible",
+      "NON_TAXABLE_AMOUNT": "Cantidad No Imponible",
+      "SUBTOTAL": "Total Parcial",
+      "TAX": "Impuesto",
+      "TOTAL": "Total"
+    },
+
+    "TOTAL_DAILY": "Total Diario",
+    "TOTAL_PAYMENT_METHOD": "Método de Pago Total",
+    "TOTAL_TAXABLE_AMOUNT": "Cantidad Total Imponible",
+    "TOTAL_NON_TAXABLE_AMOUNT": "Cantidad Total No Imponible",
+    "TOTAL_CHARGES": "Cargos",
+    "TOTAL_TAX": "Impuesto",
+    "GRAND_TOTAL": "Gran Total",
+    "TOTAL_MEMBERSHIP": "Membresías Totales",
+    "TOTAL_REGISTRATION": "Registro Total",
+    "TOTAL_RENTAL": "Horas Totales de Alquiler",
+    "TOTAL_PRINT": "Impresión Total",
+    "TOTAL_SERVICES": "Servicios Totales"
+  }
+}

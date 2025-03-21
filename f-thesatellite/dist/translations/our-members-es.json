@@ -1,0 +1,16 @@
+{
+	"OUR_MEMBERS": {
+		"PAGE_TITLE": "Conocer a Nuestros Miembros",
+
+		"EMPTY": "Nadie.",
+
+		"CENTER": "Sitio",
+		"SORT": "Ordenar Por",
+		"SORT.NAME": "Nombre",
+		"SORT.OCCUPATION": "Ocupación",
+		"SEARCH": "Buscar",
+
+		"EMBEDDING.HEADER": "La Incrustación de Nuestros Miembros",
+		"EMBEDDING.HINT": "Utilizar el siguiente código para insertar el widget en su sitio web. Copiar/pegar el código en su página HTML."
+	}
+}

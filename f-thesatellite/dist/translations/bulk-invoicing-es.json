@@ -1,0 +1,18 @@
+{
+  "BULK_INVOICING": {
+    "PAGE_TITLE": "Facturación por Volumen",
+    "HEADER": "Seleccione las facturas que le gustaría enviar",
+
+    "COMPANY": "La Empresa",
+    "USER": "Usuario/a",
+    "ORDER_ID": "ID de Pedido",
+    "DATE": "La Fecha",
+    "COMMENTS": "Comentarios",
+    "BALANCE": "Saldo",
+
+    "BTN_SEND": "Enviar Emails",
+
+    "NOTHING_SELECTED": "Por favor seleccione al menos una factura.",
+    "SUCCESS": "Emails enviados con éxito."
+  }
+}

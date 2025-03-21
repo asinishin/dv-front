@@ -1,0 +1,26 @@
+{
+	"PAYMENTS_ASSIGNMENT": {
+		"HEADER": "Affectation de paiements",
+		"PAYMENTS": "Paiements",
+		"BTN_ASSIGN": "Assigner des paiements",
+
+		"BULK.PAGE_TITLE": "Affectation des paiements",
+		"BULK.HEADER": "Sélectionnez les paiements à assigner",
+		"BULK.BTN_ASSIGN": "Assigner paiements",
+		"BULK.SUCCESS": "Paiements assignés avec succès",
+
+		"FROM": "De",
+		"TO": "À",
+		"FILTER": "Filtre",
+		"FILTER.ALL": "Tous",
+		"FILTER.WITHOUT_ASSIGNMENT": "Sans paiement assigné",
+		"FILTER.WITH_ASSIGNMENT": "Avec paiement assigné",
+		"FILTER.WITH_MANUAL_ASSIGNMENT": "Avec assignation manuelle de paiement"
+	},
+
+	"DISCOUNT_ASSIGNMENT": {
+		"BTN_ASSIGN": "Assigner rabais",
+		"INVALID_TOTAL": "Total unassigned: <b>{{left}}</b>",
+		"HINT": "Assigner un rabais à des items spécifiques."
+	}
+}

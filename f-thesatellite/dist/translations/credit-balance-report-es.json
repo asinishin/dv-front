@@ -1,0 +1,13 @@
+{
+	"CREDIT_BALANCE_REPORT": {
+		"REPORT_NAME": "Informe de Saldo de Crédito",
+
+		"COLUMNS.CENTER": "Sitio",
+		"COLUMNS.USER_NAME": "Miembro",
+		"COLUMNS.DATE": "Fecha",
+		"COLUMNS.ORDER_ID": "Número de Pedido",
+		"COLUMNS.BALANCE": "Saldo",
+
+		"TOTALS.CREDIT": "Crédito Total"
+	}
+}

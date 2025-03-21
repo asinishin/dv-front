@@ -1,0 +1,20 @@
+{
+  "MEMBERSHIP_REPORT": {
+    "REPORT_NAME": "Informe de Membresía",
+    "MEMBERSHIP.HEADER": "Seleccionar Membresía",
+
+    "COLUMNS.COMPANY": "Empresa",
+    "COLUMNS.NAME": "Nombre",
+    "COLUMNS.ADDRESS": "Dirección",
+    "COLUMNS.COMMENTS": "Comentarios",
+    "COLUMNS.EMAIL": "Email",
+    "COLUMNS.PHONE": "Télefono",
+    "COLUMNS.FACILITY": "Sitio",
+    "COLUMNS.JOIN_DATE": "Fecha de Registro Como Miembro",
+    "COLUMNS.OCCUPATION": "Ocupación",
+    "COLUMNS.PRICE_LIST": "Lista de Precios",
+    "COLUMNS.STATUS": "Estatus",
+    "COLUMNS.PRINTER_CODES": "Código d Impresora",
+    "COLUMNS.LEAD_SOURCE": "Fuente de Prospecto"
+  }
+}

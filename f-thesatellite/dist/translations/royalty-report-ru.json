@@ -1,0 +1,20 @@
+{
+	"ROYALTY_REPORT": {
+		"REPORT_NAME": "Royalty Report",
+
+		"COLUMNS.DATE": "Invoice Date",
+		"COLUMNS.ORDER_NO": "Order #",
+		"COLUMNS.USER_COMPANY": "Company",
+		"COLUMNS.PRODUCT_CODE": "P/N",
+		"COLUMNS.PRODUCT_NAME": "Product Name",
+		"COLUMNS.NET": "Net",
+
+		"EXEMPTIONS": "Exemptions",
+		"SUMMARY": "Summary",
+
+		"TOTAL_REVENUE": "Total Revenue",
+		"EXEMPT_REVENUE": "Exempt Revenue",
+		"ROYALTIES_REVENUE": "Revenue Eligible for Royalties",
+		"TOTAL_DUE": "Total Due"
+	}
+}

@@ -1,0 +1,39 @@
+{
+	"USER_SEARCH": {
+		"PAGE_TITLE": "Kullanıcı Arama",
+
+		"FILTERS.ALL": "<hepsi",
+		"FILTERS.ACTIVE_MEMBERS": "Aktif uyeler",
+		"FILTERS.INACTIVE_MEMBERS": "Inaktif Uyeler",
+		"FILTERS.ACTIVE_CO_MEMBERS": "Aktif Kullanici Uyeler",
+		"FILTERS.INACTIVE_CO_MEMBERS": "Inaktif Kullanici Uyeler",
+		"FILTERS.NON_MEMBERS": "Uye Olmayanlar",
+		"FILTERS.CHECKED_IN": "Yalnızca Giriş Yap",
+
+		"COLUMNS.FIRST_NAME": "İsim",
+		"COLUMNS.LAST_NAME": "Soyad",
+		"COLUMNS.COMPANY": "Sirket",
+		"COLUMNS.EMAIL": "E-mail",
+		"COLUMNS.LOGIN": "Giris",
+		"COLUMNS.PHONE": "Telefon",
+		"COLUMNS.ACCESS_CODE": "Giris Kodu",
+		"COLUMNS.PRINTER_CODE": "Printer Kodu",
+		"COLUMNS.MAILBOX_NUMBER": "Posta Kutusu #",
+		"COLUMNS.MAILBOX_NAME": "Posta Kutusu Adi",
+		"COLUMNS.OCCUPATION": "Meslek",
+		"COLUMNS.JOIN_DATE": "Katilim Tarihi",
+		"COLUMNS.PAYOR": "Ödeme yapan",
+		"COLUMNS.PAYOR.HINT": "Kredi kartlarının son 4 hanesi veya banka hesaplarının son 4 hanesi.",
+		"COLUMNS.MAC_ADDRESS": "MAC Adresi",
+
+		"ACTIVATED_AT": "Etkinlestirme Tarihi",
+		"ADVANCED_SEARCH": "Gelismis Arama",
+		"SHOW": "Goster",
+		"SHOW.HINT": "Sonuclarda sutunu goster",
+		"BTN_SEARCH": "Arama",
+		"BTN_SELECT.HINT": "Kullanici Sec",
+		"RESULTS.HEADER": "Arama Sonuclari: {{count}}",
+		"PREV_RESULTS.HEADER": "Onceki Arama Sonuclari: {{count}}",
+		"MASTER_USER.HINT": "Bu uye <b>{{company}}</b> sirket yoneticisi."
+	}
+}

@@ -1,0 +1,20 @@
+{
+	"MEMBER_STATEMENT": {
+		"PAGE_TITLE": "Estado de Cuenta para {{userName}}",
+		"REPORT_NAME": "Estado de Cuenta",
+		"PREVIEW.HEADER": "Vista Previa del Estado de Cuenta",
+		"BTN_PDF": "Descargar Estado de Cuenta en PDF",
+
+		"COLUMNS.DATE": "Fecha",
+		"COLUMNS.ITEM": "Artículo",
+		"COLUMNS.UNIT_PRICE": "Precio de la Unidad",
+		"COLUMNS.QUANTITY": "Cant.",
+		"COLUMNS.AMOUNT_BILLED": "Cant. Facturada",
+		"COLUMNS.AMOUNT_PAID": "Amt. Pagada",
+		"COLUMNS.BALANCE": "Saldo",
+
+		"BALANCE_FORWARD": "Saldo Delantero",
+		"TOTALS": "Totales",
+		"SECURITY_DEPOSITS": "Transacciones de Depósito de Seguridad"
+	}
+}

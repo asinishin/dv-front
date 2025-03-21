@@ -1,0 +1,14 @@
+{
+	"MESSAGE_BOARD": {
+		"PAGE_TITLE": "Mesaj Panosu",
+
+		"POST_MESSAGE.HEADER": "Mesaj Panosuna gonder",
+		"POST_MESSAGE.PLACEHOLDER": "Mesaji yazin ve gondermek icin Enter'a basin",
+		"POST_MESSAGE.BTN_POST": "Gonder",
+
+		"EDIT_MESSAGE.HEADER": "Su kisinin mesaji duzenleniyor",
+
+		"MESSAGES.HEADER": "Mesajlar",
+		"MESSAGES.CONFIRM_DELETE": "Mesaji silmek istediginizden emin misiniz?"
+	}
+}

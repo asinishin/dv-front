@@ -1,0 +1,58 @@
+{
+	"INVOICE": {
+		"PAGE_TITLE": "Fatura olustur",
+		"PREVIEW.HEADER": "On izleme",
+		"BTN_PDF": "Fatura PDF'sini Indir",
+
+		"INVOICE_NAME": "Fatura #{{orderId}}",
+		"TAX_INVOICE_NAME": "Vergi faturasi #{{orderId}}",
+		"HEADER.PHONE": "Telefon",
+		"HEADER.TAX_ID": "ABN",
+		"HEADER.BILL_TO": "Fatura alicisi",
+		"HEADER.DATE": "Tarih",
+		"HEADER.DUE_DATE": "Son Tarih",
+
+		"COLUMNS.DATE": "Tarih",
+		"COLUMNS.DATE_ADDED": "Eklenme Tarihi",
+		"COLUMNS.ITEM": "Oge",
+		"COLUMNS.DESCRIPTION": "Aciklama",
+		"COLUMNS.RATE": "Oran",
+		"COLUMNS.PRICE": "Fiyat",
+		"COLUMNS.QTY": "Miktar",
+		"COLUMNS.QUANTITY": "Miktar",
+		"COLUMNS.AMOUNT": "Tutar",
+
+		"RECURRING": "Yinelenen Ogeler",
+		"RENTAL": "Rezervasyonlar & Kartlar",
+		"DEPOSITS": "Depozitolar",
+		"OTHER_CHARGES": "Diger Ucretler",
+		"PAYMENTS": "Odemeler",
+		"REFUNDS": "Iadeler",
+		"SUBTOTAL": "AltToplam",
+		"CHARGES": "Charges",
+		"BALANCE": "Bakiye",
+		"TOTAL": "Toplam",
+
+		"ADDRESS.HEADER": "Fatura Adresi",
+		"ADDRESS.BTN_SELECT": "Sec",
+		"ADDRESS.BTN_SELECT.HINT": "Bu adresi sec",
+		"ADDRESS.BTN_SELECTED": "Secili",
+		"ADDRESS.BTN_SELECTED.HINT": "Bu adres su anda secili",
+
+		"DATES.HEADER": "Fatura Tarihleri",
+		"DATES.END_DATE": "Bitis Tarihi",
+		"DATES.DUE_DATE": "Son Tarih",
+		"DATES.ADD_DATE_TO_ALL_ITEMS": "Tum ogelere tarih eklensin mi?",
+
+		"ITEMS.HEADER": "Ogeler",
+		"ITEMS.DATE": "Tarih",
+		"ITEMS.NAME": "Ad",
+		"ITEMS.AMOUNT": "Tutar",
+
+		"PAYMENTS.HEADER": "Odemeler",
+		"PAYMENTS.DATE": "Tarih",
+		"PAYMENTS.AMOUNT": "Tutar",
+
+		"ALTERNATE.FOOTER": "e uye oldugunuz icin tesekkur ederiz {{company}}"
+	}
+}

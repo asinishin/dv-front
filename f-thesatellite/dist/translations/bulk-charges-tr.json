@@ -1,0 +1,18 @@
+{
+	"BULK_CHARGES": {
+		"PAGE_TITLE": "Bulk Credit Card Charges",
+		"HEADER": "Kredi kartindan tahsil edilecek siparisleri secin",
+
+		"COMPANY": "Firma",
+		"USER": "Kullanici",
+		"ORDER_ID": "Siparis NO",
+		"DATE": "Tarih",
+		"COMMENTS": "Aciklama",
+		"TOTAL": "Toplam",
+
+		"BTN_CHARGE": "Kredi kartindan tahsil et",
+
+		"NOTHING_SELECTED": "Lutfen en az bir siparis secin.",
+		"SUCCESS": "Karttan basariyla tahsil edildi."
+	}
+}

@@ -1,0 +1,18 @@
+{
+	"ACCOUNTING_PERIODS": {
+		"PAGE_TITLE": "Muhasebe Donemi",
+
+		"CLOSE_PERIODS.HEADER": "Donemleri kapat",
+		"PERIOD": "Donem",
+		"CLOSED": "Kapatildi",
+		"CLOSED_AT": "Kapatildi",
+		"CLOSED_BY": "Tarafindan kapatildi",
+
+		"AUDIT.HEADER": "Donem denetimi",
+		"AUDIT.DATE": "Tarih",
+		"AUDIT.BY": "Tarafindan denetlendi",
+		"AUDIT.DESCRIPTION": "Tanim",
+		"AUDIT.REOPENED": "{{period}} tekrar acildi",
+		"AUDIT.CLOSED": "{{period}} kapatildi"
+	}
+}

@@ -1,0 +1,12 @@
+{
+	"ACCESS_CARDS": {
+		"PAGE_TITLE": "Erisim Kartlari",
+		"NEW.PAGE_TITLE": "Yeni Erisim Karti {{userName}}",
+		"EDIT.PAGE_TITLE": "Erisim Kartini Duzenle {{userName}}",
+
+		"CONFIRM_DELETE": "Erisim Kartini Silmek Istediginden Emin misin?",
+		"USER": "Kullanici",
+		"NUMBER": "Kart Numarasi",
+		"NOTES": "Notlar"
+	}
+}

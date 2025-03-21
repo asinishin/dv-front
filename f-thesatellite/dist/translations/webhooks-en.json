@@ -1,0 +1,24 @@
+{
+	"WEBHOOKS": {
+		"PAGE_TITLE": "Webhooks",
+
+		"WEBHOOK": "Webhook",
+		"URL": "URL",
+		"SUBSCRIPTIONS": "Subscriptions",
+		"ENABLED": "Enabled",
+		"EVENT": "Event",
+		"CONFIRM_DELETE": "Are you sure to delete the webhook?",
+		"CONFIRM_DELETE_SUBSCRIPTION": "Are you sure to delete the subscription?",
+
+		"EVENTS.USER": "User events",
+		"EVENTS.MEMBER": "Member events",
+		"EVENTS.RECURRING_BILLING": "RecurringBilling events",
+		"EVENTS.PRODUCT_CATEGORY": "ProductCategory events",
+		"EVENTS.PRODUCT": "Product events",
+		"EVENTS.PRICE_LIST": "PriceList events",
+		"EVENTS.PRICE_LIST_PRODUCT": "PriceListProduct events",
+		"EVENTS.RESERVATION_CATEGORY": "ReservationCategory events",
+		"EVENTS.RESERVATION_UNIT": "ReservationUnit events",
+		"EVENTS.RESERVATION": "Reservation events"
+	}
+}

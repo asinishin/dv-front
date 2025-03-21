@@ -1,0 +1,8 @@
+{
+	"SPLASH_PAGE": {
+		"PAGE_TITLE": "Página de Bienvenida para {{centerName}}",
+
+		"ENABLED": "Activado",
+		"HINT": "Esta Página de Bienvenida se muestra una vez al día para cada dispositivo en la primera entrada en la red."
+	}
+}

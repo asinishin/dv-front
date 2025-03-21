@@ -1,0 +1,18 @@
+{
+	"BULK_CHARGES": {
+		"PAGE_TITLE": "Frais de carte de crédit",
+		"HEADER": "Sélectionnez les achats pour lesquels vous souhaitez débiter des cartes",
+
+		"COMPANY": "Compagnie",
+		"USER": "Utilisateur",
+		"ORDER_ID": "No. commande",
+		"DATE": "Date",
+		"COMMENTS": "Commentaires",
+		"TOTAL": "Total",
+
+		"BTN_CHARGE": "Charger les cartes de crédit",
+
+		"NOTHING_SELECTED": "Veuillez sélectionner au moins un achat.",
+		"SUCCESS": "Cartes chargées avec succès."
+	}
+}

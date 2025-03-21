@@ -1,0 +1,13 @@
+{
+	"CREDIT_BALANCE_REPORT": {
+		"REPORT_NAME": "Rapport solde créditeur",
+
+		"COLUMNS.CENTER": "Centre",
+		"COLUMNS.USER_NAME": "Membre",
+		"COLUMNS.DATE": "Date",
+		"COLUMNS.ORDER_ID": "No. Commande",
+		"COLUMNS.BALANCE": "Solde",
+
+		"TOTALS.CREDIT": "Crédit total"
+	}
+}

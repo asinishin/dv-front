@@ -1,0 +1,31 @@
+{
+	"ADMINISTRATORS": {
+		"PAGE_TITLE": "Yoneticiler",
+		"NEW.PAGE_TITLE": "Yeni Yonetici",
+		"EDIT.PAGE_TITLE": "Yoneticileri Yonet",
+
+		"CONFIRM_DELETE": "Yoneticiyi Silmek Istediginden Emin misin?",
+
+		"PRINTER_CODE": "Printer kodu",
+		"SAME_DAY_RESERVATION_NOTICES": "Aynı Gün Rezervasyon Bildirimlerini Alin",
+		"SAME_DAY_RESERVATION_NOTICES.HINT": "Bu ayar kapaliysa yonetici ayni gün içinde rezervasyon veya iptal bildirimi almaz.",
+		"WELCOME_EMAIL_COPIES": "Hos Geldiniz E-postasinin Kopyalarini Alir",
+		"WELCOME_EMAIL_COPIES.HINT": "Yonetici, yeni bir üyeye (kendi kendine kayit yaptirmis veya yönetici tarafindan kaydedilmis) gonderildiginde Hos Geldiniz E-postasinin bir kopyasini alacaktir.",
+		"RESERVATION_CONFIRMATIONS": "Rezervasyon Onayi Kopyalarini Alir",
+		"RESERVATION_CONFIRMATIONS.HINT": "Yonetici, DW ana takvimi veya Basit Rezervasyon Takvimi araciligiyla yeni bir rezervasyon yapildiginda gonderilen Rezervasyon Onayi e-postalarinin bir kopyasini alacaktir.",
+		"REVENUE_IN_DASHBOARD": "Kontrol Panelinde Gelir/AR'i görebilir",
+		"REVENUE_IN_DASHBOARD.HINT": "To prohibit coordinators from accessing<strong>Income</strong> and <strong>Accounts Receivable</strong> reports in sidebar, change permissions for them in <a href=\"#/tasks\" ng-click=\"vm.toTasks($event)\">Tasks</a>.",
+
+		"GENERAL.HEADER": "Genel",
+		"OTHER.HEADER": "Diger",
+
+		"PERMISSIONS.HEADER": "Izinler",
+		"FACILITY": "Tesis",
+		"DEFAULT": "Varsayılan",
+		"EMAILING": "Bildirimleri Alin",
+		"PERMISSION": "İzin",
+		"PERMISSION.NONE": "Yok",
+		"PERMISSION.ALL": "Goster/Duzenle",
+		"PERMISSION.VIEW_PROFILE_AND_CALENDAR": "Yalnizca Profili ve Takvimi Goruntule"
+	}
+}

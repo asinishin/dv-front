@@ -1,0 +1,17 @@
+{
+	"RESERVATION_TABLET": {
+		"SETUP.PAGE_TITLE": "Configuración de la Tableta de Reserva",
+		"SCHEDULE.PAGE_TITLE": "Horario de Hoy para {{unit}}",
+		"COMPLETE.PAGE_TITLE": "Reserva Completa",
+
+		"RESERVATION_CATEGORY": "Categoría de Reserva",
+		"RESERVATION_UNIT": "Unidad de Reserva",
+
+		"START_WIZARD": "Iniciar el Asistente para Tabletas de Reserva en este dispositivo",
+		"START_WIZARD.HINT": "Esto le cerrará y comenzará el ciclo del asistente. Usted puede romper el ciclo del asistente iniciando sesión como administrador.",
+		"BTN_START": "Comenzar",
+
+		"BNT_MAKE_RESERVATION": "Hacer una Reserva",
+		"BNT_MAKE_ANOTHER_RESERVATION": "Hacer Otra Reserva"
+	}
+}

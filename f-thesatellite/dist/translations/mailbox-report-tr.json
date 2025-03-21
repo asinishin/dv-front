@@ -1,0 +1,13 @@
+{
+	"MAILBOX_REPORT": {
+		"REPORT_NAME": "Posta Kutusu Raporu",
+
+		"COLUMNS.BOX_ID": "Kutu #",
+		"COLUMNS.COMPANY": "Sirket",
+		"COLUMNS.USER_NAME": "Isim Soyad",
+		"COLUMNS.HANDLING": "Tasima",
+		"COLUMNS.KEY_ID": "Anahtar #",
+		"COLUMNS.OTHER_NAMES": "Diger Isimler",
+		"COLUMNS.NOTES": "Notlar"
+	}
+}

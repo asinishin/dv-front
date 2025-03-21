@@ -1,0 +1,22 @@
+{
+	"USER_RESERVATIONS": {
+		"PAGE_TITLE": "Rezervasyon sahibi {{userName}}",
+
+		"FILTER": "Filtre",
+		"FILTER.ALL": "Hepsi",
+		"FILTER.UPCOMING": "Yakında",
+		"FILTER.PAST": "Geçmiş",
+
+		"RESERVATIONS": "Rezervasyonlar",
+		"DATE": "Tarih",
+		"SPACE": "Alan",
+		"TIME": "Saat",
+		"NOTES": "Notlar",
+		"ACCESS_CODE": "Erişim Kodu",
+		"ADDED_BY": "Ekleyen",
+		"UPDATED_ON": "Tarihinde Güncellendi",
+
+		"BTN_NEW": "Yeni Rezervasyon",
+		"CONFIRM_DELETE": "Rezervasyonu iptal etmek istediginden eminmisin?"
+	}
+}

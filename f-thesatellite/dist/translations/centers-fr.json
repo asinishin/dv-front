@@ -1,0 +1,48 @@
+{
+	"CENTERS": {
+		"PAGE_TITLE": "Centers",
+		"NEW.PAGE_TITLE": "New Center",
+		"EDIT.PAGE_TITLE": "Edit Center",
+
+		"CENTER": "Center",
+		"NAME": "Name",
+		"SHORT_NAME": "Short Name",
+		"PHONE": "Phone",
+		"FAX": "Fax",
+		"EMAIL": "Email",
+		"COLOR": "Color",
+		"TIMEZONE": "Timezone",
+		"OWNER": "Owner",
+		"REGION": "Region",
+		"BANK": "Bank",
+		"TAX.ID": "Tax ID",
+		"TAX.ID.HINT": "If specified, this ID is displayed in invoices and <b>Invoice</b> is renamed to <b>Tax Invoice</b>.",
+		"TAX.INDEX": "Tax #{{index}} (%)",
+		"TAX.NAME": "Tax Name",
+		"TAX.NAME.DEFAULT": "Tax",
+		"TAX.RATE": "Tax Rate",
+		"TAX.BTN_DELETE.HINT": "Delete Tax",
+		"TAX.BTN_ADD": "Add Tax",
+		"QBO_CLASS": "QuickBooks Class",
+		"INTERNAL_USE": "Center for Internal Use",
+		"INTERNAL_USE.HINT": "Makes center available to coordinators and admins only.<br><i class=\"fa fa-exclamation-triangle text-danger\"></i> <b>Prohibits all members from accessing the center!</b>",
+		"HIDE_IN_MEMBER_SIGN_UP": "Hide center for self-registration",
+		"HIDE_IN_MEMBER_SIGN_UP.HINT": "Makes center not available for member self-registration.",
+		"DESCRIPTION": "Description",
+		"MAP": "Map",
+		"DIRECTIONS": "Directions",
+		"CONFIRM_DELETE": "Are you sure to delete the center?",
+
+		"PHOTO.HEADER": "Photo",
+		"PHOTO.HINT": "Recommended minimum size is <strong>1280x640 px</strong>",
+		"PHOTO.INVALID_FORMAT": "Please use .jpg or .png image format.",
+		"PHOTO.BTN_UPLOAD": "Upload Photo",
+
+		"FREE_ACCESS": "Free WiFi Access",
+		"FREE_ACCESS.HINT": "Allows N hours of free WiFi access once a day for each user device. Displays <b>Get Free Access</b> option on WiFi splash page.",
+		"FREE_ACCESS.DISABLED": "Disabled",
+
+		"SESSION_GRACE_PERIOD": "WiFi Grace Period",
+		"SESSION_GRACE_PERIOD.HINT": "WiFi session grace period - extra time before and after reservation."
+	}
+}

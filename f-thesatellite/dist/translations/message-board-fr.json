@@ -1,0 +1,14 @@
+{
+	"MESSAGE_BOARD": {
+		"PAGE_TITLE": "Babillard",
+
+		"POST_MESSAGE.HEADER": "Publier sur le babillard",
+		"POST_MESSAGE.PLACEHOLDER": "Tapez votre message et appuyez sur Entrée pour l'envoyer",
+		"POST_MESSAGE.BTN_POST": "Envoyer",
+
+		"EDIT_MESSAGE.HEADER": "Éditer le message de",
+
+		"MESSAGES.HEADER": "Messages",
+		"MESSAGES.CONFIRM_DELETE": "Êtes-vous sûr de vouloir supprimer le message?"
+	}
+}

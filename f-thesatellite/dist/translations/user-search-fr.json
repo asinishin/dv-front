@@ -1,0 +1,39 @@
+{
+	"USER_SEARCH": {
+		"PAGE_TITLE": "Recherche d'utilisateur",
+
+		"FILTERS.ALL": "Tous",
+		"FILTERS.ACTIVE_MEMBERS": "Membres Actifs",
+		"FILTERS.INACTIVE_MEMBERS": "Membres Inactifs",
+		"FILTERS.ACTIVE_CO_MEMBERS": "Co-Membres Actifs",
+		"FILTERS.INACTIVE_CO_MEMBERS": "Co-Membres Inactifs",
+		"FILTERS.NON_MEMBERS": "Non-Membres",
+		"FILTERS.CHECKED_IN": "Only Checked In",
+
+		"COLUMNS.FIRST_NAME": "Prénom",
+		"COLUMNS.LAST_NAME": "Nom De Famille",
+		"COLUMNS.COMPANY": "Compagnie",
+		"COLUMNS.EMAIL": "E-mail",
+		"COLUMNS.LOGIN": "Login",
+		"COLUMNS.PHONE": "Téléphone",
+		"COLUMNS.ACCESS_CODE": "Code D'Accès",
+		"COLUMNS.PRINTER_CODE": "Code d'impression",
+		"COLUMNS.MAILBOX_NUMBER": "Boîte aux lettres #",
+		"COLUMNS.MAILBOX_NAME": "Nom de la boîte aux lettres",
+		"COLUMNS.OCCUPATION": "Occupation",
+		"COLUMNS.JOIN_DATE": "Date d'adhésion",
+		"COLUMNS.PAYOR": "Payeur",
+		"COLUMNS.PAYOR.HINT": "Les 4 derniers chiffres des cartes de crédit ou les 4 derniers chiffres des comptes bancaires.",
+		"COLUMNS.MAC_ADDRESS": "MAC Address",
+
+		"ACTIVATED_AT": "Activé chez",
+		"ADVANCED_SEARCH": "Recherche Avancée",
+		"SHOW": "Afficher",
+		"SHOW.HINT": "Afficher la colonne dans les résultats",
+		"BTN_SEARCH": "Recherche",
+		"BTN_SELECT.HINT": "Sélectionner l'utilisateur",
+		"RESULTS.HEADER": "Résultats de recherche: {{count}}",
+		"PREV_RESULTS.HEADER": "Résultats de la recherche précédente: {{count}}",
+		"MASTER_USER.HINT": "Ce membre est <b>{{company}}</b> administrateur de l'entreprise."
+	}
+}

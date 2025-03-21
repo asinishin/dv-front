@@ -1,0 +1,19 @@
+{
+	"API_SETTINGS": {
+		"PAGE_TITLE": "API Settings",
+
+		"ALLOWED_HOSTS.HEADER": "Allowed Hosts",
+		"ALLOWED_HOSTS.HINT": "Hosts for <a href=\"https://en.wikipedia.org/wiki/Cross-origin_resource_sharing\" target=\"_blank\" rel=\"noopener\">CORS</a> header <b>Access-Control-Allow-Origin</b>",
+		"ALLOWED_HOSTS.URL": "URL",
+		"ALLOWED_HOSTS.ACTIVE": "Active",
+		"ALLOWED_HOSTS.EMPTY": "No allowed hosts.",
+		"ALLOWED_HOSTS.CONFIRM_DELETE": "Are you sure to delete the host?",
+
+		"ACCESS_TOKENS.HEADER": "Access Tokens",
+		"ACCESS_TOKENS.HINT": "Generated token can be used by any integration requiring token access to your site. Pass it in HTTP header: <b>Authorization:&nbsp;Bearer&nbsp;eyJhbGciOiJIUzI1</b>",
+		"ACCESS_TOKENS.TOKEN": "Token",
+		"ACCESS_TOKENS.BTN_COPY": "Copy",
+		"ACCESS_TOKENS.BTN_GENERATE": "Generate Token",
+		"ACCESS_TOKENS.CONFIRM_DELETE": "Are you sure to delete the token?"
+	}
+}

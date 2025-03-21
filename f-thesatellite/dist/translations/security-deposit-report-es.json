@@ -1,0 +1,17 @@
+{
+	"SECURITY_DEPOSIT_REPORT": {
+		"REPORT_NAME": "Informe de Depósito de Seguridad",
+
+		"COLUMNS.USER_NAME": "Nombre",
+		"COLUMNS.COMPANY": "Empresa",
+		"COLUMNS.NOTES": "Notas",
+		"COLUMNS.DATE": "Fecha",
+		"COLUMNS.AMOUNT": "Cantidad",
+		"COLUMNS.BALANCE": "Saldo",
+		"COLUMNS.ORDER_ID": "Número del Pedido",
+
+		"TOTALS.TOTAL": "Total",
+
+		"SHOW_DETAILS": "Mostrar Detalles"
+	}
+}

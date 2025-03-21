@@ -1,0 +1,13 @@
+{
+	"CREDIT_BALANCE_REPORT": {
+		"REPORT_NAME": "Kredi Bakiyesi Raporu",
+
+		"COLUMNS.CENTER": "Merkez",
+		"COLUMNS.USER_NAME": "Uye",
+		"COLUMNS.DATE": "Tarih",
+		"COLUMNS.ORDER_ID": "Sirala #",
+		"COLUMNS.BALANCE": "Bilanço",
+
+		"TOTALS.CREDIT": "Toplam Kredi"
+	}
+}

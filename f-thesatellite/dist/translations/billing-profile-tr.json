@@ -1,0 +1,44 @@
+{
+	"BILLING_PROFILE": {
+		"PAGE_TITLE": "Billing Profile for {{userName}}",
+
+		"BILLING_METHOD": "Varsayilan Odeme Yontemi",
+		"BILLING_METHOD.CC": "Kredi/Banka Karti",
+		"BILLING_METHOD.ACH": "ACH/EFT/Otomatik Odeme",
+		"BILLING_METHOD.EMAIL_INVOICE": "Faturayi E-Posta ile gonder",
+		"BILLING_METHOD.PAPER_INVOICE": "Kagit fatura",
+		"PAYMENT_METHOD": "Odeme Yontemi",
+		"PAYMENT_METHOD.EMPTY": "Odeme Yontemi yok.",
+
+		"CREDIT_CARDS.HEADER": "Kredi Karti",
+		"CREDIT_CARDS.EMPTY": "Kredi Karti yok.",
+		"CREDIT_CARDS.TYPE": "Kart Tipi",
+		"CREDIT_CARDS.NUMBER": "Kart Numarasi",
+		"CREDIT_CARDS.EXPIRY": "Son Kullanim",
+		"CREDIT_CARDS.EXPIRY.MONTH": "Son Kullanim Ay",
+		"CREDIT_CARDS.EXPIRY.YEAR": "Son Kullanim Yil",
+		"CREDIT_CARDS.CVV": "CVV",
+		"CREDIT_CARDS.NAME_ON_CARD": "Kart uzerindeki isim",
+		"CREDIT_CARDS.ADDRESS": "Karttaki adres",
+		"CREDIT_CARDS.CONFIRM_DELETE": "Kredi kartini silmek istediginizden emin misiniz?",
+		"CREDIT_CARDS.BTN_ADD": "Kredi Karti ekle",
+
+		"E_CHECKS.HEADER": "ACH/EFT",
+		"E_CHECKS.EMPTY": "ACH/EFT yok.",
+		"E_CHECKS.ACCOUNT_HOLDER_TYPE": "Hesap Sahibi Turu",
+		"E_CHECKS.ACCOUNT_HOLDER_TYPE.PERSONAL": "Kisisel",
+		"E_CHECKS.ACCOUNT_HOLDER_TYPE.BUSINESS": "Is",
+		"E_CHECKS.ACCOUNT_TYPE": "Hesap Turu",
+		"E_CHECKS.ACCOUNT_TYPE.CHECKING": "Kontrol ediliyor",
+		"E_CHECKS.ACCOUNT_TYPE.SAVINGS": "Kayitlar",
+		"E_CHECKS.BANK_NAME": "Banka Adi",
+		"E_CHECKS.ROUTING_NUMBER": "Yonlendirme Numarasi",
+		"E_CHECKS.ACCOUNT_NUMBER": "Hesap Numarasi",
+		"E_CHECKS.ACCOUNT_NAME": "Hesap Adi",
+		"E_CHECKS.CONFIRM_DELETE": "ACH/EFT'yi silmek istediginizden emin misiniz?",
+		"E_CHECKS.BTN_ADD": "ACH/EFT (Banka Bilgisi) Ekle",
+
+		"REGISTRATION.SKIP_BILLING": "Kredi kartı bilgilerini girmeden devam et",
+		"REGISTRATION.COMPLETE": "Basariyla kaydettiniz {{userName}}."
+	}
+}

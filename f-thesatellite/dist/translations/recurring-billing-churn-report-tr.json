@@ -1,0 +1,30 @@
+{
+  "RECURRING_BILLING_CHURN_REPORT": {
+    "REPORT_NAME": "Tekrarlanan Faturalandırma Kayıp Raporu",
+    "AS_OF": "Itibariyle",
+
+    "COLUMNS": {
+      "CENTER": "Sube",
+      "COMPANY": "Sirket",
+      "MEMBER": "Uye",
+      "MEMBER_STATUS": "Uye Statusu",
+      "RECURRING_BILLING_ITEM": "Tekrarlanan Faturalandirma Ogesi",
+      "BILLING_METHOD": "Faturalama Yontemi",
+      "AMOUNT": "Tutar",
+      "DISCOUNT": "Indirim",
+      "TOTAL": "Toplam",
+      "START_DATE": "Baslangic Tarihi",
+      "TERMINATION_DATE": "İptal tarihi",
+      "DAYS_ACTIVE": "Aktif Gunler",
+      "LEAD_SOURCE": "Kaynak"
+    },
+
+    "TOTALS": {
+      "MONTHLY_RECURRING_BILLINGS": "Aylık Tekrarlanan Faturalar",
+      "QUARTERLY_RECURRING_BILLINGS": "3 Aylık Tekrarlanan Faturalar",
+      "SEMIANNUAL_RECURRING_BILLINGS": "6 Aylık Tekrarlanan Faturalar",
+      "ANNUAL_RECURRING_BILLINGS": "Yillik Tekrarlanan Faturalar",
+      "AS_NEEDED_RECURRING_BILLINGS": "Gerektiginde Tekrarlanan Faturalar"
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+	"ADMINISTRATORS": {
+		"PAGE_TITLE": "Administradores",
+		"NEW.PAGE_TITLE": "Nuevo/a Administrador/a",
+		"EDIT.PAGE_TITLE": "Gestionar Administrador",
+
+		"CONFIRM_DELETE": "¿Estás seguro/a de eliminar al administrador?",
+
+		"PRINTER_CODE": "Código de Impresora",
+		"SAME_DAY_RESERVATION_NOTICES": "Recibe Avisos de Reservas para el Mismo Día",
+		"SAME_DAY_RESERVATION_NOTICES.HINT": "Si esta configuración está desactivada, el administrador no recibe avisos de reserva para el mismo día o cancelación.",
+		"WELCOME_EMAIL_COPIES": "Recibe copias de email de bienvenida",
+		"WELCOME_EMAIL_COPIES.HINT": "El administrador recibirá una copia del email de bienvenida cunado se envíe a un nuevo miembro, ya sea que se haya autorregistrado o que haya sido registrado por el administrador",
+		"RESERVATION_CONFIRMATIONS": "Recibe copias de confirmación de reserva",
+		"RESERVATION_CONFIRMATIONS.HINT": "El administrador recibirá una copia de los emailes de Confirmación de Reserva que se envíen cuando se realice una nueva reserva a través del calendario principal de DW o el Calendario de Reserva Simple",
+		"REVENUE_IN_DASHBOARD": "Puede ver Ingresos/Cuentas por Cobrar en el Tablero de Mandos",
+		"REVENUE_IN_DASHBOARD.HINT": "Para prohibir el acceso de los coordinadores los informes de <strong>Los Ingresos</strong> y <strong>Cuentas por Cobrar</strong> en la barra lateral, cambie permisos para ellos en <a href=\"#/tasks\" ng-click=\"vm.toTasks($event)\">Tasks</a>.",
+
+		"GENERAL.HEADER": "General",
+		"OTHER.HEADER": "Otro",
+
+		"PERMISSIONS.HEADER": "Permisos",
+		"FACILITY": "Centro",
+		"DEFAULT": "Predeterminado",
+		"EMAILING": "Recibir Avisos",
+		"PERMISSION": "Permiso",
+		"PERMISSION.NONE": "Ninguno",
+		"PERMISSION.ALL": "Ver/Editar",
+		"PERMISSION.VIEW_PROFILE_AND_CALENDAR": "Ver Perfil y Calendario Solamente"
+	}
+}

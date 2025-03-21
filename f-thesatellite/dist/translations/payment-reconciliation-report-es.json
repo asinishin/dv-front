@@ -1,0 +1,22 @@
+{
+  "PAYMENT_RECONCILIATION_REPORT": {
+    "REPORT_NAME": "Informe de Conciliación de los Pagos",
+
+    "TOTAL_DAILY": "Total Diario",
+    "TOTAL_PAYMENT_METHOD": "Total de Método de Pago",
+    "TOTAL_MEMBERSHIP": "Membresías Totales",
+    "TOTAL_REGISTRATION": "Registro Total",
+    "TOTAL_RENTAL": "Horas Totales de Alquilar",
+    "TOTAL_PRINT": "Impresión Total",
+    "TOTAL_SERVICES": "Servicios Totales",
+    "TOTAL_CUSTOM": "Total Personalizado",
+    "TOTAL_DISCOUNT": "Descuentos Totales",
+    "TOTAL_PAYMENT_FEES": "Cuotas de Pago Totales",
+    "TOTAL_TAXES": "Impuestos Totales",
+    "TOTAL_DEPOSITS": "Depósitos Totales",
+    "TOTAL_UNDESIGNATED": "Total No Designado",
+
+    "PRODUCT_TYPE_BREAKDOWN": "Desglose del Tipo de Producto",
+    "PRODUCT_CATEGORY_BREAKDOWN": "Desglose de la Categoría del Producto"
+  }
+}

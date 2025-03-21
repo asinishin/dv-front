@@ -1,0 +1,18 @@
+{
+	"SYSTEM_EMAILS": {
+		"PAGE_TITLE": "Emails del Sistema",
+		"NEW.PAGE_TITLE": "Nuevo Email para Todo el Sistema",
+		"EDIT.PAGE_TITLE": "Editar Email para Todo el Sistema",
+
+		"FUNCTION": "Función de Email",
+		"FUNCTION.FROM": "Desde",
+		"FUNCTION.REPLY_TO": "Responder a",
+		"FUNCTION.SIGN_UP": "Nuevo Registro",
+		"FUNCTION.LOST_ACCESS_CARD": "Tarjeta de Acceso Perdida",
+		"FUNCTION.NEW_ORDER": "Nuevo Pedido de Compra",
+		"FUNCTION.EXISTING_ORDER": "Pedido de Compra Existente",
+		"EMAIL": "Dirección de Email",
+
+		"CONFIRM_DELETE": "¿Está seguro/a de eliminar el email del sistema?"
+	}
+}

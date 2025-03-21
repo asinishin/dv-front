@@ -1,0 +1,43 @@
+{
+	"BILLING_PROFILE": {
+		"PAGE_TITLE": "Perfil de Facturación para {{userName}}",
+
+		"BILLING_METHOD": "Método de Pago Predeterminado",
+		"BILLING_METHOD.CC": "Tarjeta de Crédito/Débito",
+		"BILLING_METHOD.ACH": "ACH/EFT/Débito Directo",
+		"BILLING_METHOD.EMAIL_INVOICE": "Factura por Email",
+		"BILLING_METHOD.PAPER_INVOICE": "Factura por Papel",
+		"PAYMENT_METHOD": "Método de Pago",
+		"PAYMENT_METHOD.EMPTY": "No Método de Pago.",
+
+		"CREDIT_CARDS.HEADER": "Tarjetas de Crédito",
+		"CREDIT_CARDS.EMPTY": "No Tarjetas de Crédito.",
+		"CREDIT_CARDS.TYPE": "Tipo de Tarjeta",
+		"CREDIT_CARDS.NUMBER": "Número",
+		"CREDIT_CARDS.EXPIRY": "Vencimiento",
+		"CREDIT_CARDS.EXPIRY.MONTH": "Mes de Vencimiento",
+		"CREDIT_CARDS.EXPIRY.YEAR": "Año de Vencimiento",
+		"CREDIT_CARDS.CVV": "CVV",
+		"CREDIT_CARDS.NAME_ON_CARD": "Nombre en Tarjeta",
+		"CREDIT_CARDS.ADDRESS": "Dirección en Tarjeta",
+		"CREDIT_CARDS.CONFIRM_DELETE": "¿Está seguro/a de eliminar la tarjeta de crédito?",
+
+		"E_CHECKS.HEADER": "ACH/EFT",
+		"E_CHECKS.EMPTY": "No ACH/EFT.",
+		"E_CHECKS.ACCOUNT_HOLDER_TYPE": "Tipo de Titular de la Cuenta",
+		"E_CHECKS.ACCOUNT_HOLDER_TYPE.PERSONAL": "Personal",
+		"E_CHECKS.ACCOUNT_HOLDER_TYPE.BUSINESS": "Comerical",
+		"E_CHECKS.ACCOUNT_TYPE": "Tipo de Cuenta",
+		"E_CHECKS.ACCOUNT_TYPE.CHECKING": "Cuenta Corriente",
+		"E_CHECKS.ACCOUNT_TYPE.SAVINGS": "Cuenta de Ahorros",
+		"E_CHECKS.BANK_NAME": "Nombre del Banco",
+		"E_CHECKS.ROUTING_NUMBER": "Número de Ruta Bancaria",
+		"E_CHECKS.ACCOUNT_NUMBER": "Número de Cuenta",
+		"E_CHECKS.ACCOUNT_NAME": "Nombre de la Cuenta",
+		"E_CHECKS.CONFIRM_DELETE": "¿Está seguro/a de eliminar el ACH/EFT?",
+		"E_CHECKS.BTN_ADD": "Agregar ACH/EFT (Info del Banco)",
+
+		"REGISTRATION.SKIP_BILLING": "Continuar sin ingresar la información de la tarjeta de crédito",
+		"REGISTRATION.COMPLETE": "Usted ha registrado con éxito {{userName}}."
+	}
+}

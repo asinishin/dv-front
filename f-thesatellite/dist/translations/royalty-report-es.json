@@ -1,0 +1,20 @@
+{
+	"ROYALTY_REPORT": {
+		"REPORT_NAME": "Informe de Regalías",
+
+		"COLUMNS.DATE": "Fecha de la Factura",
+		"COLUMNS.ORDER_NO": "Número del Pedido",
+		"COLUMNS.USER_COMPANY": "Empresa",
+		"COLUMNS.PRODUCT_CODE": "P/N",
+		"COLUMNS.PRODUCT_NAME": "Nombre del Producto",
+		"COLUMNS.NET": "Neto",
+
+		"EXEMPTIONS": "Exenciones",
+		"SUMMARY": "Resumen",
+
+		"TOTAL_REVENUE": "Los Ingresos Totales"
+		"EXEMPT_REVENUE": "Ingresos Exentos",
+		"ROYALTIES_REVENUE": "Ingresos Elegibles para Regalías",
+		"TOTAL_DUE": "Total Adeudado"
+	}
+}

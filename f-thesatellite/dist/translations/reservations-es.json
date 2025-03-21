@@ -1,0 +1,92 @@
+{
+	"RESERVATIONS": {
+		"NEW.PAGE_TITLE": "Nueva Reserva para {{centerName}}",
+		"EDIT.PAGE_TITLE": "Editar Reserva para {{centerName}}",
+		"CONFIRM.PAGE_TITLE": "Confirmar Su Reserva",
+		"CANCEL.PAGE_TITLE": "Confirmar Cancelando Reserva",
+		"CALENDAR.PAGE_TITLE": "Calendario de Reservas",
+
+		"HINT": "Si sus planes cambian, por favor actualizar o cancelar su reserva con 24 horas o más de anticipación para evitar cargos.",
+
+		"ESTIMATED_COST": "Costo estimado para esta reserva",
+		"TITLE": "Título de la reserva",
+		"TITLE.SHORT": "Título",
+		"NOTES": "Notas de Reserva",
+		"EMAIL_CONFIRMATION": "Confirmación de Email",
+		"USER": "Usuario",
+		"LOCATION": "Ubicación",
+		"CATEGORY": "Categoría de Espacio",
+		"SPACE": "Espacio",
+		"DATE": "Fecha",
+		"TIME": "Hora",
+		"COST": "Costo",
+		"ACCESS_CODE": "Código de Acceso",
+		"ADDED_BY": "Agregado por",
+
+		"REPEAT_FREQUENCY": "Se Repite",
+		"REPEAT_FREQUENCY.NONE": "No Se Repite",
+		"REPEAT_FREQUENCY.DAILY": "Cada Día",
+		"REPEAT_FREQUENCY.WEEKLY": "Cada Semana",
+		"REPEAT_FREQUENCY.MONTHLY": "Todos los meses en la misma fecha",
+		"REPEAT_FREQUENCY.MONTHLY_WEEKLY": "Mensual, el mismo día de la semana",
+		"REPEAT_DURATION": "para el siguiente",
+		"REPEAT_DURATION.LABEL": "Duración de la Repetición",
+
+		"BTN_CREATE": "Hacer Reserva",
+		"BTN_UPDATE": "Actualizar Reserva",
+		"BTN_DELETE": "Cancelar Reserva",
+		"BTN_CALENDAR": "Calendario",
+
+		"STAFF_ONLY": "Por favor contactarse con el personal de {{centerName}} para obtener ayuda.<br><a href=\"tel:{{centerPhone}}\">{{centerPhone}}</a> oo <a href=\"mailto:{{centerEmail}}\">{{centerEmail}}</a>",
+
+		"TIME_SELECTOR.HINT": "Hacer clic y arrastrar para seleccionar el tiempo.",
+		"TIME_SELECTOR.FROM": "Comenzar",
+		"TIME_SELECTOR.TO": "Terminar",
+		"TIME_SELECTOR.BTN_CLEAR": "Borrar selección de tiempo",
+		"TIME_SELECTOR.SLOT.AVAILABLE": "Periodo del tiempo disponible: {{from}} - {{to}}",
+		"TIME_SELECTOR.SLOT.UNAVAILABLE": "Periodo del tiempo no disponible: {{from}} - {{to}}",
+		"TIME_SELECTOR.SLOT.RESERVED": "Periodo del tiempo reservado: {{from}} - {{to}}",
+		"TIME_SELECTOR.SLOT.SELECTED": "Periodo del tiempo seleccionado: {{from}} - {{to}}",
+
+		"DATE_SELECTOR.DAY.PREV.HINT": "Día Anterior",
+		"DATE_SELECTOR.DAY.NEXT.HINT": "Día Siguiente",
+		"DATE_SELECTOR.DAY.EXTRA": "{{month}}, {{year}}",
+		"DATE_SELECTOR.WEEK.PREV.HINT": "Semana Anterior",
+		"DATE_SELECTOR.WEEK.NEXT.HINT": "Semana Siguiente",
+		"DATE_SELECTOR.WEEK.EXTRA": "Semana de {{month}}, {{year}}",
+
+		"CALENDAR.LEGEND.RESERVED": "Reservado",
+		"CALENDAR.LEGEND.RESERVED.HINT": "Reservado por otros miembros",
+		"CALENDAR.LEGEND.OWN": "Su Reserva",
+		"CALENDAR.LEGEND.OWN.HINT": "Reservado por usted",
+		"CALENDAR.LEGEND.AVAILABLE": "Disponible",
+		"CALENDAR.LEGEND.AVAILABLE.HINT": "Disponible para reserva",
+		"CALENDAR.LEGEND.UNAVAILABLE": "No disponible",
+		"CALENDAR.ROLE.COORDINATOR": "Ver como Coordinador",
+		"CALENDAR.ROLE.MEMBER": "Ver como Miembro",
+		"CALENDAR.ROLE.NON_MEMBER": "Ver como No-Miembro",
+		"CALENDAR.FILTER.AVAILABLE": "Disponible",
+		"CALENDAR.FILTER.ALL": "Todas las Unidades",
+		"CALENDAR.MODE.DAY": "Vista del Día",
+		"CALENDAR.MODE.WEEK": "Vista de la Semana",
+		"CALENDAR.ZOOM": "Hacer Zoom",
+		"CALENDAR.ZOOM.HINT": "Escala de Calendario",
+		"CALENDAR.EMPTY": "No Hay Unidades de Reserva Disponibles",
+		"CALENDAR.NOT_AVAILABLE.HINT": "No Disponible para Reserva",
+		"CALENDAR.AVAILABLE.HINT": "Haga Clic para Reservar",
+		"CALENDAR.NO_PERMISSION.HINT": "No Autorización para Reservar",
+		"CALENDAR.RESERVED.HINT": "Reserva",
+		"CALENDAR.STAFF_ONLY.HINT": "Contactar al Personal para Reserva",
+
+		"CALENDAR.PRICES": "Precios",
+		"CALENDAR.HINT": "Pasar el cursor sobre el nombre del menú izquierdo para obtener información. Hacer clic en un periodo del tiempo para reservar.",
+
+		"CALENDAR.CAPACITY": "Este espacio puede albergar cómodamente <b>{{capacity}}</b> personas.",
+
+		"RESERVATION_AGREEMENT.LABEL": "Al marcar esta casilla, usted acepta",
+		"RESERVATION_AGREEMENT.REQUIRED": "Marcar esta casilla para aceptar",
+
+		"RESERVATION_BUFFER": "Búfer de Reserva",
+		"ADDITIONAL_ADDRESS": "Additional Address"
+	}
+}

@@ -1,0 +1,18 @@
+{
+	"BULK_CHARGES": {
+		"PAGE_TITLE": "Cargos de Tarjetas de Crédito por Volumen",
+		"HEADER": "Seleccionar las compras que desea cargar con tarjetas",
+
+		"COMPANY": "La Empresa",
+		"USER": "Usuario/a",
+		"ORDER_ID": "ID de Pedido",
+		"DATE": "La Fecha",
+		"COMMENTS": "Comentarios",
+		"TOTAL": "Total",
+
+		"BTN_CHARGE": "Cargar Tarjetas de Crédito",
+
+		"NOTHING_SELECTED": "Por favor, seleccione al menos una compra.",
+		"SUCCESS": "Tarjetas cargadas con éxito."
+	}
+}

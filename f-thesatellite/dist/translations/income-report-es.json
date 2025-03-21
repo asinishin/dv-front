@@ -1,0 +1,14 @@
+{
+	"INCOME_REPORT": {
+		"PAGE_TITLE": "Reporte de Ingresos, Efectivo",
+		"REPORT_NAME": "Reporte de Ingresos",
+
+		"COLUMNS.COMPANY": "Empresa",
+		"COLUMNS.NAME": "Nombre",
+		"COLUMNS.DATE": "Fecha de Pago",
+		"COLUMNS.METHOD": "Método",
+		"COLUMNS.AMOUNT": "Cantidad",
+
+		"TOTAL_INCOME": "Ingresos Totales"
+	}
+}

@@ -1,0 +1,15 @@
+{
+	"REVENUE_FORECAST_REPORT": {
+		"REPORT_NAME": "Informe de Pronóstico de Ingresos",
+		"BAR_CHART.HEADER": "Tabla de Pronóstico de Ingresos",
+		"PERIOD": "Período",
+
+		"COLUMNS.COMPANY": "Impresa",
+		"COLUMNS.NAME": "Nombre",
+		"COLUMNS.CURRENT_MONTH": "Actual\nMes",
+
+		"COMMITTED_REVENUE": "Ingresos Comprometidos",
+		"AT_RISK_REVENUE": "Ingresos en Riesgo",
+		"PERCENT_OF_CURRENT_MONTH": "% del Mes Actual"
+	}
+}

@@ -1,0 +1,15 @@
+{
+	"MEMBERSHIP_CATEGORIES": {
+		"PAGE_TITLE": "Categorías de Membresía",
+		"NEW.PAGE_TITLE": "Nueva Categoría de Membresía",
+		"EDIT.PAGE_TITLE": "Editar la Categoría de Membresía",
+
+		"LIST.HEADER": "Categorías de Membresía",
+		"LIST.HINT": "Arrastrar-y-Soltar para reordenar",
+		"LIST.EMPTY": "No Categorías de Membresía",
+
+		"NAME": "Nombre",
+		"DESCRIPTION": "Descripción",
+		"CONFIRM_DELETE": "¿Está seguro/a de eliminar la categoría de membresía?"
+	}
+}

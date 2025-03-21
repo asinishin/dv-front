@@ -1,0 +1,25 @@
+{
+  "TERMINATION_REQUEST": {
+    "PAGE_TITLE": "Demande de résiliation",
+
+    "NOTICE.DATE": "Je souhaite donner un préavis à compter du",
+    "NOTICE.TERMINATE": "pour mettre fin à ma facturation mensuelle:",
+    "NOTICE.REASON": "Raison",
+    "NOTICE.TERMINATE_FROM_DATE": "Je comprends que la facturation mensuelle prendra fin à compter du",
+
+    "TERMINATE_ADDITION": "En plus de mettre fin à cette facturation mensuelle, je souhaite également mettre fin à:",
+    "TERMINATE_ADDITION.MY_MEMBERSHIP": "Mon abonnement",
+    "TERMINATE_ADDITION.MY_CO_MEMBERS": "Mes co-membres",
+    "TERMINATE_ADDITION.MY_OTHER_RECURRING_CHARGES": "Toute autre facturation récurrente que j'ai",
+
+    "REQUESTS_LIST.HEADER": "Vos demandes de résiliation",
+    "REQUESTS_LIST.CREATED": "Créé",
+    "REQUESTS_LIST.RECURRING_BILLING": "Facturation récurrente",
+    "REQUESTS_LIST.NOTICE_DATE": "Date d'avis",
+    "REQUESTS_LIST.MEMBERSHIP": "Membership",
+    "REQUESTS_LIST.CO_MEMBERS": "Co-Membres",
+    "REQUESTS_LIST.ALL_RECURRING": "Tous récurrents",
+
+    "TERMINATE": "Terminer"
+  }
+}

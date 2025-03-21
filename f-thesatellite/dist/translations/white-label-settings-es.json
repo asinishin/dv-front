@@ -1,0 +1,53 @@
+{
+	"WHITE_LABEL_SETTINGS": {
+		"PAGE_TITLE": "Ajustes de White Label",
+
+		"COLORS.HEADER": "Colores",
+		"BRAND_COLOR": "Color de la Marca",
+		"HEADER_BG_COLOR": "Color del Fondo de la Cabecera",
+    "LOGO_BG_COLOR": "Color del Fondo del Logotipo",
+		"SIDEBAR_BG_COLOR": "Color de Fondo de la Barra Lateral",
+		"SIDEBAR_COLOR": "Color del Texto de la Barra Lateral",
+
+		"OTHER.HEADER": "Otro",
+		"PANEL_BORDER_RADIUS": "Radio del Borde del Panel (px)",
+		"BTN_BORDER_RADIUS": "Radio del Borde del Botón (px)",
+		"PANEL_SHADOW_RADIUS": "Radio de Sombra del Panel (px)",
+		"PANEL_SHADOW_OPACITY": "Opacidad de la Sombra del Panel (%)",
+		"ELASTIC_BANNER": "Banner Elástico",
+		"ELASTIC_BANNER.HINT": "<b>Banner Elástico</b> se redimensiona y se recorta para llenar toda el área de la cabecera, adecuado para banners abstractos. <b>Banner inelástico</b> se redimensiona, pero no se recorta, adecuado para banners con texto.",
+
+		"FONTS.HEADER": "Fuentes",
+		"FONTS.HINT": "Usted puede usar cualquiera fuente de <a href=\"https://fonts.google.com/\" target=\"_blank\" rel=\"noopener\">Google Fonts</a>. Escriba un nombre de fuente en los campos de abajo. Es sensible a mayúsculas y minúsculas.",
+		"FONTS.MAJOR": "Fuente Mayor",
+		"FONTS.MAJOR.HINT": "Texto, controles, etiquetas, cabeceras de panel.",
+		"FONTS.MINOR": "Fuente Minor",
+		"FONTS.MINOR.HINT": "Barra lateral, título de página, botones, información sobre herramientas.",
+
+		"LOGO": "Logotipo de la Pantalla",
+		"LOGO.HINT": "Logotipo que se muestra en la pantalla en la esquina superior izquierda.<br><b>Ajustes Óptimos:</b><br>Formato: <b>PNG</b><br>Tamaño: <b>600+ px</b><br>Relación de Aspecto: <b>variable</b><br>Fondo: <b>transparente</b>",
+		"LOGO_PRINT": "Logotipo Imprimible",
+		"LOGO_PRINT.HINT": "Logotipo imprimible para factura y otros documentos. Debería verse bien en un fondo blanco.<br><b>Ajustes Óptimos:</b><br>Formato: <b>PNG</b><br>Tamaño: <b>600+ px</b><br>Relación de Aspecto: <b>variable</b><br>Fondo: <b>transparente</b>",
+		"ICON": "Icono de la Aplicación",
+		"ICON.HINT": "Icono cuadrado utilizado como icono favorito del navegador, icono de acceso directo a la aplicación, icono de la aplicación móvil, etc. Diseño minimalista recomendado sin texto pequeño.<br><b>Ajustes Óptimos:</b><br>Formato: <b>PNG</b> <br>Tamaño: <b>512x512+ píxeles</b><br>Relación de aspecto: <b>1:1</b><br>Fondo: <b>transparente</b>",
+		"BANNER": "Imagen del Banner Superior",
+		"BANNER.HINT": "Imagen horizontal ancha para el banner superior.<br><b>Ajustes Óptimos:</b><br>Formato: <b>JPEG</b><br>Tamaño: <b>1200x200+ px</b><br> Relación de aspecto: <b>6:1</b>",
+
+		"LINKS": "Enlaces",
+		"COMPANY_NAME": "Nombre de la Empresa",
+		"HOMEPAGE_URL": "URL de la Página Principal",
+		"MEMBER_DIRECTORY_URL": "URL del Directorio de Miembros",
+		"MEMBER_DIRECTORY_URL.HINT": "Este enlace se muestra en <b class=\"text-nowrap\">Perfil de Usuario / Información de Inicio de Sesión</b>. Si está vacío, está oculto.",
+		"CONTACT_URL": "URL del Enlace de Contacto",
+		"CONTACT_URL.HINT": "Este enlace se muestra en la barra lateral para <b>miembros</b> y <b>no miembros</b> en lugar del enlace <b>APOYO</b> para <b>coordinadores</b>.",
+		"TERMS_OF_SERVICE_URL": "URL del Enlace de los Términos de Servicio",
+		"TERMS_OF_SERVICE_URL.HINT": "Este enlace se muestra en el <b>primer paso</b> del <b>autorregistro de miembros</b>. El usuario debe <b>aceptar</b> a través de <b>casilla de verificación</b>.",
+		"BTN_UPLOAD_TERMS_OF_SERVICE.HINT": "Cargar PDF de términos de servicio",
+		"TERMS_OF_SERVICE_TEXT": "Texto del enlace de los Términos de Servicio",
+		"RESERVATION_AGREEMENT_URL": "URL del enlace del Acuerdo de Reserva",
+		"RESERVATION_AGREEMENT_URL.HINT": "Este enlace se muestra cada vez que un no miembro reserva a través del asistente <b>Reservar Ahora</b> o <b>Reserva Simple</b>. El usuario debe <b>aceptar</b> a través de <b>casilla de verificación</b>.",
+		"BTN_UPLOAD_RESERVATION_AGREEMENT.HINT": "Cargar Acuerdo de Reserva PDF",
+		"RESERVATION_AGREEMENT_TEXT": "Texto del enlace del Acuerdo de Reserva",
+		"INVALID_FORMAT_PDF": "Por favor utilizar el formato de documento .pdf."
+  }
+}

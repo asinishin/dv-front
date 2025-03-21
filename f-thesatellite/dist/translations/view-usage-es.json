@@ -1,0 +1,24 @@
+{
+  "MEMBER_USAGE": {
+    "PAGE_TITLE": "Uso de Miembros para {{userName}}",
+
+    "SHOW_INACTIVE": "Mostrar Facturación Inactiva",
+    "EMPTY": "El informe está vacío",
+    "PASS_BALANCE": "Saldo de Permisos: {{passBalance}}",
+
+    "DATE": "Fecha",
+    "RESERVATION_DURATION": "Duración de la reserva <small>(horas / permisos)</small>",
+    "USAGE_DURATION": "Duración de uso <small>(horas / permisos)</small>",
+    "BILLING": "Facturación <small>(cantidad / permisos)</small>",
+    "IS_BILLED": "Es Facturado",
+    "FROM": "Desde",
+    "TO": "A",
+    "DURATION_HOURS": "Duración (horas)",
+    "DURATION_PASSES": "Duración (permisos)",
+    "DURATION_AMOUNT": "Cantidad",
+    "BTN_COLLAPSE.HINT": "Ver Registro de Uso",
+    "RESERVATION_LOG": "Registro de Reservas",
+    "USAGE_LOG": "Registro de Uso",
+    "AMOUNT": "Cantidad"
+  }
+}

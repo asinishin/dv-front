@@ -1,0 +1,29 @@
+{
+  "ANALYTICS": {
+    "PAGE_TITLE": "KPI Kontrol Paneli",
+
+    "WIDGET.SALES": "Satislar",
+    "WIDGET.SALES_BY_PRODUCT_CATEGORY": "Urun Kategorilerine Gore Satislar",
+    "WIDGET.SALES_BY_PRODUCT_CATEGORY.HINT": "Aylık grafik için bir takoza tıklayın.",
+    "WIDGET.INCOME": "Gelir (Nakit)",
+    "WIDGET.RECURRING_BILLINGS": "Yinelenen Faturalar",
+    "WIDGET.RECURRING_BILLINGS.HINT": "Her dönemin 1. günü itibarıyla.",
+    "WIDGET.REVENUE_FORECAST": "Gelir Tahmini",
+    "WIDGET.OVERALL_SPACE_UTILIZATION": "Genel Alan Kullanımı",
+    "WIDGET.RESERVATION_SPACE_UTILIZATION": "Rezervasyon Alani Kullanimi",
+    "WIDGET.OCCUPANCY_VACANCY": "Doluluk / Bosluk",
+    "WIDGET.OCCUPANCY_VACANCY.HINT": "Birim ayrintilari icin bir kategori cubuguna tiklayin.",
+
+    "COMMITTED_REVENUE": "Taahhut Edilen Gelir",
+    "AT_RISK_REVENUE": "Risk Altında Gelir",
+    "INCOME": "Gelir",
+    "UTILIZATION": "Kullanim",
+
+    "BTN_SAVE_DEFAULTS": "Varsayilanlari Kaydet",
+    "BTN_TRASH": "Çop",
+    "ALL_CENTERS": "Tum Merkezler",
+    "ALL_CENTERS.HINT": "Tüm merkezler için veya kenar sutunda gösterilen GÜNCEL MERKEZ için grafikleri goruntüleyin.",
+    "DRAG_N_DROP": "Yeniden siralamak veya cope atmak için Surukle ve Birak",
+    "WIDE": "Yarim/Tam Genislik"
+  }
+}

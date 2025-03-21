@@ -1,0 +1,58 @@
+{
+	"REPORTS": {
+		"PERIOD.HEADER": "Mostrar Transacciones",
+		"PERIOD.FROM_DATE": "Desde la Fecha",
+		"PERIOD.TO_DATE": "Hasta la Fecha",
+
+		"OPTIONS.HEADER": "Opciones",
+		"OPTIONS.BANK": "Banco",
+		"OPTIONS.CENTER": "Sitio",
+		"OPTIONS.SIZE": "Tamaño del papel",
+		"OPTIONS.LAYOUT": "Diseño",
+		"OPTIONS.LAYOUT.PORTRAIT": "Vertical",
+		"OPTIONS.LAYOUT.LANDSCAPE": "Horizontal",
+		"OPTIONS.SELECT_BY": "Seleccionar Por",
+
+		"OWNER_REGION.HEADER": "Propietarios y Regiones",
+		"OWNER_REGION.OWNER": "Propietarios",
+		"OWNER_REGION.OWNER.ALL": "Todos los Propietarios",
+		"OWNER_REGION.REGION": "Region",
+		"OWNER_REGION.REGION.ALL": "Todas las Regiones",
+
+		"COLUMNS.HEADER": "Marcar las columnas para incluir",
+		"COLUMNS.ORDER_BY": "Ordenar Por",
+		"COLUMNS.THEN_ORDER_BY": "Entonces Ordenar Por",
+		"COLUMNS.COLUMN": "Columna de Informe",
+		"COLUMNS.TOTALS": "Totales",
+		"COLUMNS.CENTER": "Sitio",
+		"COLUMNS.USER_NAME": "Nombre",
+		"COLUMNS.USER_COMPANY": "Empresa",
+		"COLUMNS.ORDER_ID": "Número de Pedido",
+		"COLUMNS.ITEM": "Artículo",
+		"COLUMNS.ITEM_CODE": "P/N",
+		"COLUMNS.QUANTITY": "Cant.",
+		"COLUMNS.AMOUNT": "Cantidad",
+		"COLUMNS.DISCOUNT": "Descuento",
+		"COLUMNS.TOTAL": "Total",
+
+		"BTN_PDF": "Descargar Informe PDF",
+		"BTN_CSV": "Descargar Informe CSV",
+		"PREVIEW.HEADER": "Vista Previa del Informe",
+
+		"HEADER.FOR_PERIOD": "Por Período",
+		"HEADER.FROM": "Desde",
+		"HEADER.THROUGH": "Hasta",
+		"HEADER.PAGE": "Página",
+		"HEADER.REPORT_FOR": "Informe Para",
+		"HEADER.REPORT_DATE": "Fecha del Informe",
+
+		"BY_PERIOD": "Por",
+		"BY_PERIOD.WEEK": "Semana",
+		"BY_PERIOD.MONTH": "Mes",
+		"BY_PERIOD.QUARTER": "Trimestre",
+		"BY_PERIOD.YEAR": "Año",
+
+		"TOTAL": "Total",
+		"TOTALS": "Totales"
+	}
+}

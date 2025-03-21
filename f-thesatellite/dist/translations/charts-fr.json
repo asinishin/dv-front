@@ -1,0 +1,22 @@
+{
+  "CHARTS": {
+    "PERIOD": "Période:",
+    "PERIOD.LAST_MONTH": "Le mois dernier",
+    "PERIOD.THIS_MONTH": "Ce mois-ci",
+    "PERIOD.LAST_QUARTER": "Dernier trimestre",
+    "PERIOD.THIS_QUARTER": "Ce trimestre",
+    "PERIOD.12_MONTHS": "12 derniers mois",
+    "PERIOD.LAST_YEAR": "L'année dernière",
+    "PERIOD.THIS_YEAR": "Cette année",
+    "PERIOD.ALL_TIME": "All Time",
+    "PERIOD.CUSTOM": "Custom",
+    "FROM": "De:",
+    "TO": "À:",
+
+    "BY_PERIOD": "By:",
+    "BY_PERIOD.WEEK": "Semaine",
+    "BY_PERIOD.MONTH": "Mois",
+    "BY_PERIOD.QUARTER": "Trimestre",
+    "BY_PERIOD.YEAR": "Année"
+  }
+}

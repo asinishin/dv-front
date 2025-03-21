@@ -1,0 +1,31 @@
+{
+	"PRINTER_USAGE": {
+		"PAGE_TITLE": "Editar Uso de la Impresora",
+		"LIST.PAGE_TITLE": "Uso de la Impresora",
+
+		"NUMBER": "Número",
+		"POST_DATE": "La Fecha de Publicación",
+		"POSTED": "Publicado",
+
+		"BTN_IMPORT": "Importar desde CSV",
+		"USING": "usando",
+		"IMPORT_PROFILE": "Importar Perfil",
+		"INVALID_FORMAT": "Por favor, utilice solo archivos CSV.",
+		"CONFIRM_DELETE": "¿Estás seguro/a de eliminar el uso de la impersora?",
+		"BTN_POST_CHARGES": "Publicar Cargos",
+
+		"JOBS.HEADER": "Trabajos de Impresora",
+		"JOBS.#": "#",
+		"JOBS.#.HINT": "Índice de fila que coincide con el índice de fila en el archivo CSV",
+		"JOBS.ID": "ID",
+		"JOBS.PRINTER_CODE": "Código de Impresora",
+		"JOBS.USER_NAME": "Nombre del Miembro",
+		"JOBS.JOB_MODE": "Modo de Trabajo",
+		"JOBS.BLACK_WHITE": "B&N",
+		"JOBS.FULL_COLOR": "Color",
+		"JOBS.SCAN": "Escanear",
+		"JOBS.FAX": "Faxear",
+		"JOBS.UNKNOWN.HINT": "Código de Impresora Desconocido.",
+		"JOBS.EMPTY": "No Trabajos."
+	}
+}

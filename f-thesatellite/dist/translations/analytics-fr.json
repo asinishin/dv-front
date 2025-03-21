@@ -1,0 +1,29 @@
+{
+  "ANALYTICS": {
+    "PAGE_TITLE": "KPI Dashboard",
+
+    "WIDGET.SALES": "Ventes",
+    "WIDGET.SALES_BY_PRODUCT_CATEGORY": "Ventes par catégorie de produits",
+    "WIDGET.SALES_BY_PRODUCT_CATEGORY.HINT": "Click a wedge for monthly chart.",
+    "WIDGET.INCOME": "Revenus (Cash)",
+    "WIDGET.RECURRING_BILLINGS": "Facturation récurrente",
+    "WIDGET.RECURRING_BILLINGS.HINT": "Accurate as of 1st day of each period.",
+    "WIDGET.REVENUE_FORECAST": "Revenu prévisionnel",
+    "WIDGET.OVERALL_SPACE_UTILIZATION": "Utilisation globale de l'espace",
+    "WIDGET.RESERVATION_SPACE_UTILIZATION": "Utilisation des salles de réunion",
+    "WIDGET.OCCUPANCY_VACANCY": "Occupancy / Vacancy",
+    "WIDGET.OCCUPANCY_VACANCY.HINT": "Cliquez sur une catégorie pour les détails.",
+
+    "COMMITTED_REVENUE": "Revenus engagés",
+    "AT_RISK_REVENUE": "revenus à risque",
+    "INCOME": "Revenus",
+    "UTILIZATION": "Utilisation",
+
+    "BTN_SAVE_DEFAULTS": "Enregistrer les paramètres par défaut",
+    "BTN_TRASH": "Trash",
+    "ALL_CENTERS": "Tous les centres",
+    "ALL_CENTERS.HINT": "Display charts either for all centers or for CURRENT CENTER shown in sidebar.",
+    "DRAG_N_DROP": "Glissez-déposez pour réorganiser ou supprimer",
+    "WIDE": "Demi/pleine largeur"
+  }
+}

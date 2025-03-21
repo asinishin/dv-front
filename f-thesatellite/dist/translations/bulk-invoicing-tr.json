@@ -1,0 +1,18 @@
+{
+  "BULK_INVOICING": {
+    "PAGE_TITLE": "Toplu Faturalandirma",
+    "HEADER": "Gondermek istediginiz faturalari seciniz",
+
+    "COMPANY": "Firma",
+    "USER": "Kullanici",
+    "ORDER_ID": "Siparis NO",
+    "DATE": "Tarih",
+    "COMMENTS": "Aciklama",
+    "BALANCE": "Bakiye",
+
+    "BTN_SEND": "E-Posta gonder",
+
+    "NOTHING_SELECTED": "Lutfen en az bir fatura secin.",
+    "SUCCESS": "E-Postalar basariyla gonderildi."
+  }
+}

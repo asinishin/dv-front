@@ -1,0 +1,21 @@
+{
+  "RENT_ROLL_REPORT": {
+    "REPORT_NAME": "Kira Gelirleri Raporu",
+
+    "COLUMNS": {
+      "CENTER": "Sube",
+      "COMPANY": "Sirket",
+      "MEMBER": "Uye",
+      "SUBSCRIPTION_ITEM": "Uyelik Maddesi",
+      "AREA": "Alan",
+      "CAPACITY": "Kapasite",
+      "AMOUNT": "Tutar",
+      "DISCOUNT": "Indirim",
+      "TOTAL": "Toplam",
+      "START_DATE": "Baslangic Tarihi",
+      "TERMINATION_DATE": "Iptal Tarihi"
+    },
+
+    "TOTAL_RENT_ROLL": "Aylik Kiralama Gelir Raporu"
+  }
+}

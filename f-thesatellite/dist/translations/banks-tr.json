@@ -1,0 +1,15 @@
+{
+  "BANKS": {
+    "PAGE_TITLE": "Bankalar",
+    "NEW.PAGE_TITLE": "Yeni Banka",
+    "EDIT.PAGE_TITLE": "Bank Duzenle",
+
+    "LIST.EMPTY": "Banka Yok",
+    "NAME": "Adi",
+    "TIMEZONE": "Timezone",
+    "CC_CUT_OFF_TIME": "<i-block>Credit Card</i-block> <i-block>Cut-Off Time</i-block>",
+    "NOTES": "Notlar",
+
+    "CONFIRM_DELETE": "Bankayi Silmek İstediginden Emin misin"
+  }
+}

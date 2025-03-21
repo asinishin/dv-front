@@ -1,0 +1,15 @@
+{
+	"MEMBERSHIP_CATEGORIES": {
+		"PAGE_TITLE": "Uyelik Kategorileri",
+		"NEW.PAGE_TITLE": "Yeni Uyelik Kategorisi",
+		"EDIT.PAGE_TITLE": "Uyelik Kategorisini Duzenle",
+
+		"LIST.HEADER": "Uyelik Kategorileri",
+		"LIST.HINT": "Yeniden siralamak icin surukle ve birak",
+		"LIST.EMPTY": "Uyelik Kategorisi Yok",
+
+		"NAME": "Ad",
+		"DESCRIPTION": "Aciklama",
+		"CONFIRM_DELETE": "Uyelik Kategorisini kaldirmak istediginizden emin misiniz?"
+	}
+}

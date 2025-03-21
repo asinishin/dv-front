@@ -1,0 +1,18 @@
+{
+  "USAGE_ENTRY": {
+    "PAGE_TITLE": "Kullanim Girişi {{userName}}",
+    "NEW.PAGE_TITLE": "Yeni Kullanim Girisi {{userName}}",
+
+    "EMPTY": "Liste Bos",
+    "BTN_CREATE": "Yeni Kullanim Yarat",
+
+    "DATE": "Tarih",
+    "CHECK_IN_TIME": "Check-In Time",
+    "CHECK_OUT_TIME": "Check-Out Time",
+    "NOTES": "Notlar",
+    "USAGE": "Usage <small>(hours / passes)</small>",
+
+    "PERIOD.HEADER": "Kullanim Dönemi",
+    "DETAILS.HEADER": "Kullanim Detaylari"
+  }
+}

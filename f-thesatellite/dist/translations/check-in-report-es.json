@@ -1,0 +1,27 @@
+{
+  "CHECK_IN_REPORT": {
+    "REPORT_NAME": "Informe de Entrada",
+
+    "COLUMNS": {
+      "NAME": "Nombre",
+      "COMPANY": "Empresa",
+      "DATE": "Fecha",
+      "CHECK_IN": "Hora de Entrada",
+      "CHECK_OUT": "Hora de Salida",
+      "USAGE_HOURS": "Horas de Uso",
+      "SUBTOTAL": "Total Parcial",
+      "TOTAL_HOURS_TIME_RANGE": "Horas Totales/Intervalo de Tiempo",
+      "TOTAL_HOURS_DAY": "Total hours/day"
+    },
+
+    "ORDER_BY": "Orden Por",
+    "ORDER_BY.NAME": "Nombre",
+    "ORDER_BY.COMPANY": "Empresa",
+    "ORDER_BY.DATE": "Fecha",
+
+    "BAR_CHART.USAGE_PER_DAY": "Uso Por Día",
+    "BAR_CHART.USAGE_BY_MEMBER": "Uso Por Miembro",
+    "BAR_CHART.USAGE_BY_COMPANY": "Uso Por Empresa",
+    "BAR_CHART.PEOPLE": "gente"
+  }
+}

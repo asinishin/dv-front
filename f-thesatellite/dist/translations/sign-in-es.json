@@ -1,0 +1,20 @@
+{
+	"SIGN_IN": {
+		"PAGE_TITLE": "Iniciar Sesión",
+		"REMEMBER_ME": "Recordarme",
+		"FORGOT_PASSWORD": "¿Has olvidado tu contraseña?",
+		"BTN_SIGN_IN": "Iniciar Sesión",
+		"HINT": "Por favor, introduzca sus datos de inicio de sesión",
+		"INVALID_LOGIN_PASSWORD": "Inicio de sesión y/o contraseña no válidos.",
+		"SIGNING_IN": "Iniciando sesión...",
+		"SUCCESS": "¡Éxito!",
+		"NO_ACCOUNT_YET": "¿Aún no tienes cuenta?&nbsp;&nbsp;",
+		"BTN_SIGN_UP": "Inscribirse",
+
+		"RESTORE_PASSWORD.PAGE_TITLE": "Restaurar Contraseña",
+		"RESTORE_PASSWORD.HINT": "Por favor, introduzca su email",
+		"RESTORE_PASSWORD.BTN_SEND": "Enviar contraseña",
+		"RESTORE_PASSWORD.SENDING": "Enviando...",
+		"RESTORE_PASSWORD.SUCCESS": "La contraseña ha sido enviada a su correo electrónico."
+	}
+}

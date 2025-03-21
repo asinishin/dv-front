@@ -1,0 +1,16 @@
+{
+	"OUR_MEMBERS": {
+		"PAGE_TITLE": "Uyelerimiz ile tanışın",
+
+		"EMPTY": "Hickimse.",
+
+		"CENTER": "Merkez",
+		"SORT": "Tarafından siparis",
+		"SORT.NAME": "isim",
+		"SORT.OCCUPATION": "Meslek",
+		"SEARCH": "Ara",
+
+		"EMBEDDING.HEADER": "Uye yerlestirme",
+		"EMBEDDING.HINT": "Widget'ı web sitenize yerleştirmek için aşağıdaki kodu kullanın. Kodu koyalayıp HTML sayfanıza yapıştırın."
+	}
+}

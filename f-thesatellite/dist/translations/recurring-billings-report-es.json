@@ -1,0 +1,32 @@
+{
+	"RECURRING_BILLINGS_REPORT": {
+		"REPORT_NAME": "Informe de Facturación Recurrente",
+
+		"COLUMNS.COMPANY": "Empresa",
+		"COLUMNS.MEMBER": "Miembro",
+		"COLUMNS.LAST_BILL_DATE": "Fecha de la Última Factura",
+		"COLUMNS.NEXT_BILL_DATE": "Fecha de la Próxima Factura",
+		"COLUMNS.AMOUNT": "Cantidad",
+		"COLUMNS.BILLING_METHOD": "Método de Facturación",
+		"COLUMNS.CC_EXPIRY": "Expiración de Tarjeta de Crédito",
+		"COLUMNS.DISCOUNT": "Descuento",
+		"COLUMNS.PRODUCT": "Artículo de Suscripción",
+		"COLUMNS.DESCRIPTION": "Descripción",
+		"COLUMNS.START_DATE": "Fecha de Inicio",
+		"COLUMNS.NOTICE_DATE": "Fecha de Aviso",
+		"COLUMNS.NOTICE_PERIOD": "Período de Aviso",
+		"COLUMNS.NOTICE_REQUIRED_BY": "Aviso Requerido por",
+		"COLUMNS.TERMINATION_DATE": "Fecha de Terminación",
+		"COLUMNS.RENEWAL_DATE": "Fecha de Renovación",
+		"COLUMNS.RENEWAL_TERM": "Término de Renovación",
+		"COLUMNS.RENEWAL_REMINDER": "Recordatorio de Renovaciòn",
+		"COLUMNS.TOTAL": "Total",
+		"COLUMNS.USE_FOR_CHECK_IN_BILLING": "Usar Inicio de Sesión para Facturación",
+
+		"TOTALS.MONTHLY": "Facturación Recurrente Mensual",
+		"TOTALS.QUARTERLY": "Facturación Recurrente Trimestral",
+		"TOTALS.SEMI_ANNUAL": "Facturación Recurrente Semestral",
+		"TOTALS.ANNUAL": "Facturación Recurrente Anual",
+		"TOTALS.AS_NEEDED": "Facturación Recurrente Según Sea Necesaria"
+	}
+}

@@ -1,0 +1,20 @@
+{
+	"MEMBER_STATEMENT": {
+		"PAGE_TITLE": "{{userName}} icin hesap ozeti",
+		"REPORT_NAME": "Hesap Ozeti",
+		"PREVIEW.HEADER": "Hesap Ozeti Onizlemesi",
+		"BTN_PDF": "Hesap Ozeti PDF'sini indir",
+
+		"COLUMNS.DATE": "Tarih",
+		"COLUMNS.ITEM": "Oge",
+		"COLUMNS.UNIT_PRICE": "Birim Fiyat",
+		"COLUMNS.QUANTITY": "Miktar",
+		"COLUMNS.AMOUNT_BILLED": "Faturalandirilan Tutar",
+		"COLUMNS.AMOUNT_PAID": "Odenen Tutar",
+		"COLUMNS.BALANCE": "Bakiye",
+
+		"BALANCE_FORWARD": "Gelecek donem bakiyesi",
+		"TOTALS": "Toplam",
+		"SECURITY_DEPOSITS": "Depozito Islemleri"
+	}
+}

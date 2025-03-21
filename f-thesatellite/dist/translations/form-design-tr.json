@@ -1,0 +1,42 @@
+{
+	"FORM_DESIGN": {
+		"TOOLBAR.HEADER": "Arac Cubugu",
+		"HINT": "Yeniden siralamak icin Surukle ve Bİrak, Oluşturmak icin arac cubugundan surukle, Silmek için Cop kutusuna birak.",
+		"EMPTY": "Lütfen arac cubugundan surukleyip birakin.",
+
+		"TYPE": "Tip",
+		"NAME": "Isim",
+		"REQUIRED": "Gerekli",
+		"ACCESS": "Erisim",
+		"OPTIONS": "Secenekler",
+		"OPTION": "Secenek",
+
+		"TRASH.HINT": "Silinecek Ogeleri Birakin",
+		"TRASH.CONFIRM": "Bu alani Silmek Istediginden Emin misin?",
+
+		"TYPE.TEXT": "Metin",
+		"TYPE.TEXTAREA": "Metin Alani",
+		"TYPE.DATE": "Tarih",
+		"TYPE.URL": "URL",
+		"TYPE.EMAIL": "Email",
+		"TYPE.PHONE": "Telefon",
+		"TYPE.NUMBER": "Numara",
+		"TYPE.CUSTOM_PRICE": "Ozel Fiyat",
+		"TYPE.EXTRA_PRICE": "Ek Ucret",
+		"TYPE.DROPDOWN": "Dropdown",
+		"TYPE.CHECKBOX": "Checkbox"
+	},
+
+	"USER_FIELDS": {
+		"PAGE_TITLE": "Kullanici Profili Alanlari",
+		"CUSTOM.HEADER": "Ozel Alanlar",
+		"SHAREABLE.HEADER": "Paylasilabilir Alanlar"
+	},
+
+	"RESERVATION_FIELDS": {
+		"PAGE_TITLE": "Rezervasyon Alanlari",
+		"HINT": "Özel rezervasyon alanları <b>Yeni Rezervasyon Yap</b> formunda, <b>Kullanıcı Rezervasyonları</b>, <b>Rezervasyon Raporu</b>, <b>Şimdi Rezervasyon Yap</b> sihirbazında görüntülenir. ve <b>Basit Rezervasyon</b> sihirbazı.",
+		"SHARED.HEADER": "Paylasimli Alanlar",
+		"SHARED.HINT": "Bu alanlar tum rezervasyon kategorileri arasında paylasilmaktadir."
+	}
+}

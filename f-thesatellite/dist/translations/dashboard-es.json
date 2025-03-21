@@ -1,0 +1,84 @@
+{
+	"DASHBOARD.ADMIN": {
+		"PAGE_TITLE": "Bienvenido/a {{userName}}!",
+
+		"NO_PERMISSION": "Sin permiso para el tablero de mandos central.",
+
+		"RESERVATIONS.TODAY.HEADER": "Usted tiene las siguentes <b>Reservas Hoy</b>: <b>{{count}}</b>",
+		"RESERVATIONS.TOMORROW.HEADER": "Usted tiene las siguentes <b>Reservas Mañana</b>: <b>{{count}}</b>",
+		"RESERVATIONS.EMPTY": "No reservas.",
+		"RESERVATIONS.NAVIGATE_TITLE": "Ver en el calendario de reservas",
+
+		"USERS_CHECKED_IN.HEADER": "<b>Personas</b> actualmente <b>registradas</b> en su centro: <b>{{count}}</b>",
+		"USERS_CHECKED_IN.EMPTY": "Nadie.",
+		"USERS_CHECKED_IN.NAVIGATE_TITLE": "Ver perfil de usario",
+		"USERS_CHECKED_IN.DEVICES": "Dispositivos",
+
+		"ACCESS_CODE.HEADER": "<b>Código de acceso</b> del día",
+
+		"BILLING_INFO.HEADER": "Información de <b>facturación</b>",
+		"BILLING_INFO.INCOME": "Ingresos este mes",
+		"BILLING_INFO.INCOME.NAV_TITLE": "Ir al Informe de Ingresos",
+		"BILLING_INFO.ACCOUNTS_RECEIVABLE.CURRENT": "Cuentas por Cobrar Corrientes",
+		"BILLING_INFO.ACCOUNTS_RECEIVABLE.TOTAL": "Cuentas por Cobrar Totales",
+		"BILLING_INFO.ACCOUNTS_RECEIVABLE.NAV_TITLE": "Ir al Informe de Cuentas por Cobrar",
+		"BILLING_INFO.CC_EXPIRE": "Tarjetas de Crédito que Expiren Este Mes",
+		"BILLING_INFO.CC_EXPIRE.NAV_TITLE": "Ver Perfil de Facturación",
+		"BILLING_INFO.CC_EXPIRE.DEFAULT_PAYMENT_METHOD": "Este es <b>el método de pago predeterminado</b>.",
+
+		"SIGN_UPS.HEADER": "Personas actualmente <b>autorregistrándose</b> como miembros: <b>{{count}}</b>",
+		"SIGN_UPS.EMPTY": "Nadie.",
+		"SIGN_UPS.NAV_TITLE": "Ver Perfil de Usario",
+		"SIGN_UPS.STAFF_HELP": "El miembro soliticó ayuda del personal durante el autorregistro",
+		"SIGN_UPS.ABANDONED": "El miembro abandonó el autorregistro y no solicitó ayuda del personal.",
+		"SIGN_UPS.BANNED": "Autorregistro prohibido. Demasiados pagos rechazados.",
+
+		"RESERVATION_CONFLICTS.HEADER": "Usted Tiene Los Siguientes <b>Conflictos de Reserva</b>: <b>{{count}}</b>",
+		"RESERVATION_CONFLICTS.EMPTY": "No hay conflictos.",
+		"RESERVATION_CONFLICTS.NAV_TITLE": "Ver en el Calendario de Reservas",
+		"RESERVATION_CONFLICTS.RESET_BTN_TITLE": "Restablecer conflicto.",
+
+		"USER_DASHBOARD_TITLE": "Tablero de Mandos para {{userName}}!"
+	},
+
+	"DASHBOARD.USER": {
+		"PAGE_TITLE": "Bienvenido/a {{userName}}!",
+		"NO_PERMISSION": "Sin permiso para el tablero de mandos del usuario.",
+
+		"UPCOMING_RESERVATIONS.HEADER": "<b>Próximas Reservas</b>",
+		"UPCOMING_RESERVATIONS.DATE": "Fecha",
+		"UPCOMING_RESERVATIONS.TIME": "Hora",
+		"UPCOMING_RESERVATIONS.SPACE": "Espacio",
+		"UPCOMING_RESERVATIONS.ACCESS_CODE": "Código de Acceso",
+
+		"RECURRING_CHARGES.HEADER": "<b>Cargos recurrentes</b> programados en su cuenta",
+		"RECURRING_CHARGES.EMPTY": "No cargos recurrentes.",
+		"RECURRING_CHARGES.QUANTITY": "Ctd.",
+		"RECURRING_CHARGES.NAME": "Nombre",
+		"RECURRING_CHARGES.DESCRIPTION": "Descripción",
+		"RECURRING_CHARGES.CHARGE_DATE": "Fecha de Cargo",
+		"RECURRING_CHARGES.TOTAL": "Total",
+
+		"OUTSTANDING_CHARGES.HEADER": "<b>Cargos Pendientes</b> en su cuenta",
+		"OUTSTANDING_CHARGES.QUANTITY": "Ctd.",
+		"OUTSTANDING_CHARGES.NAME": "Nombre",
+		"OUTSTANDING_CHARGES.DESCRIPTION": "Descripción",
+		"OUTSTANDING_CHARGES.PRICE": "Precio",
+		"OUTSTANDING_CHARGES.TOTAL": "Total",
+
+		"GENERAL_INFO.HEADER": "<b>Información</b> General",
+		"GENERAL_INFO.CREDIT_BALANCE": "Le quedan <b>{{amount}}</b> en <b>{{productName}}</b> créditos de reserva para este mes, sin incluir sus próximas reservas.",
+		"GENERAL_INFO.PASS_BALANCE": "Le quedan <b>{{passes}} {{productName}}</b> pases restantes para este período, sin incluir sus próximas reservas.",
+
+		"GENERAL_INFO.CC_DUE_TO_EXPIRE": "Su tarjeta de crédito está a punto de expirar {{date}}.",
+		"GENERAL_INFO.CC_HAS_EXPIRED": "Su tarjeta de crédito ha expirado en el {{date}}. Su tarjeta de crédito caducó el {{date}}. Agregue una nueva tarjeta de crédito o cambie el método de pago predeterminado en su perfil de facturación.",
+
+		"WEB_APP.HEADER": "Pista: <b>Aplicación Movil</b>",
+		"WEB_APP.BODY": "Para agregar esta aplicación web a la pantalla de inicio: toque {{icon}} y luego <b>Agregar a la Pantalla de Inicio</b>.",
+		"WEB_APP.BODY.IOS": "Para agregar esta aplicación web a la pantalla de inicio: toque {{icon}} abajo y luego <b>Agregar a la Pantalla de Inicio</b>.",
+
+		"MESSAGE_BOARD.HEADER": "Últimos mensajes de <b>Tablero de Mensajes</b>",
+		"MESSAGE_BOARD.MORE": "...MÁS",
+		"MESSAGE_BOARD.BTN_POST": "Publicar en el Tablero de Mensajes"
+	}
+}

@@ -1,0 +1,16 @@
+{
+	"OUR_MEMBERS": {
+		"PAGE_TITLE": "Nos membres",
+
+		"EMPTY": "Nobody.",
+
+		"CENTER": "Centre",
+		"SORT": "Trier Par",
+		"SORT.NAME": "Nom",
+		"SORT.OCCUPATION": "Occupation",
+		"SEARCH": "Recherche",
+
+		"EMBEDDING.HEADER": "Intégration de nos membres",
+		"EMBEDDING.HINT": "Utilisez le code suivant pour intégrer le widget à votre site Web. Copiez/collez le code sur votre page HTML."
+	}
+}

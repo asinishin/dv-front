@@ -1,0 +1,37 @@
+{
+  "PRINTER_USAGE_SETTINGS": {
+    "PAGE_TITLE": "Ajustes de Uso de la Impresora",
+
+    "IMPORT_PROFILES.HEADER": "Importar Perfiles",
+    "IMPORT_PROFILES.HEADER.HINT": "Por favor asignar los siguientes campos de su Informe de Carga de Impresora (.csv)",
+    "IMPORT_PROFILES.NAME": "Nombre",
+    "IMPORT_PROFILES.FORMATTING_TYPE": "Tipo de Formato de Impresora",
+    "IMPORT_PROFILES.PRINTER_CODE": "Cabecera de Columna de Código de Impresora",
+    "IMPORT_PROFILES.JOB_MODE": "Modo de trabajo (Imprimir/Escanear/Fax/Copiar) Cabecera",
+    "IMPORT_PROFILES.PRINT_BLACK": "Cabecera de Columna del Total de N&B",
+    "IMPORT_PROFILES.PRINT_COLOR": "Cabecera de Columna del Total de Color",
+    "IMPORT_PROFILES.SCAN": "Cabecera de Columna del Total de Escanear",
+    "IMPORT_PROFILES.FAX": "Cabecera de Columna del Total de Faxear",
+    "NEW_IMPORT_PROFILE": "Nuevo Perfil de Importación",
+
+    "TYPE.PRINT_BLACK": "Impresión/Copia en B&N",
+    "TYPE.PRINT_COLOR": "Impresión/Copia en Color",
+    "TYPE.SCAN": "Escanear",
+    "TYPE.FAX": "Faxear",
+
+    "FREE_COPIES.HEADER": "Copias Gratuitas",
+    "FREE_COPIES.FOR": "Copias Gratuitas para {{type}}",
+
+    "PART_NUMBERS.HEADER": "Por favor mapee los números de parte para",
+    "PART_NUMBERS.FROM": "Desde",
+    "PART_NUMBERS.FROM.HINT": "Desde Número de Copias",
+    "PART_NUMBERS.TO": "Hasta",
+    "PART_NUMBERS.TO.HINT": "Hasta Número de Copias",
+    "PART_NUMBERS.MAP_TO": "Mapear para",
+    "PART_NUMBERS.MAP_TO.HINT": "Mapear to Product",
+    "PART_NUMBERS.BTN_ADD.HINT": "Agregar Descuento de Precio",
+    "PART_NUMBERS.BTN_DELETE.HINT": "Eliminar Descuento de Precio",
+
+    "CONFIRM_DELETE": "¿Está seguro/a de eliminar estos ajuste de impresión?"
+  }
+}

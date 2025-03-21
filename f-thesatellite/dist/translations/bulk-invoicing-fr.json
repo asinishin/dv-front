@@ -1,0 +1,18 @@
+{
+  "BULK_INVOICING": {
+    "PAGE_TITLE": "Facturation",
+    "HEADER": "Sélectionnez les factures que vous souhaitez envoyer",
+
+    "COMPANY": "Compagnie",
+    "USER": "Utilisateur",
+    "ORDER_ID": "No. Commande",
+    "DATE": "Date",
+    "COMMENTS": "Commentaires",
+    "BALANCE": "Solde",
+
+    "BTN_SEND": "Envoyer Emails",
+
+    "NOTHING_SELECTED": "Veuillez sélectionner au moins une facture.",
+    "SUCCESS": "Emails envoyés avec succès."
+  }
+}

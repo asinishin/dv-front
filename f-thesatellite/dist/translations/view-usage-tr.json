@@ -1,0 +1,24 @@
+{
+  "MEMBER_USAGE": {
+    "PAGE_TITLE": "Kullanici Uye {{userName}}",
+
+    "SHOW_INACTIVE": "Etkin Olmayan Faturalandırmaları Göster",
+    "EMPTY": "Rapor Bos",
+    "PASS_BALANCE": "Gecis Bakiyesi: {{passBalance}}",
+
+    "DATE": "Tarih",
+    "RESERVATION_DURATION": "Rezervasyon suresi <small>(hours / passes)</small>",
+    "USAGE_DURATION": "Kullanim Suresi <small>(hours / passes)</small>",
+    "BILLING": "Faturalama <small>(amount / passes)</small>",
+    "IS_BILLED": "Faturalandirildi",
+    "FROM": "Itibaren",
+    "TO": "Ile",
+    "DURATION_HOURS": "Sure (saatler)",
+    "DURATION_PASSES": "Sure (passlar)",
+    "DURATION_AMOUNT": "Tutar",
+    "BTN_COLLAPSE.HINT": "Kullanim Gunlugunu Goruntule",
+    "RESERVATION_LOG": "Rezervasyon Log",
+    "USAGE_LOG": "Usage Log",
+    "AMOUNT": "Tutar"
+  }
+}

@@ -1,0 +1,31 @@
+{
+	"PRINTER_USAGE": {
+		"PAGE_TITLE": "Yazici Kullanimini duzenle",
+		"LIST.PAGE_TITLE": "Yazici Kullanimi",
+
+		"NUMBER": "Sayi",
+		"POST_DATE": "Yayin Tarihi",
+		"POSTED": "Yayinlandi",
+
+		"BTN_IMPORT": "CSV'den ice aktar",
+		"USING": "kullanarak",
+		"IMPORT_PROFILE": "Profili ice aktar",
+		"INVALID_FORMAT": "Lutfen sadece CSV dosyalarini kullanin.",
+		"CONFIRM_DELETE": "Yazici kullanimini silmek istediginizden emin misiniz?",
+		"BTN_POST_CHARGES": "Ucretleri gonder",
+
+		"JOBS.HEADER": "Yazici isleri",
+		"JOBS.#": "#",
+		"JOBS.#.HINT": "CSV dosyasindaki satir indeksiyle eslesen satir indeksi",
+		"JOBS.ID": "ID",
+		"JOBS.PRINTER_CODE": "Yazici Kodu",
+		"JOBS.USER_NAME": "Uye adi",
+		"JOBS.JOB_MODE": "Is Modu",
+		"JOBS.BLACK_WHITE": "Siyah-Beyaz",
+		"JOBS.FULL_COLOR": "Renkli",
+		"JOBS.SCAN": "Tarama",
+		"JOBS.FAX": "Faks",
+		"JOBS.UNKNOWN.HINT": "Bilinmeyen Yazici Kodu.",
+		"JOBS.EMPTY": "is Yok."
+	}
+}

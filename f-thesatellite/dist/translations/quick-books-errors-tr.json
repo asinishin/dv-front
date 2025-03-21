@@ -1,0 +1,15 @@
+{
+   "QUICK_BOOKS_ERRORS": {
+     "PAGE_TITLE": "QuickBooks Hataları",
+     "Zaman zaman",
+     "QB_TYPE": "Nesne Türü",
+     "DW_ID": "Nesne Kimliği",
+     "DW_NAME": "Nesne Adı",
+     "ERROR_TEXT": "Hata",
+
+     "OBJ_TYPE.ITEM": "Oge",
+     "OBJ_TYPE.CUSTOMER": "Musteri",
+     "OBJ_TYPE.INVOICE": "Fatura",
+     "OBJ_TYPE.DEPOSIT": "Para Yatirma"
+   }
+}

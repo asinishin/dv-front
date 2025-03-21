@@ -1,0 +1,12 @@
+{
+	"INVOICE_LOG": {
+		"PAGE_TITLE": "Journal des factures",
+
+		"ORDER_ID": "Commande #",
+		"COMPANY": "Compagnie",
+		"USER": "Utilisateur",
+		"DATE": "Date",
+		"AMOUNT": "Montant",
+		"BALANCE": "Solde"
+	}
+}

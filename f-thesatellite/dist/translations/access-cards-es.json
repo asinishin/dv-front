@@ -1,0 +1,12 @@
+{
+	"ACCESS_CARDS": {
+		"PAGE_TITLE": "Tarjetas de Acceso",
+		"NEW.PAGE_TITLE": "Nueva Tarjeta de Acceso para {{userName}}",
+		"EDIT.PAGE_TITLE": "Editar Tarjeta de Acceso para {{userName}}",
+
+		"CONFIRM_DELETE": "¿Está seguro/a de eliminar la tarjeta de acceso?",
+		"USER": "Usuario",
+		"NUMBER": "Número de Tarjeta",
+		"NOTES": "Notas"
+	}
+}

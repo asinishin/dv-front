@@ -1,0 +1,18 @@
+{
+  "USAGE_ENTRY": {
+    "PAGE_TITLE": "Entrada de Uso para {{userName}}",
+    "NEW.PAGE_TITLE": "Nueva Entrada de Uso para {{userName}}",
+
+    "EMPTY": "La lista está vacía",
+    "BTN_CREATE": "Crear Nuevo Uso",
+
+    "DATE": "Fecha",
+    "CHECK_IN_TIME": "Hora de Entrada",
+    "CHECK_OUT_TIME": "Hora de Salida",
+    "NOTES": "Notas",
+    "USAGE": "Uso <small>(horas / permisos)</small>",
+
+    "PERIOD.HEADER": "Período de Uso",
+    "DETAILS.HEADER": "Detalles de Uso"
+  }
+}

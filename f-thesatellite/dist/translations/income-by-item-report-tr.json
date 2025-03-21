@@ -1,0 +1,28 @@
+{
+	"INCOME_BY_ITEM_REPORT": {
+		"PAGE_TITLE": "Gelir (Tahakkuk) Raporu",
+		"REPORT_NAME": "Gelir (Tahakkuk) Raporu",
+
+		"COLUMNS.PRODUCT_CODE": "P/N",
+		"COLUMNS.PRODUCT_NAME": "Item",
+		"COLUMNS.USER_COMPANY": "Sirket",
+		"COLUMNS.USER_NAME": "Isim",
+		"COLUMNS.ORDER_NO": "Sirala",
+		"COLUMNS.DATE": "Tarih",
+		"COLUMNS.QUANTITY": "Adet",
+		"COLUMNS.AMOUNT": "Tutar",
+		"COLUMNS.SUBTOTAL": "Ara Toplam",
+		"COLUMNS.TOTAL": "Toplam",
+
+		"TOTALS.ITEM_TYPE": "Öge türü",
+		"TOTALS.TOTAL": "Toplam",
+		"TOTALS.INCOME": "Toplam Gelir",
+
+		"ORDER_BY": "Sirala",
+		"ORDER_BY.ITEM": "Adet",
+		"ORDER_BY.MEMBER": "Uye",
+		"ORDER_BY.ORDER": "Emir",
+
+		"PRODUCT_CATEGORIES_PIE_CHART.HEADER": "Urun Kategorilerine Gore Toplamlar"
+	}
+}

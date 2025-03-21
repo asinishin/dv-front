@@ -1,0 +1,15 @@
+{
+  "PASSPORT_RESERVATION_USAGE_REPORT": {
+    "REPORT_NAME": "Pass Rezervasyon Kullanım Raporu",
+    "TOTALS_BY_RESERVATION_UNIT": "Rezervasyon Birimine Göre Toplamlar",
+
+    "COLUMNS": {
+      "COMPANY": "Sirket",
+      "USER": "Kullanici",
+      "RESERVATION_UNIT": "Reservasyon Birimi",
+      "HOURS": "Saatler",
+      "START_TIME": "Baslangic Saati",
+      "END_TIME": "Bitis"
+    }
+  }
+}

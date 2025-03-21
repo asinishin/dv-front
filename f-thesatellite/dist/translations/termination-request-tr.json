@@ -1,0 +1,25 @@
+{
+  "TERMINATION_REQUEST": {
+    "PAGE_TITLE": "Fesih Talebi",
+
+    "NOTICE.DATE": "Tarihi itibariyle bildirimde bulunarak",
+    "NOTICE.TERMINATE": "tekrarlanan faturalandirmami sona erdirmek istiyorum:",
+    "NOTICE.REASON": "Sebep",
+    "NOTICE.TERMINATE_FROM_DATE": "Tekrarlanan faturalandirmamin sona erecegini kabul ediyorum",
+
+    "TERMINATE_ADDITION": "Bu tekrarlanan faturalandirmayi sonlandirmanın yani sira sunlari da sonlandirmak istiyorum:",
+    "TERMINATE_ADDITION.MY_MEMBERSHIP": "Uyeligim",
+    "TERMINATE_ADDITION.MY_CO_MEMBERS": "Uyeligime bagli kullanicilar",
+    "TERMINATE_ADDITION.MY_OTHER_RECURRING_CHARGES": "Sahip oldugum diger tum tekrarlanan faturalandirmalar",
+
+    "REQUESTS_LIST.HEADER": "Fesih talepleriniz",
+    "REQUESTS_LIST.CREATED": "Olusturuldu",
+    "REQUESTS_LIST.RECURRING_BILLING": "Tekrarlanan faturalandirmalar",
+    "REQUESTS_LIST.NOTICE_DATE": "Bildirim Tarihi",
+    "REQUESTS_LIST.MEMBERSHIP": "Uyelik",
+    "REQUESTS_LIST.CO_MEMBERS": "Uyelige bagli kullanicilar",
+    "REQUESTS_LIST.ALL_RECURRING": "Tum tekrarlanan",
+
+    "TERMINATE": "Sonlandir"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "QUICK_BOOKS_ERRORS": {
+    "PAGE_TITLE": "Errors deQuickBooks",
+    "TIME": "Hora",
+    "QB_TYPE": "Tipo de Objeto",
+    "DW_ID": "ID del Objeto",
+    "DW_NAME": "Nombre de Objeto",
+    "ERROR_TEXT": "Error",
+
+    "OBJ_TYPE.ITEM": "Artículo",
+    "OBJ_TYPE.CUSTOMER": "Cliente",
+    "OBJ_TYPE.INVOICE": "Factura",
+    "OBJ_TYPE.DEPOSIT": "Depósito"
+  }
+}

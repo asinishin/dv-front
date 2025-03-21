@@ -1,0 +1,27 @@
+{
+  "CHECK_IN_REPORT": {
+    "REPORT_NAME": "Rapport Check-In",
+
+    "COLUMNS": {
+      "NAME": "Nom",
+      "COMPANY": "Compagnie",
+      "DATE": "Date",
+      "CHECK_IN": "Heure Check-In",
+      "CHECK_OUT": "Heure Check-Out",
+      "USAGE_HOURS": "Heures d'utilisation",
+      "SUBTOTAL": "Soustotal",
+      "TOTAL_HOURS_TIME_RANGE": "Total d'heures/plage horaire",
+      "TOTAL_HOURS_DAY": "Total heures/jour"
+    },
+
+    "ORDER_BY": "Commandé par",
+    "ORDER_BY.NAME": "Nom",
+    "ORDER_BY.COMPANY": "Compagnie",
+    "ORDER_BY.DATE": "Date",
+
+    "BAR_CHART.USAGE_PER_DAY": "Utilisation par jour",
+    "BAR_CHART.USAGE_BY_MEMBER": "Utilisation par membre",
+    "BAR_CHART.USAGE_BY_COMPANY": "Utilisation par entreprise",
+    "BAR_CHART.PEOPLE": "personnes"
+  }
+}

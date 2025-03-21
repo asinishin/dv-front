@@ -1,0 +1,14 @@
+{
+	"RESERVATION_REPORT": {
+		"REPORT_NAME": "Informe de Reserva",
+
+		"COLUMNS.START_TIME": "Comienza en",
+		"COLUMNS.CENTER": "Nombre de Sitio",
+		"COLUMNS.CREATED_AT": "Creado en",
+		"COLUMNS.END_TIME": "Termina en",
+		"COLUMNS.NOTE": "Nota",
+		"COLUMNS.UNIT": "Unidad de Reserva",
+		"COLUMNS.USER_NAME": "Usuario",
+		"COLUMNS.COMPANY": "Empresa"
+	}
+}

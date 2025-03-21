@@ -1,0 +1,39 @@
+{
+	"MEMBER_SIGN_UP": {
+		"MEMBERSHIP.PAGE_TITLE": "Nueva Membresía",
+		"MEMBERSHIP.THANKS": "¡Gracias por registrarse!",
+		"MEMBERSHIP.BTN_PROCEED": "Pasar por la Caja",
+
+		"LANDING.PAGE_TITLE": "¡Bienvenido/a! Confirma tu plan y fecha de inicio",
+
+		"MEMBERSHIP.CENTER.HEADER": "Seleccionar Sitio",
+		"MEMBERSHIP.CENTER.CENTER": "Sitio",
+		"MEMBERSHIP.CENTER.AT": "A: {{center}}",
+
+		"MEMBERSHIP.CATEGORY.HEADER": "Eligir una Categoría de Membresía",
+		"MEMBERSHIP.CATEGORY.EMPTY": "No categorías de membresía.",
+		"MEMBERSHIP.CATEGORY.MEMB_CATEGORY": "Categoría de Membresía",
+		"MEMBERSHIP.CATEGORY.HINT": "Por favor eligir una categoría de membresía. Es posible que algunos servicios no estén disponibles para el autorregistro. Si no ve lo que está buscando, por favor contáctenos.",
+		"MEMBERSHIP.CATEGORY.DESCRIPTION": "Descripción de Categoría",
+		"MEMBERSHIP.CATEGORY.NO_DESCRIPTION": "No descripción.",
+
+		"MEMBERSHIP.PRODUCT.HEADER": "Por favor seleccionar un plan",
+		"MEMBERSHIP.PRODUCT.PLAN": "Plan",
+		"MEMBERSHIP.PRODUCT.SELECT_PLAN": "Seleccionar Plan",
+		"MEMBERSHIP.PRODUCT.PRICE": "Precio",
+		"MEMBERSHIP.PRODUCT.START_DATE": "La Fecha de Inicio",
+		"MEMBERSHIP.PRODUCT.DESCRIPTION": "Descripción del Plan",
+
+		"PROFILE.PAGE_TITLE": "Crear tu Cuenta",
+
+		"PURCHASE.PAGE_TITLE": "Confirmar y Agregar Pago",
+		"PURCHASE.ORDER.HEADER": "ID de Pedido: {{orderId}}",
+		"PURCHASE.ADD_ON_PRODUCTS.HINT": "Cualquiera opción de Membresía o Servicio a continuación se suman a la membresía que usted ya seleccionó",
+
+		"BILLING.BTN_COMPLETE": "Registro Completo",
+
+		"COMPLETE.PAGE_TITLE": "¡Bienvenido/a!",
+		"COMPLETE.SUCCESS": "Usted ha completado con éxito el registro.",
+		"COMPLETE.BACK_ERROR": "No se permite la vuelta. Registro completo."
+	}
+}

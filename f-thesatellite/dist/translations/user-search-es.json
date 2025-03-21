@@ -1,0 +1,39 @@
+{
+	"USER_SEARCH": {
+		"PAGE_TITLE": "Búsqueda de Usuarios",
+
+		"FILTERS.ALL": "Todo",
+		"FILTERS.ACTIVE_MEMBERS": "Miembros Activos",
+		"FILTERS.INACTIVE_MEMBERS": "Miembros Inactivos",
+		"FILTERS.ACTIVE_CO_MEMBERS": "Co-Miembros Activos",
+		"FILTERS.INACTIVE_CO_MEMBERS": "Co-Miembros Inactivos",
+		"FILTERS.NON_MEMBERS": "No-Miembros",
+		"FILTERS.CHECKED_IN": "Solo Registrado",
+
+		"COLUMNS.FIRST_NAME": "Nombre",
+		"COLUMNS.LAST_NAME": "Apellido",
+		"COLUMNS.COMPANY": "Empresa",
+		"COLUMNS.EMAIL": "Email",
+		"COLUMNS.LOGIN": "Inicio de Sesión",
+		"COLUMNS.PHONE": "Teléfono",
+		"COLUMNS.ACCESS_CODE": "Código de Acceso",
+		"COLUMNS.PRINTER_CODE": "Código de Impresora",
+		"COLUMNS.MAILBOX_NUMBER": "Número de Buzón",
+		"COLUMNS.MAILBOX_NAME": "Nombre de Buzón",
+		"COLUMNS.OCCUPATION": "Ocupación",
+		"COLUMNS.JOIN_DATE": "Fecha de Ingreso",
+		"COLUMNS.PAYOR": "Pagador",
+		"COLUMNS.PAYOR.HINT": "Los últimos 4 dígitos de tarjetas de crédito o los últimos 4 dígitos de cuentas bancarias.",
+		"COLUMNS.MAC_ADDRESS": "Dirección MAC",
+
+		"ACTIVATED_AT": "Activado en",
+		"ADVANCED_SEARCH": "Búsqueda Avanzada",
+		"SHOW": "Mostrar",
+		"SHOW.HINT": "Mostrar columna en resultados",
+		"BTN_SEARCH": "Buscar",
+		"BTN_SELECT.HINT": "Seleccionar Usuario",
+		"RESULTS.HEADER": "Resultados de la Búsqueda: {{count}}",
+		"PREV_RESULTS.HEADER": "Resultados de Búsqueda Anterior: {{count}}",
+		"MASTER_USER.HINT": "Este miembro es el administrador de la empresa de {{company}}</b>."
+	}
+}

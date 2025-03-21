@@ -1,0 +1,84 @@
+{
+	"DASHBOARD.ADMIN": {
+		"PAGE_TITLE": "Приветствуем {{userName}}!",
+
+		"NO_PERMISSION": "Нет доступа к информации центра.",
+
+		"RESERVATIONS.TODAY.HEADER": "Резервирования на сегодня: <b>{{count}}</b>",
+		"RESERVATIONS.TOMORROW.HEADER": "Резервирования на завтра: <b>{{count}}</b>",
+		"RESERVATIONS.EMPTY": "Нет резервирований.",
+		"RESERVATIONS.NAVIGATE_TITLE": "Посмотреть в календаре резервирований",
+
+		"USERS_CHECKED_IN.HEADER": "Кто сейчас в центре: <b>{{count}}</b>",
+		"USERS_CHECKED_IN.EMPTY": "Никого.",
+		"USERS_CHECKED_IN.NAVIGATE_TITLE": "Посмотреть профиль",
+		"USERS_CHECKED_IN.DEVICES": "Устройства",
+
+		"ACCESS_CODE.HEADER": "Код доступа на сегодня",
+
+		"BILLING_INFO.HEADER": "Платежная инфромация",
+		"BILLING_INFO.INCOME": "Доход за текущий месяц",
+		"BILLING_INFO.INCOME.NAV_TITLE": "Перейти к отчету о доходах",
+		"BILLING_INFO.ACCOUNTS_RECEIVABLE.CURRENT": "Текущая задолженость по счетам",
+		"BILLING_INFO.ACCOUNTS_RECEIVABLE.TOTAL": "Общая задолженость по счетам",
+		"BILLING_INFO.ACCOUNTS_RECEIVABLE.NAV_TITLE": "Перейти к отчету о задолженности по счетам",
+		"BILLING_INFO.CC_EXPIRE": "Следующие <em>кредитные карты</em> истекают в этом месяце",
+		"BILLING_INFO.CC_EXPIRE.NAV_TITLE": "Посмотреть платежный профиль",
+		"BILLING_INFO.CC_EXPIRE.DEFAULT_PAYMENT_METHOD": "Это <b>текущий метод платежа</b>.",
+
+		"SIGN_UPS.HEADER": "Пользователи, которые сейчас <b>само-регистрируются</b> как члены: <b>{{count}}</b>",
+		"SIGN_UPS.EMPTY": "Никого.",
+		"SIGN_UPS.NAV_TITLE": "Посмотреть профиль пользователя",
+		"SIGN_UPS.STAFF_HELP": "Пользователь запросил помощь персонала в процессе само-регистрации.",
+		"SIGN_UPS.ABANDONED": "Пользователь бросил само-регистрацию и не запросил помощь персонала.",
+		"SIGN_UPS.BANNED": "Banned self-registration. Too many declined payments.",
+
+		"RESERVATION_CONFLICTS.HEADER": "Есть следующие <b>конфликты резервирований</b>: <b>{{count}}</b>",
+		"RESERVATION_CONFLICTS.EMPTY": "Нет конфликтов.",
+		"RESERVATION_CONFLICTS.NAV_TITLE": "Посмотреть в календаре резервирований",
+		"RESERVATION_CONFLICTS.RESET_BTN_TITLE": "Сбросить конфликт",
+
+		"USER_DASHBOARD_TITLE": "Информация для {{userName}}!"
+	},
+
+	"DASHBOARD.USER": {
+		"PAGE_TITLE": "Приветствуем {{userName}}!",
+		"NO_PERMISSION": "No permission for user dashboard.",
+
+		"UPCOMING_RESERVATIONS.HEADER": "Предстоящие резервирования",
+		"UPCOMING_RESERVATIONS.DATE": "Дата",
+		"UPCOMING_RESERVATIONS.TIME": "Время",
+		"UPCOMING_RESERVATIONS.SPACE": "Место",
+		"UPCOMING_RESERVATIONS.ACCESS_CODE": "Код доступа",
+
+		"RECURRING_CHARGES.HEADER": "Активные регулярные платежи",
+		"RECURRING_CHARGES.QUANTITY": "Кол-во",
+		"RECURRING_CHARGES.NAME": "Название",
+		"RECURRING_CHARGES.DESCRIPTION": "Описание",
+		"RECURRING_CHARGES.CHARGE_DATE": "Дата платежа",
+		"RECURRING_CHARGES.TOTAL": "Сумма",
+
+		"OUTSTANDING_CHARGES.HEADER": "Предстоящие разовые платежи",
+		"OUTSTANDING_CHARGES.EMPTY": "Нет платежей.",
+		"OUTSTANDING_CHARGES.QUANTITY": "Кол-во",
+		"OUTSTANDING_CHARGES.NAME": "Название",
+		"OUTSTANDING_CHARGES.DESCRIPTION": "Описание",
+		"OUTSTANDING_CHARGES.PRICE": "Цена",
+		"OUTSTANDING_CHARGES.TOTAL": "Сумма",
+
+		"GENERAL_INFO.HEADER": "Общая информация",
+		"GENERAL_INFO.CREDIT_BALANCE": "You have <b>{{amount}}</b> left in <b>{{productName}}</b> reservation credits for this month, not including your upcoming reservations.",
+		"GENERAL_INFO.PASS_BALANCE": "You have <b>{{passes}} {{productName}}</b> passes left for this period, not including your upcoming reservations.",
+
+		"GENERAL_INFO.CC_DUE_TO_EXPIRE": "Ваша кредитная карта истекает {{date}}.",
+		"GENERAL_INFO.CC_HAS_EXPIRED": "Ваша кредитная карта истекла {{date}}. Пожалуйста добавьте новую кредитную карту или измените текущий платежный метод в Вашем платежном профиле.",
+
+		"WEB_APP.HEADER": "Подсказка: <b>мобильное приложение</b>",
+		"WEB_APP.BODY": "Чтобы добавить это мобильное приложение на домашний экран: ткните {{icon}} и потом <b>Добавить на Домашний Экран</b>.",
+		"WEB_APP.BODY.IOS": "Чтобы добавить это мобильное приложение на домашний экран: ткните {{icon}} ниже и потом <b>Добавить на Домашний Экран</b>.",
+
+		"MESSAGE_BOARD.HEADER": "Последние сообщения с <b>доски сообщений</b>",
+		"MESSAGE_BOARD.MORE": "...БОЛЬШЕ",
+		"MESSAGE_BOARD.BTN_POST": "Написать на доске сообщений"
+	}
+}

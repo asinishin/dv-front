@@ -1,0 +1,11 @@
+{
+  "WRITE_OFF_REPORT": {
+    "REPORT_NAME": "Informe de Cancelación",
+
+    "COLUMNS.COMPANY": "Empresa",
+    "COLUMNS.NAME": "Nombre",
+    "COLUMNS.ORDER_ID": "Número del Pedido",
+    "COLUMNS.DATE": "Fecha",
+    "COLUMNS.AMOUNT": "Cantidad"
+  }
+}

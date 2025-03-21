@@ -1,0 +1,25 @@
+{
+  "TERMINATION_REQUEST": {
+    "PAGE_TITLE": "Solicitud de Cancelación",
+
+    "NOTICE.DATE": "Me gustaría dar aviso a partir de",
+    "NOTICE.TERMINATE": "para cancelar mi facturación recurrente:",
+    "NOTICE.REASON": "El Motivo",
+    "NOTICE.TERMINATE_FROM_DATE": "Entiendo que la Facturación Recurrente terminará de manera efectiva",
+
+    "TERMINATE_ADDITION": "Además de cancelar esta Facturación Recurrente, también me gustaría cancelar:",
+    "TERMINATE_ADDITION.MY_MEMBERSHIP": "Mi membresía",
+    "TERMINATE_ADDITION.MY_CO_MEMBERS": "Mis Co-Miembros",
+    "TERMINATE_ADDITION.MY_OTHER_RECURRING_CHARGES": "Cualquier otra Facturación Recurrente que tenga",
+
+    "REQUESTS_LIST.HEADER": "Sus solicitudes de terminación",
+    "REQUESTS_LIST.CREATED": "Creados",
+    "REQUESTS_LIST.RECURRING_BILLING": "Facturación Recurrente",
+    "REQUESTS_LIST.NOTICE_DATE": "Fecha de Aviso",
+    "REQUESTS_LIST.MEMBERSHIP": "Membresía",
+    "REQUESTS_LIST.CO_MEMBERS": "Co-Miembros",
+    "REQUESTS_LIST.ALL_RECURRING": "Todos Recurrentes",
+
+    "TERMINATE": "Terminar"
+  }
+}

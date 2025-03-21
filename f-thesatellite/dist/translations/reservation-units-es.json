@@ -1,0 +1,34 @@
+{
+	"RESERVATION_UNITS": {
+		"PAGE_TITLE": "Unidades de Reserva",
+		"NEW.PAGE_TITLE": "Nueva Unidad de Reserva",
+		"EDIT.PAGE_TITLE": "Editar Unidad de Reserva",
+
+		"LIST.EMPTY": "No Unidades de Reserva",
+		"GENERAL.HEADER": "General",
+
+		"UNIT": "Unidad de Reserva",
+		"CATEGORY": "Categoría de Reserva",
+		"WHO_CAN_RESERVE": "¿Quién puede reservar?",
+		"SYNC_WITH_CALENDAR": "¿Sincronizar con el Calendario?",
+		"CALENDAR_ID": "ID de Calendario",
+		"CALENDAR_ID.HINT": "Para cambiar esta ID, vuelva a activar <b>Sincronizar con el Calendario</b> arriba y especifique la ID de <b>calendario existente</b>. Si lo deja vacío, se creará <b>nuevo calendario</b> para esta unidad.",
+		"NAME": "Nombre",
+		"DESCRIPTION": "Descripción",
+		"AREA": "Área ({{areaUnit}})",
+		"CAPACITY": "Capacidad",
+		"CAPACITY.HINT": "Número de personas que este espacio puede albergar cómodamente.",
+		"EXPECTED_USE_PER_MONTH": "Uso Esperado por Mes",
+		"EXPECTED_USE_PER_MONTH.HINT": "Cantidad de horas que se supone que la unidad debe usarse en un mes",
+		"CONFIRM_DELETE": "¿Está seguro/a de eliminar la unidad de reserva?",
+
+		"PHOTO.HINT": "El tamaño mínimo recomendado es <strong>1280x640 px</strong>"
+	},
+	"NEXKEY": {
+		"LOCKS": "Candados Nexkey",
+		"LOCKS.HINT": "<b>Las IDs de los Candados Nexkey</b> separadas por comas. Las llaves de estos candados se enviarán al usuario/a <b>30 min</b> antes de la reserva."
+	},
+	"DOORFLOW":  {
+		"GROUP": "Grupo de Acceso DoorFlow"
+	}
+}

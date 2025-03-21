@@ -1,0 +1,23 @@
+{
+	"RESERVATION_INCOME_REPORT": {
+		"REPORT_NAME": "Rezervasyon Gelirleri raporu",
+
+		"COLUMNS.CENTER": "Sube Adi",
+		"COLUMNS.USER": "Kullanici",
+		"COLUMNS.COMPANY": "Sirket",
+		"COLUMNS.UNIT": "Rezervasyon Birimi",
+		"COLUMNS.DATE": "Tarih",
+		"COLUMNS.START_TIME": "Baslangic",
+		"COLUMNS.END_TIME": "Bitis",
+		"COLUMNS.CREATED_AT": "Duzenleme Tarihi",
+		"COLUMNS.NOTE": "Not",
+		"COLUMNS.TOTAL_HOURS": "Toplam\Saatler",
+		"COLUMNS.CHARGES": "Masraflar",
+		"COLUMNS.CREDITS": "Credits\nApplied",
+		"COLUMNS.TOTAL": "NET",
+
+		"SOURCE.MEMBERS": "Uyeler",
+		"SOURCE.NON_MEMBERS": "Uye Olmayanlar",
+		"SOURCE.AGGREGATORS": "Aggregators"
+	}
+}

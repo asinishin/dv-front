@@ -1,0 +1,31 @@
+{
+  "DEPOSIT_AND_TAX_REPORT": {
+    "REPORT_NAME": "Depozito ve Vergi Raporu",
+
+    "COLUMNS": {
+      "NAME": "Isim",
+      "COMPANY": "Sirket",
+      "ORDER_ID": "Sirala #",
+      "ITEM": "Item",
+      "ITEM_CODE": "P/N",
+      "TAXABLE_AMOUNT": "Vergiye Tabi Tutar",
+      "NON_TAXABLE_AMOUNT": "Vergiye Tabi Olmayan Tutar",
+      "SUBTOTAL": "Ara Toplam",
+      "TAX": "Vergi",
+      "TOTAL": "Toplam"
+    },
+
+    "TOTAL_DAILY": "Gunluk Toplam",
+    "TOTAL_PAYMENT_METHOD": "Odeme Yontemi Toplami",
+    "TOTAL_TAXABLE_AMOUNT": "Toplam Vergiye Tabi Tutar",
+    "TOTAL_NON_TAXABLE_AMOUNT": "Toplam Vergi Dışı Tutar",
+    "TOTAL_CHARGES": "Masraflar",
+    "TOTAL_TAX": "Vergi",
+    "GRAND_TOTAL": "Genel Toplam",
+    "TOTAL_MEMBERSHIP": "Toplam uyelik",
+    "TOTAL_REGISTRATION": "Toplam Kayıt",
+    "TOTAL_RENTAL": "Toplam Kiralama Saati",
+    "TOTAL_PRINT": "Toplam print",
+    "TOTAL_SERVICES": "Tum Servisler"
+  }
+}

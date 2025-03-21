@@ -1,0 +1,15 @@
+{
+	"MEMBER_USAGE_REPORT": {
+		"REPORT_NAME": "Informe de Uso de Miembros",
+
+		"COLUMNS.DATE": "Fecha",
+		"COLUMNS.USER_NAME": "Nombre del Miembro",
+		"COLUMNS.USER_EMAIL": "Email del Miembro",
+		"COLUMNS.CHECK_IN": "Hora de Entrada",
+		"COLUMNS.CHECK_OUT": "Hora de Salida",
+		"COLUMNS.HOURS": "Horas de Uso",
+		"COLUMNS.PASSES": "Uso de Permisos",
+
+		"TOTALS.SUBTOTAL": "Total Parcial"
+	}
+}

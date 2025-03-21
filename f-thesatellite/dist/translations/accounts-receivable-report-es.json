@@ -1,0 +1,20 @@
+{
+	"ACCOUNTS_RECEIVABLE_REPORT": {
+		"REPORT_NAME": "Informe de Cuentas por Cobrar",
+
+		"COLUMNS.COMPANY": "Empresa",
+		"COLUMNS.USER_NAME": "Nombre",
+		"COLUMNS.BILL_DATE": "Fecha de Pago",
+		"COLUMNS.AMOUNT": "Cantidad Facturada",
+		"COLUMNS.DUE_DATE": "Fecha de Vencimiento",
+		"COLUMNS.AMOUNT_DUE": "Cantidad Debida",
+		"COLUMNS.DAYS_LATE": "Días de Retraso",
+		"COLUMNS.COMMENT": "Comentario",
+		"COLUMNS.ORDER_ID": "Número de Pedido",
+
+		"DISPLAY_CREDITS": "Mostrar Créditos",
+
+		"TOTALS.AVG_DAYS_LATE": "Promedio de Días de Retraso",
+		"TOTALS.TOTAL_DUE": "Total Adeudado"
+	}
+}

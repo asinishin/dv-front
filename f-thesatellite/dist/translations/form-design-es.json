@@ -1,0 +1,42 @@
+{
+	"FORM_DESIGN": {
+		"TOOLBAR.HEADER": "Barra de Herramientas",
+		"HINT": "Arrastrar y soltar para reordenar, arrastrar desde la barra de herramientas para crear, soltar en el basurero para eliminar.",
+		"EMPTY": "Arrastrar y soltar desde la barra de herramientas.",
+
+		"TYPE": "Tipo",
+		"NAME": "Nombre",
+		"REQUIRED": "Requerido",
+		"ACCESS": "Acceso",
+		"OPTIONS": "Opciones",
+		"OPTION": "Opcion",
+
+		"TRASH.HINT": "Soltar artículos para eliminar",
+		"TRASH.CONFIRM": "¿Está seguro/a de eliminar el campo?",
+
+		"TYPE.TEXT": "Texto",
+		"TYPE.TEXTAREA": "Área de Texto",
+		"TYPE.DATE": "Fecha",
+		"TYPE.URL": "URL",
+		"TYPE.EMAIL": "Email",
+		"TYPE.PHONE": "Teléfono",
+		"TYPE.NUMBER": "Número",
+		"TYPE.CUSTOM_PRICE": "Precio Personalizado",
+		"TYPE.EXTRA_PRICE": "Precio Adicional",
+		"TYPE.DROPDOWN": "Desplegable",
+		"TYPE.CHECKBOX": "Casilla de Verificación"
+	},
+
+	"USER_FIELDS": {
+		"PAGE_TITLE": "Campos de Perfil de Usuario",
+		"CUSTOM.HEADER": "Campos Personalizados",
+		"SHAREABLE.HEADER": "Campos Compartibles"
+	},
+
+	"RESERVATION_FIELDS": {
+		"PAGE_TITLE": "Campos de Reserva",
+		"HINT": "Los campos de reserva personalizados se muestran en el formulario <b>Hacer una Nueva Reserva</b>, <b>Reservas de Usuario</b>, <b>Informe de Reserva</b>, asistente de <b>Reservar Ahora</b>, y asistente de <b>Reserva Simple</b>.",
+		"SHARED.HEADER": "Campos Compartidos",
+		"SHARED.HINT": "Estos campos se comparten entre todas las categorías de reserva."
+	}
+}

@@ -1,0 +1,26 @@
+{
+	"PAYMENTS_ASSIGNMENT": {
+		"HEADER": "Odemeler atamasi",
+		"PAYMENTS": "Odemeler",
+		"BTN_ASSIGN": "Odemeleri ata",
+
+		"BULK.PAGE_TITLE": "Toplu Odeme Atamasi",
+		"BULK.HEADER": "Odeme atamak istediginiz siparisleri secin",
+		"BULK.BTN_ASSIGN": "Odemeleri ata",
+		"BULK.SUCCESS": "Odemeler basariyla atandi",
+
+		"FROM": "Tarihinden",
+		"TO": "Tarihine",
+		"FILTER": "Filtre",
+		"FILTER.ALL": "Hepsi",
+		"FILTER.WITHOUT_ASSIGNMENT": "Odemeler haric atama",
+		"FILTER.WITH_ASSIGNMENT": "Odemeler dahil atama",
+		"FILTER.WITH_MANUAL_ASSIGNMENT": "Manuel odemeler dahil atama"
+	},
+
+	"DISCOUNT_ASSIGNMENT": {
+		"BTN_ASSIGN": "Indirim ata",
+		"INVALID_TOTAL": "Toplam atanmamis: <b>{{left}}</b>",
+		"HINT": "İndirimi siparisin belirli satir ogelerine ayirin."
+	}
+}

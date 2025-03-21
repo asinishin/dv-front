@@ -1,0 +1,30 @@
+{
+	"EMAIL_MEMBERS": {
+		"SITE.PAGE_TITLE": "Enviar Email a Miembros de {{centerName}}",
+		"ALL.PAGE_TITLE": "Enviar Todos los Miembros",
+
+		"TEST_SUCCESS": "El Email de Prueba Se Envió con Éxito",
+		"SUCCESS": "Emails Enviados con Éxito",
+		"BTN_TEST": "Enviar Email de Prueba",
+		"BTN_TEST.HINT": "Enviar Email de Prueba a su email",
+		"BTN_SEND": "Enviar Emails",
+		"BTN_SEND.HINT": "Enviar emailes a los miembros",
+		"BTN_VIEW_RECIPIENTS": "Ver lista de email",
+		"BTN_SAVE_TEMPLATE": "Guardar plantilla",
+
+		"OPTIONS.HEADER": "Opciones",
+		"OPTIONS.MEMBERSHIP_CATEGORY": "Categoría de Membresía",
+		"OPTIONS.INCLUDE_NON_MEMBERS": "Incluir No-Miembros",
+		"OPTIONS.ONLY_CHECKED_IN": "Solo miembros registrados",
+
+		"MESSAGE.HEADER": "Mensaje",
+		"MESSAGE.SUBJECT": "Sujeto",
+		"MESSAGE.SITE.DEFAULT": "<p>Estimado/a \\{\\{member-name\\}\\},</p>\n<p><br></p>\n<p><i>Atentamente,<br>\\{\\{center-name\\}\\} Equipo de</i></p>",
+		"MESSAGE.ALL.DEFAULT": "<p>Estimado/a \\{\\{member-name\\}\\},</p>\n<p><br></p>",
+
+		"RECIPIENTS.HEADER": "Destinatarios: {{count}}",
+		"RECIPIENTS.COMPANY": "Empresa",
+		"RECIPIENTS.NAME": "Nombre",
+		"RECIPIENTS.EMAIL": "Email"
+	}
+}

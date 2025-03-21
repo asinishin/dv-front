@@ -1,0 +1,41 @@
+{
+	"SIMPLE_RES": {
+		"BTN_SELECT": "Seleccionar",
+
+		"CENTERS.PAGE_TITLE": "Seleccionar un Sitio",
+
+		"CATEGORIES.PAGE_TITLE": "Eligir el tipo de espacio",
+
+		"CATEGORY.PAGE_TITLE": "Consultar precio y descripción",
+		"CATEGORY.BTN_RESERVE": "Reservalo",
+		"CATEGORY.PRICES": "Precios",
+		"CATEGORY.PRICES.EMPTY": "No hay precios todavía.",
+		"CATEGORY.DESCRIPTION": "Descripción",
+		"CATEGORY.DESCRIPTION.EMPTY": "No hay descripción todavía.",
+		"CATEGORY.NEXT_SLIDE": "La Siguiente Diapositiva",
+		"CATEGORY.PREV_SLIDE": "Diapositiva Anterior",
+
+		"DATE.PAGE_TITLE": "Elegir tu Fecha",
+
+		"UNITS.PAGE_TITLE": "Seleccionar Unidad",
+		"UNITS.EMPTY": "No unidades de reserva.",
+
+		"TIME.PAGE_TITLE": "Seleccionar Hora",
+
+		"COMPLETE.PAGE_TITLE": "¡Gracias por su reserva!",
+		"COMPLETE.ACCESS_CODE": "Código de acceso WiFi para sus huéspedes <b class=\"text-text\">{{accessCode}}</b>",
+		"COMPLETE.BACK_ERROR": "No se permite la vuelta. Reserva completa.",
+		"COMPLETE.SUCCESS": "Usted ha completado con éxito el registro.",
+		"COMPLETE.ORDER.HEADER": "Recibo del Pedido #{{orderId}}",
+
+		"PURCHASE.PAGE_TITLE": "Confirmar y Comprar Reserva en {{centerName}}",
+		"PURCHASE.RESERVATION.HEADER": "Reserva",
+		"PURCHASE.ORDER.HEADER": "ID de Pedido: {{orderId}}",
+
+		"STAFF_HELP.PAGE_TITLE": "Ayuda del Personal",
+		"STAFF_HELP.BACK_ERROR": "Nuestro personal le ayudará a completar el registro.",
+
+		"BILLING.BACK_ERROR": "Por favor espere hasta que se complete el pago.",
+		"BILLING.BTN_PURCHASE": "Compra Completa"
+	}
+}

@@ -1,0 +1,36 @@
+{
+  "SH_CODES": {
+    "HEADER": "Codes abrégés",
+    "HINT": "Utilisez ces codes abrégés dans le gabarit de courriel ci-dessus",
+
+    "CENTER_NAME": "Nom du centre",
+    "COMPANY_NAME": "Nom de la compagnie (Compagnie possèdant le centre)",
+
+    "USER_NAME": "Nom complet de l'utilisateur",
+    "USER_FIRST_NAME": "Prénom de l'utilisateur",
+    "USER_LAST_NAME": "Nom de famille de l'utilisateur",
+    "MEMBER_NAME": "Nom Complet du membre",
+    "FULL_NAME": "Nom Complet",
+    "FIRST_NAME": "Prénom",
+    "LAST_NAME": "Nom de famille",
+    "COMPANY": "Nom de l'entreprise",
+    "OCCUPATION": "Occupation",
+    "LOGIN": "Identifiant",
+    "PASSWORD": "Mot de passe",
+    "EMAIL": "Email",
+    "PHONE": "Numéro de téléphone",
+    "LEAD_SOURCE": "Comment avez-vous entendu parler de nous ??",
+
+    "START_DATE": "Date début",
+    "RENEWAL_DATE": "Date de renouvellement",
+    "RENEWAL_TERM": "Terme de renouvellement",
+    "PRODUCT": "Produit",
+    "PRICE": "Prix",
+    "DISCOUNT": "Rabais",
+    "NET": "Net",
+    "REFUND_AMOUNT": "Montant du remboursement",
+    "ORDER_NO": "N° de commande.",
+
+    "MESSAGES": "Nouveaux messages du babillard électronique"
+  }
+}

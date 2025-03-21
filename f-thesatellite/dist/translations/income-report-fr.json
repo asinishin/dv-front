@@ -1,0 +1,14 @@
+{
+	"INCOME_REPORT": {
+		"PAGE_TITLE": "Rapport Revenus, Cash",
+		"REPORT_NAME": "Rapport de revenus",
+
+		"COLUMNS.COMPANY": "Compagnie",
+		"COLUMNS.NAME": "Nom",
+		"COLUMNS.DATE": "Date de paiement",
+		"COLUMNS.METHOD": "Méthode",
+		"COLUMNS.AMOUNT": "Montant",
+
+		"TOTAL_INCOME": "Revenu total"
+	}
+}

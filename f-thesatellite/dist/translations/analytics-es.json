@@ -1,0 +1,29 @@
+{
+  "ANALYTICS": {
+    "PAGE_TITLE": "Tablero de KPI",
+
+    "WIDGET.SALES": "Ventas",
+    "WIDGET.SALES_BY_PRODUCT_CATEGORY": "Ventas por Categoría de Producto",
+    "WIDGET.SALES_BY_PRODUCT_CATEGORY.HINT": "Haga clic en una cuña para la tabla mensual.",
+    "WIDGET.INCOME": "Ingresos (Efectivo)",
+    "WIDGET.RECURRING_BILLINGS": "Facturación Recurrente",
+    "WIDGET.RECURRING_BILLINGS.HINT": "Preciso a partir del 1er día de cada período",
+    "WIDGET.REVENUE_FORECAST": "Pronóstico de Ingresos",
+    "WIDGET.OVERALL_SPACE_UTILIZATION": "Utilización Total del Espacio",
+    "WIDGET.RESERVATION_SPACE_UTILIZATION": "Utilización del Espacio de Reserva",
+    "WIDGET.OCCUPANCY_VACANCY": "Ocupación / Vacancia",
+    "WIDGET.OCCUPANCY_VACANCY.HINT": "Haga clic en una barra de categorías para ver los detalles de las unidades.",
+
+    "COMMITTED_REVENUE": "Ingresos Comprometidos",
+    "AT_RISK_REVENUE": "Ingresos en Riesgo",
+    "INCOME": "Ingresos",
+    "UTILIZATION": "Utilización",
+
+    "BTN_SAVE_DEFAULTS": "Guardar Valores Predeterminados",
+    "BTN_TRASH": "Basura",
+    "ALL_CENTERS": "Todos los Sitios",
+    "ALL_CENTERS.HINT": "Mostrar tablas para todos los sitios o para el CENTRO ACTUAL que se muestra en la barra lateral.",
+    "DRAG_N_DROP": "Arrastrar y soltar para reordenar o tirar a la basura.",
+    "WIDE": "Ancho Medio/Completo"
+  }
+}

@@ -1,0 +1,23 @@
+{
+	"RESERVATION_INCOME_REPORT": {
+		"REPORT_NAME": "Informe de Ingresos de Reserva",
+
+		"COLUMNS.CENTER": "Nombre del Sitio",
+		"COLUMNS.USER": "Usuario",
+		"COLUMNS.COMPANY": "Empresa",
+		"COLUMNS.UNIT": "Unidad de Reserva",
+		"COLUMNS.DATE": "Fecha",
+		"COLUMNS.START_TIME": "Empieza en",
+		"COLUMNS.END_TIME": "Termina en",
+		"COLUMNS.CREATED_AT": "Creado en",
+		"COLUMNS.NOTE": "Nota",
+		"COLUMNS.TOTAL_HOURS": "Total\nHoras",
+		"COLUMNS.CHARGES": "Cargos",
+		"COLUMNS.CREDITS": "Créditos\nAplicados",
+		"COLUMNS.TOTAL": "Neto",
+
+		"SOURCE.MEMBERS": "Miembros",
+		"SOURCE.NON_MEMBERS": "No-Miembros",
+		"SOURCE.AGGREGATORS": "Agregadores"
+	}
+}

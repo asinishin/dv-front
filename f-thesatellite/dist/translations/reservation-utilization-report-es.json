@@ -1,0 +1,16 @@
+{
+  "RESERVATION_UTILIZATION_REPORT": {
+    "REPORT_NAME": "Informe de Utilización de Reservas",
+
+    "MODE": "Modo",
+    "MODE.DETAILED_ACTUAL": "Detallado Real",
+    "MODE.ACTUAL_EXPECTED": "Real / Esperado",
+
+    "COLUMNS.EXPECTED_USAGE": "Uso Esperado",
+    "COLUMNS.ACTUAL_USAGE": "Uso Real",
+    "COLUMNS.UTILIZATION": "Utilización",
+
+    "CHART.HEADER": "Utilización de Unidades de Reserva",
+    "CHART.TOTAL_TIME": "Hora Tiempo"
+  }
+}

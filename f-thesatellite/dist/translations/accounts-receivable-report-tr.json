@@ -1,0 +1,20 @@
+{
+	"ACCOUNTS_RECEIVABLE_REPORT": {
+		"REPORT_NAME": "Alacak Hesaplari Raporu",
+
+		"COLUMNS.COMPANY": "Sirket",
+		"COLUMNS.USER_NAME": "Name",
+		"COLUMNS.BILL_DATE": "Fatura Tarihi",
+		"COLUMNS.AMOUNT": "Fatura Tutari",
+		"COLUMNS.DUE_DATE": "Odeme tarihi",
+		"COLUMNS.AMOUNT_DUE": "Odeme Tutari",
+		"COLUMNS.DAYS_LATE": "Gecikmis gunler",
+		"COLUMNS.COMMENT": "Yorum",
+		"COLUMNS.ORDER_ID": "Siparis #",
+
+		"DISPLAY_CREDITS": "Kredileri goruntule",
+
+		"TOTALS.AVG_DAYS_LATE": "Ortalama Gün Gecikmesi",
+		"TOTALS.TOTAL_DUE": "Toplam Vadesi Gelen"
+	}
+}

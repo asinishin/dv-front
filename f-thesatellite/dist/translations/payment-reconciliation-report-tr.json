@@ -1,0 +1,22 @@
+{
+  "PAYMENT_RECONCILIATION_REPORT": {
+    "REPORT_NAME": "Odeme Mutabakat Raporu",
+
+    "TOTAL_DAILY": "Gunluk Toplam",
+    "TOTAL_PAYMENT_METHOD": "Odeme Yontemi Toplami",
+    "TOTAL_MEMBERSHIP": "Toplam Uyelik",
+    "TOTAL_REGISTRATION": "Toplam Kayit",
+    "TOTAL_RENTAL": "Toplam Kiralanan Saat",
+    "TOTAL_PRINT": "Toplam Print",
+    "TOTAL_SERVICES": "Toplam Hizmetler",
+    "TOTAL_CUSTOM": "Ozel Toplam",
+    "TOTAL_DISCOUNT": "Toplam Indirimler",
+    "TOTAL_PAYMENT_FEES": "Toplam Odeme Ucretleri",
+    "TOTAL_TAXES": "Toplam Vergiler",
+    "TOTAL_DEPOSITS": "Toplam Depozitolar",
+    "TOTAL_UNDESIGNATED": "Toplam Belirlenmemiş",
+
+    "PRODUCT_TYPE_BREAKDOWN": "Ürün Tipi Dagilimi",
+    "PRODUCT_CATEGORY_BREAKDOWN": "Ürün Kategori Dagilimi"
+  }
+}

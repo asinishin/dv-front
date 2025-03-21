@@ -1,0 +1,48 @@
+{
+	"CENTERS": {
+		"PAGE_TITLE": "Sitios",
+		"NEW.PAGE_TITLE": "Nuevo Sitio",
+		"EDIT.PAGE_TITLE": "Editar Sitio",
+
+		"CENTER": "Sitio",
+		"NAME": "Nombre",
+		"SHORT_NAME": "Nombre Corto",
+		"PHONE": "Teléfono",
+		"FAX": "Fax",
+		"EMAIL": "Email",
+		"COLOR": "Color",
+		"TIMEZONE": "Zona Horaria",
+		"OWNER": "Propietario/a",
+		"REGION": "Region",
+		"BANK": "Banco",
+		"TAX.ID": "ID del Impuesto",
+		"TAX.ID.HINT": "Si se especifica, este ID se muestra en las facturas y se cambia el nombre de <b>Factura</b> a <b>Factura de impuestos</b>.",
+		"TAX.INDEX": "Impuesto #{{index}} (%)",
+		"TAX.NAME": "Nombre de Impuesto",
+		"TAX.NAME.DEFAULT": "Impuesto",
+		"TAX.RATE": "Tasa de Impuesto",
+		"TAX.BTN_DELETE.HINT": "Eliminar Impuesto",
+		"TAX.BTN_ADD": "Agregar Impuesto",
+		"QBO_CLASS": "Clase de QuickBooks",
+		"INTERNAL_USE": "Sitio de Uso Interno",
+		"INTERNAL_USE.HINT": "Hace que el sitio esté disponible solo para coordinadores y administradores.<br><i class=\"fa fa-exclamation-triangle text-danger\"></i> <b>¡Prohíbe el acceso al centro a todos los miembros!</b>",
+		"HIDE_IN_MEMBER_SIGN_UP": "Esconder sitio para autorregistro",
+		"HIDE_IN_MEMBER_SIGN_UP.HINT": "Hace que el sitio no esté disponible para el autorregistro de miembros.",
+		"DESCRIPTION": "Descripción",
+		"MAP": "Mapa",
+		"DIRECTIONS": "Direcciones",
+		"CONFIRM_DELETE": "¿Está seguro/a de eliminar el sitio?",
+
+		"PHOTO.HEADER": "Foto",
+		"PHOTO.HINT": "El tamaño mínimo recomendado es <strong>1280x640 px</strong>",
+		"PHOTO.INVALID_FORMAT": "Por favor usa el formato de imagine de .jpg o .png.",
+		"PHOTO.BTN_UPLOAD": "Cargar foto",
+
+		"FREE_ACCESS": "Acceso Wi-Fi gratuito",
+		"FREE_ACCESS.HINT": "Permite N horas de acceso WiFi gratuito una vez al día para cada dispositivo de usuario. Muestra la opción <b>Obtener acceso gratuito</b> en la página de bienvenida de WiFi.",
+		"FREE_ACCESS.DISABLED": "Desactivado",
+
+		"SESSION_GRACE_PERIOD": "Período de gracia WiFi",
+		"SESSION_GRACE_PERIOD.HINT": "Período de gracia de la sesión WiFi: tiempo extra antes y después de la reserva."
+	}
+}

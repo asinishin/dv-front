@@ -1,0 +1,8 @@
+{
+	"BOOK_IT_NOW": {
+		"PAGE_TITLE": "Simdi rezerve et",
+
+		"COMPLETE.PAGE_TITLE": "Rezervasyonunuz icin tesekkurler!",
+		"COMPLETE.ACCESS_CODE": "Misafiriniz için wifi erişim kodu: <b class=\"text-text\">{{accessCode}}</b>"
+	}
+}

@@ -1,0 +1,48 @@
+{
+	"CENTERS": {
+		"PAGE_TITLE": "Subeler",
+		"NEW.PAGE_TITLE": "Yeni Sube",
+		"EDIT.PAGE_TITLE": "Sube Duzenle",
+
+		"CENTER": "Sube",
+		"NAME": "Isim",
+		"SHORT_NAME": "Kısa Isim",
+		"PHONE": "Telefon",
+		"FAX": "Fax",
+		"EMAIL": "Email",
+		"COLOR": "Renk",
+		"TIMEZONE": "Saat Dilimi",
+		"OWNER": "Sahibi",
+		"REGION": "Bolge",
+		"BANK": "Banka",
+		"TAX.ID": "Vergi Numarasi ID",
+		"TAX.ID.HINT": "Belirtilmişse, bu kimlik faturalarda görüntülenir ve<b>Invoice</b> is renamed to <b>Tax Invoice</b>.",
+		"TAX.INDEX": "Vergi #{{index}} (%)",
+		"TAX.NAME": "Vergi Adi",
+		"TAX.NAME.DEFAULT": "Vergi",
+		"TAX.RATE": "Vergi Orani",
+		"TAX.BTN_DELETE.HINT": "Vergiyi Sil",
+		"TAX.BTN_ADD": "Vergi Ekle",
+		"QBO_CLASS": "QuickBooks Sınıfı",
+		"INTERNAL_USE": "Dahili Kullanim Merkezi",
+		"INTERNAL_USE.HINT": "Merkezi yalnızca koordinatorlerin ve yoneticilerin kullanımına sunar.<br><i class=\"fa fa-exclamation-triangle text-danger\"></i> <b>Tüm üyelerin merkeze erişimini yasaklar!</b>",
+		"HIDE_IN_MEMBER_SIGN_UP": "Kendi kendine kayit merkezini gizle",
+		"HIDE_IN_MEMBER_SIGN_UP.HINT": "Merkezin üyenin kendi kendine kaydı için uygun olmamasını sağlar.",
+		"DESCRIPTION": "Aciklama",
+		"MAP": "Harita",
+		"DIRECTIONS": "Yol Tarifi Al",
+		"CONFIRM_DELETE": "Subeyi Silmek İstediginden Emin misin??",
+
+		"PHOTO.HEADER": "Fotograf",
+		"PHOTO.HINT": "Onerilen en dusuk boyut <strong>1280x640 px</strong>",
+		"PHOTO.INVALID_FORMAT": "Lutfen fotografi bu formatta kullanin .jpg or .png image format.",
+		"PHOTO.BTN_UPLOAD": "Fotograf Yukle",
+
+		"FREE_ACCESS": "Ucretsiz Wifi Erisimi",
+		"FREE_ACCESS.HINT": "Her kullanıcı cihazı için günde bir kez N saat ücretsiz Wi-Fi erişimi sağlar. Displays <b>Ucretsiz Wifi Erisimi Alin</b> WiFi acilis sayfasindaki secenek.",
+		"FREE_ACCESS.DISABLED": "Engellendi",
+
+		"SESSION_GRACE_PERIOD": "WiFi Yetkisiz Kullanım Süresi",
+		"SESSION_GRACE_PERIOD.HINT": "WiFi oturumu ek süresi - rezervasyondan önce ve sonra ekstra süre."
+	}
+}

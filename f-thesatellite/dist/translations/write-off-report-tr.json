@@ -1,0 +1,11 @@
+{
+  "WRITE_OFF_REPORT": {
+    "REPORT_NAME": "Borc Silme Raporu",
+
+    "COLUMNS.COMPANY": "Sirket",
+    "COLUMNS.NAME": "Isim",
+    "COLUMNS.ORDER_ID": "Order No.",
+    "COLUMNS.DATE": "Tarih",
+    "COLUMNS.AMOUNT": "Tutar"
+  }
+}

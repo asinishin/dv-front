@@ -1,0 +1,22 @@
+{
+	"USER_RESERVATIONS": {
+		"PAGE_TITLE": "Reservas para {{userName}}",
+
+		"FILTER": "Filtrar",
+		"FILTER.ALL": "Todo",
+		"FILTER.UPCOMING": "Próxima",
+		"FILTER.PAST": "Pasada",
+
+		"RESERVATIONS": "Reservas",
+		"DATE": "Fecha",
+		"SPACE": "Espacio",
+		"TIME": "Hora",
+		"NOTES": "Notas",
+		"ACCESS_CODE": "Código de Acceso",
+		"ADDED_BY": "Agregado por",
+		"UPDATED_ON": "Actualizado en",
+
+		"BTN_NEW": "Nueva Reserva",
+		"CONFIRM_DELETE": "¿Está seguro/a de cancelar la reserva?"
+	}
+}

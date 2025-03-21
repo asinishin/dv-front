@@ -1,0 +1,19 @@
+{
+	"CHECK_IN_LOG": {
+		"PAGE_TITLE": "Registro de Entrada para {{userName}}",
+		"MANUAL.PAGE_TITLE": "Registro de Entrada Manual para {{userName}}",
+		"NEW.PAGE_TITLE": "Nuevo Registro de Entrada",
+
+		"EMPTY": "El registro está vacío",
+		"BTN_CREATE": "Crear Nuevo",
+		"FILTER_BY_MAC": "Filtrar por MAC",
+
+		"TIME": "Hora",
+		"ACTION": "Acción",
+		"NAME": "Nombre",
+		"LOGIN": "Inicio de sesión",
+		"MAC": "Dirección MAC",
+		"CHECK_IN": "Entrada",
+		"CHECK_OUT": "Salida"
+	}
+}

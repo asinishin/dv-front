@@ -1,0 +1,33 @@
+{
+	"PROPOSALS": {
+		"TEMPLATE.LIST.PAGE_TITLE": "Templates",
+		"TEMPLATE.EDIT.PAGE_TITLE": "Template",
+		"TEMPLATE.CONFIRM_DELETE": "Are you sure to delete the template?",
+
+		"LIST.PAGE_TITLE": "Proposals/Contracts",
+		"EDIT.PAGE_TITLE": "Proposal/Contract",
+		"NEW.PAGE_TITLE": "New Proposal/Contract",
+		"NEW.SELECT_TEMPLATE": "Select Template",
+		"NEW.SELECT_PRICE_LIST": "Select PriceList",
+		"CONFIRM_DELETE": "Are you sure to delete the proposal?",
+		"BTN_SEND_PROPOSAL": "Send Proposal",
+		"BTN_SEND_TEST_EMAIL": "Send Test Email",
+		"BTN_CREATE_RB": "Create Recurring Billing",
+		"BTN_DOWNLOAD_PDF": "Download PDF",
+
+		"CATEGORY": "Category",
+		"CATEGORIES": "Categories",
+		"NAME": "Name",
+		"DESCRIPTION": "Description",
+		"PRICE_LIST": "Price List",
+		"RECURRING_BILLING": "Recurring Billing",
+		"RECURRING_BILLING_ID": "Recurring Billing ID",
+		"ITEM": "Item",
+		"QUANTITY": "Qty",
+		"PRICE": "Price",
+		"TOTAL": "Total",
+		"DEDICATED_SPACE": "Dedicated Space",
+
+		"EDIT_CATEGORIES": "[edit categories]"
+	}
+}

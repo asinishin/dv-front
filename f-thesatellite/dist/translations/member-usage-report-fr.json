@@ -1,0 +1,15 @@
+{
+	"MEMBER_USAGE_REPORT": {
+		"REPORT_NAME": "Rapport d'utilisation des membres",
+
+		"COLUMNS.DATE": "Date",
+		"COLUMNS.USER_NAME": "Nom du membre",
+		"COLUMNS.USER_EMAIL": "Email du membre",
+		"COLUMNS.CHECK_IN": "Heure Check In",
+		"COLUMNS.CHECK_OUT": "Heure Check Out",
+		"COLUMNS.HOURS": "Heures d'utilisation",
+		"COLUMNS.PASSES": "Passes Utilisées",
+
+		"TOTALS.SUBTOTAL": "Sous-total"
+	}
+}

@@ -1,0 +1,14 @@
+{
+	"INCOME_REPORT": {
+		"PAGE_TITLE": "Gelir Raporu, Kasa",
+		"REPORT_NAME": "Gelir Raporu",
+
+		"COLUMNS.COMPANY": "Sirket",
+		"COLUMNS.NAME": "Isim",
+		"COLUMNS.DATE": "Odeme Tarihi",
+		"COLUMNS.METHOD": "Yontem",
+		"COLUMNS.AMOUNT": "Miktar",
+
+		"TOTAL_INCOME": "Toplam Gelir"
+	}
+}

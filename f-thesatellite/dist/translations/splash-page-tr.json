@@ -1,0 +1,8 @@
+{
+	"ACILIS_SAYFASI": {
+		"PAGE_TITLE": "{{centerName}} icin Acilis Sayfasi",
+
+		"ENABLED": "Etkin",
+		"HINT": "Bu acilis sayfasi, her cihaz icin gunde bir kez aga ilk giriste goruntulenir."
+	}
+}

@@ -1,0 +1,20 @@
+{
+  "MEMBERSHIP_REPORT": {
+    "REPORT_NAME": "Uyelik Raporu",
+    "MEMBERSHIP.HEADER": "Uye Sec",
+
+    "COLUMNS.COMPANY": "Sirket",
+    "COLUMNS.NAME": "Isim",
+    "COLUMNS.ADDRESS": "Adres",
+    "COLUMNS.COMMENTS": "Yorumlar",
+    "COLUMNS.EMAIL": "Email",
+    "COLUMNS.PHONE": "Telefon",
+    "COLUMNS.FACILITY": "Tesis",
+    "COLUMNS.JOIN_DATE": "Katılma Tarihi",
+    "COLUMNS.OCCUPATION": "Meslek",
+    "COLUMNS.PRICE_LIST": "Fiyat Listesi",
+    "COLUMNS.STATUS": "Statu",
+    "COLUMNS.PRINTER_CODES": "Printer Kodu",
+    "COLUMNS.LEAD_SOURCE": "Kaynak"
+  }
+}

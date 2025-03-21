@@ -1,0 +1,15 @@
+{
+  "BANKS": {
+    "PAGE_TITLE": "Bancos",
+    "NEW.PAGE_TITLE": "Nuevo Banco",
+    "EDIT.PAGE_TITLE": "Editar Banco",
+
+    "LIST.EMPTY": "No Bancos",
+    "NAME": "Nombre",
+    "TIMEZONE": "Zona Horaria",
+    "CC_CUT_OFF_TIME": "<i-block>Tarjeta de Crédito</i-block> <i-block>Hora de Corte</i-block>",
+    "NOTES": "Notas",
+
+    "CONFIRM_DELETE": "¿Está seguro/a de eliminar el banco?"
+  }
+}

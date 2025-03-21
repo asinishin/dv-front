@@ -1,0 +1,23 @@
+{
+	"DISCOUNT_CODES": {
+		"PAGE_TITLE": "Códigos de Descuento",
+		"EDIT.PAGE_TITLE": "Código de Descuento",
+
+		"ACTIVE_CODES": "Códigos Activos",
+		"EXPIRED_CODES": "Códigos Expirados",
+		"CODE": "Código",
+		"DESCRIPTION": "Descripción",
+		"TYPE": "Tipo",
+		"AMOUNT": "Cantidad",
+		"AMOUNT.HINT": "La cantidad va a <b>Facturación Recurrente</b> -> <b>Valor de Descuento</b>",
+		"DURATION": "Meses",
+		"DURATION.HINT": "La duración va a <b>Facturación Recurrente</b> -> <b>Meses de Descuento</b>",
+		"START_DATE": "Fecha de Inicio",
+		"START_DATE.HINT": "<b>Fecha de Inicio/Final</b> definir el período de validez del código de descuento.",
+		"END_DATE": "Fecha Final",
+		"APPLY_TO": "Aplicar Para",
+		"ALL_MEMBERSHIPS": "Todas Las Membresías",
+		"SELECTED_MEMBERSHIPS": "Las Membresías debajo",
+		"MEMBERSHIP": "Membresía"
+	}
+}

@@ -1,0 +1,37 @@
+{
+  "PRINTER_USAGE_SETTINGS": {
+    "PAGE_TITLE": "Printer Kullanim Ayarlari",
+
+    "IMPORT_PROFILES.HEADER": "Import Profiles",
+    "IMPORT_PROFILES.HEADER.HINT": "Lütfen Yazici Yukleme Raporunuzda asagidaki alanlari eslestirin (.csv)",
+    "IMPORT_PROFILES.NAME": "Isim",
+    "IMPORT_PROFILES.FORMATTING_TYPE": "Printer Formatting Type",
+    "IMPORT_PROFILES.PRINTER_CODE": "Printer Code Column Header",
+    "IMPORT_PROFILES.JOB_MODE": "Job Mode (Print/Scan/Fax/Copy) Header",
+    "IMPORT_PROFILES.PRINT_BLACK": "B&W Count Column Header",
+    "IMPORT_PROFILES.PRINT_COLOR": "Full Color Count Column Header",
+    "IMPORT_PROFILES.SCAN": "Scan Count Column Header",
+    "IMPORT_PROFILES.FAX": "Fax Count Column Header",
+    "NEW_IMPORT_PROFILE": "New Import Profile",
+
+    "TYPE.PRINT_BLACK": "B&W Print/Copy",
+    "TYPE.PRINT_COLOR": "Color Print/Copy",
+    "TYPE.SCAN": "Scan",
+    "TYPE.FAX": "Fax",
+
+    "FREE_COPIES.HEADER": "Ucretsiz Kopyalama",
+    "FREE_COPIES.FOR": "Ucretsiz Kopyalama {{type}}",
+
+    "PART_NUMBERS.HEADER": "Please map the part numbers for",
+    "PART_NUMBERS.FROM": "From",
+    "PART_NUMBERS.FROM.HINT": "From Copies Count",
+    "PART_NUMBERS.TO": "To",
+    "PART_NUMBERS.TO.HINT": "To Copies Count",
+    "PART_NUMBERS.MAP_TO": "Map To",
+    "PART_NUMBERS.MAP_TO.HINT": "Map to Product",
+    "PART_NUMBERS.BTN_ADD.HINT": "Add Price Break",
+    "PART_NUMBERS.BTN_DELETE.HINT": "Remove Price Break",
+
+    "CONFIRM_DELETE": "Printer ayarlarini Silmek Istediginden Emin misin?"
+  }
+}

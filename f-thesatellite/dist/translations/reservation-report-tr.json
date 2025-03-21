@@ -1,0 +1,14 @@
+{
+	"RESERVATION_REPORT": {
+		"REPORT_NAME": "Rezervasyon Raporu",
+
+		"COLUMNS.START_TIME": "Baslangic",
+		"COLUMNS.CENTER": "Sube Adi",
+		"COLUMNS.CREATED_AT": "Duzenlendi",
+		"COLUMNS.END_TIME": "Bitis",
+		"COLUMNS.NOTE": "Not",
+		"COLUMNS.UNIT": "Rezervasyon Birimi",
+		"COLUMNS.USER_NAME": "Kullanici",
+		"COLUMNS.COMPANY": "Sirket"
+	}
+}
