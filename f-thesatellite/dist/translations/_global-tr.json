@@ -65,6 +65,7 @@
     "BALANCE": "Denge",
     "DISCOUNT": "Indirim",
     "TAX": "Vergi",
+    "TAX_ID": "Vergi Numarasi ID",
     "PRODUCT": "Urun",
     "TOTAL": "Toplam",
     "PERIOD": "Donem",
@@ -123,7 +124,8 @@
     "PREV_MONTH": "Onceki ay",
     "NEXT_MONTH": "Gelecek ay",
 
-    "UNIT_CAPACITY": "This space can comfortably hold <b>{{capacity}}</b> people."
+    "UNIT_CAPACITY": "This space can comfortably hold <b>{{capacity}}</b> people.",
+    "MASTER_USER.HINT": "Bu uye <b>{{company}}</b> sirket yoneticisi."
   },
 
   "SIDEBAR": {

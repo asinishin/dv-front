@@ -65,6 +65,7 @@
     "BALANCE": "Баланс",
     "DISCOUNT": "Скидка",
     "TAX": "Налог",
+    "TAX_ID": "Tax ID",
     "PRODUCT": "Продукт",
     "TOTAL": "Total",
     "PERIOD": "Period",
@@ -123,7 +124,8 @@
     "PREV_MONTH": "Previous Month",
     "NEXT_MONTH": "Next Month",
 
-    "UNIT_CAPACITY": "This space can comfortably hold <b>{{capacity}}</b> people."
+    "UNIT_CAPACITY": "This space can comfortably hold <b>{{capacity}}</b> people.",
+    "MASTER_USER.HINT": "Этот член является администратором компании <b>{{company}}</b>."
   },
 
   "SIDEBAR": {

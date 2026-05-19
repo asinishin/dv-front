@@ -9,6 +9,9 @@
 		"CONNECT": "Conectar",
 		"CONNECTED": "Conectado",
 		"DISCONNECT": "Desconectar",
+		"PUBLIC_API_KEY": "Public API Key",
+		"SECRET_API_KEY": "Secret API Key",
+		"CURRENCY": "Currency",
 
 		"APP_PLUS.HEADER": "Integración de Appointment Plus",
 		"APP_PLUS.ENABLED": "Activado",
@@ -58,11 +61,6 @@
 		"DOORFLOW.SITE": "Lugar de DoorFlow",
 		"DOORFLOW.CONNECTION": "Conexión de DoorFlow",
 
-		"EZEEP.HEADER": "Integración de Ezeep",
-		"EZEEP.USERNAME": "Nombre de Usuario",
-		"EZEEP.PASSWORD": "Contraseña",
-    "EZEEP.DEFAULT_GROUP": "Grupo Predeterminado",
-
 		"GREETLY.HEADER": "Integración de Greetly",
 		"GREETLY.CENTER": "Centro",
 		"GREETLY.LOCATION": "Ubicación",
@@ -70,10 +68,6 @@
 		"GREETLY.NOTIFICATION.BY_SLACK": "Notificación por Slack",
 		"GREETLY.NOTIFICATION.BY_SMS": "Notificación por Sms",
 		"GREETLY.NOTIFICATION.BY_VOICE": "Notificación por Voz",
-
-		"PAPER_CUT.HEADER": "Integración de PaperCut",
-		"PAPER_CUT.SERVER_DOMAIN": "Dominio del servidor",
-		"PAPER_CUT.PRINTER": "La Impresora de PaperCut",
 
 		"SALTO.HEADER": "Integración de Salto KS",
 		"SALTO.SITE": "Sitio de Salto KS",
@@ -93,6 +87,28 @@
 		"BRIVO.ACCESS_POINT": "Brivo Access Point",
 		"BRIVO.ACTION": "Action",
 		"BRIVO.ACTION.CHECK_IN": "Check In",
-		"BRIVO.ACTION.CHECK_OUT": "Check Out"
-	}
+		"BRIVO.ACTION.CHECK_OUT": "Check Out",
+
+		"ALTA_ACCESS.HEADER": "Avigilon Alta Access Integration",
+		"ALTA_ACCESS.ORG_ID": "Organization ID",
+		"ALTA_ACCESS.NO_ACCESS_POLICY": "No access policy",
+		"ALTA_ACCESS.NO_ACCESS_POLICY.SUSPEND": "Suspend Alta Access user account",
+		"ALTA_ACCESS.NO_ACCESS_POLICY.DELETE": "Delete Alta Access user account",
+		"ALTA_ACCESS.GROUPS": "Alta Access Groups",
+		"ALTA_ACCESS.GROUP": "Alta Access Group",
+		"ALTA_ACCESS.NO_ACCESS": "No Access",
+
+    "DOCUSIGN.HEADER": "Docusign Integration",
+    "DOCUSIGN.ACCOUNT": "Account",
+    "DOCUSIGN.DEMO_ENVIRONMENT": "Demo Environment",
+
+    "INVOICEXPRESS.HEADER": "Integración con InvoiceXpress",
+    "INVOICEXPRESS.ACCOUNT_NAME": "Nombre de la cuenta",
+    "INVOICEXPRESS.DEFAULT_TAX_EXEMPTION_REASON": "Motivo da Isenção Fiscal Padrão",
+
+    "STRIPE.HEADER": "Stripe Integration",
+    "STRIPE.ACCOUNTS": "Stripe Accounts",
+    "STRIPE.ACCOUNT": "Stripe Account",
+    "STRIPE.PLATFORM_ACCOUNT": "Platform Account"
+  }
 }

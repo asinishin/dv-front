@@ -1,0 +1,9 @@
+{
+	"SECURITY_DEPOSIT_FLOWS_REPORT": {
+		"REPORT_NAME": "Security Deposit Flows Report",
+
+		"COLUMNS.OPENING_BALANCE": "Opening Balance",
+
+		"ERRORS.MAX_DATE_RANGE": "Max date range is 12 months."
+	}
+}

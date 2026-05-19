@@ -33,7 +33,6 @@
 		"BTN_SEARCH": "Поиск",
 		"BTN_SELECT.HINT": "Выбрать пользователя",
 		"RESULTS.HEADER": "Результаты поиска: {{count}}",
-		"PREV_RESULTS.HEADER": "Предыдущие результаты поиска: {{count}}",
-		"MASTER_USER.HINT": "Этот член является администратором компании <b>{{company}}</b>."
+		"PREV_RESULTS.HEADER": "Предыдущие результаты поиска: {{count}}"
 	}
 }

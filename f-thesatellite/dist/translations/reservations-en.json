@@ -6,8 +6,6 @@
 		"CANCEL.PAGE_TITLE": "Confirm Cancelling Reservation",
 		"CALENDAR.PAGE_TITLE": "Reservation Calendar",
 
-		"HINT": "If your plans change, please update or cancel your reservation 24 hours or more in advance to avoid charges.",
-
 		"ESTIMATED_COST": "Estimated Cost For This Reservation",
 		"TITLE": "Reservation Title",
 		"TITLE.SHORT": "Title",
@@ -87,6 +85,9 @@
 		"RESERVATION_AGREEMENT.REQUIRED": "Check this box to agree",
 
 		"RESERVATION_BUFFER": "Reservation Buffer",
-		"ADDITIONAL_ADDRESS": "Additional Address"
+		"ADDITIONAL_ADDRESS": "Additional Address",
+
+		"CREATE_INVOICE": "Create invoice",
+		"CREATE_INVOICE.HINT": "Only use for members if you want to charge immediately."
 	}
 }

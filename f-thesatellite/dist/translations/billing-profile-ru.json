@@ -7,8 +7,17 @@
 		"BILLING_METHOD.ACH": "ACH/EFT/Direct Debit",
 		"BILLING_METHOD.EMAIL_INVOICE": "Email Invoice",
 		"BILLING_METHOD.PAPER_INVOICE": "Paper Invoice",
+		"PAYMENT_METHODS": "Payment Methods",
 		"PAYMENT_METHOD": "Payment Method",
 		"PAYMENT_METHOD.EMPTY": "No payment method.",
+		"NOT_VERIFIED_PAYMENT_METHODS": "Not Verified Payment Methods",
+		"VERIFY": "Verify",
+		"BTN_ADD_PAYMENT_METHOD": "Add Payment Method",
+		"PAYMENT_METHOD.CONFIRM_DELETE": "Are you sure to delete the payment method?",
+		"VERIFY_PAYMENT_METHOD.TITLE": "Verify Bank Account",
+		"VERIFY_PAYMENT_METHOD.AMOUNTS.DESCRIPTION": "Stripe sent two small deposits to this bank account. To verify this account, please confirm the amounts of these deposits.",
+		"VERIFY_PAYMENT_METHOD.DESCRIPTOR_CODE.DESCRIPTION": "Stripe sent a small deposit to this bank account. To verify this account, please confirm the 6-digit code in the statement descriptor of this deposit.",
+		"VERIFY_PAYMENT_METHOD.DESCRIPTOR_CODE": "Descriptor Code",
 
 		"CREDIT_CARDS.HEADER": "Кредитные карты",
 		"CREDIT_CARDS.EMPTY": "Нет кредитных карт.",
@@ -36,6 +45,7 @@
 		"E_CHECKS.ACCOUNT_NAME": "Имя владельца",
 		"E_CHECKS.CONFIRM_DELETE": "Вы точно хотите удалить ACH/EFT?",
 		"E_CHECKS.BTN_ADD": "Add ACH/EFT (Bank Info)",
+		"BANK_ACCOUNT": "Bank Account",
 
 		"REGISTRATION.SKIP_BILLING": "Продолжить без платежных данных",
 		"REGISTRATION.COMPLETE": "Вы успешно зарегистрировали {{userName}}."

@@ -7,8 +7,17 @@
 		"BILLING_METHOD.ACH": "ACH/EFT/Otomatik Odeme",
 		"BILLING_METHOD.EMAIL_INVOICE": "Faturayi E-Posta ile gonder",
 		"BILLING_METHOD.PAPER_INVOICE": "Kagit fatura",
+		"PAYMENT_METHODS": "Odeme metodları",
 		"PAYMENT_METHOD": "Odeme Yontemi",
 		"PAYMENT_METHOD.EMPTY": "Odeme Yontemi yok.",
+		"NOT_VERIFIED_PAYMENT_METHODS": "Not Verified Payment Methods",
+		"VERIFY": "Verify",
+		"BTN_ADD_PAYMENT_METHOD": "Add Payment Method",
+		"PAYMENT_METHOD.CONFIRM_DELETE": "Are you sure to delete the payment method?",
+		"VERIFY_PAYMENT_METHOD.TITLE": "Verify Bank Account",
+		"VERIFY_PAYMENT_METHOD.AMOUNTS.DESCRIPTION": "Stripe sent two small deposits to this bank account. To verify this account, please confirm the amounts of these deposits.",
+		"VERIFY_PAYMENT_METHOD.DESCRIPTOR_CODE.DESCRIPTION": "Stripe sent a small deposit to this bank account. To verify this account, please confirm the 6-digit code in the statement descriptor of this deposit.",
+		"VERIFY_PAYMENT_METHOD.DESCRIPTOR_CODE": "Descriptor Code",
 
 		"CREDIT_CARDS.HEADER": "Kredi Karti",
 		"CREDIT_CARDS.EMPTY": "Kredi Karti yok.",
@@ -37,6 +46,7 @@
 		"E_CHECKS.ACCOUNT_NAME": "Hesap Adi",
 		"E_CHECKS.CONFIRM_DELETE": "ACH/EFT'yi silmek istediginizden emin misiniz?",
 		"E_CHECKS.BTN_ADD": "ACH/EFT (Banka Bilgisi) Ekle",
+		"BANK_ACCOUNT": "Bank Account",
 
 		"REGISTRATION.SKIP_BILLING": "Kredi kartı bilgilerini girmeden devam et",
 		"REGISTRATION.COMPLETE": "Basariyla kaydettiniz {{userName}}."

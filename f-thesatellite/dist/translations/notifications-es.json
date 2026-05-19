@@ -14,6 +14,7 @@
 		"RESERVATION_REMINDER.HOURS_BEFORE": "horas antes de la reserva",
 		"RESERVATION_REMINDER.BTN_ADD": "Agregar Recordatorio",
 		"WELCOME_LETTER.PAGE_TITLE": "Ajustes de la Carta de Bienvenida",
+		"CO_MEMBER_WELCOME_LETTER.PAGE_TITLE": "Ajustes de la Carta de Bienvenida para Comiembros",
 		"CALENDAR_SYNC_ERROR.PAGE_TITLE": "Ajustes del Email de Error de Sincronización de Calendario",
 		"PASSES_USED_UP.PAGE_TITLE": "Ajustes del Email de Permisos Agotados",
 		"PLAN_PASSES_USED_UP.PAGE_TITLE": "Aviso que los Permisos del Plan Están Agotados",
@@ -99,6 +100,7 @@
 		"SH_CODES.ERROR": "Mensaje de error de sincronización del calendario",
 		"SH_CODES.RECURRING_BILLING": "Facturación recurrente",
 		"SH_CODES.RENEWAL_NOTICE_DATE": "Fecha de aviso de renovación",
+		"SH_CODES.RENEWAL_DATE": "Fecha de renovación",
 		"SH_CODES.PASS_NAME": "Nombre del Permiso",
 		"SH_CODES.PASS_PRICE": "Precio del Permiso"
 	}

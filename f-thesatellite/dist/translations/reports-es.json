@@ -30,10 +30,17 @@
 		"COLUMNS.ORDER_ID": "Número de Pedido",
 		"COLUMNS.ITEM": "Artículo",
 		"COLUMNS.ITEM_CODE": "P/N",
+		"COLUMNS.DESCRIPTION": "Descripción",
 		"COLUMNS.QUANTITY": "Cant.",
+		"COLUMNS.PRICE": "Precio",
 		"COLUMNS.AMOUNT": "Cantidad",
 		"COLUMNS.DISCOUNT": "Descuento",
 		"COLUMNS.TOTAL": "Total",
+		"COLUMNS.GRAND_TOTAL": "Gran Total",
+		"COLUMNS.DATE": "Fecha",
+    "COLUMNS.CHARGE": "Cargar",
+    "COLUMNS.CREDIT": "Crédito",
+    "COLUMNS.STATUS": "Estado",
 
 		"BTN_PDF": "Descargar Informe PDF",
 		"BTN_CSV": "Descargar Informe CSV",
@@ -53,6 +60,8 @@
 		"BY_PERIOD.YEAR": "Año",
 
 		"TOTAL": "Total",
-		"TOTALS": "Totales"
+		"TOTALS": "Totales",
+
+		"CURRENT_CHARGES_REPORT.REPORT_NAME": "Informe de Cargos Actuales"
 	}
 }

@@ -1,0 +1,15 @@
+{
+	"INCOME_BREAKDOWN_BY_MONTH_REPORT": {
+		"REPORT_NAME": "Income Breakdown by Month Report",
+
+		"COLUMNS.PRODUCT_CODE": "P/N",
+		"COLUMNS.ITEM": "Item",
+		"COLUMNS.SUBTOTAL": "Subtotal",
+		"COLUMNS.TOTAL": "Total",
+
+		"TOTALS.TOTAL": "Total",
+		"TOTALS.INCOME": "Total Income",
+
+		"ERRORS.MAX_DATE_RANGE": "Max date range is 12 months."
+	}
+}

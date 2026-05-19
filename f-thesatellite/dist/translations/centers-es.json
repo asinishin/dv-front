@@ -15,6 +15,8 @@
 		"OWNER": "Propietario/a",
 		"REGION": "Region",
 		"BANK": "Banco",
+		"TAX.ID_NAME": "Nombre de<br>Número de identificación fiscal",
+		"TAX.ID_NAME.HINT": "Nombre del NIF. Aparece en las facturas, p. ej.:<br>VAT #: 1234567890",
 		"TAX.ID": "ID del Impuesto",
 		"TAX.ID.HINT": "Si se especifica, este ID se muestra en las facturas y se cambia el nombre de <b>Factura</b> a <b>Factura de impuestos</b>.",
 		"TAX.INDEX": "Impuesto #{{index}} (%)",

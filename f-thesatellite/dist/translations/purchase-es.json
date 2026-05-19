@@ -116,6 +116,9 @@
 		"CURRENT_CHARGES.HINT": "New Invoices will not automatically be combined with others and sent at end of month. Use <b>Create/Edit Current Charges</b> for items to be added to the automatic monthly invoice.",
 		"BTN_CREATE_INVOICE": "Create Invoice",
 		"CONFIRM_CREATE_INVOICE": "Are you sure to create a new invoice from {{count}} selected items?",
-		"SELECT_ITEMS_CREATE_INVOICE": "Please select at least one item to create an invoice from."
+		"SELECT_ITEMS_CREATE_INVOICE": "Please select at least one item to create an invoice from.",
+
+		"BTN_SEND_INVOICE": "Enviar factura",
+		"SEND_INVOICE_SUCCESS": "Factura enviada exitosamente."
 	}
 }

@@ -33,7 +33,6 @@
 		"BTN_SEARCH": "Arama",
 		"BTN_SELECT.HINT": "Kullanici Sec",
 		"RESULTS.HEADER": "Arama Sonuclari: {{count}}",
-		"PREV_RESULTS.HEADER": "Onceki Arama Sonuclari: {{count}}",
-		"MASTER_USER.HINT": "Bu uye <b>{{company}}</b> sirket yoneticisi."
+		"PREV_RESULTS.HEADER": "Onceki Arama Sonuclari: {{count}}"
 	}
 }

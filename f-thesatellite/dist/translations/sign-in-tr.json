@@ -15,6 +15,10 @@
 		"RESTORE_PASSWORD.HINT": "Lutfen e-mail adresinizi girin",
 		"RESTORE_PASSWORD.BTN_SEND": "Sifre yolla",
 		"RESTORE_PASSWORD.SENDING": "Gonderiliyor...",
-		"RESTORE_PASSWORD.SUCCESS": "Sifreniz e-mail adresinize gonderildi."
+		"RESTORE_PASSWORD.SUCCESS": "Sifreniz e-mail adresinize gonderildi.",
+
+		"CHANGE_PASSWORD.PAGE_TITLE": "Şifre Değiştir",
+		"CHANGE_PASSWORD.HINT": "Lütfen yeni şifrenizi girin",
+		"CHANGE_PASSWORD.SUCCESS": "Parola başarıyla değiştirildi."
 	}
 }

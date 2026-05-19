@@ -6,8 +6,6 @@
 		"CANCEL.PAGE_TITLE": "Подтвердите отмену резервирования",
 		"CALENDAR.PAGE_TITLE": "Reservation Calendar",
 
-		"HINT": "Если Ваши планы меняются, пожалуйста обновите или отмените Ваше резервирование за 24 часа или ранее во избежание списаний.",
-
 		"ESTIMATED_COST": "Стоимость резервирования",
 		"TITLE": "Заголовок",
 		"TITLE.SHORT": "Заголовок",
@@ -86,6 +84,9 @@
 		"RESERVATION_AGREEMENT.REQUIRED": "Поставьте галочку, чтобы согласиться с ",
 
 		"RESERVATION_BUFFER": "Reservation Buffer",
-		"ADDITIONAL_ADDRESS": "Additional Address"
+		"ADDITIONAL_ADDRESS": "Additional Address",
+
+		"CREATE_INVOICE": "Create invoice",
+		"CREATE_INVOICE.HINT": "Only use for members if you want to charge immediately."
 	}
 }

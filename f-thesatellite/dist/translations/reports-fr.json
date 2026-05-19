@@ -30,10 +30,17 @@
 		"COLUMNS.ORDER_ID": "Order #",
 		"COLUMNS.ITEM": "Item",
 		"COLUMNS.ITEM_CODE": "P/N",
+		"COLUMNS.DESCRIPTION": "Description",
 		"COLUMNS.QUANTITY": "Qty",
+		"COLUMNS.PRICE": "Price",
 		"COLUMNS.AMOUNT": "Amount",
 		"COLUMNS.DISCOUNT": "Discount",
 		"COLUMNS.TOTAL": "Total",
+		"COLUMNS.GRAND_TOTAL": "Grand Total",
+		"COLUMNS.DATE": "Date",
+    "COLUMNS.CHARGE": "Charge",
+    "COLUMNS.CREDIT": "Credit",
+    "COLUMNS.STATUS": "Status",
 
 		"BTN_PDF": "Download Report PDF",
 		"BTN_CSV": "Download Report CSV",
@@ -53,6 +60,8 @@
 		"BY_PERIOD.YEAR": "Year",
 
 		"TOTAL": "Total",
-		"TOTALS": "Totals"
+		"TOTALS": "Totals",
+
+		"CURRENT_CHARGES_REPORT.REPORT_NAME": "Current Charges Report"
 	}
 }

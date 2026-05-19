@@ -9,6 +9,9 @@
 		"CONNECT": "Connect",
 		"CONNECTED": "Connected",
 		"DISCONNECT": "Disconnect",
+		"PUBLIC_API_KEY": "Public API Key",
+		"SECRET_API_KEY": "Secret API Key",
+		"CURRENCY": "Currency",
 
 		"APP_PLUS.HEADER": "Интеграция с Appointment Plus",
 		"APP_PLUS.ENABLED": "Включена",
@@ -58,11 +61,6 @@
 		"DOORFLOW.SITE": "DoorFlow Site",
 		"DOORFLOW.CONNECTION": "DoorFlow Connection",
 
-		"EZEEP.HEADER": "Интеграция Ezeep",
-		"EZEEP.USERNAME": "Имя пользователя",
-		"EZEEP.PASSWORD": "Пароль",
-    "EZEEP.DEFAULT_GROUP": "Default Group",
-
 		"GREETLY.HEADER": "Интеграция Greetly",
 		"GREETLY.CENTER": "Центр",
 		"GREETLY.LOCATION": "Локация",
@@ -70,10 +68,6 @@
 		"GREETLY.NOTIFICATION.BY_SLACK": "Уведомление по Slack",
 		"GREETLY.NOTIFICATION.BY_SMS": "Уведомление отправкой sms",
 		"GREETLY.NOTIFICATION.BY_VOICE": "Уведомление голосом",
-
-		"PAPER_CUT.HEADER": "PaperCut Integration",
-		"PAPER_CUT.SERVER_DOMAIN": "Server Domain",
-		"PAPER_CUT.PRINTER": "PaperCut Printer",
 
 		"SALTO.HEADER": "Salto KS Integration",
 		"SALTO.SITE": "Salto KS Site",
@@ -93,6 +87,28 @@
 		"BRIVO.ACCESS_POINT": "Brivo Access Point",
 		"BRIVO.ACTION": "Action",
 		"BRIVO.ACTION.CHECK_IN": "Check In",
-		"BRIVO.ACTION.CHECK_OUT": "Check Out"
-	}
+		"BRIVO.ACTION.CHECK_OUT": "Check Out",
+
+		"ALTA_ACCESS.HEADER": "Avigilon Alta Access Integration",
+		"ALTA_ACCESS.ORG_ID": "Organization ID",
+		"ALTA_ACCESS.NO_ACCESS_POLICY": "No access policy",
+		"ALTA_ACCESS.NO_ACCESS_POLICY.SUSPEND": "Suspend Alta Access user account",
+		"ALTA_ACCESS.NO_ACCESS_POLICY.DELETE": "Delete Alta Access user account",
+		"ALTA_ACCESS.GROUPS": "Alta Access Groups",
+		"ALTA_ACCESS.GROUP": "Alta Access Group",
+		"ALTA_ACCESS.NO_ACCESS": "No Access",
+
+    "DOCUSIGN.HEADER": "Docusign Integration",
+    "DOCUSIGN.ACCOUNT": "Account",
+    "DOCUSIGN.DEMO_ENVIRONMENT": "Demo Environment",
+
+    "INVOICEXPRESS.HEADER": "InvoiceXpress Integration",
+    "INVOICEXPRESS.ACCOUNT_NAME": "Account Name",
+    "INVOICEXPRESS.DEFAULT_TAX_EXEMPTION_REASON": "Default Tax Exemption Reason",
+
+    "STRIPE.HEADER": "Stripe Integration",
+    "STRIPE.ACCOUNTS": "Stripe Accounts",
+    "STRIPE.ACCOUNT": "Stripe Account",
+    "STRIPE.PLATFORM_ACCOUNT": "Platform Account"
+  }
 }

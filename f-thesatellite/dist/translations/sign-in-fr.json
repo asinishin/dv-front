@@ -15,6 +15,10 @@
 		"RESTORE_PASSWORD.HINT": "SVP entrez votre adresse courriel",
 		"RESTORE_PASSWORD.BTN_SEND": "Envoyer le mot de passe",
 		"RESTORE_PASSWORD.SENDING": "Envoi...",
-		"RESTORE_PASSWORD.SUCCESS": "Le mot de passe a été envoyé dans votre boîte courriel."
+		"RESTORE_PASSWORD.SUCCESS": "Le mot de passe a été envoyé dans votre boîte courriel.",
+
+		"CHANGE_PASSWORD.PAGE_TITLE": "Changer le mot de passe",
+		"CHANGE_PASSWORD.HINT": "Veuillez saisir un nouveau mot de passe",
+		"CHANGE_PASSWORD.SUCCESS": "Le mot de passe a été modifié avec succès."
 	}
 }

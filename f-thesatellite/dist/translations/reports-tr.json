@@ -30,10 +30,17 @@
 		"COLUMNS.ORDER_ID": "Sirala #",
 		"COLUMNS.ITEM": "Madde",
 		"COLUMNS.ITEM_CODE": "P/N",
+		"COLUMNS.DESCRIPTION": "Tanım",
 		"COLUMNS.QUANTITY": "Adet",
+		"COLUMNS.PRICE": "Fiyat",
 		"COLUMNS.AMOUNT": "Toplam",
 		"COLUMNS.DISCOUNT": "Indirim",
 		"COLUMNS.TOTAL": "Toplam",
+		"COLUMNS.GRAND_TOTAL": "Genel Toplam",
+		"COLUMNS.DATE": "Tarih",
+    "COLUMNS.CHARGE": "Şarj",
+    "COLUMNS.CREDIT": "Kredi",
+    "COLUMNS.STATUS": "Durum",
 
 		"BTN_PDF": "Raporu Indir PDF",
 		"BTN_CSV": "Raporu Indir CSV",
@@ -53,6 +60,8 @@
 		"BY_PERIOD.YEAR": "Yillik",
 
 		"TOTAL": "Toplam",
-		"TOTALS": "Toplamlar"
+		"TOTALS": "Toplamlar",
+
+		"CURRENT_CHARGES_REPORT.REPORT_NAME": "Güncel Masraflar Raporu"
 	}
 }

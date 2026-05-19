@@ -22,6 +22,9 @@
 		"ORDER_BY.MEMBER": "Membre",
 		"ORDER_BY.ORDER": "Commande",
 
-		"PRODUCT_CATEGORIES_PIE_CHART.HEADER": "Totaux par catégories de produits"
+		"PRODUCT_CATEGORIES_PIE_CHART.HEADER": "Totaux par catégories de produits",
+
+		"BY_DUE_DATE": "By Due Date",
+		"BY_DUE_DATE.HINT": "Use Invoice Due Date in DATE column, rather than Use Date"
 	}
 }

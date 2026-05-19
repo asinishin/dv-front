@@ -15,6 +15,8 @@
 		"OWNER": "Sahibi",
 		"REGION": "Bolge",
 		"BANK": "Banka",
+		"TAX.ID_NAME": "Vergi Kimlik Numarası Adı",
+		"TAX.ID_NAME.HINT": "Vergi Kimlik Numarasının Adı. Faturalarda görüntülenir, örneğin:<br>VAT #: 1234567890",
 		"TAX.ID": "Vergi Numarasi ID",
 		"TAX.ID.HINT": "Belirtilmişse, bu kimlik faturalarda görüntülenir ve<b>Invoice</b> is renamed to <b>Tax Invoice</b>.",
 		"TAX.INDEX": "Vergi #{{index}} (%)",

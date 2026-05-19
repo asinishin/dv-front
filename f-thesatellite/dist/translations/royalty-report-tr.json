@@ -5,6 +5,7 @@
 		"COLUMNS.DATE": "Fatura Tarihi",
 		"COLUMNS.ORDER_NO": "Sirala #",
 		"COLUMNS.USER_COMPANY": "Sirket",
+    "COLUMNS.USER_NAME": "Üye",
 		"COLUMNS.PRODUCT_CODE": "P/N",
 		"COLUMNS.PRODUCT_NAME": "Urun Adi",
 		"COLUMNS.NET": "Net",

@@ -1,0 +1,34 @@
+{
+	"PRINT_SETUP": {
+		"PAGE_TITLE": "Print Setup",
+
+		"PRINT_PROVIDER": "Print Provider",
+
+		"DEFAULT_GROUP": "Default Group",
+		"PRINTERS": "Printers",
+		"PRINTER": "Printer",
+		"BTN_ADD_PRINTER": "Add Printer",
+		"BTN_DELETE_PRINTER": "Delete Printer",
+
+		"MAP_PRODUCTS.HEADER": "Please map the part numbers for",
+		"MAP_PRODUCTS.FROM": "From",
+		"MAP_PRODUCTS.FROM.HINT": "From Copies Count",
+		"MAP_PRODUCTS.TO": "To",
+		"MAP_PRODUCTS.TO.HINT": "To Copies Count",
+		"MAP_PRODUCTS.MAP_TO": "Map To",
+		"MAP_PRODUCTS.MAP_TO.HINT": "Map to Product",
+		"MAP_PRODUCTS.BTN_ADD.HINT": "Add Price Break",
+		"MAP_PRODUCTS.BTN_DELETE.HINT": "Remove Price Break",
+
+		"EZEEP.HEADER": "Ezeep Integration",
+		"EZEEP.NO_ACCESS_POLICY": "No access policy",
+		"EZEEP.NO_ACCESS_POLICY.SUSPEND": "Suspend Ezeep user account",
+		"EZEEP.NO_ACCESS_POLICY.DELETE": "Delete Ezeep user account",
+
+		"PAPER_CUT_MF.HEADER": "PaperCut MF/NG Integration",
+		"PAPER_CUT_MF.SERVER_URL": "Server URL",
+		"PAPER_CUT_MF.NO_ACCESS_POLICY": "No access policy",
+		"PAPER_CUT_MF.NO_ACCESS_POLICY.SUSPEND": "Suspend PaperCut user account",
+		"PAPER_CUT_MF.NO_ACCESS_POLICY.DELETE": "Delete PaperCut user account"
+	}
+}

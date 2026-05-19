@@ -53,6 +53,10 @@
 
     "SWEEP.HEADER": "Sweep",
     "SWEEP_CHARGES": "Sweep Reservations, Credits and Charges to Recurring Billing Invoice",
+    "INVOICE_PAYMENTS_TIMING": "Invoice/Payments Timing",
+    "INVOICE_PAYMENTS_TIMING.PAYMENT": "Process Payments on Next Bill Date",
+    "INVOICE_PAYMENTS_TIMING.INVOICE": "Send Invoice on Next Bill Date",
+    "PAYMENT_AFTER_INVOICE_DAYS": "Process Payments __ days after Invoice",
     "ADVANCE_INVOICING_DAYS": "Créer la facture __ jours avant le paiement",
     "ADVANCE_INVOICING_BY": "Advance Invoicing By",
     "EMAIL_SWEPT_INVOICES": "Auto-Email Swept Invoices",

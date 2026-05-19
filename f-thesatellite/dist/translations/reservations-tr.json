@@ -6,8 +6,6 @@
 		"CANCEL.PAGE_TITLE": "Iptal edilen rezervasyonu onayla",
 		"CALENDAR.PAGE_TITLE": "Rezervasyon takvimi",
 
-		"HINT": "Planlarınız değişirse, ücret ödememek için lütfen rezervasyonunuzu 24 saat veya daha uzun bir süre önceden güncelleyin veya iptal edin.",
-
 		"ESTIMATED_COST": "Bu rezervasyon için tahmini ucret",
 		"TITLE": "Rezervasyon basligi",
 		"TITLE.SHORT": "Baslik",
@@ -84,8 +82,11 @@
 		"CALENDAR.CAPACITY": "Bu alan rahatlıkla tutulabilir <b>{{capacity}}</b> kisiler.",
 
 		"RESERVATION_AGREEMENT.LABEL": "Bu kutuyu işaretleyerek şunları kabul etmiş olursunuz",
-		"RESERVATION_AGREEMENT.REQUIRED": "Kabul etmek icin bu kutuyu isaretleyin" 		
+		"RESERVATION_AGREEMENT.REQUIRED": "Kabul etmek icin bu kutuyu isaretleyin"
 		"RESERVATION_BUFFER": "Rezervasyon Arabellegi",
-		"ADDITIONAL_ADDRESS": "Diğer adres"
+		"ADDITIONAL_ADDRESS": "Diğer adres",
+
+		"CREATE_INVOICE": "Fatura oluştur",
+		"CREATE_INVOICE.HINT": "Sadece hemen ücretlendirmek istiyorsanız üyeler için kullanın."
 	}
 }

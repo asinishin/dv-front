@@ -15,6 +15,8 @@
 		"OWNER": "Владелец",
 		"REGION": "Регион",
 		"BANK": "Банк",
+		"TAX.ID_NAME": "Name of<br>Tax ID",
+		"TAX.ID_NAME.HINT": "Name of Tax ID. Displayed in invoices, e.g.<br>VAT #: 1234567890",
 		"TAX.ID": "Налоговый ID",
 		"TAX.ID.HINT": "Если указан, этот ID отображается в инвойсах и <b>Инвойс</b> переименовывается в <b>Налоговый инвойс</b>.",
 		"TAX.INDEX": "Налог #{{index}} (%)",

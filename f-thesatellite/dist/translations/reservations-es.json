@@ -6,8 +6,6 @@
 		"CANCEL.PAGE_TITLE": "Confirmar Cancelando Reserva",
 		"CALENDAR.PAGE_TITLE": "Calendario de Reservas",
 
-		"HINT": "Si sus planes cambian, por favor actualizar o cancelar su reserva con 24 horas o más de anticipación para evitar cargos.",
-
 		"ESTIMATED_COST": "Costo estimado para esta reserva",
 		"TITLE": "Título de la reserva",
 		"TITLE.SHORT": "Título",
@@ -87,6 +85,9 @@
 		"RESERVATION_AGREEMENT.REQUIRED": "Marcar esta casilla para aceptar",
 
 		"RESERVATION_BUFFER": "Búfer de Reserva",
-		"ADDITIONAL_ADDRESS": "Additional Address"
+		"ADDITIONAL_ADDRESS": "Dirección adicional",
+
+		"CREATE_INVOICE": "Crear factura",
+		"CREATE_INVOICE.HINT": "Úselo solo para miembros si desea cobrar inmediatamente."
 	}
 }

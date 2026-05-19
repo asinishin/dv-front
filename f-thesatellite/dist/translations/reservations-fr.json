@@ -6,8 +6,6 @@
 		"CANCEL.PAGE_TITLE": "Veuillez confirmer l'annulation de la réservation",
 		"CALENDAR.PAGE_TITLE": "Calendrier de Réservation",
 
-		"HINT": "Si vos plans changent, veuillez mettre à jour ou annuler votre réservation le plus rapidement possible.",
-
 		"ESTIMATED_COST": "Coût estimé pour cette réservation",
 		"TITLE": "Titre De Réservation",
 		"TITLE.SHORT": "Titre",
@@ -87,6 +85,9 @@
 		"RESERVATION_AGREEMENT.REQUIRED": "Cochez cette case pour accepter",
 
 		"RESERVATION_BUFFER": "Reservation Buffer",
-		"ADDITIONAL_ADDRESS": "Adresse additionnelle"
+		"ADDITIONAL_ADDRESS": "Adresse additionnelle",
+
+		"CREATE_INVOICE": "Créer une facture",
+		"CREATE_INVOICE.HINT": "À utiliser uniquement pour les membres si vous souhaitez facturer immédiatement."
 	}
 }

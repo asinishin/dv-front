@@ -33,7 +33,6 @@
 		"BTN_SEARCH": "Recherche",
 		"BTN_SELECT.HINT": "Sélectionner l'utilisateur",
 		"RESULTS.HEADER": "Résultats de recherche: {{count}}",
-		"PREV_RESULTS.HEADER": "Résultats de la recherche précédente: {{count}}",
-		"MASTER_USER.HINT": "Ce membre est <b>{{company}}</b> administrateur de l'entreprise."
+		"PREV_RESULTS.HEADER": "Résultats de la recherche précédente: {{count}}"
 	}
 }

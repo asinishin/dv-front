@@ -7,8 +7,17 @@
 		"BILLING_METHOD.ACH": "ACH/EFT/Dépôt direct",
 		"BILLING_METHOD.EMAIL_INVOICE": "Facture par email",
 		"BILLING_METHOD.PAPER_INVOICE": "Facture papier",
+		"PAYMENT_METHODS": "Modes de Paiement",
 		"PAYMENT_METHOD": "Mode de Paiement",
 		"PAYMENT_METHOD.EMPTY": "Aucun mode de paiement.",
+		"NOT_VERIFIED_PAYMENT_METHODS": "Not Verified Payment Methods",
+		"VERIFY": "Verify",
+		"BTN_ADD_PAYMENT_METHOD": "Add Payment Method",
+		"PAYMENT_METHOD.CONFIRM_DELETE": "Are you sure to delete the payment method?",
+		"VERIFY_PAYMENT_METHOD.TITLE": "Verify Bank Account",
+		"VERIFY_PAYMENT_METHOD.AMOUNTS.DESCRIPTION": "Stripe sent two small deposits to this bank account. To verify this account, please confirm the amounts of these deposits.",
+		"VERIFY_PAYMENT_METHOD.DESCRIPTOR_CODE.DESCRIPTION": "Stripe sent a small deposit to this bank account. To verify this account, please confirm the 6-digit code in the statement descriptor of this deposit.",
+		"VERIFY_PAYMENT_METHOD.DESCRIPTOR_CODE": "Descriptor Code",
 
 		"CREDIT_CARDS.HEADER": "Cartes de crédit",
 		"CREDIT_CARDS.EMPTY": "Aucune carte de crédit.",
@@ -36,6 +45,7 @@
 		"E_CHECKS.ACCOUNT_NAME": "Nom du compte",
 		"E_CHECKS.CONFIRM_DELETE": "Êtes-vous sûrs de vouloir supprimer le e-chèque?",
 		"E_CHECKS.BTN_ADD": "Add ACH/EFT (Informations bancaires)",
+		"BANK_ACCOUNT": "Bank Account",
 
 		"REGISTRATION.SKIP_BILLING": "Continuer sans entrer les informations de carte de crédit",
 		"REGISTRATION.COMPLETE": "Vous avez enregistré {{userName}} avec succès."

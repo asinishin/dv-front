@@ -5,6 +5,7 @@
 		"COLUMNS.DATE": "Invoice Date",
 		"COLUMNS.ORDER_NO": "Order #",
 		"COLUMNS.USER_COMPANY": "Company",
+    "COLUMNS.USER_NAME": "Member",
 		"COLUMNS.PRODUCT_CODE": "P/N",
 		"COLUMNS.PRODUCT_NAME": "Product Name",
 		"COLUMNS.NET": "Net",

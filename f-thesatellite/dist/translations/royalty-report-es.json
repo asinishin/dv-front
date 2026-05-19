@@ -5,6 +5,7 @@
 		"COLUMNS.DATE": "Fecha de la Factura",
 		"COLUMNS.ORDER_NO": "Número del Pedido",
 		"COLUMNS.USER_COMPANY": "Empresa",
+    "COLUMNS.USER_NAME": "Miembro",
 		"COLUMNS.PRODUCT_CODE": "P/N",
 		"COLUMNS.PRODUCT_NAME": "Nombre del Producto",
 		"COLUMNS.NET": "Neto",

@@ -65,6 +65,7 @@
     "BALANCE": "Saldo",
     "DISCOUNT": "Descuento",
     "TAX": "Impuesto",
+    "TAX_ID": "ID del Impuesto",
     "PRODUCT": "Producto",
     "TOTAL": "Total",
     "PERIOD": "Periodo",
@@ -123,7 +124,8 @@
     "PREV_MONTH": "Mes Anterior",
     "NEXT_MONTH": "Próximo Mes",
 
-    "UNIT_CAPACITY": "Este espacio puede albergar cómodamente a <b>{{capacity}}</b> personas."
+    "UNIT_CAPACITY": "Este espacio puede albergar cómodamente a <b>{{capacity}}</b> personas.",
+    "MASTER_USER.HINT": "Este miembro es el administrador de la empresa de {{company}}</b>."
   },
 
   "SIDEBAR": {

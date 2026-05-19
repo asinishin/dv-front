@@ -14,6 +14,7 @@
 		"RESERVATION_REMINDER.HOURS_BEFORE": "hours before reservation",
 		"RESERVATION_REMINDER.BTN_ADD": "Add Reminder",
 		"WELCOME_LETTER.PAGE_TITLE": "Welcome Letter Settings",
+		"CO_MEMBER_WELCOME_LETTER.PAGE_TITLE": "Co-member Welcome Letter Settings",
 		"CALENDAR_SYNC_ERROR.PAGE_TITLE": "Calendar Sync Error Email Settings",
 		"PASSES_USED_UP.PAGE_TITLE": "Passes Used Up Email Settings",
 		"PLAN_PASSES_USED_UP.PAGE_TITLE": "Plan Passes Used Up Notice",
@@ -99,6 +100,7 @@
 		"SH_CODES.ERROR": "Calendar sync error message",
 		"SH_CODES.RECURRING_BILLING": "Recurring billing",
 		"SH_CODES.RENEWAL_NOTICE_DATE": "Renewal notice date",
+		"SH_CODES.RENEWAL_DATE": "Renewal date",
 		"SH_CODES.PASS_NAME": "Pass Name",
 		"SH_CODES.PASS_PRICE": "Pass Price"
 	}

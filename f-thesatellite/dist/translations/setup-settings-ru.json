@@ -53,7 +53,11 @@
 
     "SWEEP.HEADER": "Проводчик",
     "SWEEP_CHARGES": "Проводить резервирования, кредиты и списания в инвойс регулярных платежей",
-    "ADVANCE_INVOICING_DAYS": "Создавать инвойс за __ дней до списания",
+    "INVOICE_PAYMENTS_TIMING": "Invoice/Payments Timing",
+    "INVOICE_PAYMENTS_TIMING.PAYMENT": "Process Payments on Next Bill Date",
+    "INVOICE_PAYMENTS_TIMING.INVOICE": "Send Invoice on Next Bill Date",
+    "PAYMENT_AFTER_INVOICE_DAYS": "Process Payments __ days after Invoice",
+    "ADVANCE_INVOICING_DAYS": "Create Invoice __ days in advance of Payment Date",
     "ADVANCE_INVOICING_BY": "Создавать инвойс за",
     "EMAIL_SWEPT_INVOICES": "Авто-отсылка проведенных инвойсов",
     "INVOICE_DATE": "Показывать дату в инвойсе как",

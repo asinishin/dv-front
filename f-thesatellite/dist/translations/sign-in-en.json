@@ -15,6 +15,10 @@
 		"RESTORE_PASSWORD.HINT": "Please enter your email address",
 		"RESTORE_PASSWORD.BTN_SEND": "Send Password",
 		"RESTORE_PASSWORD.SENDING": "Sending...",
-		"RESTORE_PASSWORD.SUCCESS": "Password has been sent to your email."
+		"RESTORE_PASSWORD.SUCCESS": "Password has been sent to your email.",
+
+		"CHANGE_PASSWORD.PAGE_TITLE": "Change Password",
+		"CHANGE_PASSWORD.HINT": "Please enter new password",
+		"CHANGE_PASSWORD.SUCCESS": "Password has been changed successfully."
 	}
 }
